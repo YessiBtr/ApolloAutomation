@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 27 N 46 - Detail Produk N Change Produk,,Story 27 & 47 - Detail Produk dan Change Produk,2018-07-16 15:12:00,2018-07-16 15:23:09,11m - 8.899s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 1,,Detail Product - Info Stock,2018-07-16 15:12:01,2018-07-16 15:17:20,5m - 19.443s,PASSED
+comment,,,2018-07-16 15:12:01,2018-07-16 15:12:01,0.051s,PASSED
+callTestCase,,,2018-07-16 15:12:01,2018-07-16 15:16:20,4m - 19.038s,PASSED
+waitForElementPresent,,,2018-07-16 15:16:20,2018-07-16 15:16:23,3.095s,PASSED
+verifyElementAttributeValue,,,2018-07-16 15:16:23,2018-07-16 15:16:28,4.914s,PASSED
+comment,,,2018-07-16 15:16:28,2018-07-16 15:16:28,0.001s,PASSED
+setText,,"Melakukan Input Text lebih dari satu kata dalam search produk pada kategori ""Makanan""",2018-07-16 15:16:28,2018-07-16 15:16:45,16.938s,PASSED
+waitForElementPresent,,,2018-07-16 15:16:45,2018-07-16 15:16:55,9.274s,PASSED
+verifyElementAttributeValue,,,2018-07-16 15:16:55,2018-07-16 15:17:00,5.698s,PASSED
+tap,,,2018-07-16 15:17:00,2018-07-16 15:17:05,5.195s,PASSED
+delay,,,2018-07-16 15:17:05,2018-07-16 15:17:20,15.004s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 2,,Info Stock - Back button,2018-07-16 15:17:20,2018-07-16 15:17:42,21.729s,PASSED
+comment,,,2018-07-16 15:17:21,2018-07-16 15:17:21,0.002s,PASSED
+pressBack,,,2018-07-16 15:17:21,2018-07-16 15:17:22,0.988s,PASSED
+waitForElementPresent,,,2018-07-16 15:17:22,2018-07-16 15:17:25,3.369s,PASSED
+verifyElementAttributeValue,,,2018-07-16 15:17:25,2018-07-16 15:17:33,7.502s,PASSED
+tap,,,2018-07-16 15:17:33,2018-07-16 15:17:37,4.661s,PASSED
+delay,,,2018-07-16 15:17:37,2018-07-16 15:17:42,5.002s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 3,,Detail Product - Ubah Info,2018-07-16 15:17:42,2018-07-16 15:18:07,24.789s,PASSED
+comment,,,2018-07-16 15:17:42,2018-07-16 15:17:42,0.001s,PASSED
+waitForElementPresent,,,2018-07-16 15:17:42,2018-07-16 15:17:45,2.760s,PASSED
+verifyElementAttributeValue,,,2018-07-16 15:17:45,2018-07-16 15:17:53,7.536s,PASSED
+tap,,,2018-07-16 15:17:53,2018-07-16 15:18:02,9.290s,PASSED
+delay,,,2018-07-16 15:18:02,2018-07-16 15:18:07,5.002s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 4,,,2018-07-16 15:18:07,2018-07-16 15:21:33,3m - 25.930s,PASSED
+comment,,,2018-07-16 15:18:07,2018-07-16 15:18:07,0.004s,PASSED
+Statement - For (def index : (0..10)),,,2018-07-16 15:18:07,2018-07-16 15:20:48,2m - 40.361s,PASSED
+Statement - For (def index : (0..2)),,,2018-07-16 15:20:48,2018-07-16 15:21:28,40.383s,PASSED
+delay,,,2018-07-16 15:21:28,2018-07-16 15:21:33,5.002s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 5,,,2018-07-16 15:21:33,2018-07-16 15:23:01,1m - 28.046s,PASSED
+comment,,,2018-07-16 15:21:33,2018-07-16 15:21:33,0.006s,PASSED
+waitForElementPresent,,,2018-07-16 15:21:33,2018-07-16 15:21:36,2.509s,PASSED
+verifyElementAttributeValue,,,2018-07-16 15:21:36,2018-07-16 15:21:42,6.671s,PASSED
+clearText,,,2018-07-16 15:21:42,2018-07-16 15:21:48,5.518s,PASSED
+setText,,,2018-07-16 15:21:48,2018-07-16 15:22:09,21.397s,PASSED
+hideKeyboard,,,2018-07-16 15:22:09,2018-07-16 15:22:11,1.308s,PASSED
+verifyElementAttributeValue,,,2018-07-16 15:22:11,2018-07-16 15:22:14,3.855s,PASSED
+waitForElementPresent,,,2018-07-16 15:22:14,2018-07-16 15:22:18,4.057s,PASSED
+verifyElementAttributeValue,,,2018-07-16 15:22:18,2018-07-16 15:22:24,5.086s,PASSED
+tap,,,2018-07-16 15:22:24,2018-07-16 15:22:28,4.827s,PASSED
+waitForElementPresent,,,2018-07-16 15:22:28,2018-07-16 15:22:38,9.136s,PASSED
+verifyElementAttributeValue,,,2018-07-16 15:22:38,2018-07-16 15:22:47,9.179s,PASSED
+tap,,,2018-07-16 15:22:47,2018-07-16 15:22:56,9.260s,PASSED
+delay,,,2018-07-16 15:22:56,2018-07-16 15:23:01,5.003s,PASSED
+comment,,,2018-07-16 15:23:01,2018-07-16 15:23:01,0.002s,NOT_RUN
+delay,,,2018-07-16 15:23:01,2018-07-16 15:23:01,0.003s,NOT_RUN
+"Statement - Alert = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Alert - Stok Habis), G_ShortTimeOut)",,,2018-07-16 15:23:01,2018-07-16 15:23:01,0.000s,NOT_RUN
+verifyEqual,,,2018-07-16 15:23:01,2018-07-16 15:23:01,0.000s,NOT_RUN

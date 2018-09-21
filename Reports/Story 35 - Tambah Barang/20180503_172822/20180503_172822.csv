@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35 - Tambah Barang,,,2018-05-03 17:28:23,2018-05-03 17:32:49,4m - 25.607s,ERROR
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1,,Display Tambah Barang Form,2018-05-03 17:28:24,2018-05-03 17:30:23,1m - 59.389s,PASSED
+comment,,,2018-05-03 17:28:24,2018-05-03 17:28:24,0.049s,PASSED
+Statement - apkPath = apkName,,,2018-05-03 17:28:24,2018-05-03 17:28:24,0.007s,PASSED
+startApplication,,Step 1 - [Melakukan Kelola Stock],2018-05-03 17:28:24,2018-05-03 17:29:24,59.514s,PASSED
+waitForElementPresent,,,2018-05-03 17:29:24,2018-05-03 17:29:29,5.134s,PASSED
+verifyElementVisible,,Verify Splash Screen Aplikasi Bisnis,2018-05-03 17:29:29,2018-05-03 17:29:31,2.195s,PASSED
+comment,,,2018-05-03 17:29:31,2018-05-03 17:29:31,0.003s,PASSED
+delay,,Delay until UpdateApp TopUp appear,2018-05-03 17:29:31,2018-05-03 17:29:36,5.012s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/popUpUpdate), G_ShortTimeOut) == true)",,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-05-03 17:29:36,2018-05-03 17:29:37,0.470s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-05-03 17:29:37,2018-05-03 17:29:38,0.718s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-05-03 17:29:38,2018-05-03 17:29:38,0.375s,PASSED
+tap,,Click TextBox Nomor HP/Nama Pengguna,2018-05-03 17:29:38,2018-05-03 17:29:38,0.380s,PASSED
+sendKeys,,SetText to Nomor HP/Nama Pengguna Textbox,2018-05-03 17:29:38,2018-05-03 17:29:44,5.755s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-05-03 17:29:44,2018-05-03 17:29:45,1.005s,PASSED
+hideKeyboard,,Hide Keyboard,2018-05-03 17:29:45,2018-05-03 17:29:47,1.542s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-05-03 17:29:47,2018-05-03 17:29:47,0.298s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-05-03 17:29:47,2018-05-03 17:29:47,0.263s,PASSED
+tap,,Click Masuk Button,2018-05-03 17:29:47,2018-05-03 17:29:47,0.350s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-05-03 17:29:47,2018-05-03 17:29:50,2.096s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-05-03 17:29:50,2018-05-03 17:29:50,0.304s,PASSED
+tap,,Click Input Pin TextBox,2018-05-03 17:29:50,2018-05-03 17:29:50,0.426s,PASSED
+setText,,SetText to PIN Textbox,2018-05-03 17:29:50,2018-05-03 17:30:03,12.494s,PASSED
+waitForElementPresent,,,2018-05-03 17:30:03,2018-05-03 17:30:08,5.033s,PASSED
+getAttribute,,Get Attribute,2018-05-03 17:30:08,2018-05-03 17:30:08,0.280s,PASSED
+verifyElementAttributeValue,,Verify Element that have value content desc to do action,2018-05-03 17:30:08,2018-05-03 17:30:08,0.339s,PASSED
+delay,,Give a Delay SomeTime,2018-05-03 17:30:08,2018-05-03 17:30:13,5.002s,PASSED
+comment,,End Login Test Case,2018-05-03 17:30:13,2018-05-03 17:30:13,0.002s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-05-03 17:30:13,2018-05-03 17:30:14,0.367s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-05-03 17:30:14,2018-05-03 17:30:14,0.281s,PASSED
+tap,,Click Hamburger Button,2018-05-03 17:30:14,2018-05-03 17:30:15,0.486s,PASSED
+waitForElementPresent,,Wait until Produk Button on the Sidebar  present,2018-05-03 17:30:15,2018-05-03 17:30:16,1.816s,PASSED
+verifyElementAttributeValue,,Verify Element Produk Button that have value content desc to do action,2018-05-03 17:30:16,2018-05-03 17:30:17,0.228s,PASSED
+tap,,Click Produk Button,2018-05-03 17:30:17,2018-05-03 17:30:17,0.408s,PASSED
+delay,,,2018-05-03 17:30:17,2018-05-03 17:30:22,5.005s,PASSED
+waitForElementPresent,,,2018-05-03 17:30:22,2018-05-03 17:30:22,0.219s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:30:22,2018-05-03 17:30:23,0.255s,PASSED
+tap,,,2018-05-03 17:30:23,2018-05-03 17:30:23,0.585s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2,,Increase or decrease product stock,2018-05-03 17:30:23,2018-05-03 17:30:46,23.299s,PASSED
+comment,,,2018-05-03 17:30:23,2018-05-03 17:30:23,0.000s,PASSED
+Statement - For (def index : (0..10)),,,2018-05-03 17:30:23,2018-05-03 17:30:39,15.442s,PASSED
+Statement - For (def index : (0..5)),,,2018-05-03 17:30:39,2018-05-03 17:30:46,7.691s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3,,user update stock when specifies stock = -(minus),2018-05-03 17:30:47,2018-05-03 17:31:21,33.997s,PASSED
+comment,,,2018-05-03 17:30:47,2018-05-03 17:30:47,0.001s,PASSED
+tap,,,2018-05-03 17:30:47,2018-05-03 17:30:47,0.653s,PASSED
+setText,,,2018-05-03 17:30:47,2018-05-03 17:30:59,11.270s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:30:59,2018-05-03 17:31:00,1.196s,PASSED
+clearText,,,2018-05-03 17:31:00,2018-05-03 17:31:04,4.566s,PASSED
+setText,,,2018-05-03 17:31:04,2018-05-03 17:31:19,14.202s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:31:19,2018-05-03 17:31:20,1.096s,PASSED
+hideKeyboard,,,2018-05-03 17:31:20,2018-05-03 17:31:21,0.865s,PASSED
+comment,,,2018-05-03 17:31:21,2018-05-03 17:31:21,0.000s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4,,Display Pick Category,2018-05-03 17:31:21,2018-05-03 17:31:46,25.012s,PASSED
+comment,,,2018-05-03 17:31:21,2018-05-03 17:31:21,0.001s,PASSED
+waitForElementPresent,,,2018-05-03 17:31:21,2018-05-03 17:31:21,0.395s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:31:21,2018-05-03 17:31:21,0.283s,PASSED
+tap,,,2018-05-03 17:31:21,2018-05-03 17:31:22,0.673s,PASSED
+"Statement - ErMsg = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Nama Barang field), 5)",,,2018-05-03 17:31:22,2018-05-03 17:31:24,1.414s,PASSED
+verifyEqual,,,2018-05-03 17:31:24,2018-05-03 17:31:24,0.007s,PASSED
+scrollToText,,,2018-05-03 17:31:24,2018-05-03 17:31:30,6.603s,PASSED
+delay,,,2018-05-03 17:31:30,2018-05-03 17:31:35,5.002s,PASSED
+scrollToText,,,2018-05-03 17:31:35,2018-05-03 17:31:40,4.626s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Kategori field), 5)",,,2018-05-03 17:31:40,2018-05-03 17:31:40,0.229s,PASSED
+verifyEqual,,,2018-05-03 17:31:40,2018-05-03 17:31:40,0.006s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Beli filed), 5)",,,2018-05-03 17:31:40,2018-05-03 17:31:40,0.303s,PASSED
+verifyEqual,,,2018-05-03 17:31:40,2018-05-03 17:31:40,0.003s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Jual field), 5)",,,2018-05-03 17:31:40,2018-05-03 17:31:41,0.274s,PASSED
+verifyEqual,,,2018-05-03 17:31:41,2018-05-03 17:31:41,0.003s,PASSED
+comment,,,2018-05-03 17:31:41,2018-05-03 17:31:41,0.002s,PASSED
+scrollToText,,,2018-05-03 17:31:41,2018-05-03 17:31:41,0.004s,NOT_RUN
+delay,,,2018-05-03 17:31:41,2018-05-03 17:31:46,5.006s,PASSED
+comment,,,2018-05-03 17:31:46,2018-05-03 17:31:46,0.002s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5,,Pick Category,2018-05-03 17:31:46,2018-05-03 17:32:01,14.899s,PASSED
+comment,,,2018-05-03 17:31:46,2018-05-03 17:31:46,0.001s,PASSED
+swipe,,,2018-05-03 17:31:46,2018-05-03 17:31:47,0.919s,PASSED
+comment,,,2018-05-03 17:31:47,2018-05-03 17:31:47,0.001s,PASSED
+waitForElementPresent,,,2018-05-03 17:31:47,2018-05-03 17:31:48,1.235s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:31:48,2018-05-03 17:31:48,0.439s,PASSED
+setText,,,2018-05-03 17:31:48,2018-05-03 17:31:59,10.112s,PASSED
+verifyElementText,,,2018-05-03 17:31:59,2018-05-03 17:32:00,1.144s,PASSED
+hideKeyboard,,,2018-05-03 17:32:00,2018-05-03 17:32:01,0.869s,PASSED
+comment,,,2018-05-03 17:32:01,2018-05-03 17:32:01,0.001s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6,,Input Harga Jual with - (minus),2018-05-03 17:32:01,2018-05-03 17:32:37,36.321s,PASSED
+comment,,,2018-05-03 17:32:01,2018-05-03 17:32:01,0.001s,PASSED
+clearText,,,2018-05-03 17:32:01,2018-05-03 17:32:06,5.263s,PASSED
+waitForElementPresent,,,2018-05-03 17:32:06,2018-05-03 17:32:07,1.013s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:32:07,2018-05-03 17:32:08,0.527s,PASSED
+setText,,,2018-05-03 17:32:08,2018-05-03 17:32:21,13.445s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:32:21,2018-05-03 17:32:22,1.189s,PASSED
+hideKeyboard,,,2018-05-03 17:32:22,2018-05-03 17:32:23,0.770s,PASSED
+waitForElementPresent,,,2018-05-03 17:32:23,2018-05-03 17:32:24,0.732s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:32:24,2018-05-03 17:32:24,0.256s,PASSED
+setText,,,2018-05-03 17:32:24,2018-05-03 17:32:34,9.744s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:32:34,2018-05-03 17:32:35,1.285s,PASSED
+hideKeyboard,,,2018-05-03 17:32:35,2018-05-03 17:32:36,0.923s,PASSED
+waitForElementPresent,,,2018-05-03 17:32:36,2018-05-03 17:32:37,0.747s,PASSED
+verifyElementAttributeValue,,,2018-05-03 17:32:37,2018-05-03 17:32:37,0.286s,PASSED
+comment,,,2018-05-03 17:32:37,2018-05-03 17:32:37,0.001s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7,,Validate the format of input and adjust the input into financial format,2018-05-03 17:32:37,2018-05-03 17:32:49,11.823s,PASSED
+delay,,,2018-05-03 17:32:37,2018-05-03 17:32:42,5.003s,PASSED
+tap,,,2018-05-03 17:32:42,2018-05-03 17:32:43,0.635s,PASSED
+tap,,,2018-05-03 17:32:43,2018-05-03 17:32:44,1.052s,PASSED
+delay,,,2018-05-03 17:32:44,2018-05-03 17:32:49,5.002s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 8,,Input invalid format Harga Jual = 2k,2018-05-03 17:32:49,2018-05-03 17:32:49,0.145s,ERROR
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject((com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/android.widget.TextView6 - Makanan) == true)), G_ShortTimeOut, CONTINUE_ON_FAILURE))",,,2018-05-03 17:32:49,2018-05-03 17:32:49,0.006s,PASSED

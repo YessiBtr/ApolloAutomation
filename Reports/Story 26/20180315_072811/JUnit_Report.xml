@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 26" time="225" tests="10" failures="0" errors="0">
+   <testsuite name="Story 26" tests="10" failures="0" errors="0" time="225" timestamp="2018-03-15 07:28:13" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 26">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180315_072811"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180315_072811\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180315_072811\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.43.137"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 1" classname="Test Cases/Story 26 -Kelola Stok Final/TC 1" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:28:13 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 1: Test Cases/Story 26 -Kelola Stok Final/TC 1
+
+2018-03-15 07:28:13 - [TEST_STEP][PASSED] - comment: Start Story 26
+
+2018-03-15 07:28:14 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 07:28:14 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 07:28:29 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 07:28:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 07:28:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 07:28:36 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-03-15 07:28:37 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-03-15 07:28:37 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 07:28:40 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 07:28:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 07:28:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 07:28:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 07:28:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 07:28:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 07:28:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 07:28:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:28:51 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 2" classname="Test Cases/Story 26 -Kelola Stok Final/TC 2" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:28:51 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 2: Test Cases/Story 26 -Kelola Stok Final/TC 2
+
+2018-03-15 07:28:51 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 07:28:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 07:28:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:28:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:28:52 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2' is present
+
+2018-03-15 07:28:53 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2' is present
+
+2018-03-15 07:28:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2'
+
+2018-03-15 07:28:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2'
+
+2018-03-15 07:28:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:28:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:28:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:28:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:28:57 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-03-15 07:29:13 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-03-15 07:29:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-03-15 07:29:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-03-15 07:29:14 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-03-15 07:29:15 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-03-15 07:29:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:29:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 3" classname="Test Cases/Story 26 -Kelola Stok Final/TC 3" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:29:15 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 3: Test Cases/Story 26 -Kelola Stok Final/TC 3
+
+2018-03-15 07:29:15 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 07:29:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 07:29:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:29:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:29:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-03-15 07:29:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-03-15 07:29:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:29:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:29:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:29:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:29:23 - [TEST_STEP][PASSED] - setText: Text 'Jambu' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:29:35 - [MESSAGE][PASSED] - Text 'Jambu' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:29:35 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:29:35 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:29:35 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Jambu'
+
+2018-03-15 07:29:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Jambu']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 4" classname="Test Cases/Story 26 -Kelola Stok Final/TC 4" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:29:37 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 4: Test Cases/Story 26 -Kelola Stok Final/TC 4
+
+2018-03-15 07:29:37 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-03-15 07:29:38 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-03-15 07:29:38 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:29:39 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:29:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:29:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:29:41 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-03-15 07:29:56 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-03-15 07:29:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-03-15 07:29:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-03-15 07:29:56 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-03-15 07:29:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-15 07:29:57 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-03-15 07:29:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:29:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:29:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:00 - [TEST_STEP][PASSED] - setText: Text 'Fifty Shades of Grey' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:13 - [MESSAGE][PASSED] - Text 'Fifty Shades of Grey' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:13 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:30:13 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:30:13 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Fifty Shades of Grey'
+
+2018-03-15 07:30:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Fifty Shades of Grey'
+
+2018-03-15 07:30:14 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:30:17 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:30:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:30:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:30:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-03-15 07:30:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-03-15 07:30:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:30:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 5" classname="Test Cases/Story 26 -Kelola Stok Final/TC 5" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:30:22 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 5: Test Cases/Story 26 -Kelola Stok Final/TC 5
+
+2018-03-15 07:30:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:25 - [TEST_STEP][PASSED] - setText: Text 'app' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:36 - [MESSAGE][PASSED] - Text 'app' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:36 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:30:37 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:30:37 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'app'
+
+2018-03-15 07:30:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'app']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 6" classname="Test Cases/Story 26 -Kelola Stok Final/TC 6" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:30:37 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 6: Test Cases/Story 26 -Kelola Stok Final/TC 6
+
+2018-03-15 07:30:38 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:30:40 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:30:40 - [TEST_STEP][PASSED] - setText: Text 'ap' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:47 - [MESSAGE][PASSED] - Text 'ap' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:30:47 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:30:48 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:30:48 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'ap'
+
+2018-03-15 07:30:49 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'ap']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 7" classname="Test Cases/Story 26 -Kelola Stok Final/TC 7" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:30:49 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 7: Test Cases/Story 26 -Kelola Stok Final/TC 7
+
+2018-03-15 07:30:49 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:30:53 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:30:53 - [TEST_STEP][PASSED] - setText: Text 'Rujak' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:31:01 - [MESSAGE][PASSED] - Text 'Rujak' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 07:31:01 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:31:02 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 07:31:02 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Rujak'
+
+2018-03-15 07:31:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Rujak'
+
+2018-03-15 07:31:04 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:31:05 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 07:31:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:31:10 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 8" classname="Test Cases/Story 26 -Kelola Stok Final/TC 8" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:31:10 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 8: Test Cases/Story 26 -Kelola Stok Final/TC 8
+
+2018-03-15 07:31:10 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 07:31:11 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 07:31:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:31:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 07:31:11 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-03-15 07:31:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-03-15 07:31:15 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Swiped from 30,541 to 30,257
+
+2018-03-15 07:31:15 - [TEST_STEP][PASSED] - swipe: Swiped from 30,541 to 30,257
+
+2018-03-15 07:31:16 - [MESSAGE][PASSED] - Swiped from 30,541 to 30,257
+
+2018-03-15 07:31:16 - [TEST_STEP][PASSED] - swipe: Swiped from 30,541 to 30,257
+
+2018-03-15 07:31:16 - [MESSAGE][PASSED] - Swiped from 30,541 to 30,257
+
+2018-03-15 07:31:17 - [TEST_STEP][PASSED] - swipe: Swiped from 30,541 to 30,257
+
+2018-03-15 07:31:17 - [MESSAGE][PASSED] - Swiped from 30,541 to 30,257
+
+2018-03-15 07:31:17 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Swiped from 30,257 to 30,541
+
+2018-03-15 07:31:17 - [TEST_STEP][PASSED] - swipe: Swiped from 30,257 to 30,541
+
+2018-03-15 07:31:18 - [MESSAGE][PASSED] - Swiped from 30,257 to 30,541
+
+2018-03-15 07:31:18 - [TEST_STEP][PASSED] - swipe: Swiped from 30,257 to 30,541
+
+2018-03-15 07:31:18 - [MESSAGE][PASSED] - Swiped from 30,257 to 30,541
+
+2018-03-15 07:31:19 - [TEST_STEP][PASSED] - swipe: Swiped from 30,257 to 30,541
+
+2018-03-15 07:31:19 - [MESSAGE][PASSED] - Swiped from 30,257 to 30,541
+
+2018-03-15 07:31:19 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' is present
+
+2018-03-15 07:31:20 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' is present
+
+2018-03-15 07:31:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:31:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 07:31:21 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-03-15 07:31:31 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 9" classname="Test Cases/Story 26 -Kelola Stok Final/TC 9" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:31:31 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 9: Test Cases/Story 26 -Kelola Stok Final/TC 9
+
+2018-03-15 07:31:31 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Delayed 5 second(s)
+
+2018-03-15 07:31:31 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-03-15 07:31:31 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-03-15 07:31:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:31:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 07:31:36 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-03-15 07:31:37 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-03-15 07:31:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:31:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 07:31:42 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-03-15 07:31:43 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-03-15 07:31:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:31:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 07:31:48 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-03-15 07:31:49 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-03-15 07:31:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:31:54 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 10" classname="Test Cases/Story 26 -Kelola Stok Final/TC 10" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:31:54 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 10: Test Cases/Story 26 -Kelola Stok Final/TC 10
+
+2018-03-15 07:31:54 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' is present
+
+2018-03-15 07:31:54 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' is present
+
+2018-03-15 07:31:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-03-15 07:31:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-03-15 07:31:55 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-03-15 07:31:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 07:28:13 - [TEST_SUITE][PASSED] - Story 26: Test Cases/Story 26 -Kelola Stok Final/TC 10]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

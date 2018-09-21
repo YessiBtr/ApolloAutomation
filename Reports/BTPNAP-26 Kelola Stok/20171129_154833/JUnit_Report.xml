@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BTPNAP-26 Kelola Stok" time="151" tests="2" failures="3" errors="0">
+   <testsuite name="BTPNAP-26 Kelola Stok" tests="2" failures="3" errors="0" time="151" timestamp="2017-11-29 15:48:34" hostname="AV2017005903 - NB17Q7U8IT.corp.bankbtpn.co.id" id="Test Suites/BTPNAP-26 Kelola Stok">
+      <properties>
+         <property name="deviceName" value="samsung SM-J120G 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171129_154833"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171129_154833\\appium.log, C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171129_154833\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NB17Q7U8IT.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.3"/>
+         <property name="deviceModel" value="SM-J120G"/>
+         <property name="hostAddress" value="192.168.8.112"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="3201281be0f78439"/>
+         <property name="deviceName" value="samsung SM-J120G 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TC-1" classname="Test Cases/TC-1" status="PASSED">
+         <system-out><![CDATA[2017-11-29 15:48:35 - [TEST_CASE][PASSED] - Test Cases/TC-1: Test Cases/TC-1
+
+2017-11-29 15:48:35 - [TEST_STEP][PASSED] - startApplication: Started app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+
+2017-11-29 15:49:27 - [MESSAGE][PASSED] - Started app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+
+2017-11-29 15:49:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Tab Transaksi'
+
+2017-11-29 15:49:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Tab Transaksi'
+
+2017-11-29 15:49:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Tab Stock'
+
+2017-11-29 15:49:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Tab Stock']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2" classname="Test Cases/TC-2" status="PASSED">
+         <system-out><![CDATA[2017-11-29 15:49:32 - [TEST_CASE][PASSED] - Test Cases/TC-2: Test Cases/TC-2
+
+2017-11-29 15:49:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Tab Kategori'
+
+2017-11-29 15:49:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Tab Kategori'
+
+2017-11-29 15:49:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-29 15:49:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-29 15:49:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Handphone  Tablet - Radio Button'
+
+2017-11-29 15:49:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Handphone  Tablet - Radio Button'
+
+2017-11-29 15:49:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Terapkan Button'
+
+2017-11-29 15:49:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Terapkan Button'
+
+2017-11-29 15:49:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 15:49:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 15:49:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Tab Kategori'
+
+2017-11-29 15:49:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Tab Kategori'
+
+2017-11-29 15:49:44 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Otomotif' successfully
+
+2017-11-29 15:50:05 - [MESSAGE][PASSED] - Scrolling to text 'Otomotif' successfully
+
+2017-11-29 15:50:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Otomotif - Radio Button'
+
+2017-11-29 15:50:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Otomotif - Radio Button'
+
+2017-11-29 15:50:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-29 15:50:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-29 15:50:13 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Transaksi/Stock/Otomotif Label' has attribute 'text' with value 'Otomotif'
+
+2017-11-29 15:50:13 - [MESSAGE][PASSED] - Object 'Object Repository/Transaksi/Stock/Otomotif Label' has attribute 'text' with value 'Otomotif'
+
+2017-11-29 15:50:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Terapkan Button'
+
+2017-11-29 15:50:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Terapkan Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-3" classname="Test Cases/TC-3" status="FAILED">
+         <failure type="FAILED" message="Cannot hide keyboard (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Soft keyboard not present, cannot hide keyboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB17Q7U8IT', ip: '192.168.8.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{app=D:\Project Apollo\Appolo Test\app-development-debug.apk, appPackage=com.btpn.jeniuspro.dev, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.btpn.jeniuspro.dev, appWaitActivity=com.btpn_mpos_rn.MainActivity, databaseEnabled=false, deviceName=3201281be0f78439, fullReset=false, platform=ANDROID, deviceUDID=3201281be0f78439, appActivity=com.btpn_mpos_rn.MainActivity, desired={app=D:\Project Apollo\Appolo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, autoGrantPermissions=true, udid=3201281be0f78439, platformName=Android, deviceName=samsung SM-J120G 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, udid=3201281be0f78439, platformName=Android}]
+Session ID: 915c32c7-e6e0-43c8-ac8d-a0e0e6c8961f)"/>
+         <system-out><![CDATA[2017-11-29 15:50:13 - [TEST_CASE][FAILED] - Test Cases/TC-3: Test Cases/TC-3 FAILED because (of) Cannot hide keyboard (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Soft keyboard not present, cannot hide keyboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB17Q7U8IT', ip: '192.168.8.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{app=D:\Project Apollo\Appolo Test\app-development-debug.apk, appPackage=com.btpn.jeniuspro.dev, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.btpn.jeniuspro.dev, appWaitActivity=com.btpn_mpos_rn.MainActivity, databaseEnabled=false, deviceName=3201281be0f78439, fullReset=false, platform=ANDROID, deviceUDID=3201281be0f78439, appActivity=com.btpn_mpos_rn.MainActivity, desired={app=D:\Project Apollo\Appolo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, autoGrantPermissions=true, udid=3201281be0f78439, platformName=Android, deviceName=samsung SM-J120G 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, udid=3201281be0f78439, platformName=Android}]
+Session ID: 915c32c7-e6e0-43c8-ac8d-a0e0e6c8961f)
+
+2017-11-29 15:50:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Tab Kategori'
+
+2017-11-29 15:50:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Tab Kategori'
+
+2017-11-29 15:50:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Semua Kategori - Radio Button'
+
+2017-11-29 15:50:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Semua Kategori - Radio Button'
+
+2017-11-29 15:50:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Terapkan Button'
+
+2017-11-29 15:50:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Terapkan Button'
+
+2017-11-29 15:50:18 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-11-29 15:50:18 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-11-29 15:50:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/CariProduk'
+
+2017-11-29 15:50:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/CariProduk'
+
+2017-11-29 15:50:19 - [TEST_STEP][PASSED] - setText: Text 'Jambu' has been set to element 'Object Repository/Transaksi/Stock/CariProduk'
+
+2017-11-29 15:50:30 - [MESSAGE][PASSED] - Text 'Jambu' has been set to element 'Object Repository/Transaksi/Stock/CariProduk'
+
+2017-11-29 15:50:30 - [TEST_STEP][FAILED] - hideKeyboard: Cannot hide keyboard (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Soft keyboard not present, cannot hide keyboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB17Q7U8IT', ip: '192.168.8.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{app=D:\Project Apollo\Appolo Test\app-development-debug.apk, appPackage=com.btpn.jeniuspro.dev, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.btpn.jeniuspro.dev, appWaitActivity=com.btpn_mpos_rn.MainActivity, databaseEnabled=false, deviceName=3201281be0f78439, fullReset=false, platform=ANDROID, deviceUDID=3201281be0f78439, appActivity=com.btpn_mpos_rn.MainActivity, desired={app=D:\Project Apollo\Appolo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, autoGrantPermissions=true, udid=3201281be0f78439, platformName=Android, deviceName=samsung SM-J120G 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, udid=3201281be0f78439, platformName=Android}]
+Session ID: 915c32c7-e6e0-43c8-ac8d-a0e0e6c8961f)
+
+2017-11-29 15:50:44 - [MESSAGE][FAILED] - Cannot hide keyboard (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Soft keyboard not present, cannot hide keyboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB17Q7U8IT', ip: '192.168.8.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{app=D:\Project Apollo\Appolo Test\app-development-debug.apk, appPackage=com.btpn.jeniuspro.dev, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.btpn.jeniuspro.dev, appWaitActivity=com.btpn_mpos_rn.MainActivity, databaseEnabled=false, deviceName=3201281be0f78439, fullReset=false, platform=ANDROID, deviceUDID=3201281be0f78439, appActivity=com.btpn_mpos_rn.MainActivity, desired={app=D:\Project Apollo\Appolo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, autoGrantPermissions=true, udid=3201281be0f78439, platformName=Android, deviceName=samsung SM-J120G 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, udid=3201281be0f78439, platformName=Android}]
+Session ID: 915c32c7-e6e0-43c8-ac8d-a0e0e6c8961f)]]></system-out>
+         <system-err><![CDATA[2017-11-29 15:50:13 - [TEST_CASE][FAILED] - Test Cases/TC-3: Test Cases/TC-3 FAILED because (of) Cannot hide keyboard (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Soft keyboard not present, cannot hide keyboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB17Q7U8IT', ip: '192.168.8.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{app=D:\Project Apollo\Appolo Test\app-development-debug.apk, appPackage=com.btpn.jeniuspro.dev, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.btpn.jeniuspro.dev, appWaitActivity=com.btpn_mpos_rn.MainActivity, databaseEnabled=false, deviceName=3201281be0f78439, fullReset=false, platform=ANDROID, deviceUDID=3201281be0f78439, appActivity=com.btpn_mpos_rn.MainActivity, desired={app=D:\Project Apollo\Appolo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, autoGrantPermissions=true, udid=3201281be0f78439, platformName=Android, deviceName=samsung SM-J120G 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, udid=3201281be0f78439, platformName=Android}]
+Session ID: 915c32c7-e6e0-43c8-ac8d-a0e0e6c8961f)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-4" classname="Test Cases/TC-4" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2017-11-29 15:50:44 - [TEST_CASE][FAILED] - Test Cases/TC-4: Test Cases/TC-4 FAILED because (of) Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2017-11-29 15:50:44 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Transaksi/Stock/CariProduk' text is cleared
+
+2017-11-29 15:50:48 - [MESSAGE][PASSED] - Element 'Object Repository/Transaksi/Stock/CariProduk' text is cleared
+
+2017-11-29 15:50:48 - [TEST_STEP][FAILED] - tap: Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2017-11-29 15:50:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2017-11-29 15:50:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2017-11-29 15:50:48 - [MESSAGE][FAILED] - Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+         <system-err><![CDATA[2017-11-29 15:50:44 - [TEST_CASE][FAILED] - Test Cases/TC-4: Test Cases/TC-4 FAILED because (of) Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-5" classname="Test Cases/TC-5" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2017-11-29 15:50:48 - [TEST_CASE][FAILED] - Test Cases/TC-5: Test Cases/TC-5 FAILED because (of) Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2017-11-29 15:50:48 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Transaksi/Stock/CariProduk' text is cleared
+
+2017-11-29 15:50:52 - [MESSAGE][PASSED] - Element 'Object Repository/Transaksi/Stock/CariProduk' text is cleared
+
+2017-11-29 15:50:52 - [TEST_STEP][FAILED] - tap: Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2017-11-29 15:50:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2017-11-29 15:50:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2017-11-29 15:50:52 - [MESSAGE][FAILED] - Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+         <system-err><![CDATA[2017-11-29 15:50:48 - [TEST_CASE][FAILED] - Test Cases/TC-5: Test Cases/TC-5 FAILED because (of) Failed to tap on element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-29 15:48:34 - [TEST_SUITE][FAILED] - BTPNAP-26 Kelola Stok: Test Cases/TC-3 FAILED because (of) Cannot hide keyboard (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Soft keyboard not present, cannot hide keyboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB17Q7U8IT', ip: '192.168.8.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{app=D:\Project Apollo\Appolo Test\app-development-debug.apk, appPackage=com.btpn.jeniuspro.dev, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.btpn.jeniuspro.dev, appWaitActivity=com.btpn_mpos_rn.MainActivity, databaseEnabled=false, deviceName=3201281be0f78439, fullReset=false, platform=ANDROID, deviceUDID=3201281be0f78439, appActivity=com.btpn_mpos_rn.MainActivity, desired={app=D:\Project Apollo\Appolo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, autoGrantPermissions=true, udid=3201281be0f78439, platformName=Android, deviceName=samsung SM-J120G 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, udid=3201281be0f78439, platformName=Android}]
+Session ID: 915c32c7-e6e0-43c8-ac8d-a0e0e6c8961f)]]></system-out>
+      <system-err><![CDATA[2017-11-29 15:48:34 - [TEST_SUITE][FAILED] - BTPNAP-26 Kelola Stok: Test Cases/TC-3 FAILED because (of) Cannot hide keyboard (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Soft keyboard not present, cannot hide keyboard (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7.07 seconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NB17Q7U8IT', ip: '192.168.8.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{app=D:\Project Apollo\Appolo Test\app-development-debug.apk, appPackage=com.btpn.jeniuspro.dev, networkConnectionEnabled=true, noReset=true, warnings={}, appWaitPackage=com.btpn.jeniuspro.dev, appWaitActivity=com.btpn_mpos_rn.MainActivity, databaseEnabled=false, deviceName=3201281be0f78439, fullReset=false, platform=ANDROID, deviceUDID=3201281be0f78439, appActivity=com.btpn_mpos_rn.MainActivity, desired={app=D:\Project Apollo\Appolo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, autoGrantPermissions=true, udid=3201281be0f78439, platformName=Android, deviceName=samsung SM-J120G 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, udid=3201281be0f78439, platformName=Android}]
+Session ID: 915c32c7-e6e0-43c8-ac8d-a0e0e6c8961f)]]></system-err>
+   </testsuite>
+</testsuites>

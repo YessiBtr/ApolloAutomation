@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 40,,,2018-03-15 09:29:04,2018-03-15 09:30:34,1m - 29.818s,PASSED
+,,,,,,
+Test Cases/Story 40 - View Expense/TC 1,,Tugas - View,2018-03-15 09:29:04,2018-03-15 09:29:43,39.018s,PASSED
+comment,,,2018-03-15 09:29:05,2018-03-15 09:29:05,0.059s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 09:29:05,2018-03-15 09:29:05,0.017s,PASSED
+startApplication,,,2018-03-15 09:29:05,2018-03-15 09:29:22,17.005s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 09:29:22,2018-03-15 09:29:29,7.548s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 09:29:29,2018-03-15 09:29:33,3.874s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 09:29:33,2018-03-15 09:29:34,0.999s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 09:29:34,2018-03-15 09:29:35,1.159s,PASSED
+tap,,Click Navbar 'Pengeluaran',2018-03-15 09:29:35,2018-03-15 09:29:38,2.739s,PASSED
+delay,,,2018-03-15 09:29:38,2018-03-15 09:29:43,5.042s,PASSED
+,,,,,,
+Test Cases/Story 40 - View Expense/TC 2,,Tugas - Pagination,2018-03-15 09:29:43,2018-03-15 09:29:52,8.440s,PASSED
+tap,,Klik Drop Down Semua Kategori,2018-03-15 09:29:43,2018-03-15 09:29:44,0.417s,PASSED
+tap,,"Pilih Kategori \""Biaya Listrik\""",2018-03-15 09:29:44,2018-03-15 09:29:46,1.976s,PASSED
+tap,,"Klik \""Terapkan Button\""",2018-03-15 09:29:46,2018-03-15 09:29:47,0.864s,PASSED
+delay,,,2018-03-15 09:29:47,2018-03-15 09:29:52,5.003s,PASSED
+,,,,,,
+Test Cases/Story 40 - View Expense/TC 3,,Tugas - Expense Category,2018-03-15 09:29:52,2018-03-15 09:29:58,6.775s,PASSED
+tap,,Klik Drop Down Semua Kategori,2018-03-15 09:29:52,2018-03-15 09:29:52,0.565s,PASSED
+tap,,,2018-03-15 09:29:52,2018-03-15 09:29:55,2.174s,PASSED
+tap,,"Klik \""Terapkan Button\""",2018-03-15 09:29:55,2018-03-15 09:29:55,0.801s,PASSED
+delay,,,2018-03-15 09:29:55,2018-03-15 09:29:58,3.002s,PASSED
+,,,,,,
+Test Cases/Story 40 - View Expense/TC 4,,Tugas - Selected Expense Category,2018-03-15 09:29:58,2018-03-15 09:30:07,8.763s,PASSED
+tap,,Klik Drop Down Semua Kategori,2018-03-15 09:29:59,2018-03-15 09:29:59,0.538s,PASSED
+tap,,,2018-03-15 09:29:59,2018-03-15 09:30:01,2.154s,PASSED
+tap,,"Klik \""Terapkan Button\""",2018-03-15 09:30:01,2018-03-15 09:30:02,0.932s,PASSED
+delay,,,2018-03-15 09:30:02,2018-03-15 09:30:07,5.001s,PASSED
+,,,,,,
+Test Cases/Story 40 - View Expense/TC 5,,Tugas - Expense Detail,2018-03-15 09:30:07,2018-03-15 09:30:13,6.139s,PASSED
+waitForElementPresent,,,2018-03-15 09:30:07,2018-03-15 09:30:08,0.323s,PASSED
+tap,,,2018-03-15 09:30:08,2018-03-15 09:30:08,0.683s,PASSED
+pressBack,,,2018-03-15 09:30:08,2018-03-15 09:30:10,1.934s,PASSED
+delay,,,2018-03-15 09:30:10,2018-03-15 09:30:13,3.003s,PASSED
+,,,,,,
+Test Cases/Story 40 - View Expense/TC 6,,Tugas - Tambah Catatan,2018-03-15 09:30:13,2018-03-15 09:30:20,6.794s,PASSED
+waitForElementPresent,,,2018-03-15 09:30:14,2018-03-15 09:30:14,0.240s,PASSED
+tap,,,2018-03-15 09:30:14,2018-03-15 09:30:14,0.498s,PASSED
+pressBack,,,2018-03-15 09:30:14,2018-03-15 09:30:16,1.936s,PASSED
+delay,,,2018-03-15 09:30:16,2018-03-15 09:30:20,4.002s,PASSED
+,,,,,,
+Test Cases/Story 40 - View Expense/TC 7,,Tugas - Rolling Circle,2018-03-15 09:30:20,2018-03-15 09:30:26,5.243s,PASSED
+waitForElementPresent,,,2018-03-15 09:30:21,2018-03-15 09:30:21,0.250s,PASSED
+tap,,"Klik button  \""Tambah Catatan\""",2018-03-15 09:30:21,2018-03-15 09:30:21,0.482s,PASSED
+pressBack,,,2018-03-15 09:30:21,2018-03-15 09:30:22,0.332s,PASSED
+delay,,,2018-03-15 09:30:22,2018-03-15 09:30:26,4.002s,PASSED
+,,,,,,
+Test Cases/Story 40 - View Expense/TC 8,,Tugas - No Connection,2018-03-15 09:30:26,2018-03-15 09:30:34,7.876s,PASSED
+Statement - For (def index : (0..2)),,Melakukan Looping Swipe ke bawah untuk menemukan list expanse lainnya ,2018-03-15 09:30:26,2018-03-15 09:30:28,2.376s,PASSED
+Statement - For (def index : (0..2)),,Melakukan Looping Swipe ke atas untuk menemukan list expanse lainnya ,2018-03-15 09:30:28,2018-03-15 09:30:30,2.269s,PASSED
+comment,,,2018-03-15 09:30:30,2018-03-15 09:30:30,0.002s,PASSED
+closeApplication,,,2018-03-15 09:30:30,2018-03-15 09:30:34,3.120s,PASSED

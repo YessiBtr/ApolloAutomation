@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoked Test" time="600" tests="0" failures="2" errors="0">
+   <testsuite name="Smoked Test" tests="0" failures="2" errors="0" time="600" timestamp="2018-09-20 16:17:13" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Smoked Test">
+      <properties>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_161710"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_161710\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_161710\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_161710\\1537435556603.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_161710\\1537435559435.png"/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="A37f"/>
+         <property name="hostAddress" value="192.168.62.1"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="6e4df14"/>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey" classname="Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' (Root cause: Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found)"/>
+         <system-out><![CDATA[2018-09-20 16:17:14 - [TEST_CASE][FAILED] - Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey: Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' (Root cause: Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found)
+
+2018-09-20 16:17:14 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-20 16:17:15 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-20 16:17:15 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\18September.apk'
+
+2018-09-20 16:18:04 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\18September.apk'
+
+2018-09-20 16:18:04 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-20 16:18:19 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-20 16:18:19 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-20 16:18:19 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-20 16:18:19 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-20 16:18:19 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-20 16:18:21 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-20 16:18:29 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-20 16:18:29 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-20 16:18:32 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-20 16:18:40 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-20 16:18:40 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-20 16:18:43 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-20 16:18:51 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-20 16:18:51 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-20 16:18:53 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-20 16:19:01 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-20 16:19:01 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-20 16:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-20 16:19:09 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-20 16:19:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-20 16:19:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-20 16:19:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-20 16:19:14 - [TEST_STEP][PASSED] - comment: end Welcome Screen
+
+2018-09-20 16:19:14 - [TEST_STEP][PASSED] - comment: LOGIN
+
+2018-09-20 16:19:14 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-20 16:19:19 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-20 16:19:19 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-20 16:19:26 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-20 16:19:26 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-20 16:19:47 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-20 16:19:47 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-20 16:19:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-20 16:19:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-20 16:19:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-20 16:19:52 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-20 16:19:55 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-20 16:19:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-20 16:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-20 16:19:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-20 16:20:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-20 16:20:05 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-20 16:20:09 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-20 16:20:09 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-20 16:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-20 16:20:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-20 16:20:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-20 16:20:18 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-20 16:20:41 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-20 16:20:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-20 16:20:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-20 16:20:46 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-20 16:20:46 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-09-20 16:20:53 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-09-20 16:20:53 - [TEST_STEP][PASSED] - comment: MESIN KASIR
+
+2018-09-20 16:20:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-20 16:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-20 16:20:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-09-20 16:21:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-09-20 16:21:02 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-20 16:21:06 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-20 16:21:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-20 16:21:10 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-20 16:21:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-20 16:21:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-20 16:21:15 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-20 16:21:19 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-20 16:21:19 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-20 16:21:23 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-20 16:21:23 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-20 16:21:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-20 16:21:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-20 16:21:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-20 16:21:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-20 16:21:34 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-20 16:21:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-20 16:21:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-20 16:21:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-20 16:21:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-20 16:21:46 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-20 16:21:49 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-20 16:21:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-20 16:21:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-20 16:21:54 - [TEST_STEP][PASSED] - comment: Ringkasan Pesanan Onboarding
+
+2018-09-20 16:21:54 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-20 16:21:59 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-20 16:21:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-20 16:22:03 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-20 16:22:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon'
+
+2018-09-20 16:22:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon'
+
+2018-09-20 16:22:10 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/DiskonTbhan_edittext' is present
+
+2018-09-20 16:22:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/DiskonTbhan_edittext' is present
+
+2018-09-20 16:22:14 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/DiskonTbhan_edittext' has attribute 'content-desc' with value 'modalTextInput'
+
+2018-09-20 16:22:18 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/DiskonTbhan_edittext' has attribute 'content-desc' with value 'modalTextInput'
+
+2018-09-20 16:22:18 - [TEST_STEP][PASSED] - setText: Text '2000' has been set to element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/DiskonTbhan_edittext'
+
+2018-09-20 16:22:35 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/DiskonTbhan_edittext'
+
+2018-09-20 16:22:35 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-20 16:22:37 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-20 16:22:37 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Terapkanbtn' is present
+
+2018-09-20 16:22:46 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Terapkanbtn' is present
+
+2018-09-20 16:22:46 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Terapkanbtn' has attribute 'content-desc' with value 'submitModalBtn'
+
+2018-09-20 16:22:51 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Terapkanbtn' has attribute 'content-desc' with value 'submitModalBtn'
+
+2018-09-20 16:22:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Terapkanbtn'
+
+2018-09-20 16:22:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Terapkanbtn'
+
+2018-09-20 16:22:57 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-20 16:23:00 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-20 16:23:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-20 16:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-20 16:23:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-20 16:23:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-20 16:23:11 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-20 16:23:19 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-20 16:23:19 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-20 16:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-20 16:23:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-20 16:23:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-20 16:23:35 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' is present
+
+2018-09-20 16:23:40 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' is present
+
+2018-09-20 16:23:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' has attribute 'content-desc' with value 'additionalCost_text_costType_1'
+
+2018-09-20 16:23:47 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' has attribute 'content-desc' with value 'additionalCost_text_costType_1'
+
+2018-09-20 16:23:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2'
+
+2018-09-20 16:23:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2'
+
+2018-09-20 16:23:53 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-20 16:23:57 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-20 16:23:57 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-20 16:24:05 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-20 16:24:05 - [TEST_STEP][PASSED] - setText: Text '2000' has been set to element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-20 16:24:22 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-20 16:24:22 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-20 16:24:23 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-20 16:24:24 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-20 16:24:32 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-20 16:24:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-20 16:24:36 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-20 16:24:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-20 16:24:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-20 16:24:42 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Ringkasan Pesanan - Bayarbtn' is present
+
+2018-09-20 16:24:45 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Ringkasan Pesanan - Bayarbtn' is present
+
+2018-09-20 16:24:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Ringkasan Pesanan - Bayarbtn' has attribute 'content-desc' with value 'asubtotal_abutton_pay'
+
+2018-09-20 16:24:53 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Ringkasan Pesanan - Bayarbtn' has attribute 'content-desc' with value 'asubtotal_abutton_pay'
+
+2018-09-20 16:24:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Ringkasan Pesanan - Bayarbtn'
+
+2018-09-20 16:25:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Ringkasan Pesanan/Ringkasan Pesanan - Bayarbtn'
+
+2018-09-20 16:25:03 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Tunai' is present
+
+2018-09-20 16:25:08 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Tunai' is present
+
+2018-09-20 16:25:08 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Tunai' has attribute 'content-desc' with value 'payment-method-Tunai'
+
+2018-09-20 16:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Tunai' has attribute 'content-desc' with value 'payment-method-Tunai'
+
+2018-09-20 16:25:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Tunai'
+
+2018-09-20 16:25:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Tunai'
+
+2018-09-20 16:25:23 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Bayarbtn' is present
+
+2018-09-20 16:25:28 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Bayarbtn' is present
+
+2018-09-20 16:25:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Bayarbtn' has attribute 'content-desc' with value 'bayarBtn'
+
+2018-09-20 16:25:32 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Bayarbtn' has attribute 'content-desc' with value 'bayarBtn'
+
+2018-09-20 16:25:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Bayarbtn'
+
+2018-09-20 16:25:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Pembayaran/Pembayaran - Bayarbtn'
+
+2018-09-20 16:25:40 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found
+
+2018-09-20 16:25:47 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found
+
+2018-09-20 16:25:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' not found
+
+2018-09-20 16:25:49 - [MESSAGE][WARNING] - Element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' not found
+
+2018-09-20 16:25:49 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' (Root cause: Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found)
+
+2018-09-20 16:25:59 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_161710\\1537435556603.png]]
+
+2018-09-20 16:26:01 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' (Root cause: Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found)
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_161710\\1537435559435.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-20 16:17:14 - [TEST_CASE][FAILED] - Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey: Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' (Root cause: Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang" classname="Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65.42 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-09-20 16:26:03 - [TEST_CASE][FAILED] - Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang: Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang FAILED because (of) Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65.42 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-09-20 16:26:04 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-20 16:26:04 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-20 16:26:04 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65.42 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-09-20 16:27:09 - [MESSAGE][FAILED] - Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65.42 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-09-20 16:26:03 - [TEST_CASE][FAILED] - Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang: Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang FAILED because (of) Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65.42 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-20 16:17:13 - [TEST_SUITE][FAILED] - Smoked Test: Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' (Root cause: Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found)]]></system-out>
+      <system-err><![CDATA[2018-09-20 16:17:13 - [TEST_SUITE][FAILED] - Smoked Test: Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai' (Root cause: Object Object Repository/Sidebar Menu/Kasir/Kasir/Receipt/Receipt - Selesai not found)]]></system-err>
+   </testsuite>
+</testsuites>

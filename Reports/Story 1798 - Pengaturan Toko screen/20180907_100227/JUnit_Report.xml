@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 1798 - Pengaturan Toko screen" time="1" tests="0" failures="0" errors="3">
+   <testsuite name="Story 1798 - Pengaturan Toko screen" tests="0" failures="0" errors="3" time="1" timestamp="2018-09-07 10:02:43" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 1798 - Pengaturan Toko screen">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1798 - Pengaturan Toko screen\\20180907_100227"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1798 - Pengaturan Toko screen\\20180907_100227\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="hostAddress" value="192.168.62.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain" status="ERROR">
+         <error type="ERROR" message="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 36: unable to resolve class AppiumDriver 
+ @ line 36, column 17.
+   AppiumDriver&lt;?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors
+"/>
+         <system-out><![CDATA[2018-09-07 10:02:44 - [TEST_CASE][ERROR] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 36: unable to resolve class AppiumDriver 
+ @ line 36, column 17.
+   AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors]]></system-out>
+         <system-err><![CDATA[2018-09-07 10:02:44 - [TEST_CASE][ERROR] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 36: unable to resolve class AppiumDriver 
+ @ line 36, column 17.
+   AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 2 - Click Back button from apps" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 2 - Click Back button from apps" status="ERROR">
+         <error type="ERROR" message="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 2 - Click Back button from apps FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 34: unable to resolve class AppiumDriver 
+ @ line 34, column 17.
+   AppiumDriver&lt;?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors
+"/>
+         <system-out><![CDATA[2018-09-07 10:02:44 - [TEST_CASE][ERROR] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 2 - Click Back button from apps: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 2 - Click Back button from apps FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 34: unable to resolve class AppiumDriver 
+ @ line 34, column 17.
+   AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors]]></system-out>
+         <system-err><![CDATA[2018-09-07 10:02:44 - [TEST_CASE][ERROR] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 2 - Click Back button from apps: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 2 - Click Back button from apps FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 34: unable to resolve class AppiumDriver 
+ @ line 34, column 17.
+   AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%202%20-%20Click%20Back%20button%20from%20apps/Script1536286997995.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 3 - Click Back button from device" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 3 - Click Back button from device" status="ERROR">
+         <error type="ERROR" message="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 3 - Click Back button from device FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 34: unable to resolve class AppiumDriver 
+ @ line 34, column 17.
+   AppiumDriver&lt;?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors
+"/>
+         <system-out><![CDATA[2018-09-07 10:02:45 - [TEST_CASE][ERROR] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 3 - Click Back button from device: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 3 - Click Back button from device FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 34: unable to resolve class AppiumDriver 
+ @ line 34, column 17.
+   AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors]]></system-out>
+         <system-err><![CDATA[2018-09-07 10:02:45 - [TEST_CASE][ERROR] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 3 - Click Back button from device: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 3 - Click Back button from device FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 34: unable to resolve class AppiumDriver 
+ @ line 34, column 17.
+   AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%203%20-%20Click%20Back%20button%20from%20device/Script1536287018047.groovy: 36: unable to resolve class TouchAction 
+ @ line 36, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-07 10:02:43 - [TEST_SUITE][ERROR] - Story 1798 - Pengaturan Toko screen: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 36: unable to resolve class AppiumDriver 
+ @ line 36, column 17.
+   AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors]]></system-out>
+      <system-err><![CDATA[2018-09-07 10:02:43 - [TEST_SUITE][ERROR] - Story 1798 - Pengaturan Toko screen: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1798 - Pengaturan Toko screen/TC 1- View Pengaturan Toko screen and check contain FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 36: unable to resolve class AppiumDriver 
+ @ line 36, column 17.
+   AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+                   ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 13.
+   TouchAction action = new TouchAction(driver)
+               ^
+
+file:/C:/Users/AV2017005903/Documents/apollo-automation/Scripts/Release%203%20-%20Squad%20Hades/Sprint%201/Story%201798%20-%20Pengaturan%20Toko%20screen/TC%201-%20View%20Pengaturan%20Toko%20screen%20and%20check%20contain/Script1536286972896.groovy: 38: unable to resolve class TouchAction 
+ @ line 38, column 22.
+   TouchAction action = new TouchAction(driver)
+                        ^
+
+3 errors]]></system-err>
+   </testsuite>
+</testsuites>

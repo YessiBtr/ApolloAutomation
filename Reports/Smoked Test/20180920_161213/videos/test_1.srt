@@ -1,0 +1,48 @@
+1
+00:00:00,391 --> 00:00:00,399
+1. comment
+
+2
+00:00:00,460 --> 00:00:00,461
+5. Statement - apkPath = apkName
+
+3
+00:00:00,481 --> 00:00:00,483
+9. startApplication
+
+4
+00:00:42,253 --> 00:00:42,257
+13. delay
+
+5
+00:00:57,310 --> 00:00:57,322
+21. If there is a Update TopuUp, click No, Else you can delay for waiting lazyload 
+
+6
+00:00:57,369 --> 00:00:57,374
+25. Statement - action = new io.appium.java_client.TouchAction(driver)
+
+7
+00:00:57,392 --> 00:00:57,392
+29. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+8
+00:01:00,093 --> 00:01:00,100
+33. delay
+
+9
+00:01:08,115 --> 00:01:08,119
+37. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+10
+00:01:10,997 --> 00:01:11,002
+41. delay
+
+11
+00:01:19,016 --> 00:01:19,020
+45. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+12
+00:01:21,802 --> 00:01:21,806
+49. delay
+

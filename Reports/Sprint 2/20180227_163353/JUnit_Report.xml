@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sprint 2" time="239" tests="1" failures="3" errors="0">
+   <testsuite name="Sprint 2" tests="1" failures="3" errors="0" time="239" timestamp="2018-02-27 16:33:55" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Sprint 2">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 2\\20180227_163353"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 2\\20180227_163353\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 2\\20180227_163353\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.17.200"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 2/28 - TC-All" classname="Test Cases/Sprint 2/28 - TC-All" status="PASSED">
+         <system-out><![CDATA[2018-02-27 16:33:55 - [TEST_CASE][PASSED] - Test Cases/Sprint 2/28 - TC-All: Test Cases/Sprint 2/28 - TC-All
+
+2018-02-27 16:33:56 - [TEST_STEP][PASSED] - comment: Start Story 28
+
+2018-02-27 16:33:56 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-02-27 16:33:56 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk'
+
+2018-02-27 16:34:14 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk'
+
+2018-02-27 16:34:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-02-27 16:34:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-02-27 16:34:21 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-02-27 16:34:21 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-02-27 16:34:21 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-27 16:34:21 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-27 16:34:21 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-27 16:34:21 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-27 16:34:21 - [TEST_STEP][NOT_RUN] - hideKeyboard: NOT_RUN: hideKeyboard
+
+2018-02-27 16:34:21 - [MESSAGE][NOT_RUN] - NOT_RUN: hideKeyboard
+
+2018-02-27 16:34:21 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-27 16:34:21 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-27 16:34:21 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-02-27 16:34:21 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-02-27 16:34:21 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-27 16:34:21 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-27 16:34:21 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-27 16:34:21 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-27 16:34:21 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-02-27 16:34:24 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-02-27 16:34:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-02-27 16:34:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-02-27 16:34:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-02-27 16:34:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-02-27 16:34:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar'
+
+2018-02-27 16:34:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar'
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..3)): NOT_RUN: Statement - For (def index : (0..3))
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..3))
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - hideKeyboard: NOT_RUN: hideKeyboard
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: hideKeyboard
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - clearText: NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: clearText
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..2)): NOT_RUN: Statement - For (def index : (0..2))
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..2))
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..2)): NOT_RUN: Statement - For (def index : (0..2))
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..2))
+
+2018-02-27 16:34:30 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..1)): NOT_RUN: Statement - For (def index : (0..1))
+
+2018-02-27 16:34:30 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..1))
+
+2018-02-27 16:34:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen1'
+
+2018-02-27 16:34:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen1'
+
+2018-02-27 16:34:31 - [TEST_STEP][PASSED] - setText: Text '4' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen1'
+
+2018-02-27 16:34:45 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen1'
+
+2018-02-27 16:34:45 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-27 16:34:46 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-27 16:34:46 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 2'
+
+2018-02-27 16:34:51 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 2'
+
+2018-02-27 16:34:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 2'
+
+2018-02-27 16:34:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 2'
+
+2018-02-27 16:34:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 2'
+
+2018-02-27 16:34:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 2'
+
+2018-02-27 16:34:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 2'
+
+2018-02-27 16:34:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 2'
+
+2018-02-27 16:34:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:34:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:34:56 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2' text is cleared
+
+2018-02-27 16:34:59 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2' text is cleared
+
+2018-02-27 16:34:59 - [TEST_STEP][PASSED] - setText: Text '-2' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:12 - [MESSAGE][PASSED] - Text '-2' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:12 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-27 16:35:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-27 16:35:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:14 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2' text is cleared
+
+2018-02-27 16:35:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2' text is cleared
+
+2018-02-27 16:35:16 - [TEST_STEP][PASSED] - setText: Text '999' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:30 - [MESSAGE][PASSED] - Text '999' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:30 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-27 16:35:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-27 16:35:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:32 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2' text is cleared
+
+2018-02-27 16:35:37 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2' text is cleared
+
+2018-02-27 16:35:37 - [TEST_STEP][PASSED] - setText: Text '2' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:46 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Input Jumlah by Typing - Elemen2'
+
+2018-02-27 16:35:46 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-27 16:35:47 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-27 16:35:47 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-02-27 16:35:47 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-02-27 16:35:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/KERANJANG'
+
+2018-02-27 16:35:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/KERANJANG'
+
+2018-02-27 16:35:48 - [TEST_STEP][NOT_RUN] - tapAndHold: NOT_RUN: tapAndHold
+
+2018-02-27 16:35:48 - [MESSAGE][NOT_RUN] - NOT_RUN: tapAndHold
+
+2018-02-27 16:35:48 - [TEST_STEP][PASSED] - comment: End Story 28]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/29 - TC - All" classname="Test Cases/Sprint 2/29 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi not found)"/>
+         <system-out><![CDATA[2018-02-27 16:35:48 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/29 - TC - All: Test Cases/Sprint 2/29 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi not found)
+
+2018-02-27 16:35:48 - [TEST_STEP][PASSED] - comment: Start Story 29
+
+2018-02-27 16:35:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-27 16:35:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-27 16:35:53 - [TEST_STEP][PASSED] - Statement - For (def index : (0..5)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:35:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:36:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:36:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:36:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/PlusTap - Elemen 2'
+
+2018-02-27 16:36:01 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-27 16:36:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-02-27 16:36:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:09 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-02-27 16:36:10 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-02-27 16:36:10 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-02-27 16:36:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-02-27 16:36:14 - [TEST_STEP][PASSED] - setText: Text '47' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:26 - [MESSAGE][PASSED] - Text '47' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:26 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-02-27 16:36:28 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-02-27 16:36:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:29 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-02-27 16:36:30 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-02-27 16:36:30 - [TEST_STEP][PASSED] - setText: Text '5' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:41 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:41 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-27 16:36:42 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-27 16:36:42 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-02-27 16:36:47 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-02-27 16:36:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:36:48 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-02-27 16:36:49 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-02-27 16:36:49 - [TEST_STEP][PASSED] - setText: Text '9999' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:37:00 - [MESSAGE][PASSED] - Text '9999' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:37:00 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-27 16:37:01 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-27 16:37:01 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-02-27 16:37:06 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-02-27 16:37:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:37:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:37:08 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-02-27 16:37:08 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-02-27 16:37:08 - [TEST_STEP][PASSED] - setText: Text '3' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:37:19 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-02-27 16:37:19 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-27 16:37:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-27 16:37:20 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-02-27 16:37:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-02-27 16:37:30 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi not found)
+
+2018-02-27 16:37:35 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi not found
+
+2018-02-27 16:37:35 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi not found)]]></system-out>
+         <system-err><![CDATA[2018-02-27 16:35:48 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/29 - TC - All: Test Cases/Sprint 2/29 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/47 - TC- All" classname="Test Cases/Sprint 2/47 - TC- All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)"/>
+         <system-out><![CDATA[2018-02-27 16:37:35 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/47 - TC- All: Test Cases/Sprint 2/47 - TC- All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)
+
+2018-02-27 16:37:36 - [TEST_STEP][PASSED] - comment: Start Story 47
+
+2018-02-27 16:37:36 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)
+
+2018-02-27 16:37:41 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found
+
+2018-02-27 16:37:41 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)]]></system-out>
+         <system-err><![CDATA[2018-02-27 16:37:35 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/47 - TC- All: Test Cases/Sprint 2/47 - TC- All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/30 - TC - All" classname="Test Cases/Sprint 2/30 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)"/>
+         <system-out><![CDATA[2018-02-27 16:37:41 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/30 - TC - All: Test Cases/Sprint 2/30 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)
+
+2018-02-27 16:37:41 - [TEST_STEP][PASSED] - comment: Start Story 30
+
+2018-02-27 16:37:41 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found
+
+2018-02-27 16:37:46 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found
+
+2018-02-27 16:37:46 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)
+
+2018-02-27 16:37:51 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found
+
+2018-02-27 16:37:52 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)]]></system-out>
+         <system-err><![CDATA[2018-02-27 16:37:41 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/30 - TC - All: Test Cases/Sprint 2/30 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-27 16:33:55 - [TEST_SUITE][FAILED] - Sprint 2: Test Cases/Sprint 2/29 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi not found)]]></system-out>
+      <system-err><![CDATA[2018-02-27 16:33:55 - [TEST_SUITE][FAILED] - Sprint 2: Test Cases/Sprint 2/29 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Button Konfirmasi not found)]]></system-err>
+   </testsuite>
+</testsuites>

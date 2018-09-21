@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35 - Tambah Barang,,,2018-07-12 13:19:25,2018-07-12 13:29:09,9m - 43.629s,ERROR
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1,,Display Tambah Barang Form,2018-07-12 13:19:26,2018-07-12 13:24:08,4m - 42.692s,PASSED
+comment,,,2018-07-12 13:19:26,2018-07-12 13:19:26,0.056s,PASSED
+comment,,,2018-07-12 13:19:26,2018-07-12 13:19:26,0.006s,PASSED
+callTestCase,,,2018-07-12 13:19:26,2018-07-12 13:23:56,4m - 30.104s,PASSED
+waitForElementPresent,,,2018-07-12 13:23:56,2018-07-12 13:23:59,3.091s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:23:59,2018-07-12 13:24:03,3.969s,PASSED
+tap,,,2018-07-12 13:24:03,2018-07-12 13:24:08,5.263s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2,,Increase or decrease product stock,2018-07-12 13:24:08,2018-07-12 13:28:03,3m - 54.155s,PASSED
+comment,,,2018-07-12 13:24:09,2018-07-12 13:24:09,0.004s,PASSED
+Statement - For (def index : (0..10)),,,2018-07-12 13:24:09,2018-07-12 13:26:42,2m - 33.077s,PASSED
+Statement - For (def index : (0..5)),,,2018-07-12 13:26:42,2018-07-12 13:28:03,1m - 20.750s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3,,user update stock when specifies stock = -(minus),2018-07-12 13:28:03,2018-07-12 13:29:05,1m - 2.636s,PASSED
+comment,,,2018-07-12 13:28:03,2018-07-12 13:28:03,0.001s,PASSED
+waitForElementPresent,,,2018-07-12 13:28:03,2018-07-12 13:28:06,2.934s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:28:06,2018-07-12 13:28:10,3.996s,PASSED
+clearText,,,2018-07-12 13:28:10,2018-07-12 13:28:17,6.882s,PASSED
+setText,,,2018-07-12 13:28:17,2018-07-12 13:28:33,16.464s,PASSED
+hideKeyboard,,,2018-07-12 13:28:33,2018-07-12 13:28:34,0.891s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:28:34,2018-07-12 13:28:38,3.976s,PASSED
+clearText,,,2018-07-12 13:28:38,2018-07-12 13:28:44,5.672s,PASSED
+setText,,,2018-07-12 13:28:44,2018-07-12 13:29:00,16.387s,PASSED
+hideKeyboard,,,2018-07-12 13:29:00,2018-07-12 13:29:02,1.533s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:29:02,2018-07-12 13:29:05,3.641s,PASSED
+comment,,,2018-07-12 13:29:05,2018-07-12 13:29:05,0.001s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4,,Display Pick Category,2018-07-12 13:29:05,2018-07-12 13:29:06,0.476s,ERROR
+comment,,,2018-07-12 13:29:06,2018-07-12 13:29:06,0.005s,PASSED
+waitForElementPresent,,,2018-07-12 13:29:06,2018-07-12 13:29:06,0.046s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5,,Pick Category,2018-07-12 13:29:06,2018-07-12 13:29:06,0.364s,ERROR
+comment,,,2018-07-12 13:29:06,2018-07-12 13:29:06,0.002s,PASSED
+waitForElementPresent,,,2018-07-12 13:29:06,2018-07-12 13:29:06,0.060s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6,,Input Harga Jual with - (minus),2018-07-12 13:29:06,2018-07-12 13:29:06,0.270s,ERROR
+comment,,,2018-07-12 13:29:06,2018-07-12 13:29:06,0.002s,PASSED
+waitForElementPresent,,,2018-07-12 13:29:06,2018-07-12 13:29:06,0.045s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7,,Validate the format of input and adjust the input into financial format,2018-07-12 13:29:06,2018-07-12 13:29:07,0.298s,ERROR

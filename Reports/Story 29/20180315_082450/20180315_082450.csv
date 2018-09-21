@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 29,,,2018-03-15 08:24:52,2018-03-15 08:27:42,2m - 50.621s,FAILED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 1,,Display Shopping Cart - Detail,2018-03-15 08:24:52,2018-03-15 08:25:45,53.068s,PASSED
+comment,,,2018-03-15 08:24:52,2018-03-15 08:24:52,0.042s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 08:24:52,2018-03-15 08:24:52,0.009s,PASSED
+startApplication,,,2018-03-15 08:24:52,2018-03-15 08:25:08,15.397s,PASSED
+verifyElementExist,,,2018-03-15 08:25:08,2018-03-15 08:25:08,0.002s,NOT_RUN
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 08:25:08,2018-03-15 08:25:15,7.108s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 08:25:15,2018-03-15 08:25:19,3.760s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 08:25:19,2018-03-15 08:25:20,1.032s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 08:25:20,2018-03-15 08:25:22,1.774s,PASSED
+tap,,,2018-03-15 08:25:22,2018-03-15 08:25:25,3.068s,PASSED
+delay,,,2018-03-15 08:25:25,2018-03-15 08:25:30,5.027s,PASSED
+Statement - For (def index : (0..7)),,,2018-03-15 08:25:30,2018-03-15 08:25:40,10.741s,PASSED
+Statement - For (def index : (0..1)),,,2018-03-15 08:25:40,2018-03-15 08:25:43,2.875s,PASSED
+waitForElementPresent,,,2018-03-15 08:25:43,2018-03-15 08:25:45,1.294s,PASSED
+tap,,,2018-03-15 08:25:45,2018-03-15 08:25:45,0.389s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 2,,Remove product from Shopping Cart by Tapping - button,2018-03-15 08:25:45,2018-03-15 08:25:56,11.462s,PASSED
+delay,,,2018-03-15 08:25:45,2018-03-15 08:25:50,5.004s,PASSED
+Statement - For (def index : (0..3)),,,2018-03-15 08:25:50,2018-03-15 08:25:56,6.292s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 3,,Remove product from Shopping Cart - by Typing,2018-03-15 08:25:56,2018-03-15 08:26:12,16.016s,PASSED
+verifyElementExist,,,2018-03-15 08:25:57,2018-03-15 08:25:58,1.109s,PASSED
+tap,,,2018-03-15 08:25:58,2018-03-15 08:25:58,0.483s,PASSED
+clearText,,,2018-03-15 08:25:58,2018-03-15 08:26:03,5.198s,PASSED
+setText,,,2018-03-15 08:26:03,2018-03-15 08:26:12,9.097s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 4,,Increase product amount in Shopping Cart - by Tapping + button,2018-03-15 08:26:13,2018-03-15 08:26:30,17.622s,PASSED
+clearText,,,2018-03-15 08:26:13,2018-03-15 08:26:14,1.790s,PASSED
+verifyElementExist,,,2018-03-15 08:26:14,2018-03-15 08:26:15,0.590s,PASSED
+tap,,,2018-03-15 08:26:15,2018-03-15 08:26:16,1.179s,PASSED
+setText,,,2018-03-15 08:26:16,2018-03-15 08:26:29,12.530s,PASSED
+hideKeyboard,,,2018-03-15 08:26:29,2018-03-15 08:26:30,1.397s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 5,,Increase product amount in Shopping Cart - by Typing,2018-03-15 08:26:30,2018-03-15 08:26:49,19.012s,PASSED
+clearText,,,2018-03-15 08:26:30,2018-03-15 08:26:35,4.657s,PASSED
+verifyElementExist,,,2018-03-15 08:26:35,2018-03-15 08:26:36,0.752s,PASSED
+tap,,,2018-03-15 08:26:36,2018-03-15 08:26:37,1.006s,PASSED
+setText,,,2018-03-15 08:26:37,2018-03-15 08:26:48,11.426s,PASSED
+hideKeyboard,,,2018-03-15 08:26:48,2018-03-15 08:26:49,1.045s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 6,,Increase product amount in Shopping Cart - while selected product = stock,2018-03-15 08:26:49,2018-03-15 08:27:10,20.250s,PASSED
+clearText,,,2018-03-15 08:26:49,2018-03-15 08:26:54,4.832s,PASSED
+verifyElementExist,,,2018-03-15 08:26:54,2018-03-15 08:26:55,0.549s,PASSED
+tap,,,2018-03-15 08:26:55,2018-03-15 08:26:56,1.032s,PASSED
+setText,,,2018-03-15 08:26:56,2018-03-15 08:27:08,11.893s,PASSED
+hideKeyboard,,,2018-03-15 08:27:08,2018-03-15 08:27:10,1.829s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 7,,Increase product amount in Shopping Cart - until Products stock less than 10,2018-03-15 08:27:10,2018-03-15 08:27:20,10.351s,FAILED
+clearText,,,2018-03-15 08:27:10,2018-03-15 08:27:14,4.696s,PASSED
+verifyElementExist,,,2018-03-15 08:27:14,2018-03-15 08:27:20,5.500s,FAILED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 8,,Decrease product amount in Shopping Cart by Tapping - button,2018-03-15 08:27:20,2018-03-15 08:27:26,5.844s,FAILED
+clearText,,,2018-03-15 08:27:20,2018-03-15 08:27:26,5.710s,FAILED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 9,,Decrease product amount in Shopping Cart - by Typing,2018-03-15 08:27:26,2018-03-15 08:27:31,5.389s,FAILED
+clearText,,,2018-03-15 08:27:26,2018-03-15 08:27:31,5.272s,FAILED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 10,,Decrease product amount in Shopping Cart - until Products stock more than 10,2018-03-15 08:27:31,2018-03-15 08:27:37,5.919s,PASSED
+delay,,,2018-03-15 08:27:31,2018-03-15 08:27:36,5.004s,PASSED
+pressBack,,,2018-03-15 08:27:36,2018-03-15 08:27:37,0.804s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 11,,Back button,2018-03-15 08:27:37,2018-03-15 08:27:37,0.101s,PASSED
+Statement - return null,,,2018-03-15 08:27:37,2018-03-15 08:27:37,0.001s,PASSED

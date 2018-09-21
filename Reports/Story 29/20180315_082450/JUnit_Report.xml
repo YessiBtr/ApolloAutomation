@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 29" time="170" tests="8" failures="3" errors="0">
+   <testsuite name="Story 29" tests="8" failures="3" errors="0" time="170" timestamp="2018-03-15 08:24:52" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 29">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 29\\20180315_082450"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 29\\20180315_082450\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 29\\20180315_082450\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.43.137"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 1" classname="Test Cases/Story 29 - Detail Cart/TC 1" status="PASSED">
+         <system-out><![CDATA[2018-03-15 08:24:52 - [TEST_CASE][PASSED] - Test Cases/Story 29 - Detail Cart/TC 1: Test Cases/Story 29 - Detail Cart/TC 1
+
+2018-03-15 08:24:52 - [TEST_STEP][PASSED] - comment: Start Story 29
+
+2018-03-15 08:24:52 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 08:24:52 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 08:25:08 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 08:25:08 - [TEST_STEP][NOT_RUN] - verifyElementExist: NOT_RUN: verifyElementExist
+
+2018-03-15 08:25:08 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementExist
+
+2018-03-15 08:25:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 08:25:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 08:25:15 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 08:25:19 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 08:25:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 08:25:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 08:25:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 08:25:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 08:25:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar'
+
+2018-03-15 08:25:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar'
+
+2018-03-15 08:25:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 08:25:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 08:25:30 - [TEST_STEP][PASSED] - Statement - For (def index : (0..7)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/PlusTap - ListProduct Elemen 1'
+
+2018-03-15 08:25:40 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 1'
+
+2018-03-15 08:25:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 1'
+
+2018-03-15 08:25:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 1'
+
+2018-03-15 08:25:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 1'
+
+2018-03-15 08:25:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/MinusTap - List Product Elemen 1'
+
+2018-03-15 08:25:43 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/KERANJANG' is present
+
+2018-03-15 08:25:45 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/KERANJANG' is present
+
+2018-03-15 08:25:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/KERANJANG'
+
+2018-03-15 08:25:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/KERANJANG']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 2" classname="Test Cases/Story 29 - Detail Cart/TC 2" status="PASSED">
+         <system-out><![CDATA[2018-03-15 08:25:45 - [TEST_CASE][PASSED] - Test Cases/Story 29 - Detail Cart/TC 2: Test Cases/Story 29 - Detail Cart/TC 2
+
+2018-03-15 08:25:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 08:25:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 08:25:50 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-03-15 08:25:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-03-15 08:25:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-03-15 08:25:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-03-15 08:25:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-03-15 08:25:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-03-15 08:25:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-03-15 08:25:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1'
+
+2018-03-15 08:25:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 3" classname="Test Cases/Story 29 - Detail Cart/TC 3" status="PASSED">
+         <system-out><![CDATA[2018-03-15 08:25:56 - [TEST_CASE][PASSED] - Test Cases/Story 29 - Detail Cart/TC 3: Test Cases/Story 29 - Detail Cart/TC 3
+
+2018-03-15 08:25:57 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-03-15 08:25:58 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-03-15 08:25:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:25:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:25:58 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:26:03 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:26:03 - [TEST_STEP][PASSED] - setText: Text '47' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:12 - [MESSAGE][PASSED] - Text '47' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 4" classname="Test Cases/Story 29 - Detail Cart/TC 4" status="PASSED">
+         <system-out><![CDATA[2018-03-15 08:26:13 - [TEST_CASE][PASSED] - Test Cases/Story 29 - Detail Cart/TC 4: Test Cases/Story 29 - Detail Cart/TC 4
+
+2018-03-15 08:26:13 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:26:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:26:14 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-03-15 08:26:15 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-03-15 08:26:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:16 - [TEST_STEP][PASSED] - setText: Text '5' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:29 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:29 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 08:26:30 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 5" classname="Test Cases/Story 29 - Detail Cart/TC 5" status="PASSED">
+         <system-out><![CDATA[2018-03-15 08:26:30 - [TEST_CASE][PASSED] - Test Cases/Story 29 - Detail Cart/TC 5: Test Cases/Story 29 - Detail Cart/TC 5
+
+2018-03-15 08:26:30 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:26:35 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:26:35 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-03-15 08:26:36 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-03-15 08:26:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:37 - [TEST_STEP][PASSED] - setText: Text '9999' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:48 - [MESSAGE][PASSED] - Text '9999' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:48 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 08:26:49 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 6" classname="Test Cases/Story 29 - Detail Cart/TC 6" status="PASSED">
+         <system-out><![CDATA[2018-03-15 08:26:49 - [TEST_CASE][PASSED] - Test Cases/Story 29 - Detail Cart/TC 6: Test Cases/Story 29 - Detail Cart/TC 6
+
+2018-03-15 08:26:49 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:26:54 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:26:54 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-03-15 08:26:55 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' is exist
+
+2018-03-15 08:26:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:26:56 - [TEST_STEP][PASSED] - setText: Text '-3' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:27:08 - [MESSAGE][PASSED] - Text '-3' has been set to element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1'
+
+2018-03-15 08:27:08 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 08:27:09 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 7" classname="Test Cases/Story 29 - Detail Cart/TC 7" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' exist (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)"/>
+         <system-out><![CDATA[2018-03-15 08:27:10 - [TEST_CASE][FAILED] - Test Cases/Story 29 - Detail Cart/TC 7: Test Cases/Story 29 - Detail Cart/TC 7 FAILED because (of) Failed to check for element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' exist (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)
+
+2018-03-15 08:27:10 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:27:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' text is cleared
+
+2018-03-15 08:27:14 - [TEST_STEP][FAILED] - verifyElementExist: Failed to check for element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' exist (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)
+
+2018-03-15 08:27:20 - [MESSAGE][FAILED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found
+
+2018-03-15 08:27:20 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' exist (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 08:27:10 - [TEST_CASE][FAILED] - Test Cases/Story 29 - Detail Cart/TC 7: Test Cases/Story 29 - Detail Cart/TC 7 FAILED because (of) Failed to check for element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' exist (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 8" classname="Test Cases/Story 29 - Detail Cart/TC 8" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)"/>
+         <system-out><![CDATA[2018-03-15 08:27:20 - [TEST_CASE][FAILED] - Test Cases/Story 29 - Detail Cart/TC 8: Test Cases/Story 29 - Detail Cart/TC 8 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)
+
+2018-03-15 08:27:20 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)
+
+2018-03-15 08:27:26 - [MESSAGE][FAILED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found
+
+2018-03-15 08:27:26 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 08:27:20 - [TEST_CASE][FAILED] - Test Cases/Story 29 - Detail Cart/TC 8: Test Cases/Story 29 - Detail Cart/TC 8 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 9" classname="Test Cases/Story 29 - Detail Cart/TC 9" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)"/>
+         <system-out><![CDATA[2018-03-15 08:27:26 - [TEST_CASE][FAILED] - Test Cases/Story 29 - Detail Cart/TC 9: Test Cases/Story 29 - Detail Cart/TC 9 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)
+
+2018-03-15 08:27:26 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)
+
+2018-03-15 08:27:31 - [MESSAGE][FAILED] - Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found
+
+2018-03-15 08:27:31 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 08:27:26 - [TEST_CASE][FAILED] - Test Cases/Story 29 - Detail Cart/TC 9: Test Cases/Story 29 - Detail Cart/TC 9 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 10" classname="Test Cases/Story 29 - Detail Cart/TC 10" status="PASSED">
+         <system-out><![CDATA[2018-03-15 08:27:31 - [TEST_CASE][PASSED] - Test Cases/Story 29 - Detail Cart/TC 10: Test Cases/Story 29 - Detail Cart/TC 10
+
+2018-03-15 08:27:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 08:27:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 08:27:36 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 08:27:37 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 29 - Detail Cart/TC 11" classname="Test Cases/Story 29 - Detail Cart/TC 11" status="PASSED">
+         <system-out><![CDATA[2018-03-15 08:27:37 - [TEST_CASE][PASSED] - Test Cases/Story 29 - Detail Cart/TC 11: Test Cases/Story 29 - Detail Cart/TC 11
+
+2018-03-15 08:27:37 - [TEST_STEP][PASSED] - Statement - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 08:24:52 - [TEST_SUITE][FAILED] - Story 29: Test Cases/Story 29 - Detail Cart/TC 7 FAILED because (of) Failed to check for element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' exist (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-15 08:24:52 - [TEST_SUITE][FAILED] - Story 29: Test Cases/Story 29 - Detail Cart/TC 7 FAILED because (of) Failed to check for element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' exist (Root cause: Element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/InputbbyType - Elemen 1' not found)]]></system-err>
+   </testsuite>
+</testsuites>

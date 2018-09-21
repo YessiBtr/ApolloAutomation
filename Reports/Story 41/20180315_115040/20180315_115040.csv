@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 41,,,2018-03-15 11:50:42,2018-03-15 11:53:26,2m - 44.065s,FAILED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 1,,Create Expense - View,2018-03-15 11:50:42,2018-03-15 11:51:25,43.138s,PASSED
+comment,,,2018-03-15 11:50:43,2018-03-15 11:50:43,0.056s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 11:50:43,2018-03-15 11:50:43,0.014s,PASSED
+startApplication,,,2018-03-15 11:50:43,2018-03-15 11:50:58,14.723s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 11:50:58,2018-03-15 11:51:04,6.848s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 11:51:04,2018-03-15 11:51:08,3.748s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 11:51:08,2018-03-15 11:51:10,1.474s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 11:51:10,2018-03-15 11:51:11,1.743s,PASSED
+tap,,Click Navbar 'Pengeluaran',2018-03-15 11:51:11,2018-03-15 11:51:14,2.849s,PASSED
+delay,,,2018-03-15 11:51:14,2018-03-15 11:51:19,5.047s,PASSED
+waitForElementPresent,,"Menungg//////////////////////u hingga elemen Pengeluaran barang untuk melanjutkan action element \""Tambah Catatan\""",2018-03-15 11:51:19,2018-03-15 11:51:20,0.257s,PASSED
+tap,,"Mengklik Button \""Tambah Catatan\""",2018-03-15 11:51:20,2018-03-15 11:51:20,0.804s,PASSED
+delay,,,2018-03-15 11:51:20,2018-03-15 11:51:25,5.016s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 2,,Create Expense - Title,2018-03-15 11:51:25,2018-03-15 11:51:48,22.529s,PASSED
+tap,,,2018-03-15 11:51:26,2018-03-15 11:51:26,0.360s,PASSED
+setText,,Mengklik TextBox Judul MengInput Text pada Judul Catatan,2018-03-15 11:51:26,2018-03-15 11:51:42,16.010s,PASSED
+verifyElementText,,,2018-03-15 11:51:42,2018-03-15 11:51:43,1.037s,PASSED
+getText,,,2018-03-15 11:51:43,2018-03-15 11:51:43,0.242s,PASSED
+hideKeyboard,,Keyboard device tertutup,2018-03-15 11:51:43,2018-03-15 11:51:44,0.576s,PASSED
+tap,,,2018-03-15 11:51:44,2018-03-15 11:51:45,1.114s,PASSED
+delay,,,2018-03-15 11:51:45,2018-03-15 11:51:48,3.007s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 3,,Create Expense - Pilih Kategori,2018-03-15 11:51:48,2018-03-15 11:51:56,8.402s,PASSED
+clearText,,,2018-03-15 11:51:48,2018-03-15 11:51:50,2.048s,PASSED
+waitForElementPresent,,"Menunggu hingga elemen Input Judul Catatan selesai untuk melanjutkan action element \""Tambah Catatan\""",2018-03-15 11:51:50,2018-03-15 11:51:51,1.068s,PASSED
+tap,,"Mengklik \""Pilih Kategori\""",2018-03-15 11:51:51,2018-03-15 11:51:52,0.573s,PASSED
+tap,,"Mengklik \""Pilih Kategori\""",2018-03-15 11:51:52,2018-03-15 11:51:53,1.560s,PASSED
+delay,,,2018-03-15 11:51:53,2018-03-15 11:51:56,3.005s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 4,,Create Expense - Amount number,2018-03-15 11:51:56,2018-03-15 11:52:02,5.977s,PASSED
+waitForElementPresent,,,2018-03-15 11:51:57,2018-03-15 11:51:57,0.260s,PASSED
+tap,,,2018-03-15 11:51:57,2018-03-15 11:51:57,0.438s,PASSED
+waitForElementPresent,,,2018-03-15 11:51:57,2018-03-15 11:51:59,1.662s,PASSED
+tap,,,2018-03-15 11:51:59,2018-03-15 11:51:59,0.488s,PASSED
+delay,,,2018-03-15 11:51:59,2018-03-15 11:52:02,3.005s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 5,,Create Expense - Amount Alphabet,2018-03-15 11:52:02,2018-03-15 11:52:21,18.889s,PASSED
+tap,,,2018-03-15 11:52:03,2018-03-15 11:52:03,0.555s,PASSED
+setText,,Mengklik TextBox Judul MengInput Text pada Judul Catatan,2018-03-15 11:52:03,2018-03-15 11:52:19,16.029s,PASSED
+verifyElementText,,,2018-03-15 11:52:19,2018-03-15 11:52:20,0.897s,PASSED
+getText,,,2018-03-15 11:52:20,2018-03-15 11:52:21,0.585s,PASSED
+hideKeyboard,,Keyboard device tertutup,2018-03-15 11:52:21,2018-03-15 11:52:21,0.636s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 6,,Create Expense - Deskripsi,2018-03-15 11:52:21,2018-03-15 11:52:36,14.601s,PASSED
+tap,,"Mengklik \""Nominal Pengeluaran\""",2018-03-15 11:52:22,2018-03-15 11:52:23,1.194s,PASSED
+setText,,MengInput nilai Nominal Pengeluaran,2018-03-15 11:52:23,2018-03-15 11:52:33,10.368s,PASSED
+verifyElementText,,Memverifikasi nilai Nominal Pengeluaran yang telah di Input apakah sama actual dengan expectednya,2018-03-15 11:52:33,2018-03-15 11:52:34,0.921s,PASSED
+delay,,,2018-03-15 11:52:34,2018-03-15 11:52:36,2.002s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 7,,Create Expense - Tanggal Sebelum,2018-03-15 11:52:36,2018-03-15 11:52:47,11.167s,PASSED
+waitForElementPresent,,"Menunggu sampai nilai Nominal Pengeluaran terGet, kemudian melakukan action selanjutnya",2018-03-15 11:52:36,2018-03-15 11:52:37,0.180s,PASSED
+getText,,Mengambil nilai Nominal Pengeluaran setelah di verifikasi,2018-03-15 11:52:37,2018-03-15 11:52:37,0.215s,PASSED
+sendKeys,,Mengklik TextBox Deskripsi dan mengInput Deskripsinya ,2018-03-15 11:52:37,2018-03-15 11:52:44,7.392s,PASSED
+hideKeyboard,,Keyboard device tertutup,2018-03-15 11:52:44,2018-03-15 11:52:45,1.137s,PASSED
+delay,,,2018-03-15 11:52:45,2018-03-15 11:52:47,2.003s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 8,,Create Expense - Tanggal Sesudah,2018-03-15 11:52:47,2018-03-15 11:52:58,10.883s,FAILED
+waitForElementPresent,,"Menunggu sampai Deskripsi selesai di Input, kemudian melakukan action selanjutnya",2018-03-15 11:52:47,2018-03-15 11:52:48,0.288s,PASSED
+tap,,Mengklik Selector Tanggal Pengeluaran,2018-03-15 11:52:48,2018-03-15 11:52:48,0.423s,PASSED
+tap,,Mengklik Selector Tanggal Pengeluaran,2018-03-15 11:52:48,2018-03-15 11:52:49,1.138s,PASSED
+waitForElementPresent,,,2018-03-15 11:52:49,2018-03-15 11:52:51,1.216s,PASSED
+tap,,,2018-03-15 11:52:51,2018-03-15 11:52:51,0.314s,PASSED
+waitForElementPresent,,,2018-03-15 11:52:51,2018-03-15 11:52:52,0.741s,PASSED
+tap,,,2018-03-15 11:52:52,2018-03-15 11:52:52,0.467s,PASSED
+Statement - For (def index : (0..1)),,,2018-03-15 11:52:52,2018-03-15 11:52:58,6.134s,FAILED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 9,,Create Expense - Sudah dibayar Checklist,2018-03-15 11:52:58,2018-03-15 11:53:04,6.084s,FAILED
+waitForElementPresent,,"Menunggu sampai Deskripsi selesai di Input, kemudian melakukan action selanjutnya",2018-03-15 11:52:58,2018-03-15 11:52:59,0.212s,PASSED
+tap,,Mengklik Selector Tanggal Pengeluaran,2018-03-15 11:52:59,2018-03-15 11:52:59,0.570s,PASSED
+tap,,Mengklik Selector Tanggal Pengeluaran,2018-03-15 11:52:59,2018-03-15 11:53:04,5.178s,FAILED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 10,,Create Expense - Simpan,2018-03-15 11:53:04,2018-03-15 11:53:17,12.858s,FAILED
+delay,,,2018-03-15 11:53:05,2018-03-15 11:53:10,5.003s,PASSED
+pressBack,,,2018-03-15 11:53:10,2018-03-15 11:53:10,0.483s,PASSED
+waitForElementPresent,,,2018-03-15 11:53:10,2018-03-15 11:53:14,4.066s,PASSED
+tap,,,2018-03-15 11:53:14,2018-03-15 11:53:17,3.170s,FAILED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 11,,Create Expense - Simpan blank,2018-03-15 11:53:17,2018-03-15 11:53:26,8.655s,PASSED
+waitForElementPresent,,,2018-03-15 11:53:17,2018-03-15 11:53:18,0.324s,PASSED
+tap,,"Mengklik Button \""Simpan\"" untuk  menyimpan Catatan ",2018-03-15 11:53:18,2018-03-15 11:53:18,0.461s,PASSED
+delay,,,2018-03-15 11:53:18,2018-03-15 11:53:23,5.004s,PASSED
+comment,,,2018-03-15 11:53:23,2018-03-15 11:53:23,0.004s,PASSED
+closeApplication,,,2018-03-15 11:53:23,2018-03-15 11:53:26,2.740s,PASSED

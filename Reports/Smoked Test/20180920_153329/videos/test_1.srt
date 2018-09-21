@@ -1,0 +1,334 @@
+1
+00:00:00,374 --> 00:00:00,382
+1. comment
+
+2
+00:00:00,443 --> 00:00:00,472
+7. Call "apk" from Global Variabel
+
+
+3
+00:00:00,506 --> 00:00:00,542
+13. Start Application
+
+4
+00:00:45,758 --> 00:00:45,763
+19. Give delay for install "apk"
+
+5
+00:01:00,797 --> 00:01:00,805
+29. If there is a Update TopuUp, click No, Else you can delay for waiting lazyload 
+
+6
+00:01:00,856 --> 00:01:00,860
+35. Function to call appium server to swipe to side
+
+
+7
+00:01:00,890 --> 00:01:00,895
+41. Call function swipe to side
+
+8
+00:01:03,429 --> 00:01:03,442
+45. delay
+
+9
+00:01:11,455 --> 00:01:11,463
+49. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+10
+00:01:14,177 --> 00:01:14,182
+53. delay
+
+11
+00:01:22,195 --> 00:01:22,199
+57. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+12
+00:01:25,136 --> 00:01:25,139
+61. delay
+
+13
+00:01:33,150 --> 00:01:33,154
+65. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+14
+00:01:35,815 --> 00:01:35,819
+69. delay
+
+15
+00:01:43,830 --> 00:01:43,834
+75. Wait until the swipe is done to do "Mulai" button
+
+16
+00:01:46,610 --> 00:01:46,642
+81. Tap "Mulai" Button
+
+17
+00:01:55,099 --> 00:01:55,103
+87. Look at Comment Input!
+
+18
+00:01:55,115 --> 00:01:55,119
+93. Look at Comment  Input!
+
+19
+00:01:55,127 --> 00:01:55,132
+99. Wait until Nomor HP/Nama Pengguna Textbox present
+
+20
+00:01:59,206 --> 00:01:59,210
+105. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  
+
+21
+00:02:07,069 --> 00:02:07,073
+111. SetText to Nomor HP/Nama Pengguna Textbox
+
+22
+00:02:25,080 --> 00:02:25,080
+117. Hide Keyboard
+
+23
+00:02:26,140 --> 00:02:26,141
+123. Verify Element Nomor HP/Nama Pengguna which has been you set  
+
+24
+00:02:30,660 --> 00:02:30,664
+129. Wait until Masuk Button  present
+
+25
+00:02:33,966 --> 00:02:33,970
+135. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action 
+
+26
+00:02:38,053 --> 00:02:38,053
+141. Click Masuk Button
+
+27
+00:02:43,326 --> 00:02:43,328
+147. Wait until Input Pin Textbox  present
+
+28
+00:02:51,184 --> 00:02:51,184
+153. Verify Element Attribute Pin Textbox  with content-desc  to do action 
+
+29
+00:02:55,273 --> 00:02:55,277
+159. Click Input Pin TextBox
+
+30
+00:03:00,068 --> 00:03:00,068
+165. SetText to PIN Textbox
+
+31
+00:03:18,664 --> 00:03:18,671
+171. Give delay for the Server to sent your PIN
+
+32
+00:03:23,694 --> 00:03:23,698
+177. End Login Test Case
+
+33
+00:03:23,706 --> 00:03:23,710
+183. Look at Comment Input!
+
+34
+00:03:23,718 --> 00:03:23,722
+189. Wait until HamburgerButton on the Sidebar  present
+
+35
+00:03:27,400 --> 00:03:27,400
+195. Verify Element HamburgerButton that have value content desc to do action
+
+36
+00:03:35,585 --> 00:03:35,585
+201. Click Hamburger Button
+
+37
+00:03:40,242 --> 00:03:40,243
+207. Wait until Produk Button on the Sidebar  present
+
+38
+00:03:45,461 --> 00:03:45,462
+213. Verify Element Produk Button that have value content desc to do action
+
+39
+00:03:51,140 --> 00:03:51,140
+219. Click Produk Button
+
+40
+00:04:00,536 --> 00:04:00,544
+225. Verify Onboarding Produk screen if element is visible
+
+41
+00:04:06,775 --> 00:04:06,776
+231. Give delay
+
+42
+00:04:11,786 --> 00:04:11,791
+237. Look at Comment Input!
+
+43
+00:04:11,801 --> 00:04:11,804
+243. Look at Comment Input!
+
+44
+00:04:11,810 --> 00:04:11,814
+249. Wait until the sytem verify every element in the product board
+
+45
+00:04:15,616 --> 00:04:15,626
+255. Verify element "Tambah Barang" button based on content-desc
+
+46
+00:04:19,393 --> 00:04:19,393
+261. Tap "Tambah Barang" button
+
+47
+00:04:24,655 --> 00:04:24,656
+267. Look at Comment Input!
+
+48
+00:04:24,664 --> 00:04:24,668
+273. Wait until "Tambah Barang" button  is done to do
+
+49
+00:04:32,004 --> 00:04:32,008
+279. Verify element "Jumlah Stock" by Typing that has a content-desc
+
+50
+00:04:36,622 --> 00:04:36,626
+285. Clear Text
+
+51
+00:04:46,203 --> 00:04:46,207
+291. Set the count of product in "Jumlah Stock by typing" element
+
+52
+00:05:03,370 --> 00:05:03,370
+297. Hide Keyboard
+
+53
+00:05:05,114 --> 00:05:05,116
+303. Verify value that you set in "Jumlah Stock bby typing" element
+
+54
+00:05:08,814 --> 00:05:08,814
+309. Look at Comment Input!
+
+55
+00:05:08,822 --> 00:05:08,826
+315. Wait until the systems is done to verify element text
+
+56
+00:05:12,347 --> 00:05:12,351
+321. Verify "Nama Barang" Element that have content-desc
+
+57
+00:05:16,370 --> 00:05:16,374
+327. Call random string in Custom Keyword package 
+
+58
+00:05:16,490 --> 00:05:16,491
+333. Input "Nama Barang" based on random string(Custom keyword)
+
+59
+00:05:42,103 --> 00:05:42,103
+339. Hide Keyboard
+
+60
+00:05:43,789 --> 00:05:43,790
+345. Verify if two objects are equal. (what you input is the with your output)
+
+61
+00:05:43,810 --> 00:05:43,810
+351. Look at Comment Input!
+
+62
+00:05:43,818 --> 00:05:43,818
+357. Wait until the system is done to verify "Nama Barang" output
+
+63
+00:05:47,521 --> 00:05:47,521
+363. Verify "SKU Produk" element that has content-desc
+
+64
+00:05:54,547 --> 00:05:54,547
+369. call random string in Custom Keyword package 
+
+65
+00:05:54,551 --> 00:05:54,555
+375. Input "SKU Produk" based on the random string(Custom Keyword)
+
+66
+00:06:20,379 --> 00:06:20,380
+381. Hide Keyboard
+
+67
+00:06:22,006 --> 00:06:22,007
+387. Verify if two objects are equal. (what you input is the with your output)
+
+68
+00:06:22,012 --> 00:06:22,012
+393. Look at Comment Input!
+
+69
+00:06:22,016 --> 00:06:22,020
+399. Wait until the system is done to verify two objects are equal
+
+70
+00:06:25,599 --> 00:06:25,599
+405. Verify "Pilih Kategori" Element that has content-desc
+
+71
+00:06:30,784 --> 00:06:30,788
+411. Tap "Pilih Kategori"
+
+72
+00:06:36,644 --> 00:06:36,647
+415. Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen), G_ShortTimeOut, CONTINUE_ON_FAILURE) == true)
+
+73
+00:06:45,825 --> 00:06:45,826
+2. tap
+
+74
+00:06:52,409 --> 00:06:52,411
+6. verifyElementVisible
+
+75
+00:06:57,383 --> 00:06:57,388
+421. Wait until before action is done
+
+76
+00:07:04,684 --> 00:07:04,686
+427. Verify "List Kategori Element 5th" element has content-desc
+
+77
+00:07:05,716 --> 00:07:05,718
+433. Tap "List Kategori Element 5th"
+
+78
+00:07:15,428 --> 00:07:15,430
+439. Look at Comment Input!
+
+79
+00:07:15,431 --> 00:07:15,435
+445. Scroll by text  to find Pilih Supplier text
+
+80
+00:07:24,480 --> 00:07:24,480
+451. Wait until before action is done
+
+81
+00:07:30,102 --> 00:07:30,102
+457. Verify "Stock Rendah"field has content-desc
+
+82
+00:07:32,370 --> 00:07:32,372
+463. Clear "Stock Rendah" field
+
+83
+00:07:42,609 --> 00:07:42,610
+469. Input your Stok Rendah in "Stock Rendah" field
+

@@ -1,0 +1,212 @@
+1
+00:00:00,393 --> 00:00:00,394
+1. comment
+
+2
+00:00:00,403 --> 00:00:00,403
+5. Statement - apkPath = apkName
+
+3
+00:00:00,436 --> 00:00:00,440
+9. startApplication
+
+4
+00:00:39,298 --> 00:00:39,299
+13. delay
+
+5
+00:00:54,305 --> 00:00:54,310
+21. If there is a Update TopuUp, click No, Else you can delay for waiting lazyload 
+
+6
+00:00:54,316 --> 00:00:54,319
+25. Statement - action = new io.appium.java_client.TouchAction(driver)
+
+7
+00:00:54,323 --> 00:00:54,325
+29. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+8
+00:00:56,694 --> 00:00:56,696
+33. delay
+
+9
+00:01:04,701 --> 00:01:04,703
+37. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+10
+00:01:07,801 --> 00:01:07,802
+41. delay
+
+11
+00:01:15,809 --> 00:01:15,810
+45. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+12
+00:01:18,583 --> 00:01:18,584
+49. delay
+
+13
+00:01:26,590 --> 00:01:26,592
+53. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+14
+00:01:29,159 --> 00:01:29,159
+57. delay
+
+15
+00:01:37,162 --> 00:01:37,162
+61. waitForElementPresent
+
+16
+00:01:40,034 --> 00:01:40,035
+65. tap
+
+17
+00:01:44,888 --> 00:01:44,889
+69. comment
+
+18
+00:01:44,892 --> 00:01:44,892
+73. comment
+
+19
+00:01:44,895 --> 00:01:44,896
+79. Wait until Nomor HP/Nama Pengguna Textbox present
+
+20
+00:01:51,588 --> 00:01:51,588
+85. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  
+
+21
+00:01:56,353 --> 00:01:56,354
+91. SetText to Nomor HP/Nama Pengguna Textbox
+
+22
+00:02:17,448 --> 00:02:17,449
+97. Hide Keyboard
+
+23
+00:02:19,468 --> 00:02:19,468
+103. Verify Element Nomor HP/Nama Pengguna which has been you set  
+
+24
+00:02:27,952 --> 00:02:27,954
+109. Wait until Masuk Button  present
+
+25
+00:02:32,126 --> 00:02:32,127
+115. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action 
+
+26
+00:02:40,012 --> 00:02:40,014
+121. Click Masuk Button
+
+27
+00:02:48,904 --> 00:02:48,905
+127. Wait until Input Pin Textbox  present
+
+28
+00:02:52,660 --> 00:02:52,661
+133. Verify Element Attribute Pin Textbox  with content-desc  to do action 
+
+29
+00:03:01,448 --> 00:03:01,449
+139. Click Input Pin TextBox
+
+30
+00:03:06,781 --> 00:03:06,782
+145. SetText to PIN Textbox
+
+31
+00:03:22,803 --> 00:03:22,804
+149. delay
+
+32
+00:03:27,811 --> 00:03:27,813
+155. End Login Test Case
+
+33
+00:03:27,817 --> 00:03:27,818
+161. Wait until HamburgerButton on the Sidebar  present
+
+34
+00:03:30,789 --> 00:03:30,790
+165. comment
+
+35
+00:03:30,792 --> 00:03:30,794
+171. Verify Element HamburgerButton that have value content desc to do action
+
+36
+00:03:36,464 --> 00:03:36,468
+177. Click Hamburger Button
+
+37
+00:03:41,656 --> 00:03:41,657
+181. verifyElementAttributeValue
+
+38
+00:03:48,043 --> 00:03:48,044
+185. tap
+
+39
+00:03:53,928 --> 00:03:53,929
+189. verifyElementVisible
+
+40
+00:04:01,077 --> 00:04:01,078
+193. verifyElementAttributeValue
+
+41
+00:04:05,311 --> 00:04:05,312
+197. verifyElementVisible
+
+42
+00:04:09,280 --> 00:04:09,281
+201. verifyElementAttributeValue
+
+43
+00:04:13,307 --> 00:04:13,309
+205. tap
+
+44
+00:04:19,410 --> 00:04:19,411
+209. verifyElementVisible
+
+45
+00:04:28,409 --> 00:04:28,410
+213. Statement - ErMsg = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Pengaturan Toko/Printer Menu/Message-Akan Hadir), G_ShortTimeOut)
+
+46
+00:04:36,470 --> 00:04:36,471
+217. verifyEqual
+
+47
+00:04:36,487 --> 00:04:36,488
+221. Statement - ErMsg = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Pengaturan Toko/Printer Menu/Cetak Struk dengan mesin pencetak yang terhubung lewat Bluetooth), G_ShortTimeOut)
+
+48
+00:04:40,527 --> 00:04:40,528
+225. verifyEqual
+
+49
+00:04:40,531 --> 00:04:40,533
+229. waitForElementPresent
+
+50
+00:04:43,487 --> 00:04:43,488
+233. verifyElementAttributeValue
+
+51
+00:04:48,618 --> 00:04:48,620
+237. tap
+
+52
+00:04:53,417 --> 00:04:53,418
+241. delay
+
+53
+00:04:58,422 --> 00:04:58,422
+245. closeApplication
+

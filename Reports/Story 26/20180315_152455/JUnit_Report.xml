@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 26" time="637" tests="9" failures="1" errors="0">
+   <testsuite name="Story 26" tests="9" failures="1" errors="0" time="637" timestamp="2018-03-15 15:24:57" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 26">
+      <properties>
+         <property name="deviceName" value="ZenFone Go (ZB452KG)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180315_152455"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180315_152455\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.3"/>
+         <property name="deviceModel" value="null"/>
+         <property name="hostAddress" value="192.168.17.167"/>
+         <property name="deviceManufacturer" value="null"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="ZenFone Go (ZB452KG)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 1" classname="Test Cases/Story 26 -Kelola Stok Final/TC 1" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:24:58 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 1: Test Cases/Story 26 -Kelola Stok Final/TC 1
+
+2018-03-15 15:24:58 - [TEST_STEP][PASSED] - comment: Start Story 26
+
+2018-03-15 15:24:58 - [TEST_STEP][PASSED] - startApplication: Started app at: 'kobiton-store:7419'
+
+2018-03-15 15:25:47 - [MESSAGE][PASSED] - Started app at: 'kobiton-store:7419'
+
+2018-03-15 15:25:47 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-03-15 15:25:57 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-03-15 15:25:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 15:26:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 15:26:06 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 15:26:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 15:26:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 15:26:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 15:26:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 15:26:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 15:26:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 15:26:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 15:26:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 15:26:45 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 2" classname="Test Cases/Story 26 -Kelola Stok Final/TC 2" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:26:45 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 2: Test Cases/Story 26 -Kelola Stok Final/TC 2
+
+2018-03-15 15:26:46 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 15:26:53 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 15:26:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:27:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:27:01 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2' is present
+
+2018-03-15 15:27:07 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2' is present
+
+2018-03-15 15:27:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2'
+
+2018-03-15 15:27:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2'
+
+2018-03-15 15:27:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:27:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:27:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:27:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:27:29 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-03-15 15:27:48 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-03-15 15:27:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-03-15 15:27:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-03-15 15:27:57 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-03-15 15:28:03 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-03-15 15:28:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:28:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 3" classname="Test Cases/Story 26 -Kelola Stok Final/TC 3" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:28:10 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 3: Test Cases/Story 26 -Kelola Stok Final/TC 3
+
+2018-03-15 15:28:10 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 15:28:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 15:28:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:28:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:28:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-03-15 15:28:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-03-15 15:28:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:28:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:28:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:28:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:28:46 - [TEST_STEP][PASSED] - setText: Text 'Jambu' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:29:03 - [MESSAGE][PASSED] - Text 'Jambu' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:29:03 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:29:12 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:29:12 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Jambu'
+
+2018-03-15 15:29:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Jambu']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 4" classname="Test Cases/Story 26 -Kelola Stok Final/TC 4" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:29:23 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 4: Test Cases/Story 26 -Kelola Stok Final/TC 4
+
+2018-03-15 15:29:23 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-03-15 15:29:31 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-03-15 15:29:31 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:29:42 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:29:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:29:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:29:54 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-03-15 15:30:12 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-03-15 15:30:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-03-15 15:30:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-03-15 15:30:20 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-03-15 15:30:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-15 15:30:27 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-03-15 15:30:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:30:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:30:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:30:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:30:42 - [TEST_STEP][PASSED] - setText: Text 'Fifty Shades of Grey' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:31:00 - [MESSAGE][PASSED] - Text 'Fifty Shades of Grey' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:31:00 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:31:06 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:31:06 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Fifty Shades of Grey'
+
+2018-03-15 15:31:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Fifty Shades of Grey'
+
+2018-03-15 15:31:14 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:31:22 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:31:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:31:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:31:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-03-15 15:31:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-03-15 15:31:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:31:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 5" classname="Test Cases/Story 26 -Kelola Stok Final/TC 5" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:31:48 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 5: Test Cases/Story 26 -Kelola Stok Final/TC 5
+
+2018-03-15 15:31:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:31:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:31:56 - [TEST_STEP][PASSED] - setText: Text 'app' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:32:13 - [MESSAGE][PASSED] - Text 'app' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:32:13 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:32:20 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:32:20 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'app'
+
+2018-03-15 15:32:26 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'app']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 6" classname="Test Cases/Story 26 -Kelola Stok Final/TC 6" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:32:26 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 6: Test Cases/Story 26 -Kelola Stok Final/TC 6
+
+2018-03-15 15:32:27 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:32:35 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:32:35 - [TEST_STEP][PASSED] - setText: Text 'ap' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:32:50 - [MESSAGE][PASSED] - Text 'ap' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:32:50 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:32:57 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:32:57 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'ap'
+
+2018-03-15 15:33:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'ap']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 7" classname="Test Cases/Story 26 -Kelola Stok Final/TC 7" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:33:04 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 7: Test Cases/Story 26 -Kelola Stok Final/TC 7
+
+2018-03-15 15:33:04 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:33:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:33:14 - [TEST_STEP][PASSED] - setText: Text 'Rujak' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:33:29 - [MESSAGE][PASSED] - Text 'Rujak' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 15:33:29 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:33:37 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 15:33:37 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Rujak'
+
+2018-03-15 15:33:43 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Rujak'
+
+2018-03-15 15:33:43 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:33:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-03-15 15:33:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 15:33:56 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 8" classname="Test Cases/Story 26 -Kelola Stok Final/TC 8" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:33:56 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 8: Test Cases/Story 26 -Kelola Stok Final/TC 8
+
+2018-03-15 15:33:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 15:34:02 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-15 15:34:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:34:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-15 15:34:09 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-03-15 15:34:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-03-15 15:34:14 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Swiped from 30,541 to 30,257
+
+2018-03-15 15:34:14 - [TEST_STEP][PASSED] - swipe: Swiped from 30,541 to 30,257
+
+2018-03-15 15:34:19 - [MESSAGE][PASSED] - Swiped from 30,541 to 30,257
+
+2018-03-15 15:34:19 - [TEST_STEP][PASSED] - swipe: Swiped from 30,541 to 30,257
+
+2018-03-15 15:34:24 - [MESSAGE][PASSED] - Swiped from 30,541 to 30,257
+
+2018-03-15 15:34:24 - [TEST_STEP][PASSED] - swipe: Swiped from 30,541 to 30,257
+
+2018-03-15 15:34:29 - [MESSAGE][PASSED] - Swiped from 30,541 to 30,257
+
+2018-03-15 15:34:30 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Swiped from 30,257 to 30,541
+
+2018-03-15 15:34:30 - [TEST_STEP][PASSED] - swipe: Swiped from 30,257 to 30,541
+
+2018-03-15 15:34:34 - [MESSAGE][PASSED] - Swiped from 30,257 to 30,541
+
+2018-03-15 15:34:35 - [TEST_STEP][PASSED] - swipe: Swiped from 30,257 to 30,541
+
+2018-03-15 15:34:38 - [MESSAGE][PASSED] - Swiped from 30,257 to 30,541
+
+2018-03-15 15:34:39 - [TEST_STEP][PASSED] - swipe: Swiped from 30,257 to 30,541
+
+2018-03-15 15:34:43 - [MESSAGE][PASSED] - Swiped from 30,257 to 30,541
+
+2018-03-15 15:34:44 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' is present
+
+2018-03-15 15:34:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' is present
+
+2018-03-15 15:34:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:35:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-03-15 15:35:01 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-03-15 15:35:11 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 9" classname="Test Cases/Story 26 -Kelola Stok Final/TC 9" status="FAILED">
+         <failure type="FAILED" message="Cannot swipe on device. (Root cause: org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appActivity: com.btpn_mpos_rn.MainActivity, appPackage: com.btpn.appbisnis.sit, appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, appWaitActivity: com.btpn_mpos_rn.MainActivity, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, captureSreenShots: true, databaseEnabled: false, desired: {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, autoGrantPermissions: true, captureSreenShots: true, deviceName: ZenFone Go (ZB452KG), deviceOrientation: portrait, fullReset: false, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, udid: GBAXGV411465ERX}, deviceManufacturer: asus, deviceModel: ASUS_X014D, deviceName: GBAXGV411465ERX, deviceOrientation: portrait, deviceScreenSize: 480x854, deviceUDID: GBAXGV411465ERX, fullReset: false, javascriptEnabled: true, kobitonSessionId: 232353, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, takesScreenshot: true, udid: GBAXGV411465ERX, versions: {appiumVersion: 1.7.1, nodeVersion: v7.4.0}, warnings: {}, webStorageEnabled: false}
+Session ID: a105ddda-828b-438d-83a5-54d77cb6cb2c)"/>
+         <system-out><![CDATA[2018-03-15 15:35:11 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 9: Test Cases/Story 26 -Kelola Stok Final/TC 9 FAILED because (of) Cannot swipe on device. (Root cause: org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appActivity: com.btpn_mpos_rn.MainActivity, appPackage: com.btpn.appbisnis.sit, appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, appWaitActivity: com.btpn_mpos_rn.MainActivity, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, captureSreenShots: true, databaseEnabled: false, desired: {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, autoGrantPermissions: true, captureSreenShots: true, deviceName: ZenFone Go (ZB452KG), deviceOrientation: portrait, fullReset: false, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, udid: GBAXGV411465ERX}, deviceManufacturer: asus, deviceModel: ASUS_X014D, deviceName: GBAXGV411465ERX, deviceOrientation: portrait, deviceScreenSize: 480x854, deviceUDID: GBAXGV411465ERX, fullReset: false, javascriptEnabled: true, kobitonSessionId: 232353, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, takesScreenshot: true, udid: GBAXGV411465ERX, versions: {appiumVersion: 1.7.1, nodeVersion: v7.4.0}, warnings: {}, webStorageEnabled: false}
+Session ID: a105ddda-828b-438d-83a5-54d77cb6cb2c)
+
+2018-03-15 15:35:11 - [TEST_STEP][FAILED] - Statement - For (def index : (0..3)): Cannot swipe on device. (Root cause: org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appActivity: com.btpn_mpos_rn.MainActivity, appPackage: com.btpn.appbisnis.sit, appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, appWaitActivity: com.btpn_mpos_rn.MainActivity, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, captureSreenShots: true, databaseEnabled: false, desired: {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, autoGrantPermissions: true, captureSreenShots: true, deviceName: ZenFone Go (ZB452KG), deviceOrientation: portrait, fullReset: false, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, udid: GBAXGV411465ERX}, deviceManufacturer: asus, deviceModel: ASUS_X014D, deviceName: GBAXGV411465ERX, deviceOrientation: portrait, deviceScreenSize: 480x854, deviceUDID: GBAXGV411465ERX, fullReset: false, javascriptEnabled: true, kobitonSessionId: 232353, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, takesScreenshot: true, udid: GBAXGV411465ERX, versions: {appiumVersion: 1.7.1, nodeVersion: v7.4.0}, warnings: {}, webStorageEnabled: false}
+Session ID: a105ddda-828b-438d-83a5-54d77cb6cb2c)
+
+2018-03-15 15:35:11 - [TEST_STEP][FAILED] - swipe: Cannot swipe on device. (Root cause: org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appActivity: com.btpn_mpos_rn.MainActivity, appPackage: com.btpn.appbisnis.sit, appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, appWaitActivity: com.btpn_mpos_rn.MainActivity, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, captureSreenShots: true, databaseEnabled: false, desired: {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, autoGrantPermissions: true, captureSreenShots: true, deviceName: ZenFone Go (ZB452KG), deviceOrientation: portrait, fullReset: false, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, udid: GBAXGV411465ERX}, deviceManufacturer: asus, deviceModel: ASUS_X014D, deviceName: GBAXGV411465ERX, deviceOrientation: portrait, deviceScreenSize: 480x854, deviceUDID: GBAXGV411465ERX, fullReset: false, javascriptEnabled: true, kobitonSessionId: 232353, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, takesScreenshot: true, udid: GBAXGV411465ERX, versions: {appiumVersion: 1.7.1, nodeVersion: v7.4.0}, warnings: {}, webStorageEnabled: false}
+Session ID: a105ddda-828b-438d-83a5-54d77cb6cb2c)
+
+2018-03-15 15:35:16 - [MESSAGE][FAILED] - Cannot swipe on device. (Root cause: org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appActivity: com.btpn_mpos_rn.MainActivity, appPackage: com.btpn.appbisnis.sit, appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, appWaitActivity: com.btpn_mpos_rn.MainActivity, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, captureSreenShots: true, databaseEnabled: false, desired: {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, autoGrantPermissions: true, captureSreenShots: true, deviceName: ZenFone Go (ZB452KG), deviceOrientation: portrait, fullReset: false, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, udid: GBAXGV411465ERX}, deviceManufacturer: asus, deviceModel: ASUS_X014D, deviceName: GBAXGV411465ERX, deviceOrientation: portrait, deviceScreenSize: 480x854, deviceUDID: GBAXGV411465ERX, fullReset: false, javascriptEnabled: true, kobitonSessionId: 232353, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, takesScreenshot: true, udid: GBAXGV411465ERX, versions: {appiumVersion: 1.7.1, nodeVersion: v7.4.0}, warnings: {}, webStorageEnabled: false}
+Session ID: a105ddda-828b-438d-83a5-54d77cb6cb2c)]]></system-out>
+         <system-err><![CDATA[2018-03-15 15:35:11 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 9: Test Cases/Story 26 -Kelola Stok Final/TC 9 FAILED because (of) Cannot swipe on device. (Root cause: org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appActivity: com.btpn_mpos_rn.MainActivity, appPackage: com.btpn.appbisnis.sit, appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, appWaitActivity: com.btpn_mpos_rn.MainActivity, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, captureSreenShots: true, databaseEnabled: false, desired: {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, autoGrantPermissions: true, captureSreenShots: true, deviceName: ZenFone Go (ZB452KG), deviceOrientation: portrait, fullReset: false, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, udid: GBAXGV411465ERX}, deviceManufacturer: asus, deviceModel: ASUS_X014D, deviceName: GBAXGV411465ERX, deviceOrientation: portrait, deviceScreenSize: 480x854, deviceUDID: GBAXGV411465ERX, fullReset: false, javascriptEnabled: true, kobitonSessionId: 232353, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, takesScreenshot: true, udid: GBAXGV411465ERX, versions: {appiumVersion: 1.7.1, nodeVersion: v7.4.0}, warnings: {}, webStorageEnabled: false}
+Session ID: a105ddda-828b-438d-83a5-54d77cb6cb2c)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 10" classname="Test Cases/Story 26 -Kelola Stok Final/TC 10" status="PASSED">
+         <system-out><![CDATA[2018-03-15 15:35:16 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 10: Test Cases/Story 26 -Kelola Stok Final/TC 10
+
+2018-03-15 15:35:17 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' is present
+
+2018-03-15 15:35:23 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' is present
+
+2018-03-15 15:35:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-03-15 15:35:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-03-15 15:35:31 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-03-15 15:35:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 15:24:57 - [TEST_SUITE][FAILED] - Story 26: Test Cases/Story 26 -Kelola Stok Final/TC 9 FAILED because (of) Cannot swipe on device. (Root cause: org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appActivity: com.btpn_mpos_rn.MainActivity, appPackage: com.btpn.appbisnis.sit, appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, appWaitActivity: com.btpn_mpos_rn.MainActivity, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, captureSreenShots: true, databaseEnabled: false, desired: {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, autoGrantPermissions: true, captureSreenShots: true, deviceName: ZenFone Go (ZB452KG), deviceOrientation: portrait, fullReset: false, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, udid: GBAXGV411465ERX}, deviceManufacturer: asus, deviceModel: ASUS_X014D, deviceName: GBAXGV411465ERX, deviceOrientation: portrait, deviceScreenSize: 480x854, deviceUDID: GBAXGV411465ERX, fullReset: false, javascriptEnabled: true, kobitonSessionId: 232353, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, takesScreenshot: true, udid: GBAXGV411465ERX, versions: {appiumVersion: 1.7.1, nodeVersion: v7.4.0}, warnings: {}, webStorageEnabled: false}
+Session ID: a105ddda-828b-438d-83a5-54d77cb6cb2c)]]></system-out>
+      <system-err><![CDATA[2018-03-15 15:24:57 - [TEST_SUITE][FAILED] - Story 26: Test Cases/Story 26 -Kelola Stok Final/TC 9 FAILED because (of) Cannot swipe on device. (Root cause: org.openqa.selenium.interactions.InvalidCoordinatesException: The coordinates provided to an interactions operation are invalid. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appActivity: com.btpn_mpos_rn.MainActivity, appPackage: com.btpn.appbisnis.sit, appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, appWaitActivity: com.btpn_mpos_rn.MainActivity, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, captureSreenShots: true, databaseEnabled: false, desired: {acceptSslCerts: true, app: /Users/mac1fpg8wnit/Library..., appUrl: https://kobiton-us-east.s3...., appVersionId: 7651, autoGrantPermissions: true, captureSreenShots: true, deviceName: ZenFone Go (ZB452KG), deviceOrientation: portrait, fullReset: false, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: Android, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, udid: GBAXGV411465ERX}, deviceManufacturer: asus, deviceModel: ASUS_X014D, deviceName: GBAXGV411465ERX, deviceOrientation: portrait, deviceScreenSize: 480x854, deviceUDID: GBAXGV411465ERX, fullReset: false, javascriptEnabled: true, kobitonSessionId: 232353, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, orientation: PORTRAIT, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, sessionDescription: , sessionName: Automation test session, takesScreenshot: true, udid: GBAXGV411465ERX, versions: {appiumVersion: 1.7.1, nodeVersion: v7.4.0}, warnings: {}, webStorageEnabled: false}
+Session ID: a105ddda-828b-438d-83a5-54d77cb6cb2c)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 26,,,2018-03-22 15:33:38,2018-03-22 15:36:05,2m - 27.137s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 1,,All Search Product,2018-03-22 15:33:38,2018-03-22 15:34:21,42.884s,FAILED
+comment,,,2018-03-22 15:33:39,2018-03-22 15:33:39,0.050s,PASSED
+Statement - apkPath = apkName,,,2018-03-22 15:33:39,2018-03-22 15:33:39,0.010s,PASSED
+startApplication,,Step 1 - [Melakukan Kelola Stock],2018-03-22 15:33:39,2018-03-22 15:33:56,16.680s,PASSED
+verifyElementExist,,,2018-03-22 15:33:56,2018-03-22 15:33:56,0.003s,NOT_RUN
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-22 15:33:56,2018-03-22 15:33:56,0.005s,NOT_RUN
+delay,,,2018-03-22 15:33:56,2018-03-22 15:34:06,10.019s,PASSED
+tap,,Mengklik Text Box untuk mengisi Nomor HP/Nama Pengguna,2018-03-22 15:34:06,2018-03-22 15:34:06,0.483s,PASSED
+setText,,"Megisi inputan dengan Nama Pengguna \""Yessi\""",2018-03-22 15:34:06,2018-03-22 15:34:16,9.977s,PASSED
+hideKeyboard,,Hide Keyboard Device,2018-03-22 15:34:16,2018-03-22 15:34:18,1.625s,PASSED
+tap,,Mengklik Button Masuk,2018-03-22 15:34:18,2018-03-22 15:34:18,0.206s,PASSED
+waitForElementPresent,,Menunggu action button masuk hingga selesai untuk masuk ke action Input PIN,2018-03-22 15:34:18,2018-03-22 15:34:18,0.114s,PASSED
+tap,,Mengklik Text Field Pin,2018-03-22 15:34:18,2018-03-22 15:34:21,3.072s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 2,,Search by selected Product Category,2018-03-22 15:34:21,2018-03-22 15:34:37,15.313s,FAILED
+waitForElementPresent,,"Menunggu hingga \""Stok Tabbar\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-03-22 15:34:21,2018-03-22 15:34:26,5.090s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-22 15:34:26,2018-03-22 15:34:37,10.021s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 3,,Search by specific product,2018-03-22 15:34:37,2018-03-22 15:34:47,10.331s,FAILED
+waitForElementPresent,,"Menunggu hingga proses \""Terapkan\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-03-22 15:34:37,2018-03-22 15:34:42,5.053s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-22 15:34:42,2018-03-22 15:34:47,5.134s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 4,,Search by specific category and product,2018-03-22 15:34:47,2018-03-22 15:34:57,10.404s,FAILED
+waitForElementPresent,,Menunggu hingga proses pengambilan element text selesai untuk melakukan action clear text,2018-03-22 15:34:47,2018-03-22 15:34:52,5.147s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-22 15:34:52,2018-03-22 15:34:57,5.055s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 5,,Search by inputed 3 digit,2018-03-22 15:34:57,2018-03-22 15:35:08,10.254s,FAILED
+waitForElementPresent,,Menuggu elemen sebelumnya selesai untuk melakukan action Cari Produk - Parent,2018-03-22 15:34:58,2018-03-22 15:35:03,5.048s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-03-22 15:35:03,2018-03-22 15:35:08,5.058s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 6,,Search by inputed less then 3 digit,2018-03-22 15:35:08,2018-03-22 15:35:13,5.219s,FAILED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-22 15:35:08,2018-03-22 15:35:13,5.074s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 7,,Search by invalid product,2018-03-22 15:35:13,2018-03-22 15:35:18,5.207s,FAILED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-22 15:35:13,2018-03-22 15:35:18,5.080s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 8,,Drop down consist of product category,2018-03-22 15:35:18,2018-03-22 15:35:29,10.698s,FAILED
+waitForElementPresent,,"Memverifikasi attribut value elemen \""Semua Kategori - Drop Down",2018-03-22 15:35:18,2018-03-22 15:35:24,5.181s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-22 15:35:24,2018-03-22 15:35:29,5.343s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 9,,Check paging,2018-03-22 15:35:29,2018-03-22 15:35:52,22.657s,PASSED
+Statement - For (def index : (0..3)),,Melakukan Swipe Loopinh hingga 3 kali  pada screen Stock untuk mengecek lazy load ,2018-03-22 15:35:29,2018-03-22 15:35:52,22.540s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 10,,Click Tambah Barang button,2018-03-22 15:35:52,2018-03-22 15:36:02,10.349s,FAILED
+waitForElementPresent,,Menunggu elemen sebelumnya selesai untuk melakukan action Tambah Barang Button,2018-03-22 15:35:52,2018-03-22 15:35:57,5.134s,PASSED
+tap,,Mengklik Button Tambah Barang ,2018-03-22 15:35:57,2018-03-22 15:36:02,5.097s,FAILED

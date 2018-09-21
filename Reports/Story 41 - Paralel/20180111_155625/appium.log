@@ -1,0 +1,727 @@
+[Appium] Welcome to Appium v1.6.3
+[Appium] Non-default server args:
+[Appium]   port: 59919
+[Appium]   loglevel: 'info'
+[Appium]   chromeDriverPort: 59934
+[Appium]   tmpDir: 'C:\\Users\\AV2017~1\\AppData\\Local\\Temp\\\\Katalon\\Appium\\Temp1515661015675'
+[Appium] Appium REST http interface listener started on 0.0.0.0:59919
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 35 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\APK Appolo\\RetroSprint4.apk","noReset":true,"property_2":"","property_1":"","deviceId":"3201281be0f78439","deviceName":"samsung SM-N9005 5.0","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"property":"","autoGrantPermissions":true,"udid":"751361e7","platformName":"Android"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\APK Appolo\\RetroSprint4.apk'
+[Appium]   noReset: true
+[Appium]   property_2: ''
+[Appium]   property_1: ''
+[Appium]   deviceId: '3201281be0f78439'
+[Appium]   deviceName: 'samsung SM-N9005 5.0'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[Appium]   newCommandTimeout: 1800
+[Appium]   property: ''
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '751361e7'
+[Appium]   platformName: 'Android'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: property_2, property_1, deviceId, platform, property, autoGrantPermissions.
+[BaseDriver] Session created with session id: 3fd88e68-a55c-45b7-8d7b-c98b469b7894
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\FAF\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 751361e7
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\FAF\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'D:\Project Apollo\APK Appolo\RetroSprint4.apk'
+[AndroidDriver] Starting Android session
+[ADB] Getting device platform version
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\FAF\Katalon 5.0\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/d071b1c91da07be490a89f92daf75669.apk
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\FAF\Katalon 5.0\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[Appium] New AndroidDriver session created successfully, session 3fd88e68-a55c-45b7-8d7b-c98b469b7894 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 79606 ms - 1110 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 9 ms - 83 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size 200 27 ms - 100 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(7)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(7)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(7)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(7)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 7
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=7]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=7]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 73 ms - 89 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/element/1/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":48,"y":75}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/element/1/location 200 38 ms - 87 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/touch/perform {"actions":[{"action":"press","options":{"element":"1"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":48,"y":75}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":72,"height":135}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"1","x":84,"y":142.5}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 84, y: 142
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":84,"y":142.5}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1920]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 84, y: 142
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/touch/perform 200 186 ms - 76 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size 200 9 ms - 100 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(38)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(38)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(38)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(38)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 38
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=38]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=38]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 1527 ms - 89 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/element/2/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":0,"y":498}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/element/2/location 200 29 ms - 87 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/touch/perform {"actions":[{"action":"press","options":{"element":"2"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":0,"y":498}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":900,"height":144}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"2","x":450,"y":570}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 450, y: 570
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":450,"y":570}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1920]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 450, y: 570
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/touch/perform 200 220 ms - 76 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size 200 12 ms - 100 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 88 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 77 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 82 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 2072 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=1, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"3"}]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 576 ms - 89 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/element/3/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":574,"y":375}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/element/3/location 200 46 ms - 89 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/touch/perform {"actions":[{"action":"press","options":{"element":"3"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":574,"y":375}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":202,"height":49}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"3","x":675,"y":399.5}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 675, y: 399
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":675,"y":399.5}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1920]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 675, y: 399
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/touch/perform 200 155 ms - 76 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size 200 5 ms - 100 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").text(\"Pengeluaran\").packageName(\"com.btpn.jeniuspro.dev\").instance(3)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").text("Pengeluaran").packageName("com.btpn.jeniuspro.dev").instance(3)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Pengeluaran"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 3
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=3, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (1)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=Pengeluaran, CLASS=android.widget.TextView, INSTANCE=1, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"4"}]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 168 ms - 89 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/element/4/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":574,"y":375}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/element/4/location 200 60 ms - 89 
+[HTTP] --> GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+[HTTP] <-- GET /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/window/current/size 200 7 ms - 100 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 1314 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 396 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 130 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 394 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 150 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 384 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 107 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 1181 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 330 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 317 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 137 ms - 74 
+[HTTP] --> POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.TextView\").description(\"flat_text\").text(\"TAMBAH CATATAN\").packageName(\"com.btpn.jeniuspro.dev\").instance(21)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.TextView").description("flat_text").text("TAMBAH CATATAN").packageName("com.btpn.jeniuspro.dev").instance(21)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.TextView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "flat_text"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "TAMBAH CATATAN"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.btpn.jeniuspro.dev"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 21
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=21, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[TEXT=TAMBAH CATATAN, CLASS=android.widget.TextView, DESCRIPTION=flat_text, INSTANCE=0, PACKAGE NAME=com.btpn.jeniuspro.dev]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894/elements 200 328 ms - 74 
+[HTTP] --> DELETE /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894 {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session 3fd88e68-a55c-45b7-8d7b-c98b469b7894 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/3fd88e68-a55c-45b7-8d7b-c98b469b7894 200 13674 ms - 76 

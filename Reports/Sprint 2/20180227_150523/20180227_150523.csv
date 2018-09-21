@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sprint 2,,,2018-02-27 15:05:24,2018-02-27 15:07:58,2m - 33.694s,FAILED
+,,,,,,
+Test Cases/Sprint 2/28 - TC-All,,Kasir Menu,2018-02-27 15:05:25,2018-02-27 15:06:13,48.080s,FAILED
+comment,,,2018-02-27 15:05:25,2018-02-27 15:05:26,0.056s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-02-27 15:05:26,2018-02-27 15:05:26,0.010s,PASSED
+startApplication,,,2018-02-27 15:05:26,2018-02-27 15:05:42,16.945s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-02-27 15:05:42,2018-02-27 15:06:13,30.286s,FAILED
+,,,,,,
+Test Cases/Sprint 2/29 - TC - All,,Detail Cart S2,2018-02-27 15:06:13,2018-02-27 15:07:39,1m - 26.466s,FAILED
+comment,,,2018-02-27 15:06:13,2018-02-27 15:06:13,0.002s,PASSED
+delay,,,2018-02-27 15:06:13,2018-02-27 15:06:18,5.011s,PASSED
+Statement - For (def index : (0..5)),,,2018-02-27 15:06:18,2018-02-27 15:06:49,30.954s,FAILED
+Statement - For (def index : (0..3)),,,2018-02-27 15:06:49,2018-02-27 15:07:09,20.218s,FAILED
+tap,,,2018-02-27 15:07:09,2018-02-27 15:07:39,30.055s,FAILED
+,,,,,,
+Test Cases/Sprint 2/47 - TC- All,,Input Payment,2018-02-27 15:07:39,2018-02-27 15:07:45,5.247s,FAILED
+comment,,,2018-02-27 15:07:40,2018-02-27 15:07:40,0.001s,PASSED
+tap,,,2018-02-27 15:07:40,2018-02-27 15:07:45,5.074s,FAILED
+,,,,,,
+Test Cases/Sprint 2/30 - TC - All,,Confirm Transaction,2018-02-27 15:07:45,2018-02-27 15:07:55,10.350s,FAILED
+comment,,,2018-02-27 15:07:45,2018-02-27 15:07:45,0.001s,PASSED
+waitForElementPresent,,,2018-02-27 15:07:45,2018-02-27 15:07:50,5.130s,PASSED
+tap,,,2018-02-27 15:07:50,2018-02-27 15:07:55,5.028s,FAILED

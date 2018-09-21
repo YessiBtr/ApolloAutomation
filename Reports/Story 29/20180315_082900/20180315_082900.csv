@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 29,,,2018-03-15 08:29:02,2018-03-15 08:32:30,3m - 27.992s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 1,,Display Shopping Cart - Detail,2018-03-15 08:29:02,2018-03-15 08:29:58,56.012s,PASSED
+comment,,,2018-03-15 08:29:02,2018-03-15 08:29:02,0.047s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 08:29:02,2018-03-15 08:29:02,0.011s,PASSED
+startApplication,,,2018-03-15 08:29:02,2018-03-15 08:29:20,17.459s,PASSED
+verifyElementExist,,,2018-03-15 08:29:20,2018-03-15 08:29:20,0.002s,NOT_RUN
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 08:29:20,2018-03-15 08:29:27,7.591s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 08:29:27,2018-03-15 08:29:31,3.791s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 08:29:31,2018-03-15 08:29:33,1.494s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 08:29:33,2018-03-15 08:29:35,1.828s,PASSED
+tap,,,2018-03-15 08:29:35,2018-03-15 08:29:38,2.964s,PASSED
+delay,,,2018-03-15 08:29:38,2018-03-15 08:29:43,5.028s,PASSED
+Statement - For (def index : (0..7)),,,2018-03-15 08:29:43,2018-03-15 08:29:53,10.566s,PASSED
+Statement - For (def index : (0..1)),,,2018-03-15 08:29:53,2018-03-15 08:29:56,2.984s,PASSED
+waitForElementPresent,,,2018-03-15 08:29:56,2018-03-15 08:29:57,1.178s,PASSED
+tap,,,2018-03-15 08:29:57,2018-03-15 08:29:58,0.532s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 2,,Remove product from Shopping Cart by Tapping - button,2018-03-15 08:29:58,2018-03-15 08:30:08,10.277s,PASSED
+delay,,,2018-03-15 08:29:58,2018-03-15 08:30:03,5.002s,PASSED
+Statement - For (def index : (0..3)),,,2018-03-15 08:30:03,2018-03-15 08:30:08,5.146s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 3,,Remove product from Shopping Cart - by Typing,2018-03-15 08:30:08,2018-03-15 08:30:25,17.021s,PASSED
+verifyElementExist,,,2018-03-15 08:30:08,2018-03-15 08:30:09,1.047s,PASSED
+tap,,,2018-03-15 08:30:09,2018-03-15 08:30:10,0.569s,PASSED
+clearText,,,2018-03-15 08:30:10,2018-03-15 08:30:16,5.577s,PASSED
+setText,,,2018-03-15 08:30:16,2018-03-15 08:30:25,9.702s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 4,,Increase product amount in Shopping Cart - by Tapping + button,2018-03-15 08:30:25,2018-03-15 08:30:42,16.992s,PASSED
+clearText,,,2018-03-15 08:30:25,2018-03-15 08:30:27,1.945s,PASSED
+verifyElementExist,,,2018-03-15 08:30:27,2018-03-15 08:30:28,0.498s,PASSED
+tap,,,2018-03-15 08:30:28,2018-03-15 08:30:29,1.399s,PASSED
+setText,,,2018-03-15 08:30:29,2018-03-15 08:30:41,11.780s,PASSED
+hideKeyboard,,,2018-03-15 08:30:41,2018-03-15 08:30:42,1.242s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 5,,Increase product amount in Shopping Cart - by Typing,2018-03-15 08:30:42,2018-03-15 08:31:02,20.082s,PASSED
+clearText,,,2018-03-15 08:30:42,2018-03-15 08:30:48,5.321s,PASSED
+verifyElementExist,,,2018-03-15 08:30:48,2018-03-15 08:30:49,1.460s,PASSED
+tap,,,2018-03-15 08:30:49,2018-03-15 08:30:50,0.663s,PASSED
+setText,,,2018-03-15 08:30:50,2018-03-15 08:31:01,11.464s,PASSED
+hideKeyboard,,,2018-03-15 08:31:01,2018-03-15 08:31:02,1.049s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 6,,Increase product amount in Shopping Cart - while selected product = stock,2018-03-15 08:31:03,2018-03-15 08:31:23,20.632s,PASSED
+clearText,,,2018-03-15 08:31:03,2018-03-15 08:31:08,5.004s,PASSED
+verifyElementExist,,,2018-03-15 08:31:08,2018-03-15 08:31:08,0.815s,PASSED
+tap,,,2018-03-15 08:31:08,2018-03-15 08:31:10,1.219s,PASSED
+setText,,,2018-03-15 08:31:10,2018-03-15 08:31:21,11.647s,PASSED
+hideKeyboard,,,2018-03-15 08:31:21,2018-03-15 08:31:23,1.848s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 7,,Increase product amount in Shopping Cart - until Products stock less than 10,2018-03-15 08:31:23,2018-03-15 08:31:43,20.243s,PASSED
+clearText,,,2018-03-15 08:31:23,2018-03-15 08:31:28,4.465s,PASSED
+verifyElementExist,,,2018-03-15 08:31:28,2018-03-15 08:31:28,0.467s,PASSED
+tap,,,2018-03-15 08:31:28,2018-03-15 08:31:30,1.273s,PASSED
+setText,,,2018-03-15 08:31:30,2018-03-15 08:31:42,12.720s,PASSED
+hideKeyboard,,,2018-03-15 08:31:42,2018-03-15 08:31:43,1.184s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 8,,Decrease product amount in Shopping Cart by Tapping - button,2018-03-15 08:31:43,2018-03-15 08:32:05,21.742s,PASSED
+clearText,,,2018-03-15 08:31:44,2018-03-15 08:31:48,4.835s,PASSED
+verifyElementExist,,,2018-03-15 08:31:48,2018-03-15 08:31:49,0.528s,PASSED
+tap,,,2018-03-15 08:31:49,2018-03-15 08:31:50,1.019s,PASSED
+setText,,,2018-03-15 08:31:50,2018-03-15 08:32:01,11.166s,PASSED
+hideKeyboard,,,2018-03-15 08:32:01,2018-03-15 08:32:03,1.639s,PASSED
+Statement - For (def index : (0..3)),,,2018-03-15 08:32:03,2018-03-15 08:32:05,2.442s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 9,,Decrease product amount in Shopping Cart - by Typing,2018-03-15 08:32:05,2018-03-15 08:32:21,15.922s,PASSED
+clearText,,,2018-03-15 08:32:05,2018-03-15 08:32:07,1.460s,PASSED
+verifyElementExist,,,2018-03-15 08:32:07,2018-03-15 08:32:07,0.482s,PASSED
+tap,,,2018-03-15 08:32:07,2018-03-15 08:32:08,0.849s,PASSED
+setText,,,2018-03-15 08:32:08,2018-03-15 08:32:20,11.803s,PASSED
+hideKeyboard,,,2018-03-15 08:32:20,2018-03-15 08:32:21,1.225s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 10,,Decrease product amount in Shopping Cart - until Products stock more than 10,2018-03-15 08:32:21,2018-03-15 08:32:27,5.463s,PASSED
+delay,,,2018-03-15 08:32:21,2018-03-15 08:32:26,5.002s,PASSED
+pressBack,,,2018-03-15 08:32:26,2018-03-15 08:32:27,0.351s,PASSED
+,,,,,,
+Test Cases/Story 29 - Detail Cart/TC 11,,Back button,2018-03-15 08:32:27,2018-03-15 08:32:27,0.106s,PASSED
+Statement - return null,,,2018-03-15 08:32:27,2018-03-15 08:32:27,0.000s,PASSED

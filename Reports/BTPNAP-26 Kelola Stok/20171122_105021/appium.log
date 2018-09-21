@@ -1,0 +1,52 @@
+[Appium] Welcome to Appium v1.6.3
+[Appium] Non-default server args:
+[Appium]   port: 50083
+[Appium]   loglevel: 'info'
+[Appium]   chromeDriverPort: 50087
+[Appium]   tmpDir: 'C:\\Users\\AV2017~1\\AppData\\Local\\Temp\\\\Katalon\\Appium\\Temp1511322624612'
+[Appium] Appium REST http interface listener started on 0.0.0.0:50083
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 15 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: autoGrantPermissions, platform.
+[BaseDriver] Session created with session id: 1b0e0b8b-5cf8-421a-bf40-a0bdea5f87cc
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\AV2017005903\Downloads\Software\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 32013479b25184c3
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\AV2017005903\Downloads\Software\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+[AndroidDriver] Starting Android session
+[ADB] Getting device platform version
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\AV2017005903\Downloads\Software\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/dc3e0630bba8eae7b2d210d5f214e78b.apk
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\AV2017005903\Downloads\Software\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[HTTP] <-- POST /wd/hub/session 500 224289 ms - 287 

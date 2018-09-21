@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 41,,,2018-03-15 11:48:35,2018-03-15 11:50:22,1m - 46.458s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 1,,Create Expense - View,2018-03-15 11:48:36,2018-03-15 11:49:25,49.263s,PASSED
+comment,,,2018-03-15 11:48:36,2018-03-15 11:48:36,0.095s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 11:48:36,2018-03-15 11:48:36,0.022s,PASSED
+startApplication,,,2018-03-15 11:48:36,2018-03-15 11:48:57,20.379s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 11:48:57,2018-03-15 11:49:04,6.991s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 11:49:04,2018-03-15 11:49:07,3.605s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 11:49:07,2018-03-15 11:49:09,1.494s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 11:49:09,2018-03-15 11:49:11,1.964s,PASSED
+tap,,Click Navbar 'Pengeluaran',2018-03-15 11:49:11,2018-03-15 11:49:14,3.062s,PASSED
+delay,,,2018-03-15 11:49:14,2018-03-15 11:49:19,5.040s,PASSED
+waitForElementPresent,,"Menungg//////////////////////u hingga elemen Pengeluaran barang untuk melanjutkan action element \""Tambah Catatan\""",2018-03-15 11:49:19,2018-03-15 11:49:19,0.326s,PASSED
+tap,,"Mengklik Button \""Tambah Catatan\""",2018-03-15 11:49:19,2018-03-15 11:49:20,0.609s,PASSED
+delay,,,2018-03-15 11:49:20,2018-03-15 11:49:25,5.006s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 2,,Create Expense - Title,2018-03-15 11:49:25,2018-03-15 11:49:48,23.549s,PASSED
+tap,,,2018-03-15 11:49:25,2018-03-15 11:49:26,0.370s,PASSED
+setText,,Mengklik TextBox Judul MengInput Text pada Judul Catatan,2018-03-15 11:49:26,2018-03-15 11:49:42,16.596s,PASSED
+verifyElementText,,,2018-03-15 11:49:42,2018-03-15 11:49:43,0.807s,PASSED
+getText,,,2018-03-15 11:49:43,2018-03-15 11:49:43,0.322s,PASSED
+hideKeyboard,,Keyboard device tertutup,2018-03-15 11:49:43,2018-03-15 11:49:44,1.004s,PASSED
+tap,,,2018-03-15 11:49:44,2018-03-15 11:49:45,1.226s,PASSED
+delay,,,2018-03-15 11:49:45,2018-03-15 11:49:48,3.006s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 3,,Create Expense - Pilih Kategori,2018-03-15 11:49:49,2018-03-15 11:49:56,7.817s,PASSED
+clearText,,,2018-03-15 11:49:49,2018-03-15 11:49:51,2.118s,PASSED
+waitForElementPresent,,"Menunggu hingga elemen Input Judul Catatan selesai untuk melanjutkan action element \""Tambah Catatan\""",2018-03-15 11:49:51,2018-03-15 11:49:51,0.587s,PASSED
+tap,,"Mengklik \""Pilih Kategori\""",2018-03-15 11:49:51,2018-03-15 11:49:52,0.527s,PASSED
+tap,,"Mengklik \""Pilih Kategori\""",2018-03-15 11:49:52,2018-03-15 11:49:53,1.452s,PASSED
+delay,,,2018-03-15 11:49:53,2018-03-15 11:49:56,3.006s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 4,,Create Expense - Amount number,2018-03-15 11:49:56,2018-03-15 11:50:03,6.230s,PASSED
+waitForElementPresent,,,2018-03-15 11:49:57,2018-03-15 11:49:57,0.369s,PASSED
+tap,,,2018-03-15 11:49:57,2018-03-15 11:49:58,0.621s,PASSED
+waitForElementPresent,,,2018-03-15 11:49:58,2018-03-15 11:49:59,1.465s,PASSED
+tap,,,2018-03-15 11:49:59,2018-03-15 11:50:00,0.620s,PASSED
+delay,,,2018-03-15 11:50:00,2018-03-15 11:50:03,3.006s,PASSED
+,,,,,,
+Test Cases/Story 41 - Create Expense/TC 5,,Create Expense - Amount Alphabet,2018-03-15 11:50:03,2018-03-15 11:50:19,16.152s,PASSED
+tap,,,2018-03-15 11:50:03,2018-03-15 11:50:03,0.418s,PASSED
+setText,,Mengklik TextBox Judul MengInput Text pada Judul Catatan,2018-03-15 11:50:03,2018-03-15 11:50:17,13.765s,PASSED
+verifyElementText,,,2018-03-15 11:50:17,2018-03-15 11:50:18,0.938s,PASSED
+getText,,,2018-03-15 11:50:18,2018-03-15 11:50:18,0.289s,PASSED
+hideKeyboard,,Keyboard device tertutup,2018-03-15 11:50:18,2018-03-15 11:50:19,0.589s,PASSED

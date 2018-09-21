@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 45" time="5" tests="0" failures="6" errors="1">
+   <testsuite name="Story 45" tests="0" failures="6" errors="1" time="5" timestamp="2018-03-15 13:38:45" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 45">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 45\\20180315_133843"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 45\\20180315_133843\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="hostAddress" value="10.5.109.243"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 45 - Rincian menu/TC 1" classname="Test Cases/Story 45 - Rincian menu/TC 1" status="ERROR">
+         <error type="ERROR" message="Test Cases/Story 45 - Rincian menu/TC 1 FAILED because (of) Variable 'PathUtil' is not defined for test case."/>
+         <system-out><![CDATA[2018-03-15 13:38:45 - [TEST_CASE][ERROR] - Test Cases/Story 45 - Rincian menu/TC 1: Test Cases/Story 45 - Rincian menu/TC 1 FAILED because (of) Variable 'PathUtil' is not defined for test case.
+
+2018-03-15 13:38:45 - [TEST_STEP][PASSED] - comment: Start Story 45
+
+2018-03-15 13:38:46 - [TEST_STEP][PASSED] - Statement - apkPath = PathUtil.relativeToAbsolutePath(apkName, RunConfiguration.getProjectDir()): null]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:38:45 - [TEST_CASE][ERROR] - Test Cases/Story 45 - Rincian menu/TC 1: Test Cases/Story 45 - Rincian menu/TC 1 FAILED because (of) Variable 'PathUtil' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 45 - Rincian menu/TC 2" classname="Test Cases/Story 45 - Rincian menu/TC 2" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 13:38:46 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 2: Test Cases/Story 45 - Rincian menu/TC 2 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-15 13:38:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-03-15 13:38:49 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:49 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:38:46 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 2: Test Cases/Story 45 - Rincian menu/TC 2 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 45 - Rincian menu/TC 3" classname="Test Cases/Story 45 - Rincian menu/TC 3" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 13:38:49 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 3: Test Cases/Story 45 - Rincian menu/TC 3 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:49 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:49 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:38:49 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 3: Test Cases/Story 45 - Rincian menu/TC 3 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 45 - Rincian menu/TC 4" classname="Test Cases/Story 45 - Rincian menu/TC 4" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 13:38:49 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 4: Test Cases/Story 45 - Rincian menu/TC 4 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:49 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:49 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:38:49 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 4: Test Cases/Story 45 - Rincian menu/TC 4 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 45 - Rincian menu/TC 5" classname="Test Cases/Story 45 - Rincian menu/TC 5" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 13:38:49 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 5: Test Cases/Story 45 - Rincian menu/TC 5 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:50 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:50 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:38:49 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 5: Test Cases/Story 45 - Rincian menu/TC 5 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 45 - Rincian menu/TC 6" classname="Test Cases/Story 45 - Rincian menu/TC 6" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 13:38:50 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 6: Test Cases/Story 45 - Rincian menu/TC 6 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:50 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:50 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:38:50 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 6: Test Cases/Story 45 - Rincian menu/TC 6 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 45 - Rincian menu/TC 7" classname="Test Cases/Story 45 - Rincian menu/TC 7" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 13:38:50 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 7: Test Cases/Story 45 - Rincian menu/TC 7 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:50 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 13:38:50 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 13:38:50 - [TEST_CASE][FAILED] - Test Cases/Story 45 - Rincian menu/TC 7: Test Cases/Story 45 - Rincian menu/TC 7 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 13:38:45 - [TEST_SUITE][ERROR] - Story 45: Test Cases/Story 45 - Rincian menu/TC 1 FAILED because (of) Variable 'PathUtil' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-03-15 13:38:45 - [TEST_SUITE][ERROR] - Story 45: Test Cases/Story 45 - Rincian menu/TC 1 FAILED because (of) Variable 'PathUtil' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

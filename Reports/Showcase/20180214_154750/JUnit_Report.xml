@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Showcase" time="162" tests="0" failures="1" errors="0">
+   <testsuite name="Showcase" tests="0" failures="1" errors="0" time="162" timestamp="2018-02-14 15:47:51" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Showcase">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\Apollo Test\\Reports\\Showcase\\20180214_154750"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\Apollo Test\\Reports\\Showcase\\20180214_154750\\appium.log, C:\\Users\\AV2017005903\\Documents\\Apollo Test\\Reports\\Showcase\\20180214_154750\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AV2017005903\\Documents\\Apollo Test\\Reports\\Showcase\\20180214_154750\\Tambah Barang Berhasil"/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="10.5.10.171"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Show Test Case" classname="Test Cases/Show Test Case" status="FAILED">
+         <failure type="FAILED" message="Failed to check element (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-02-14 15:47:52 - [TEST_CASE][FAILED] - Test Cases/Show Test Case: Test Cases/Show Test Case FAILED because (of) Failed to check element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-02-14 15:47:52 - [TEST_STEP][PASSED] - comment: Start Show
+
+2018-02-14 15:47:52 - [TEST_STEP][PASSED] - comment: Tambah Barang
+
+2018-02-14 15:47:52 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk'
+
+2018-02-14 15:48:10 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk'
+
+2018-02-14 15:48:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-02-14 15:48:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-02-14 15:48:16 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-14 15:48:16 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-14 15:48:16 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-14 15:48:16 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-14 15:48:16 - [TEST_STEP][NOT_RUN] - hideKeyboard: NOT_RUN: hideKeyboard
+
+2018-02-14 15:48:16 - [MESSAGE][NOT_RUN] - NOT_RUN: hideKeyboard
+
+2018-02-14 15:48:16 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-14 15:48:16 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-14 15:48:16 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-02-14 15:48:16 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-02-14 15:48:16 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-14 15:48:16 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-14 15:48:16 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-14 15:48:16 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-14 15:48:16 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-02-14 15:48:20 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-02-14 15:48:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-02-14 15:48:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-02-14 15:48:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-02-14 15:48:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-02-14 15:48:22 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu' is present
+
+2018-02-14 15:48:25 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu' is present
+
+2018-02-14 15:48:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-02-14 15:48:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-02-14 15:48:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-02-14 15:48:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-02-14 15:48:27 - [TEST_STEP][PASSED] - Statement - For (def index : (0..4)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-14 15:48:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/SKU Produk - Text Box'
+
+2018-02-14 15:48:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/SKU Produk - Text Box'
+
+2018-02-14 15:48:36 - [TEST_STEP][PASSED] - setText: Text '12391789612' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/SKU Produk - Text Box'
+
+2018-02-14 15:48:52 - [MESSAGE][PASSED] - Text '12391789612' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/SKU Produk - Text Box'
+
+2018-02-14 15:48:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/SKU Produk - Text Box' are matched.
+
+2018-02-14 15:48:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/SKU Produk - Text Box' are matched.
+
+2018-02-14 15:48:53 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/SKU Produk - Text Box' is: '12391789612'
+
+2018-02-14 15:48:54 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/SKU Produk - Text Box' is: '12391789612'
+
+2018-02-14 15:48:54 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-14 15:48:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-14 15:48:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-02-14 15:48:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-02-14 15:48:56 - [TEST_STEP][PASSED] - setText: Text 'Kacang Sukro Pedas' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-02-14 15:49:12 - [MESSAGE][PASSED] - Text 'Kacang Sukro Pedas' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-02-14 15:49:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' are matched.
+
+2018-02-14 15:49:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' are matched.
+
+2018-02-14 15:49:14 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' is: 'Kacang Sukro Pedas'
+
+2018-02-14 15:49:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' is: 'Kacang Sukro Pedas'
+
+2018-02-14 15:49:14 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-14 15:49:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-14 15:49:15 - [TEST_STEP][PASSED] - swipe: Swiped from 24,679 to 24,453
+
+2018-02-14 15:49:15 - [MESSAGE][PASSED] - Swiped from 24,679 to 24,453
+
+2018-02-14 15:49:16 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton' is present
+
+2018-02-14 15:49:17 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton' is present
+
+2018-02-14 15:49:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-02-14 15:49:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-02-14 15:49:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-02-14 15:49:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-02-14 15:49:18 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-02-14 15:49:31 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-02-14 15:49:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/android.widget.TextView6 - Makanan'
+
+2018-02-14 15:49:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/android.widget.TextView6 - Makanan'
+
+2018-02-14 15:49:32 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'TENTUKAN DISKON' successfully
+
+2018-02-14 15:49:37 - [MESSAGE][PASSED] - Scrolling to text 'TENTUKAN DISKON' successfully
+
+2018-02-14 15:49:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-14 15:49:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-14 15:49:37 - [TEST_STEP][PASSED] - setText: Text '100000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-14 15:49:52 - [MESSAGE][PASSED] - Text '100000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-14 15:49:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-02-14 15:49:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-02-14 15:49:53 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' is: '100.000'
+
+2018-02-14 15:49:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' is: '100.000'
+
+2018-02-14 15:49:53 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-14 15:49:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-14 15:49:54 - [TEST_STEP][PASSED] - setText: Text '10000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-14 15:50:03 - [MESSAGE][PASSED] - Text '10000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-14 15:50:03 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' is: '10.000'
+
+2018-02-14 15:50:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' is: '10.000'
+
+2018-02-14 15:50:04 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-14 15:50:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-14 15:50:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button'
+
+2018-02-14 15:50:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button'
+
+2018-02-14 15:50:06 - [TEST_STEP][PASSED] - takeScreenshot: Screenshot is taken
+
+2018-02-14 15:50:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\Apollo Test\\Reports\\Showcase\\20180214_154750\\Tambah Barang Berhasil]]
+
+2018-02-14 15:50:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-14 15:50:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-14 15:50:13 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-02-14 15:50:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-02-14 15:50:14 - [TEST_STEP][PASSED] - comment: Search Product
+
+2018-02-14 15:50:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-14 15:50:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-14 15:50:14 - [TEST_STEP][PASSED] - setText: Text 'Kacang Sukro Pedas' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-14 15:50:24 - [MESSAGE][PASSED] - Text 'Kacang Sukro Pedas' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-14 15:50:24 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-14 15:50:25 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-14 15:50:25 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Kacang Sukro Pedas'
+
+2018-02-14 15:50:26 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Kacang Sukro Pedas'
+
+2018-02-14 15:50:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-14 15:50:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-14 15:50:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1'
+
+2018-02-14 15:50:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1'
+
+2018-02-14 15:50:31 - [TEST_STEP][FAILED] - checkElement: Failed to check element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-02-14 15:50:31 - [MESSAGE][WARNING] - Test object id is null
+
+2018-02-14 15:50:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-02-14 15:50:31 - [MESSAGE][FAILED] - Failed to check element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+         <system-err><![CDATA[2018-02-14 15:47:52 - [TEST_CASE][FAILED] - Test Cases/Show Test Case: Test Cases/Show Test Case FAILED because (of) Failed to check element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-14 15:47:51 - [TEST_SUITE][FAILED] - Showcase: Test Cases/Show Test Case FAILED because (of) Failed to check element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-02-14 15:47:51 - [TEST_SUITE][FAILED] - Showcase: Test Cases/Show Test Case FAILED because (of) Failed to check element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoked Test" time="521" tests="0" failures="2" errors="0">
+   <testsuite name="Smoked Test" tests="0" failures="2" errors="0" time="521" timestamp="2018-09-20 15:11:03" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Smoked Test">
+      <properties>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431450562.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431476342.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431486392.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431500520.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431509703.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431511769.png"/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="A37f"/>
+         <property name="hostAddress" value="192.168.62.1"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="6e4df14"/>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang" classname="Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang" status="FAILED">
+         <failure type="FAILED" message="Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' not found"/>
+         <system-out><![CDATA[2018-09-20 15:11:04 - [TEST_CASE][FAILED] - Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang: Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang FAILED because (of) Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' not found
+
+2018-09-20 15:11:05 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-20 15:11:05 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-20 15:11:05 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\18September.apk'
+
+2018-09-20 15:11:53 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\18September.apk'
+
+2018-09-20 15:11:53 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-20 15:12:09 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-20 15:12:09 - [TEST_STEP][PASSED] - Comment - "Look at Comment Description!": null
+
+2018-09-20 15:12:09 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-20 15:12:09 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-20 15:12:09 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-20 15:12:09 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-20 15:12:11 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-20 15:12:19 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-20 15:12:19 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-20 15:12:22 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-20 15:12:30 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-20 15:12:30 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-20 15:12:33 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-20 15:12:41 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-20 15:12:41 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-20 15:12:44 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-20 15:12:52 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-20 15:12:52 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-20 15:12:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-20 15:12:59 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-20 15:12:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-20 15:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-20 15:13:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-20 15:13:03 - [TEST_STEP][PASSED] - comment: end Welcome Screen
+
+2018-09-20 15:13:03 - [TEST_STEP][PASSED] - comment: LOGIN
+
+2018-09-20 15:13:03 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-20 15:13:12 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-20 15:13:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-20 15:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-20 15:13:16 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-20 15:13:39 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-20 15:13:39 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-20 15:13:42 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-20 15:13:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-20 15:13:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-20 15:13:46 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-20 15:13:48 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-20 15:13:48 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-20 15:13:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-20 15:13:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-20 15:14:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-20 15:14:02 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-20 15:14:05 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-20 15:14:05 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-20 15:14:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-20 15:14:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-20 15:14:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-20 15:14:14 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-20 15:14:32 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-20 15:14:32 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-20 15:14:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-20 15:14:37 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-20 15:14:37 - [TEST_STEP][PASSED] - comment: PRODUCT
+
+2018-09-20 15:14:37 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-09-20 15:14:43 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-09-20 15:14:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-20 15:14:48 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-20 15:14:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-09-20 15:14:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-09-20 15:14:53 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Produk' is present
+
+2018-09-20 15:15:01 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Produk' is present
+
+2018-09-20 15:15:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Produk' has attribute 'content-desc' with value 'produkMenuItem'
+
+2018-09-20 15:15:08 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Produk' has attribute 'content-desc' with value 'produkMenuItem'
+
+2018-09-20 15:15:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Produk'
+
+2018-09-20 15:15:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Produk'
+
+2018-09-20 15:15:14 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Produk/Text Header -  Produk' is visible
+
+2018-09-20 15:15:21 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Text Header -  Produk' is visible
+
+2018-09-20 15:15:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-20 15:15:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-20 15:15:26 - [TEST_STEP][PASSED] - comment: End Product
+
+2018-09-20 15:15:26 - [TEST_STEP][PASSED] - comment: TAMBAH PRODUCT
+
+2018-09-20 15:15:26 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button' is present
+
+2018-09-20 15:15:29 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button' is present
+
+2018-09-20 15:15:29 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button' has attribute 'content-desc' with value 'productListComponent_button_addProduct'
+
+2018-09-20 15:15:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button' has attribute 'content-desc' with value 'productListComponent_button_addProduct'
+
+2018-09-20 15:15:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button'
+
+2018-09-20 15:15:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button'
+
+2018-09-20 15:15:38 - [TEST_STEP][PASSED] - comment: Input Jumlah Stock
+
+2018-09-20 15:15:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' is present
+
+2018-09-20 15:15:42 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' is present
+
+2018-09-20 15:15:42 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'content-desc' with value 'input_anumberpicker'
+
+2018-09-20 15:15:46 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'content-desc' with value 'input_anumberpicker'
+
+2018-09-20 15:15:46 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-09-20 15:15:52 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-09-20 15:15:52 - [TEST_STEP][PASSED] - sendKeys: Send keys '3' on test object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' successfully.
+
+2018-09-20 15:16:07 - [MESSAGE][PASSED] - Send keys '3' on test object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' successfully.
+
+2018-09-20 15:16:07 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-20 15:16:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-20 15:16:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' are matched.
+
+2018-09-20 15:16:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' are matched.
+
+2018-09-20 15:16:13 - [TEST_STEP][PASSED] - comment: Input Nama Barang
+
+2018-09-20 15:16:13 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' is present
+
+2018-09-20 15:16:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' is present
+
+2018-09-20 15:16:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' has attribute 'content-desc' with value 'productNameTextInput'
+
+2018-09-20 15:16:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-20 15:16:20 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' has attribute 'content-desc' with value 'productNameTextInput'
+
+2018-09-20 15:16:20 - [TEST_STEP][PASSED] - Statement - NamaProduct = CustomKeywords.newpackage.allkeyword.randomString(): newpackage.allkeyword.randomString is PASSED
+
+2018-09-20 15:16:20 - [MESSAGE][PASSED] - newpackage.allkeyword.randomString is PASSED
+
+2018-09-20 15:16:20 - [TEST_STEP][PASSED] - setText: Text 'mHwGFlRAqY' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box'
+
+2018-09-20 15:16:38 - [MESSAGE][PASSED] - Text 'mHwGFlRAqY' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box'
+
+2018-09-20 15:16:38 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-20 15:16:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-20 15:16:40 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'mHwGFlRAqY' and expected object 'mHwGFlRAqY' are equal
+
+2018-09-20 15:16:40 - [MESSAGE][PASSED] - Actual object 'mHwGFlRAqY' and expected object 'mHwGFlRAqY' are equal
+
+2018-09-20 15:16:40 - [TEST_STEP][PASSED] - comment: Input SKU
+
+2018-09-20 15:16:40 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box' is present
+
+2018-09-20 15:16:43 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box' is present
+
+2018-09-20 15:16:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box' has attribute 'content-desc' with value 'product_code_input'
+
+2018-09-20 15:16:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-20 15:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box' has attribute 'content-desc' with value 'product_code_input'
+
+2018-09-20 15:16:48 - [TEST_STEP][PASSED] - Statement - SKU = CustomKeywords.newpackage.allkeyword.randomString(): newpackage.allkeyword.randomString is PASSED
+
+2018-09-20 15:16:48 - [MESSAGE][PASSED] - newpackage.allkeyword.randomString is PASSED
+
+2018-09-20 15:16:48 - [TEST_STEP][PASSED] - setText: Text 'SKUN56uIdy1WB' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box'
+
+2018-09-20 15:17:08 - [MESSAGE][PASSED] - Text 'SKUN56uIdy1WB' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box'
+
+2018-09-20 15:17:08 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-20 15:17:09 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-20 15:17:09 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'SKUN56uIdy1WB' and expected object 'SKUN56uIdy1WB' are equal
+
+2018-09-20 15:17:09 - [MESSAGE][PASSED] - Actual object 'SKUN56uIdy1WB' and expected object 'SKUN56uIdy1WB' are equal
+
+2018-09-20 15:17:09 - [TEST_STEP][PASSED] - comment: Pick One Category
+
+2018-09-20 15:17:09 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Checvron_SelectKategori' is present
+
+2018-09-20 15:17:13 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Checvron_SelectKategori' is present
+
+2018-09-20 15:17:13 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Checvron_SelectKategori' has attribute 'content-desc' with value 'productCategoryArrowIcon'
+
+2018-09-20 15:17:18 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Checvron_SelectKategori' has attribute 'content-desc' with value 'productCategoryArrowIcon'
+
+2018-09-20 15:17:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Checvron_SelectKategori'
+
+2018-09-20 15:17:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Checvron_SelectKategori'
+
+2018-09-20 15:17:24 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen), G_ShortTimeOut, CONTINUE_ON_FAILURE) == true): Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' not found
+
+2018-09-20 15:17:33 - [MESSAGE][FAILED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' not found
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431450562.png]]
+
+2018-09-20 15:17:33 - [TEST_STEP][PASSED] - Statement - Else: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' is visible
+
+2018-09-20 15:17:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Checvron_SelectKategori'
+
+2018-09-20 15:17:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Checvron_SelectKategori'
+
+2018-09-20 15:17:38 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' is visible
+
+2018-09-20 15:17:42 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' is visible
+
+2018-09-20 15:17:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5 not found
+
+2018-09-20 15:17:49 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5 not found
+
+2018-09-20 15:17:49 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5' not found
+
+2018-09-20 15:17:50 - [MESSAGE][WARNING] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5' not found
+
+2018-09-20 15:17:50 - [TEST_STEP][FAILED] - tap: Object Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5 not found
+
+2018-09-20 15:17:58 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5 not found
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431476342.png]]
+
+2018-09-20 15:17:58 - [TEST_STEP][PASSED] - comment: Input Stock Rendah =0
+
+2018-09-20 15:17:58 - [TEST_STEP][FAILED] - scrollToText: Unable to scroll to text 'SIMPAN' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\AV2017005903\Docum..., appActivity: com.btpn_mpos_rn.react_brid..., appPackage: com.btpn.appbisnis.sit, appWaitActivity: com.*, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\AV2017005903\Docum..., appWaitActivity: com.*, autoGrantPermissions: true, deviceId: 6e4df14, deviceName: OPPO A37f (Android 5.1.1), fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: Android, udid: 6e4df14}, deviceId: 6e4df14, deviceManufacturer: OPPO, deviceModel: A37f, deviceName: 6e4df14, deviceScreenSize: 720x1280, deviceUDID: 6e4df14, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 6e4df14, warnings: {}, webStorageEnabled: false}
+Session ID: fd758f68-a1d5-49d3-bc93-9f1f6844a881
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("SIMPAN"))})
+
+2018-09-20 15:18:08 - [MESSAGE][FAILED] - Unable to scroll to text 'SIMPAN' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\AV2017005903\Docum..., appActivity: com.btpn_mpos_rn.react_brid..., appPackage: com.btpn.appbisnis.sit, appWaitActivity: com.*, appWaitPackage: com.btpn.appbisnis.sit, autoGrantPermissions: true, databaseEnabled: false, desired: {app: C:\Users\AV2017005903\Docum..., appWaitActivity: com.*, autoGrantPermissions: true, deviceId: 6e4df14, deviceName: OPPO A37f (Android 5.1.1), fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: Android, udid: 6e4df14}, deviceId: 6e4df14, deviceManufacturer: OPPO, deviceModel: A37f, deviceName: 6e4df14, deviceScreenSize: 720x1280, deviceUDID: 6e4df14, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 6e4df14, warnings: {}, webStorageEnabled: false}
+Session ID: fd758f68-a1d5-49d3-bc93-9f1f6844a881
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains("SIMPAN"))})
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431486392.png]]
+
+2018-09-20 15:18:08 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field not found
+
+2018-09-20 15:18:14 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field not found
+
+2018-09-20 15:18:14 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field' not found
+
+2018-09-20 15:18:15 - [MESSAGE][WARNING] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field' not found
+
+2018-09-20 15:18:15 - [TEST_STEP][FAILED] - clearText: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field' not found
+
+2018-09-20 15:18:22 - [MESSAGE][FAILED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field' not found
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431500520.png]]
+
+2018-09-20 15:18:22 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: Object Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field not found)
+
+2018-09-20 15:18:31 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field not found
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431509703.png]]
+
+2018-09-20 15:18:33 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: Object Object Repository/Sidebar Menu/Produk/Tambah Barang/Stock Rendah - Field not found)
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Smoked Test\\20180920_151101\\1537431511769.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-20 15:11:04 - [TEST_CASE][FAILED] - Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang: Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang FAILED because (of) Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey" classname="Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64.36 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-09-20 15:18:35 - [TEST_CASE][FAILED] - Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey: Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey FAILED because (of) Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64.36 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-09-20 15:18:36 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-20 15:18:36 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-20 15:18:36 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64.36 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-09-20 15:19:41 - [MESSAGE][FAILED] - Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64.36 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-09-20 15:18:35 - [TEST_CASE][FAILED] - Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey: Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey FAILED because (of) Unable to start app at: '18September.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Cannot start the 'com.btpn.appbisnis.sit' application. Original error: Activity name '.com.btpn_mpos_rn.react_bridging.splash.SplashActivity' used to start the app doesn't exist or cannot be launched! Make sure it exists and is a launchable activity (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 64.36 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-20 15:11:03 - [TEST_SUITE][FAILED] - Smoked Test: Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang FAILED because (of) Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' not found]]></system-out>
+      <system-err><![CDATA[2018-09-20 15:11:03 - [TEST_SUITE][FAILED] - Smoked Test: Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang FAILED because (of) Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PilihKategori_Screen' not found]]></system-err>
+   </testsuite>
+</testsuites>

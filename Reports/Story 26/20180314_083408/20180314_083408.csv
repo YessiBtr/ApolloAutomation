@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 26,,,2018-03-14 08:34:11,2018-03-14 08:34:15,3.969s,ERROR
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 1,,All Search Product,2018-03-14 08:34:11,2018-03-14 08:34:12,0.780s,ERROR
+comment,,,2018-03-14 08:34:12,2018-03-14 08:34:12,0.053s,PASSED
+"Statement - apkPath = PathUtil.relativeToAbsolutePath(apkName, RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-14 08:34:12,2018-03-14 08:34:12,0.005s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 2,,Search by selected Product Category,2018-03-14 08:34:12,2018-03-14 08:34:12,0.442s,FAILED
+waitForElementPresent,,"Menunggu hingga \""Stok Tabbar\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-03-14 08:34:12,2018-03-14 08:34:12,0.236s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 3,,Search by specific product,2018-03-14 08:34:12,2018-03-14 08:34:12,0.207s,FAILED
+waitForElementPresent,,"Menunggu hingga proses \""Terapkan\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-03-14 08:34:12,2018-03-14 08:34:12,0.025s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 4,,Search by specific category and product,2018-03-14 08:34:13,2018-03-14 08:34:13,0.206s,FAILED
+waitForElementPresent,,Menunggu hingga proses pengambilan element text selesai untuk melakukan action clear text,2018-03-14 08:34:13,2018-03-14 08:34:13,0.031s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 5,,Search by inputed 3 digit,2018-03-14 08:34:13,2018-03-14 08:34:13,0.288s,FAILED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-03-14 08:34:13,2018-03-14 08:34:13,0.114s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 6,,Search by inputed less then 3 digit,2018-03-14 08:34:13,2018-03-14 08:34:13,0.174s,FAILED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-14 08:34:13,2018-03-14 08:34:13,0.048s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 7,,Search by invalid product,2018-03-14 08:34:13,2018-03-14 08:34:14,0.173s,FAILED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-14 08:34:14,2018-03-14 08:34:14,0.022s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 8,,Drop down consist of product category,2018-03-14 08:34:14,2018-03-14 08:34:14,0.173s,FAILED
+waitForElementPresent,,,2018-03-14 08:34:14,2018-03-14 08:34:14,0.016s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 9,,Check paging,2018-03-14 08:34:14,2018-03-14 08:34:14,0.262s,FAILED
+Statement - For (def index : (0..3)),,Melakukan Swipe Loopinh hingga 3 kali  pada screen Stock untuk mengecek lazy load ,2018-03-14 08:34:14,2018-03-14 08:34:14,0.087s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 10,,Click Tambah Barang button,2018-03-14 08:34:14,2018-03-14 08:34:14,0.190s,FAILED
+waitForElementPresent,,,2018-03-14 08:34:14,2018-03-14 08:34:14,0.029s,FAILED

@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 38,,Manage Kategori,2018-03-15 10:16:57,2018-03-15 10:19:17,2m - 19.880s,FAILED
+,,,,,,
+Test Cases/Story 38 - Manage Category/TC 1,,Display Manage Category screen,2018-03-15 10:16:57,2018-03-15 10:18:08,1m - 10.185s,PASSED
+comment,,,2018-03-15 10:16:58,2018-03-15 10:16:58,0.050s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 10:16:58,2018-03-15 10:16:58,0.010s,PASSED
+startApplication,,,2018-03-15 10:16:58,2018-03-15 10:17:16,18.276s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 10:17:16,2018-03-15 10:17:23,6.769s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 10:17:23,2018-03-15 10:17:27,3.838s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 10:17:27,2018-03-15 10:17:28,1.432s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 10:17:28,2018-03-15 10:17:30,1.970s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-03-15 10:17:30,2018-03-15 10:17:33,2.927s,PASSED
+waitForElementPresent,,,2018-03-15 10:17:33,2018-03-15 10:17:36,2.591s,PASSED
+comment,,,2018-03-15 10:17:36,2018-03-15 10:17:36,0.001s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-03-15 10:17:36,2018-03-15 10:17:37,0.677s,PASSED
+setText,,"Melakukan Input Text lebih dari satu kata dalam search produk pada kategori \""Makanan\""",2018-03-15 10:17:37,2018-03-15 10:17:48,11.702s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element Text yang telah di Input,2018-03-15 10:17:48,2018-03-15 10:17:49,0.849s,PASSED
+getText,,Mengambil Text yang telah di input,2018-03-15 10:17:49,2018-03-15 10:17:50,0.479s,PASSED
+waitForElementPresent,,,2018-03-15 10:17:50,2018-03-15 10:17:51,1.420s,PASSED
+tap,,,2018-03-15 10:17:51,2018-03-15 10:17:52,0.960s,PASSED
+delay,,,2018-03-15 10:17:52,2018-03-15 10:17:57,5.065s,PASSED
+comment,,,2018-03-15 10:17:57,2018-03-15 10:17:57,0.004s,PASSED
+swipe,,,2018-03-15 10:17:57,2018-03-15 10:17:58,0.994s,PASSED
+waitForElementPresent,,,2018-03-15 10:17:58,2018-03-15 10:17:59,0.764s,PASSED
+tap,,,2018-03-15 10:17:59,2018-03-15 10:17:59,0.515s,PASSED
+waitForElementPresent,,,2018-03-15 10:17:59,2018-03-15 10:18:01,2.127s,PASSED
+tap,,Klik Pilih Kategori,2018-03-15 10:18:01,2018-03-15 10:18:02,0.495s,PASSED
+tap,,Klik Pilih Kategori,2018-03-15 10:18:02,2018-03-15 10:18:03,0.642s,PASSED
+delay,,,2018-03-15 10:18:03,2018-03-15 10:18:08,5.006s,PASSED
+,,,,,,
+Test Cases/Story 38 - Manage Category/TC 2,,Back to previous scren,2018-03-15 10:18:08,2018-03-15 10:18:18,10.606s,PASSED
+scrollToText,,Klik Pengaturan Kategori,2018-03-15 10:18:08,2018-03-15 10:18:13,4.775s,PASSED
+tap,,,2018-03-15 10:18:13,2018-03-15 10:18:13,0.607s,PASSED
+delay,,,2018-03-15 10:18:13,2018-03-15 10:18:18,5.005s,PASSED
+,,,,,,
+Test Cases/Story 38 - Manage Category/TC 3,,Inactivate Category,2018-03-15 10:18:18,2018-03-15 10:18:33,14.620s,PASSED
+Statement - For (def index : (0..4)),,Looping Toogle Kategori Elemen 1,2018-03-15 10:18:19,2018-03-15 10:18:23,4.778s,PASSED
+Statement - If (true),,Jika Toogle di Swipe Left ->  Right = true\r\nKalau tidak Right -> Left,2018-03-15 10:18:23,2018-03-15 10:18:24,1.039s,PASSED
+Statement - If (true),,Jika Toogle di Swipe Left ->  Right = true\r\nKalau tidak Right -> Left,2018-03-15 10:18:24,2018-03-15 10:18:25,0.939s,PASSED
+Statement - For (def index : (0..4)),,Looping Toogle Kategori Elemen 3,2018-03-15 10:18:25,2018-03-15 10:18:30,4.664s,PASSED
+delay,,,2018-03-15 10:18:30,2018-03-15 10:18:33,3.006s,PASSED
+,,,,,,
+Test Cases/Story 38 - Manage Category/TC 4,,Activate Category,2018-03-15 10:18:33,2018-03-15 10:18:38,5.218s,PASSED
+waitForElementPresent,,,2018-03-15 10:18:33,2018-03-15 10:18:34,0.296s,PASSED
+tap,,Klik SimpanBtn yang di Pengaturan Kategori,2018-03-15 10:18:34,2018-03-15 10:18:34,0.741s,PASSED
+delay,,,2018-03-15 10:18:34,2018-03-15 10:18:38,4.006s,PASSED
+,,,,,,
+Test Cases/Story 38 - Manage Category/TC 5,,Display Add New Category Form,2018-03-15 10:18:38,2018-03-15 10:19:04,25.926s,FAILED
+scrollToText,,Mengscroll to text untuk menemukan 'Tambah Kategori',2018-03-15 10:18:39,2018-03-15 10:18:58,18.928s,PASSED
+waitForElementPresent,,,2018-03-15 10:18:58,2018-03-15 10:18:58,0.328s,PASSED
+tap,,Klik 'Tambah Kategori',2018-03-15 10:18:58,2018-03-15 10:18:58,0.595s,PASSED
+pressBack,,,2018-03-15 10:18:58,2018-03-15 10:18:59,0.456s,PASSED
+tap,,Klik 'Tambah Kategori',2018-03-15 10:18:59,2018-03-15 10:19:04,5.404s,FAILED
+,,,,,,
+Test Cases/Story 38 - Manage Category/TC 6,,Add New Category Form With blank name,2018-03-15 10:19:04,2018-03-15 10:19:08,3.492s,FAILED
+tap,,Klik Object 'Nama Kategori',2018-03-15 10:19:05,2018-03-15 10:19:08,3.262s,FAILED
+,,,,,,
+Test Cases/Story 38 - Manage Category/TC 7,,Add New Category Form With valid data,2018-03-15 10:19:08,2018-03-15 10:19:17,9.044s,PASSED
+pressBack,,,2018-03-15 10:19:08,2018-03-15 10:19:09,0.585s,PASSED
+delay,,,2018-03-15 10:19:09,2018-03-15 10:19:14,5.005s,PASSED
+closeApplication,,,2018-03-15 10:19:14,2018-03-15 10:19:17,3.248s,PASSED

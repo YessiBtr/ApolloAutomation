@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sprint 3" time="91" tests="0" failures="3" errors="0">
+   <testsuite name="Sprint 3" tests="0" failures="3" errors="0" time="91" timestamp="2018-02-28 15:25:04" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Sprint 3">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180228_152502"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180228_152502\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180228_152502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="10.5.109.28"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 3/40 - TC - All" classname="Test Cases/Sprint 3/40 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4 not found)"/>
+         <system-out><![CDATA[2018-02-28 15:25:04 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/40 - TC - All: Test Cases/Sprint 3/40 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4 not found)
+
+2018-02-28 15:25:05 - [TEST_STEP][PASSED] - comment: Start Story 40
+
+2018-02-28 15:25:05 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-02-28 15:25:05 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk'
+
+2018-02-28 15:25:20 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk'
+
+2018-02-28 15:25:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-02-28 15:25:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-02-28 15:25:27 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-28 15:25:27 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-28 15:25:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-28 15:25:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-28 15:25:27 - [TEST_STEP][NOT_RUN] - hideKeyboard: NOT_RUN: hideKeyboard
+
+2018-02-28 15:25:27 - [MESSAGE][NOT_RUN] - NOT_RUN: hideKeyboard
+
+2018-02-28 15:25:27 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-28 15:25:27 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-28 15:25:27 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-02-28 15:25:27 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-02-28 15:25:27 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-28 15:25:27 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-28 15:25:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-28 15:25:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-28 15:25:27 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-02-28 15:25:31 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-02-28 15:25:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-02-28 15:25:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-02-28 15:25:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-02-28 15:25:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-02-28 15:25:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/PengeluaranNavbar'
+
+2018-02-28 15:25:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/PengeluaranNavbar'
+
+2018-02-28 15:25:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-28 15:25:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-28 15:25:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-02-28 15:25:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-02-28 15:25:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 2(DropDown)'
+
+2018-02-28 15:25:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 2(DropDown)'
+
+2018-02-28 15:25:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-02-28 15:25:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-02-28 15:25:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-02-28 15:25:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-02-28 15:25:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 3(Drop Down)'
+
+2018-02-28 15:25:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 3(Drop Down)'
+
+2018-02-28 15:25:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-02-28 15:25:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-02-28 15:25:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-02-28 15:25:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-02-28 15:25:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 1(Drop Down)'
+
+2018-02-28 15:25:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 1(Drop Down)'
+
+2018-02-28 15:25:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-02-28 15:25:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-02-28 15:25:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-28 15:25:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-28 15:25:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori not found
+
+2018-02-28 15:26:05 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori not found
+
+2018-02-28 15:26:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 1'
+
+2018-02-28 15:26:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 1'
+
+2018-02-28 15:26:05 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-02-28 15:26:06 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-02-28 15:26:06 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4 not found)
+
+2018-02-28 15:26:11 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4 not found
+
+2018-02-28 15:26:11 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4 not found)]]></system-out>
+         <system-err><![CDATA[2018-02-28 15:25:04 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/40 - TC - All: Test Cases/Sprint 3/40 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4 not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 3/41 - TC-All" classname="Test Cases/Sprint 3/41 - TC-All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button not found)"/>
+         <system-out><![CDATA[2018-02-28 15:26:11 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/41 - TC-All: Test Cases/Sprint 3/41 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button not found)
+
+2018-02-28 15:26:11 - [TEST_STEP][PASSED] - comment: Start Story 41
+
+2018-02-28 15:26:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button not found
+
+2018-02-28 15:26:16 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button not found
+
+2018-02-28 15:26:16 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button not found)
+
+2018-02-28 15:26:22 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button not found
+
+2018-02-28 15:26:22 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button not found)]]></system-out>
+         <system-err><![CDATA[2018-02-28 15:26:11 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/41 - TC-All: Test Cases/Sprint 3/41 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 3/215 - TC -All" classname="Test Cases/Sprint 3/215 - TC -All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3 not found)"/>
+         <system-out><![CDATA[2018-02-28 15:26:22 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/215 - TC -All: Test Cases/Sprint 3/215 - TC -All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3 not found)
+
+2018-02-28 15:26:22 - [TEST_STEP][PASSED] - comment: Start Story 215
+
+2018-02-28 15:26:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-28 15:26:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-28 15:26:27 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3 not found)
+
+2018-02-28 15:26:32 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3 not found
+
+2018-02-28 15:26:32 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3 not found)]]></system-out>
+         <system-err><![CDATA[2018-02-28 15:26:22 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/215 - TC -All: Test Cases/Sprint 3/215 - TC -All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3 not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-28 15:25:04 - [TEST_SUITE][FAILED] - Sprint 3: Test Cases/Sprint 3/40 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4 not found)]]></system-out>
+      <system-err><![CDATA[2018-02-28 15:25:04 - [TEST_SUITE][FAILED] - Sprint 3: Test Cases/Sprint 3/40 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4 not found)]]></system-err>
+   </testsuite>
+</testsuites>

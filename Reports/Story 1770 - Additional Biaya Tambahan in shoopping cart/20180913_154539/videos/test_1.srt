@@ -1,0 +1,228 @@
+1
+00:00:00,370 --> 00:00:00,383
+1. comment
+
+2
+00:00:00,462 --> 00:00:00,466
+5. Statement - apkPath = apkName
+
+3
+00:00:00,485 --> 00:00:00,490
+9. startApplication
+
+4
+00:00:48,779 --> 00:00:48,781
+13. delay
+
+5
+00:01:03,838 --> 00:01:03,847
+21. If there is a Update TopuUp, click No, Else you can delay for waiting lazyload 
+
+6
+00:01:03,890 --> 00:01:03,894
+25. Statement - action = new io.appium.java_client.TouchAction(driver)
+
+7
+00:01:03,906 --> 00:01:03,907
+29. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+8
+00:01:06,871 --> 00:01:06,878
+33. delay
+
+9
+00:01:14,887 --> 00:01:14,890
+37. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+10
+00:01:17,743 --> 00:01:17,749
+41. delay
+
+11
+00:01:25,762 --> 00:01:25,769
+45. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+12
+00:01:28,421 --> 00:01:28,429
+49. delay
+
+13
+00:01:36,443 --> 00:01:36,452
+53. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+14
+00:01:39,138 --> 00:01:39,144
+57. delay
+
+15
+00:01:47,157 --> 00:01:47,173
+61. waitForElementPresent
+
+16
+00:01:51,237 --> 00:01:51,241
+65. tap
+
+17
+00:01:56,296 --> 00:01:56,299
+69. comment
+
+18
+00:01:56,306 --> 00:01:56,308
+73. comment
+
+19
+00:01:56,314 --> 00:01:56,318
+79. Wait until Nomor HP/Nama Pengguna Textbox present
+
+20
+00:02:00,328 --> 00:02:00,332
+85. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  
+
+21
+00:02:04,340 --> 00:02:04,345
+91. SetText to Nomor HP/Nama Pengguna Textbox
+
+22
+00:02:25,298 --> 00:02:25,303
+97. Hide Keyboard
+
+23
+00:02:26,728 --> 00:02:26,731
+103. Verify Element Nomor HP/Nama Pengguna which has been you set  
+
+24
+00:02:30,496 --> 00:02:30,502
+109. Wait until Masuk Button  present
+
+25
+00:02:33,212 --> 00:02:33,217
+115. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action 
+
+26
+00:02:37,157 --> 00:02:37,162
+121. Click Masuk Button
+
+27
+00:02:46,863 --> 00:02:46,872
+127. Wait until Input Pin Textbox  present
+
+28
+00:02:51,769 --> 00:02:51,774
+133. Verify Element Attribute Pin Textbox  with content-desc  to do action 
+
+29
+00:02:59,891 --> 00:02:59,895
+139. Click Input Pin TextBox
+
+30
+00:03:09,761 --> 00:03:09,767
+145. SetText to PIN Textbox
+
+31
+00:03:31,027 --> 00:03:31,031
+149. delay
+
+32
+00:03:36,061 --> 00:03:36,071
+155. End Login Test Case
+
+33
+00:03:36,080 --> 00:03:36,085
+161. Wait until HamburgerButton on the Sidebar  present
+
+34
+00:03:41,968 --> 00:03:41,973
+165. comment
+
+35
+00:03:41,987 --> 00:03:41,991
+171. Verify Element HamburgerButton that have value content desc to do action
+
+36
+00:03:45,841 --> 00:03:45,845
+177. Click Hamburger Button
+
+37
+00:03:55,355 --> 00:03:55,357
+181. waitForElementPresent
+
+38
+00:04:04,467 --> 00:04:04,471
+185. verifyElementAttributeValue
+
+39
+00:04:08,985 --> 00:04:08,989
+191. Go to Mesin Kasir Menu
+
+40
+00:04:14,340 --> 00:04:14,343
+195. waitForElementPresent
+
+41
+00:04:21,763 --> 00:04:21,767
+199. verifyElementAttributeValue
+
+42
+00:04:29,163 --> 00:04:29,167
+205. ADD PRODUCT to shopping cart
+
+43
+00:04:29,199 --> 00:04:29,201
+3. Go to Mesin Kasir Menu
+
+44
+00:04:37,637 --> 00:04:37,638
+3. Go to Mesin Kasir Menu
+
+45
+00:04:45,152 --> 00:04:45,157
+209. Statement - For (def index : (0..1))
+
+46
+00:04:45,164 --> 00:04:45,166
+1. tap
+
+47
+00:04:50,406 --> 00:04:50,409
+1. tap
+
+48
+00:04:55,909 --> 00:04:55,915
+215. See shopping cart
+
+49
+00:04:57,983 --> 00:04:57,987
+219. tap
+
+50
+00:05:02,739 --> 00:05:02,742
+223. comment
+
+51
+00:05:02,751 --> 00:05:02,755
+227. waitForElementPresent
+
+52
+00:05:06,797 --> 00:05:06,802
+231. verifyElementAttributeValue
+
+53
+00:05:10,569 --> 00:05:10,572
+235. verifyElementVisible
+
+54
+00:05:15,969 --> 00:05:15,972
+239. waitForElementPresent
+
+55
+00:05:18,722 --> 00:05:18,725
+243. verifyElementVisible
+
+56
+00:05:26,180 --> 00:05:26,181
+247. verifyElementAttributeValue
+
+57
+00:05:34,806 --> 00:05:34,809
+251. closeApplication
+

@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sprint 2,,,2018-02-21 10:14:40,2018-02-21 10:15:37,57.283s,FAILED
+,,,,,,
+Test Cases/Sprint 2/26 - TC - All,,Kelola Stok Final,2018-02-21 10:14:40,2018-02-21 10:15:14,33.444s,FAILED
+comment,,,2018-02-21 10:14:42,2018-02-21 10:14:42,0.076s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-02-21 10:14:42,2018-02-21 10:14:42,0.024s,PASSED
+startApplication,,,2018-02-21 10:14:42,2018-02-21 10:15:14,32.238s,FAILED
+,,,,,,
+Test Cases/Sprint 2/35 - TC-All,,Tambah Barang,2018-02-21 10:15:14,2018-02-21 10:15:19,5.568s,FAILED
+comment,,,2018-02-21 10:15:14,2018-02-21 10:15:14,0.004s,PASSED
+delay,,,2018-02-21 10:15:14,2018-02-21 10:15:19,5.019s,PASSED
+tap,,,2018-02-21 10:15:19,2018-02-21 10:15:19,0.174s,FAILED
+,,,,,,
+Test Cases/Sprint 2/27 - TC - All,,Detail Product,2018-02-21 10:15:20,2018-02-21 10:15:25,5.468s,FAILED
+comment,,,2018-02-21 10:15:20,2018-02-21 10:15:20,0.009s,PASSED
+delay,,,2018-02-21 10:15:20,2018-02-21 10:15:25,5.006s,PASSED
+Statement - For (def index : (0..5)),,,2018-02-21 10:15:25,2018-02-21 10:15:25,0.102s,FAILED
+,,,,,,
+Test Cases/Sprint 2/46 - TC - All,,Change Product Info,2018-02-21 10:15:25,2018-02-21 10:15:31,5.832s,FAILED
+comment,,,2018-02-21 10:15:26,2018-02-21 10:15:26,0.013s,PASSED
+delay,,,2018-02-21 10:15:26,2018-02-21 10:15:31,5.030s,PASSED
+tap,,,2018-02-21 10:15:31,2018-02-21 10:15:31,0.054s,FAILED
+,,,,,,
+Test Cases/Sprint 2/28 - TC-All,,Kasir Menu,2018-02-21 10:15:31,2018-02-21 10:15:36,5.271s,FAILED
+comment,,,2018-02-21 10:15:31,2018-02-21 10:15:31,0.001s,PASSED
+delay,,,2018-02-21 10:15:31,2018-02-21 10:15:36,5.004s,PASSED
+tap,,,2018-02-21 10:15:36,2018-02-21 10:15:36,0.098s,FAILED
+,,,,,,
+Test Cases/Sprint 2/29 - TC - All,,Detail Cart S2,2018-02-21 10:15:36,2018-02-21 10:15:37,0.256s,FAILED
+comment,,,2018-02-21 10:15:36,2018-02-21 10:15:36,0.001s,PASSED
+Statement - For (def index : (0..5)),,,2018-02-21 10:15:36,2018-02-21 10:15:36,0.002s,NOT_RUN
+Statement - For (def index : (0..3)),,,2018-02-21 10:15:36,2018-02-21 10:15:37,0.137s,FAILED
+,,,,,,
+Test Cases/Sprint 2/47 - TC- All,,Input Payment,2018-02-21 10:15:37,2018-02-21 10:15:37,0.300s,FAILED
+comment,,,2018-02-21 10:15:37,2018-02-21 10:15:37,0.002s,PASSED
+tap,,,2018-02-21 10:15:37,2018-02-21 10:15:37,0.047s,FAILED
+,,,,,,
+Test Cases/Sprint 2/30 - TC - All,,Confirm Transaction,2018-02-21 10:15:37,2018-02-21 10:15:37,0.199s,FAILED
+comment,,,2018-02-21 10:15:37,2018-02-21 10:15:37,0.001s,PASSED
+waitForElementPresent,,,2018-02-21 10:15:37,2018-02-21 10:15:37,0.044s,FAILED

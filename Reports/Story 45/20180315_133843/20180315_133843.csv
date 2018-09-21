@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 45,,,2018-03-15 13:38:45,2018-03-15 13:38:50,5.256s,ERROR
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 1,,Display Transaction list Screen,2018-03-15 13:38:45,2018-03-15 13:38:46,0.536s,ERROR
+comment,,,2018-03-15 13:38:45,2018-03-15 13:38:46,0.045s,PASSED
+"Statement - apkPath = PathUtil.relativeToAbsolutePath(apkName, RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 13:38:46,2018-03-15 13:38:46,0.004s,PASSED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 2,,Display Empty state Screen,2018-03-15 13:38:46,2018-03-15 13:38:49,3.355s,FAILED
+delay,,,2018-03-15 13:38:46,2018-03-15 13:38:49,3.017s,PASSED
+waitForElementPresent,,,2018-03-15 13:38:49,2018-03-15 13:38:49,0.190s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 3,,Display All Transaction list Screen,2018-03-15 13:38:49,2018-03-15 13:38:49,0.180s,FAILED
+waitForElementPresent,,,2018-03-15 13:38:49,2018-03-15 13:38:49,0.015s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 4,,Display Full payment Transaction list Screen,2018-03-15 13:38:49,2018-03-15 13:38:49,0.129s,FAILED
+waitForElementPresent,,,2018-03-15 13:38:49,2018-03-15 13:38:49,0.011s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 5,,Display Partial payment Transaction list Screen,2018-03-15 13:38:49,2018-03-15 13:38:50,0.140s,FAILED
+waitForElementPresent,,,2018-03-15 13:38:50,2018-03-15 13:38:50,0.009s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 6,,Display All Transaction list on selected date ranges Screen,2018-03-15 13:38:50,2018-03-15 13:38:50,0.112s,FAILED
+waitForElementPresent,,,2018-03-15 13:38:50,2018-03-15 13:38:50,0.009s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 7,,Display Full payment Transaction list on selected date ranges Screen,2018-03-15 13:38:50,2018-03-15 13:38:50,0.169s,FAILED
+waitForElementPresent,,,2018-03-15 13:38:50,2018-03-15 13:38:50,0.018s,FAILED

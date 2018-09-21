@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 27,,,2018-03-15 07:41:44,2018-03-15 07:42:29,45.536s,FAILED
+,,,,,,
+Test Cases/Story 27 - Detail Product/TC 1,,Detail Product - Info Stock,2018-03-15 07:41:44,2018-03-15 07:42:06,21.342s,FAILED
+comment,,,2018-03-15 07:41:45,2018-03-15 07:41:45,0.043s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 07:41:45,2018-03-15 07:41:45,0.008s,PASSED
+startApplication,,,2018-03-15 07:41:45,2018-03-15 07:42:00,15.787s,PASSED
+verifyElementExist,,,2018-03-15 07:42:00,2018-03-15 07:42:06,5.038s,FAILED
+,,,,,,
+Test Cases/Story 27 - Detail Product/TC 2,,Info Stock - Back button,2018-03-15 07:42:06,2018-03-15 07:42:11,5.262s,FAILED
+tap,,,2018-03-15 07:42:06,2018-03-15 07:42:11,5.132s,FAILED
+,,,,,,
+Test Cases/Story 27 - Detail Product/TC 3,,Detail Product - Ubah Info,2018-03-15 07:42:11,2018-03-15 07:42:27,15.812s,FAILED
+comment,,,2018-03-15 07:42:11,2018-03-15 07:42:11,0.001s,PASSED
+swipe,,,2018-03-15 07:42:11,2018-03-15 07:42:12,0.577s,PASSED
+waitForElementPresent,,,2018-03-15 07:42:12,2018-03-15 07:42:17,5.050s,PASSED
+tap,,,2018-03-15 07:42:17,2018-03-15 07:42:27,10.068s,FAILED

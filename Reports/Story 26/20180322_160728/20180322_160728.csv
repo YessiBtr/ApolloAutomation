@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 26,,,2018-03-22 16:07:29,2018-03-22 16:08:54,1m - 24.489s,FAILED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 1,,All Search Product,2018-03-22 16:07:30,2018-03-22 16:08:38,1m - 7.825s,PASSED
+comment,,,2018-03-22 16:07:30,2018-03-22 16:07:30,0.056s,PASSED
+Statement - apkPath = apkName,,,2018-03-22 16:07:30,2018-03-22 16:07:30,0.007s,PASSED
+startApplication,,Step 1 - [Melakukan Kelola Stock],2018-03-22 16:07:30,2018-03-22 16:07:47,16.786s,PASSED
+verifyElementExist,,,2018-03-22 16:07:47,2018-03-22 16:07:47,0.002s,NOT_RUN
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-22 16:07:47,2018-03-22 16:07:47,0.002s,NOT_RUN
+waitForElementPresent,,,2018-03-22 16:07:47,2018-03-22 16:07:52,5.086s,PASSED
+tap,,Mengklik Text Box untuk mengisi Nomor HP/Nama Pengguna,2018-03-22 16:07:52,2018-03-22 16:07:55,2.789s,PASSED
+verifyElementAttributeValue,,,2018-03-22 16:07:55,2018-03-22 16:07:56,0.654s,PASSED
+setText,,"Megisi inputan dengan Nama Pengguna \""Yessi\""",2018-03-22 16:07:56,2018-03-22 16:08:05,9.556s,PASSED
+getText,,,2018-03-22 16:08:05,2018-03-22 16:08:06,0.638s,PASSED
+hideKeyboard,,Hide Keyboard Device,2018-03-22 16:08:06,2018-03-22 16:08:07,1.451s,PASSED
+waitForElementPresent,,,2018-03-22 16:08:07,2018-03-22 16:08:08,0.106s,PASSED
+tap,,Mengklik Button Masuk,2018-03-22 16:08:08,2018-03-22 16:08:08,0.153s,PASSED
+verifyElementAttributeValue,,,2018-03-22 16:08:08,2018-03-22 16:08:08,0.259s,PASSED
+waitForElementPresent,,Menunggu action button masuk hingga selesai untuk masuk ke action Input PIN,2018-03-22 16:08:08,2018-03-22 16:08:09,1.337s,PASSED
+tap,,Mengklik Text Field Pin,2018-03-22 16:08:09,2018-03-22 16:08:10,0.447s,PASSED
+verifyElementAttributeValue,,,2018-03-22 16:08:10,2018-03-22 16:08:10,0.295s,PASSED
+setText,,Menginput PIN Pengguna dengan 6 digit,2018-03-22 16:08:10,2018-03-22 16:08:22,11.998s,PASSED
+getText,,,2018-03-22 16:08:22,2018-03-22 16:08:23,0.645s,PASSED
+hideKeyboard,,,2018-03-22 16:08:23,2018-03-22 16:08:24,1.480s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-22 16:08:24,2018-03-22 16:08:25,1.082s,PASSED
+tap,,"Mengklik Hamburger Button kemudian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-22 16:08:25,2018-03-22 16:08:27,1.376s,PASSED
+verifyElementAttributeValue,,Memverifikasi  content deskripsi elemen Hamburger Button,2018-03-22 16:08:27,2018-03-22 16:08:28,1.674s,PASSED
+waitForElementPresent,,Menunggu sampai Element sebelumnya selesai untuk melakukan action Sidebar Menu,2018-03-22 16:08:28,2018-03-22 16:08:29,0.283s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-22 16:08:29,2018-03-22 16:08:29,0.560s,PASSED
+verifyElementAttributeValue,,Memverifikasi  Attribute value Sidebara Menu,2018-03-22 16:08:29,2018-03-22 16:08:29,0.238s,PASSED
+waitForElementPresent,,Menunggu sampai Element sebelumnya selesai untuk melakukan action Navbar Menu Stok,2018-03-22 16:08:29,2018-03-22 16:08:31,1.318s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-03-22 16:08:31,2018-03-22 16:08:32,1.468s,PASSED
+verifyElementAttributeValue,,Memverifikasi Attribute value elemen Navbar Menu ,2018-03-22 16:08:32,2018-03-22 16:08:33,0.376s,PASSED
+delay,,"Delay dulu sis,,",2018-03-22 16:08:33,2018-03-22 16:08:38,5.011s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 2,,Search by selected Product Category,2018-03-22 16:08:38,2018-03-22 16:08:51,13.195s,FAILED
+waitForElementPresent,,"Menunggu hingga \""Stok Tabbar\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-03-22 16:08:38,2018-03-22 16:08:38,0.340s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-22 16:08:38,2018-03-22 16:08:39,0.565s,PASSED
+verifyElementAttributeValue,,Memverifikasi attribute value elemen Semua Kategori yang Drop Down,2018-03-22 16:08:39,2018-03-22 16:08:51,12.055s,FAILED

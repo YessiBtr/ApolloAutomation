@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sprint 3,,,2018-03-01 08:52:11,2018-03-01 08:53:21,1m - 9.749s,FAILED
+,,,,,,
+Test Cases/Sprint 3/40 - TC - All,,View Pengeluaran,2018-03-01 08:52:11,2018-03-01 08:52:57,45.963s,FAILED
+comment,,,2018-03-01 08:52:12,2018-03-01 08:52:12,0.051s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-01 08:52:12,2018-03-01 08:52:12,0.011s,PASSED
+startApplication,,,2018-03-01 08:52:12,2018-03-01 08:52:28,15.730s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-01 08:52:28,2018-03-01 08:52:35,7.404s,PASSED
+tap,,Mengklik Text Box untuk mengisi Nomor HP/Nama Pengguna,2018-03-01 08:52:35,2018-03-01 08:52:35,0.002s,NOT_RUN
+setText,,"Megisi inputan dengan Nama Pengguna \""Yessi\""",2018-03-01 08:52:35,2018-03-01 08:52:35,0.001s,NOT_RUN
+hideKeyboard,,Hide Keyboard Device,2018-03-01 08:52:35,2018-03-01 08:52:35,0.001s,NOT_RUN
+tap,,Mengklik Button Masuk,2018-03-01 08:52:35,2018-03-01 08:52:35,0.000s,NOT_RUN
+waitForElementPresent,,Menunggu action button masuk hingga selesai untuk masuk ke action Input PIN,2018-03-01 08:52:35,2018-03-01 08:52:35,0.000s,NOT_RUN
+tap,,Mengklik Text Field Pin,2018-03-01 08:52:35,2018-03-01 08:52:35,0.001s,NOT_RUN
+setText,,Menginput PIN Pengguna dengan 6 digit,2018-03-01 08:52:35,2018-03-01 08:52:35,0.001s,NOT_RUN
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-01 08:52:35,2018-03-01 08:52:41,5.248s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-01 08:52:41,2018-03-01 08:52:41,0.363s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-01 08:52:41,2018-03-01 08:52:43,1.942s,PASSED
+tap,,Click Navbar 'Pengeluaran',2018-03-01 08:52:43,2018-03-01 08:52:46,3.009s,PASSED
+delay,,,2018-03-01 08:52:46,2018-03-01 08:52:51,5.012s,PASSED
+tap,,Klik Drop Down Semua Kategori,2018-03-01 08:52:51,2018-03-01 08:52:52,0.665s,PASSED
+tap,,"Pilih Kategori \""Biaya Listrik\""",2018-03-01 08:52:52,2018-03-01 08:52:57,5.866s,FAILED
+,,,,,,
+Test Cases/Sprint 3/41 - TC-All,,Create Expense,2018-03-01 08:52:57,2018-03-01 08:53:08,10.523s,FAILED
+comment,,,2018-03-01 08:52:58,2018-03-01 08:52:58,0.002s,PASSED
+waitForElementPresent,,"Menungg//////////////////////u hingga elemen Pengeluaran barang untuk melanjutkan action element \""Tambah Catatan\""",2018-03-01 08:52:58,2018-03-01 08:53:03,5.082s,PASSED
+tap,,"Mengklik Button \""Tambah Catatan\""",2018-03-01 08:53:03,2018-03-01 08:53:08,5.141s,FAILED
+,,,,,,
+Test Cases/Sprint 3/215 - TC -All,,,2018-03-01 08:53:08,2018-03-01 08:53:18,10.215s,FAILED
+comment,,,2018-03-01 08:53:08,2018-03-01 08:53:08,0.001s,PASSED
+delay,,,2018-03-01 08:53:08,2018-03-01 08:53:13,5.004s,PASSED
+tap,,Klik List Pengeluaran di Elemen ke 3,2018-03-01 08:53:13,2018-03-01 08:53:18,5.049s,FAILED

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 679" time="99" tests="0" failures="1" errors="0">
+   <testsuite name="Story 679" tests="0" failures="1" errors="0" time="99" timestamp="2018-05-17 15:06:56" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 679">
+      <properties>
+         <property name="deviceName" value="Galaxy A7(2017)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 679\\20180517_150648"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 679\\20180517_150648\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="deviceModel" value="null"/>
+         <property name="hostAddress" value="192.168.62.1"/>
+         <property name="deviceManufacturer" value="null"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="Galaxy A7(2017)"/>
+         <property name="deviceOSVersion" value="6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen" classname="Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'kobiton-store:9553' (Root cause: org.openqa.selenium.SessionNotCreatedException: WebDriver command failed to run
+Command duration or timeout: 95.47 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-05-17 15:06:59 - [TEST_CASE][FAILED] - Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen: Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen FAILED because (of) Unable to start app at: 'kobiton-store:9553' (Root cause: org.openqa.selenium.SessionNotCreatedException: WebDriver command failed to run
+Command duration or timeout: 95.47 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-05-17 15:06:59 - [TEST_STEP][PASSED] - comment: Start Story 679
+
+2018-05-17 15:06:59 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-05-17 15:06:59 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'kobiton-store:9553' (Root cause: org.openqa.selenium.SessionNotCreatedException: WebDriver command failed to run
+Command duration or timeout: 95.47 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-05-17 15:08:35 - [MESSAGE][FAILED] - Unable to start app at: 'kobiton-store:9553' (Root cause: org.openqa.selenium.SessionNotCreatedException: WebDriver command failed to run
+Command duration or timeout: 95.47 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-05-17 15:06:59 - [TEST_CASE][FAILED] - Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen: Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen FAILED because (of) Unable to start app at: 'kobiton-store:9553' (Root cause: org.openqa.selenium.SessionNotCreatedException: WebDriver command failed to run
+Command duration or timeout: 95.47 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-17 15:06:56 - [TEST_SUITE][FAILED] - Story 679: Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen FAILED because (of) Unable to start app at: 'kobiton-store:9553' (Root cause: org.openqa.selenium.SessionNotCreatedException: WebDriver command failed to run
+Command duration or timeout: 95.47 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+      <system-err><![CDATA[2018-05-17 15:06:56 - [TEST_SUITE][FAILED] - Story 679: Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen FAILED because (of) Unable to start app at: 'kobiton-store:9553' (Root cause: org.openqa.selenium.SessionNotCreatedException: WebDriver command failed to run
+Command duration or timeout: 95.47 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+   </testsuite>
+</testsuites>

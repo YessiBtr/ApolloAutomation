@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="5" tests="0" failures="2" errors="0">
+   <testsuite name="Test" tests="0" failures="2" errors="0" time="5" timestamp="2018-08-16 11:02:04" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value="Galaxy J2 Prime"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Test\\20180816_110157"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Test\\20180816_110157\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="deviceModel" value="null"/>
+         <property name="hostAddress" value="192.168.62.1"/>
+         <property name="deviceManufacturer" value="null"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="Galaxy J2 Prime"/>
+         <property name="deviceOSVersion" value="6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Test/TC 1" classname="Test Cases/Test/TC 1" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 986 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-08-16 11:02:05 - [TEST_CASE][FAILED] - Test Cases/Test/TC 1: Test Cases/Test/TC 1 FAILED because (of) Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 986 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-08-16 11:02:05 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-08-16 11:02:05 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 986 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-08-16 11:02:08 - [MESSAGE][FAILED] - Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 986 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-08-16 11:02:05 - [TEST_CASE][FAILED] - Test Cases/Test/TC 1: Test Cases/Test/TC 1 FAILED because (of) Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 986 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test/TC 2" classname="Test Cases/Test/TC 2" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 954 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-08-16 11:02:08 - [TEST_CASE][FAILED] - Test Cases/Test/TC 2: Test Cases/Test/TC 2 FAILED because (of) Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 954 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-08-16 11:02:08 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-08-16 11:02:08 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 954 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-08-16 11:02:09 - [MESSAGE][FAILED] - Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 954 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-08-16 11:02:08 - [TEST_CASE][FAILED] - Test Cases/Test/TC 2: Test Cases/Test/TC 2 FAILED because (of) Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 954 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-16 11:02:04 - [TEST_SUITE][FAILED] - Test: Test Cases/Test/TC 1 FAILED because (of) Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 986 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+      <system-err><![CDATA[2018-08-16 11:02:04 - [TEST_SUITE][FAILED] - Test: Test Cases/Test/TC 1 FAILED because (of) Unable to start app at: 'Regress_release.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: app must be an absolute URL or path to Kobiton storage
+Command duration or timeout: 986 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.62.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+   </testsuite>
+</testsuites>

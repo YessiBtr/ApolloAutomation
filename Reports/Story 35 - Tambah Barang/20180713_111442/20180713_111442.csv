@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35 - Tambah Barang,,,2018-07-13 11:14:45,2018-07-13 11:18:53,4m - 8.436s,ERROR
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1,,Display Tambah Barang Form,2018-07-13 11:14:46,2018-07-13 11:18:50,4m - 3.984s,ERROR
+comment,,,2018-07-13 11:14:46,2018-07-13 11:14:46,0.041s,PASSED
+comment,,,2018-07-13 11:14:46,2018-07-13 11:14:46,0.004s,PASSED
+callTestCase,,,2018-07-13 11:14:46,2018-07-13 11:18:50,4m - 3.745s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2,,Increase or decrease product stock,2018-07-13 11:18:50,2018-07-13 11:18:50,0.228s,ERROR
+comment,,,2018-07-13 11:18:50,2018-07-13 11:18:50,0.003s,PASSED
+Statement - For (def index : (0..10)),,,2018-07-13 11:18:50,2018-07-13 11:18:50,0.057s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3,,user update stock when specifies stock = -(minus),2018-07-13 11:18:50,2018-07-13 11:18:50,0.220s,ERROR
+comment,,,2018-07-13 11:18:50,2018-07-13 11:18:50,0.003s,PASSED
+waitForElementPresent,,,2018-07-13 11:18:50,2018-07-13 11:18:50,0.046s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4,,Display Pick Category,2018-07-13 11:18:50,2018-07-13 11:18:50,0.221s,ERROR
+comment,,,2018-07-13 11:18:50,2018-07-13 11:18:50,0.002s,PASSED
+waitForElementPresent,,,2018-07-13 11:18:50,2018-07-13 11:18:50,0.044s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5,,Pick Category,2018-07-13 11:18:50,2018-07-13 11:18:51,0.242s,ERROR
+comment,,,2018-07-13 11:18:50,2018-07-13 11:18:50,0.002s,PASSED
+waitForElementPresent,,,2018-07-13 11:18:50,2018-07-13 11:18:51,0.046s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6,,Input Harga Jual with - (minus),2018-07-13 11:18:51,2018-07-13 11:18:51,0.196s,ERROR
+comment,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.001s,PASSED
+waitForElementPresent,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.032s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7,,Validate the format of input and adjust the input into financial format,2018-07-13 11:18:51,2018-07-13 11:18:51,0.244s,ERROR
+comment,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.002s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.001s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.001s,PASSED
+"Statement - action.longPress(242, 360).moveTo(242, 743).release().perform()",,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.007s,PASSED
+waitForElementPresent,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.034s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 8,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.175s,ERROR
+comment,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.004s,PASSED
+clearText,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.042s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 9,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.181s,ERROR
+comment,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.002s,PASSED
+waitForElementPresent,,,2018-07-13 11:18:51,2018-07-13 11:18:51,0.034s,PASSED

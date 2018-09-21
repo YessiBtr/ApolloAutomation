@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35 - Tambah Barang,,,2018-07-10 16:00:58,2018-07-10 16:14:13,13m - 14.630s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1,,Display Tambah Barang Form,2018-07-10 16:00:59,2018-07-10 16:06:40,5m - 40.722s,PASSED
+comment,,,2018-07-10 16:00:59,2018-07-10 16:00:59,0.036s,PASSED
+comment,,,2018-07-10 16:00:59,2018-07-10 16:00:59,0.003s,PASSED
+callTestCase,,,2018-07-10 16:00:59,2018-07-10 16:06:16,5m - 16.613s,PASSED
+waitForElementPresent,,,2018-07-10 16:06:16,2018-07-10 16:06:22,6.536s,PASSED
+verifyElementAttributeValue,,,2018-07-10 16:06:22,2018-07-10 16:06:31,8.383s,PASSED
+tap,,,2018-07-10 16:06:31,2018-07-10 16:06:40,8.933s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2,,Increase or decrease product stock,2018-07-10 16:06:40,2018-07-10 16:11:10,4m - 30.248s,PASSED
+comment,,,2018-07-10 16:06:40,2018-07-10 16:06:40,0.002s,PASSED
+Statement - For (def index : (0..10)),,,2018-07-10 16:06:40,2018-07-10 16:09:44,3m - 4.595s,PASSED
+Statement - For (def index : (0..5)),,,2018-07-10 16:09:44,2018-07-10 16:11:10,1m - 25.458s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3,,user update stock when specifies stock = -(minus),2018-07-10 16:11:10,2018-07-10 16:12:26,1m - 15.805s,PASSED
+comment,,,2018-07-10 16:11:10,2018-07-10 16:11:10,0.001s,PASSED
+waitForElementPresent,,,2018-07-10 16:11:10,2018-07-10 16:11:17,7.044s,PASSED
+verifyElementAttributeValue,,,2018-07-10 16:11:17,2018-07-10 16:11:22,4.583s,PASSED
+clearText,,,2018-07-10 16:11:22,2018-07-10 16:11:28,6.541s,PASSED
+setText,,,2018-07-10 16:11:28,2018-07-10 16:11:47,19.242s,PASSED
+hideKeyboard,,,2018-07-10 16:11:47,2018-07-10 16:11:48,1.033s,PASSED
+verifyElementAttributeValue,,,2018-07-10 16:11:48,2018-07-10 16:11:56,7.922s,PASSED
+clearText,,,2018-07-10 16:11:56,2018-07-10 16:12:02,6.019s,PASSED
+setText,,,2018-07-10 16:12:02,2018-07-10 16:12:19,16.987s,PASSED
+hideKeyboard,,,2018-07-10 16:12:19,2018-07-10 16:12:21,1.439s,PASSED
+verifyElementAttributeValue,,,2018-07-10 16:12:21,2018-07-10 16:12:26,4.821s,PASSED
+comment,,,2018-07-10 16:12:26,2018-07-10 16:12:26,0.001s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4,,Display Pick Category,2018-07-10 16:12:26,2018-07-10 16:13:40,1m - 14.132s,FAILED
+comment,,,2018-07-10 16:12:26,2018-07-10 16:12:26,0.001s,PASSED
+waitForElementPresent,,,2018-07-10 16:12:26,2018-07-10 16:12:29,3.343s,PASSED
+verifyElementAttributeValue,,,2018-07-10 16:12:29,2018-07-10 16:12:34,4.898s,PASSED
+tap,,,2018-07-10 16:12:34,2018-07-10 16:12:44,9.671s,PASSED
+"Statement - ErMsg = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Nama Barang field), 5)",,,2018-07-10 16:12:44,2018-07-10 16:12:52,7.964s,PASSED
+verifyEqual,,,2018-07-10 16:12:52,2018-07-10 16:12:52,0.033s,PASSED
+scrollToText,,,2018-07-10 16:12:52,2018-07-10 16:13:15,23.157s,FAILED
+delay,,,2018-07-10 16:13:15,2018-07-10 16:13:20,5.003s,PASSED
+scrollToText,,,2018-07-10 16:13:20,2018-07-10 16:13:22,2.468s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Kategori field), 5)",,,2018-07-10 16:13:22,2018-07-10 16:13:27,4.295s,PASSED
+verifyEqual,,,2018-07-10 16:13:27,2018-07-10 16:13:27,0.005s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Beli filed), 5)",,,2018-07-10 16:13:27,2018-07-10 16:13:31,4.079s,PASSED
+verifyEqual,,,2018-07-10 16:13:31,2018-07-10 16:13:31,0.002s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Jual field), 5)",,,2018-07-10 16:13:31,2018-07-10 16:13:35,4.001s,PASSED
+verifyEqual,,,2018-07-10 16:13:35,2018-07-10 16:13:35,0.006s,PASSED
+delay,,,2018-07-10 16:13:35,2018-07-10 16:13:40,5.007s,PASSED
+comment,,,2018-07-10 16:13:40,2018-07-10 16:13:40,0.002s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5,,Pick Category,2018-07-10 16:13:40,2018-07-10 16:14:05,25.013s,FAILED
+comment,,,2018-07-10 16:13:40,2018-07-10 16:13:40,0.001s,PASSED
+swipe,,,2018-07-10 16:13:40,2018-07-10 16:13:41,1.087s,PASSED
+comment,,,2018-07-10 16:13:41,2018-07-10 16:13:41,0.001s,PASSED
+waitForElementPresent,,,2018-07-10 16:13:41,2018-07-10 16:13:48,7.188s,PASSED
+verifyElementAttributeValue,,,2018-07-10 16:13:48,2018-07-10 16:13:50,1.633s,PASSED
+setText,,,2018-07-10 16:13:50,2018-07-10 16:14:05,14.961s,FAILED

@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35 - Tambah Barang,,,2018-07-12 13:29:46,2018-07-12 13:43:08,13m - 22.449s,ERROR
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1,,Display Tambah Barang Form,2018-07-12 13:29:47,2018-07-12 13:34:15,4m - 28.151s,PASSED
+comment,,,2018-07-12 13:29:47,2018-07-12 13:29:47,0.077s,PASSED
+comment,,,2018-07-12 13:29:47,2018-07-12 13:29:47,0.006s,PASSED
+callTestCase,,,2018-07-12 13:29:47,2018-07-12 13:34:03,4m - 15.166s,PASSED
+waitForElementPresent,,,2018-07-12 13:34:03,2018-07-12 13:34:05,2.405s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:34:05,2018-07-12 13:34:10,4.660s,PASSED
+tap,,,2018-07-12 13:34:10,2018-07-12 13:34:15,5.473s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2,,Increase or decrease product stock,2018-07-12 13:34:15,2018-07-12 13:38:27,4m - 12.384s,PASSED
+comment,,,2018-07-12 13:34:15,2018-07-12 13:34:15,0.002s,PASSED
+Statement - For (def index : (0..10)),,,2018-07-12 13:34:15,2018-07-12 13:37:07,2m - 52.121s,PASSED
+Statement - For (def index : (0..5)),,,2018-07-12 13:37:07,2018-07-12 13:38:27,1m - 20.026s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3,,user update stock when specifies stock = -(minus),2018-07-12 13:38:27,2018-07-12 13:39:54,1m - 26.542s,PASSED
+comment,,,2018-07-12 13:38:28,2018-07-12 13:38:28,0.003s,PASSED
+waitForElementPresent,,,2018-07-12 13:38:28,2018-07-12 13:38:34,6.659s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:38:34,2018-07-12 13:38:38,4.053s,PASSED
+clearText,,,2018-07-12 13:38:38,2018-07-12 13:38:49,10.150s,PASSED
+setText,,,2018-07-12 13:38:49,2018-07-12 13:39:09,20.506s,PASSED
+hideKeyboard,,,2018-07-12 13:39:09,2018-07-12 13:39:11,1.810s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:39:11,2018-07-12 13:39:16,4.784s,PASSED
+clearText,,,2018-07-12 13:39:16,2018-07-12 13:39:21,5.706s,PASSED
+setText,,,2018-07-12 13:39:21,2018-07-12 13:39:44,22.890s,PASSED
+hideKeyboard,,,2018-07-12 13:39:44,2018-07-12 13:39:46,1.777s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:39:46,2018-07-12 13:39:54,7.967s,PASSED
+comment,,,2018-07-12 13:39:54,2018-07-12 13:39:54,0.004s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4,,Display Pick Category,2018-07-12 13:39:54,2018-07-12 13:40:38,44.329s,PASSED
+comment,,,2018-07-12 13:39:54,2018-07-12 13:39:54,0.004s,PASSED
+waitForElementPresent,,,2018-07-12 13:39:54,2018-07-12 13:40:00,5.895s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:40:00,2018-07-12 13:40:08,8.184s,PASSED
+clearText,,,2018-07-12 13:40:08,2018-07-12 13:40:14,5.626s,PASSED
+setText,,,2018-07-12 13:40:14,2018-07-12 13:40:32,17.732s,PASSED
+hideKeyboard,,,2018-07-12 13:40:32,2018-07-12 13:40:33,0.965s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:40:33,2018-07-12 13:40:38,5.766s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5,,Pick Category,2018-07-12 13:40:38,2018-07-12 13:41:20,41.448s,PASSED
+comment,,,2018-07-12 13:40:39,2018-07-12 13:40:39,0.003s,PASSED
+waitForElementPresent,,,2018-07-12 13:40:39,2018-07-12 13:40:41,2.578s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:40:41,2018-07-12 13:40:45,4.170s,PASSED
+clearText,,,2018-07-12 13:40:45,2018-07-12 13:40:51,6.192s,PASSED
+setText,,,2018-07-12 13:40:51,2018-07-12 13:41:11,19.203s,PASSED
+hideKeyboard,,,2018-07-12 13:41:11,2018-07-12 13:41:12,1.123s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:41:12,2018-07-12 13:41:20,7.972s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6,,Input Harga Jual with - (minus),2018-07-12 13:41:20,2018-07-12 13:42:15,55.090s,PASSED
+comment,,,2018-07-12 13:41:20,2018-07-12 13:41:20,0.001s,PASSED
+waitForElementPresent,,,2018-07-12 13:41:20,2018-07-12 13:41:23,2.746s,PASSED
+verifyElementAttributeValue,,,2018-07-12 13:41:23,2018-07-12 13:41:29,6.728s,PASSED
+tap,,,2018-07-12 13:41:29,2018-07-12 13:41:39,9.522s,PASSED
+"Statement - ErMsg = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Nama Barang field), 5)",,,2018-07-12 13:41:39,2018-07-12 13:41:44,5.113s,PASSED
+verifyEqual,,,2018-07-12 13:41:44,2018-07-12 13:41:44,0.010s,PASSED
+scrollToText,,,2018-07-12 13:41:44,2018-07-12 13:41:54,9.609s,PASSED
+delay,,,2018-07-12 13:41:54,2018-07-12 13:41:59,5.002s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Kategori field), 5)",,,2018-07-12 13:41:59,2018-07-12 13:42:02,3.227s,PASSED
+verifyEqual,,,2018-07-12 13:42:02,2018-07-12 13:42:02,0.001s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Beli filed), 5)",,,2018-07-12 13:42:02,2018-07-12 13:42:06,3.849s,PASSED
+verifyEqual,,,2018-07-12 13:42:06,2018-07-12 13:42:06,0.001s,PASSED
+"Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Jual field), 5)",,,2018-07-12 13:42:06,2018-07-12 13:42:10,4.028s,PASSED
+verifyEqual,,,2018-07-12 13:42:10,2018-07-12 13:42:10,0.001s,PASSED
+delay,,,2018-07-12 13:42:10,2018-07-12 13:42:15,5.003s,PASSED
+comment,,,2018-07-12 13:42:15,2018-07-12 13:42:15,0.002s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7,,Validate the format of input and adjust the input into financial format,2018-07-12 13:42:15,2018-07-12 13:42:44,28.946s,ERROR

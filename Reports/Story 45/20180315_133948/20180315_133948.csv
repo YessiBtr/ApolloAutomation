@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 45,,,2018-03-15 13:39:49,2018-03-15 13:41:15,1m - 26.127s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 1,,Display Transaction list Screen,2018-03-15 13:39:49,2018-03-15 13:40:22,32.792s,PASSED
+comment,,,2018-03-15 13:39:50,2018-03-15 13:39:50,0.044s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 13:39:50,2018-03-15 13:39:50,0.010s,PASSED
+startApplication,,,2018-03-15 13:39:50,2018-03-15 13:40:06,15.854s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 13:40:06,2018-03-15 13:40:13,6.994s,PASSED
+verifyElementExist,,,2018-03-15 13:40:13,2018-03-15 13:40:13,0.140s,PASSED
+tap,,Mengklik Text Box untuk mengisi Nomor HP/Nama Pengguna,2018-03-15 13:40:13,2018-03-15 13:40:13,0.002s,NOT_RUN
+setText,,"Megisi inputan dengan Nama Pengguna \""Yessi\""",2018-03-15 13:40:13,2018-03-15 13:40:13,0.002s,NOT_RUN
+hideKeyboard,,Hide Keyboard Device,2018-03-15 13:40:13,2018-03-15 13:40:13,0.001s,NOT_RUN
+tap,,Mengklik Button Masuk,2018-03-15 13:40:13,2018-03-15 13:40:13,0.001s,NOT_RUN
+waitForElementPresent,,Menunggu action button masuk hingga selesai untuk masuk ke action Input PIN,2018-03-15 13:40:13,2018-03-15 13:40:13,0.003s,NOT_RUN
+tap,,Mengklik Text Field Pin,2018-03-15 13:40:13,2018-03-15 13:40:13,0.002s,NOT_RUN
+setText,,Menginput PIN Pengguna dengan 6 digit,2018-03-15 13:40:13,2018-03-15 13:40:13,0.001s,NOT_RUN
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 13:40:13,2018-03-15 13:40:17,3.548s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 13:40:17,2018-03-15 13:40:17,0.900s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 13:40:17,2018-03-15 13:40:19,1.783s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-03-15 13:40:19,2018-03-15 13:40:22,2.975s,PASSED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 2,,Display Empty state Screen,2018-03-15 13:40:22,2018-03-15 13:40:32,9.573s,FAILED
+delay,,,2018-03-15 13:40:22,2018-03-15 13:40:26,3.009s,PASSED
+waitForElementPresent,,,2018-03-15 13:40:26,2018-03-15 13:40:26,0.366s,PASSED
+tap,,,2018-03-15 13:40:26,2018-03-15 13:40:27,0.644s,PASSED
+waitForElementPresent,,,2018-03-15 13:40:27,2018-03-15 13:40:29,2.192s,PASSED
+tap,,,2018-03-15 13:40:29,2018-03-15 13:40:32,3.166s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 3,,Display All Transaction list Screen,2018-03-15 13:40:32,2018-03-15 13:40:39,7.333s,FAILED
+waitForElementPresent,,,2018-03-15 13:40:32,2018-03-15 13:40:35,3.053s,PASSED
+tap,,,2018-03-15 13:40:35,2018-03-15 13:40:39,4.140s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 4,,Display Full payment Transaction list Screen,2018-03-15 13:40:39,2018-03-15 13:40:48,8.379s,FAILED
+waitForElementPresent,,,2018-03-15 13:40:39,2018-03-15 13:40:44,4.173s,PASSED
+tap,,,2018-03-15 13:40:44,2018-03-15 13:40:48,4.073s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 5,,Display Partial payment Transaction list Screen,2018-03-15 13:40:48,2018-03-15 13:40:57,9.342s,FAILED
+waitForElementPresent,,,2018-03-15 13:40:48,2018-03-15 13:40:53,5.143s,PASSED
+tap,,,2018-03-15 13:40:53,2018-03-15 13:40:57,4.031s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 6,,Display All Transaction list on selected date ranges Screen,2018-03-15 13:40:57,2018-03-15 13:41:05,7.501s,FAILED
+waitForElementPresent,,,2018-03-15 13:40:57,2018-03-15 13:41:00,3.145s,PASSED
+tap,,,2018-03-15 13:41:00,2018-03-15 13:41:05,4.175s,FAILED
+,,,,,,
+Test Cases/Story 45 - Rincian menu/TC 7,,Display Full payment Transaction list on selected date ranges Screen,2018-03-15 13:41:05,2018-03-15 13:41:12,7.507s,FAILED
+waitForElementPresent,,,2018-03-15 13:41:05,2018-03-15 13:41:08,3.090s,PASSED
+tap,,,2018-03-15 13:41:08,2018-03-15 13:41:12,4.282s,FAILED

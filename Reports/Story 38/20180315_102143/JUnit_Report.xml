@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 38" time="123" tests="2" failures="5" errors="0">
+   <testsuite name="Story 38" tests="2" failures="5" errors="0" time="123" timestamp="2018-03-15 10:21:45" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 38">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 38\\20180315_102143"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 38\\20180315_102143\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 38\\20180315_102143\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.17.167"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 1" classname="Test Cases/Story 38 - Manage Category/TC 1" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found)"/>
+         <system-out><![CDATA[2018-03-15 10:21:45 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 1: Test Cases/Story 38 - Manage Category/TC 1 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found)
+
+2018-03-15 10:21:45 - [TEST_STEP][PASSED] - comment: Start Story 38
+
+2018-03-15 10:21:45 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 10:21:45 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 10:22:02 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 10:22:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 10:22:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 10:22:08 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 10:22:12 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 10:22:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 10:22:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 10:22:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 10:22:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 10:22:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 10:22:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 10:22:18 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-03-15 10:22:21 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-03-15 10:22:21 - [TEST_STEP][PASSED] - comment: Search Product
+
+2018-03-15 10:22:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 10:22:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 10:22:22 - [TEST_STEP][PASSED] - setText: Text 'Nestle Air Murni' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 10:22:33 - [MESSAGE][PASSED] - Text 'Nestle Air Murni' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 10:22:33 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 10:22:33 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 10:22:33 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Nestle Air Murni'
+
+2018-03-15 10:22:34 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Nestle Air Murni'
+
+2018-03-15 10:22:34 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found
+
+2018-03-15 10:22:39 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found
+
+2018-03-15 10:22:39 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found)
+
+2018-03-15 10:22:44 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found
+
+2018-03-15 10:22:44 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 10:21:45 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 1: Test Cases/Story 38 - Manage Category/TC 1 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 2" classname="Test Cases/Story 38 - Manage Category/TC 2" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to text 'PENGATURAN KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description(&quot;PENGATURAN KATEGORI&quot;).instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;PENGATURAN KATEGORI&quot;).instance(0));})"/>
+         <system-out><![CDATA[2018-03-15 10:22:44 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 2: Test Cases/Story 38 - Manage Category/TC 2 FAILED because (of) Unable to scroll to text 'PENGATURAN KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("PENGATURAN KATEGORI").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("PENGATURAN KATEGORI").instance(0));})
+
+2018-03-15 10:22:45 - [TEST_STEP][FAILED] - scrollToText: Unable to scroll to text 'PENGATURAN KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("PENGATURAN KATEGORI").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("PENGATURAN KATEGORI").instance(0));})
+
+2018-03-15 10:23:00 - [MESSAGE][FAILED] - Unable to scroll to text 'PENGATURAN KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("PENGATURAN KATEGORI").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("PENGATURAN KATEGORI").instance(0));})]]></system-out>
+         <system-err><![CDATA[2018-03-15 10:22:44 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 2: Test Cases/Story 38 - Manage Category/TC 2 FAILED because (of) Unable to scroll to text 'PENGATURAN KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.48 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("PENGATURAN KATEGORI").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("PENGATURAN KATEGORI").instance(0));})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 3" classname="Test Cases/Story 38 - Manage Category/TC 3" status="PASSED">
+         <system-out><![CDATA[2018-03-15 10:23:00 - [TEST_CASE][PASSED] - Test Cases/Story 38 - Manage Category/TC 3: Test Cases/Story 38 - Manage Category/TC 3
+
+2018-03-15 10:23:00 - [TEST_STEP][PASSED] - Statement - For (def index : (0..4)): Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:00 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:00 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:00 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:01 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:01 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:02 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:02 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:02 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:03 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:03 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:03 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:04 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:04 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:04 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:05 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:23:05 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,213 to 450,213
+
+2018-03-15 10:23:05 - [TEST_STEP][PASSED] - swipe: Swiped from 381,213 to 450,213
+
+2018-03-15 10:23:06 - [MESSAGE][PASSED] - Swiped from 381,213 to 450,213
+
+2018-03-15 10:23:06 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,286 to 450,286
+
+2018-03-15 10:23:06 - [TEST_STEP][PASSED] - swipe: Swiped from 381,286 to 450,286
+
+2018-03-15 10:23:07 - [MESSAGE][PASSED] - Swiped from 381,286 to 450,286
+
+2018-03-15 10:23:07 - [TEST_STEP][PASSED] - Statement - For (def index : (0..4)): Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:07 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:07 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:08 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:08 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:08 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:09 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:09 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:09 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:10 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:10 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:10 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:11 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:11 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:11 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:12 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:23:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-15 10:23:15 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 4" classname="Test Cases/Story 38 - Manage Category/TC 4" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button not found)"/>
+         <system-out><![CDATA[2018-03-15 10:23:15 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 4: Test Cases/Story 38 - Manage Category/TC 4 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button not found)
+
+2018-03-15 10:23:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button not found
+
+2018-03-15 10:23:18 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button not found
+
+2018-03-15 10:23:18 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button not found)
+
+2018-03-15 10:23:21 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button not found
+
+2018-03-15 10:23:21 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 10:23:15 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 4: Test Cases/Story 38 - Manage Category/TC 4 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 5" classname="Test Cases/Story 38 - Manage Category/TC 5" status="FAILED">
+         <failure type="FAILED" message="Unable to scroll to text 'TAMBAH KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description(&quot;TAMBAH KATEGORI&quot;).instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(&quot;TAMBAH KATEGORI&quot;).instance(0));})"/>
+         <system-out><![CDATA[2018-03-15 10:23:21 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 5: Test Cases/Story 38 - Manage Category/TC 5 FAILED because (of) Unable to scroll to text 'TAMBAH KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("TAMBAH KATEGORI").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("TAMBAH KATEGORI").instance(0));})
+
+2018-03-15 10:23:22 - [TEST_STEP][FAILED] - scrollToText: Unable to scroll to text 'TAMBAH KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("TAMBAH KATEGORI").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("TAMBAH KATEGORI").instance(0));})
+
+2018-03-15 10:23:35 - [MESSAGE][FAILED] - Unable to scroll to text 'TAMBAH KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("TAMBAH KATEGORI").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("TAMBAH KATEGORI").instance(0));})]]></system-out>
+         <system-err><![CDATA[2018-03-15 10:23:21 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 5: Test Cases/Story 38 - Manage Category/TC 5 FAILED because (of) Unable to scroll to text 'TAMBAH KATEGORI' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 919f4946-5a97-427b-b7bb-95db75adad7d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("TAMBAH KATEGORI").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("TAMBAH KATEGORI").instance(0));})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 6" classname="Test Cases/Story 38 - Manage Category/TC 6" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)"/>
+         <system-out><![CDATA[2018-03-15 10:23:35 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 6: Test Cases/Story 38 - Manage Category/TC 6 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)
+
+2018-03-15 10:23:36 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)
+
+2018-03-15 10:23:39 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found
+
+2018-03-15 10:23:39 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 10:23:35 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 6: Test Cases/Story 38 - Manage Category/TC 6 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 7" classname="Test Cases/Story 38 - Manage Category/TC 7" status="PASSED">
+         <system-out><![CDATA[2018-03-15 10:23:39 - [TEST_CASE][PASSED] - Test Cases/Story 38 - Manage Category/TC 7: Test Cases/Story 38 - Manage Category/TC 7
+
+2018-03-15 10:23:39 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 10:23:40 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-15 10:23:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 10:23:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 10:23:45 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-03-15 10:23:48 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 10:21:45 - [TEST_SUITE][FAILED] - Story 38: Test Cases/Story 38 - Manage Category/TC 1 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found)]]></system-out>
+      <system-err><![CDATA[2018-03-15 10:21:45 - [TEST_SUITE][FAILED] - Story 38: Test Cases/Story 38 - Manage Category/TC 1 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1 not found)]]></system-err>
+   </testsuite>
+</testsuites>

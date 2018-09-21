@@ -1,0 +1,695 @@
+[Appium] Welcome to Appium v1.6.3
+[Appium] Non-default server args:
+[Appium]   port: 50847
+[Appium]   loglevel: 'info'
+[Appium]   chromeDriverPort: 50852
+[Appium]   tmpDir: 'C:\\Users\\AV2017~1\\AppData\\Local\\Temp\\\\Katalon\\Appium\\Temp1511316607852'
+[Appium] Appium REST http interface listener started on 0.0.0.0:50847
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 23 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: autoGrantPermissions, platform.
+[BaseDriver] Session created with session id: 23a75cf4-2e15-4de4-bd4a-10a310907d83
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\AV2017005903\Downloads\Software\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 32013479b25184c3
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\AV2017005903\Downloads\Software\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+[AndroidDriver] Starting Android session
+[ADB] Getting device platform version
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\AV2017005903\Downloads\Software\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/34ec8d3600150450612257091d43a154.apk
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\AV2017005903\Downloads\Software\Katalon_Studio_Windows_64-4.8\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[Appium] New AndroidDriver session created successfully, session 23a75cf4-2e15-4de4-bd4a-10a310907d83 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 47920 ms - 1014 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 8 ms - 83 
+[HTTP] --> GET /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[HTTP] <-- GET /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/window/current/size 200 21 ms - 98 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 39 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 50 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 61 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 44 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 72 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 94 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 53 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 39 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 46 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 77 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 26 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 66 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 38 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 53 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 92 ms - 74 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(18)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(18)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(18)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(18)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 18
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=18]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 1084 ms - 89 
+[HTTP] --> GET /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/element/1/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":160,"y":122}}
+[HTTP] <-- GET /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/element/1/location 200 23 ms - 89 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/touch/perform {"actions":[{"action":"press","options":{"element":"1"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":160,"y":122}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":160,"height":60}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"1","x":240,"y":152}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 240, y: 152
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":240,"y":152}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 240, y: 152
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/touch/perform 200 181 ms - 76 
+[HTTP] --> GET /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] <-- GET /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/window/current/size 200 16 ms - 98 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(34)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(34)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(34)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(34)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 34
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(34)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(34)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 34
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 84 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(34)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(34)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(34)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(34)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 34
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(34)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(34)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 34
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 87 ms - 74 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").instance(34)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.view.View\").instance(34)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.view.View").instance(34)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.view.View").instance(34)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.view.View"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 34
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=34]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 200 705 ms - 89 
+[HTTP] --> GET /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/element/2/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":160,"y":182}}
+[HTTP] <-- GET /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/element/2/location 200 29 ms - 89 
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/touch/perform {"actions":[{"action":"press","options":{"element":"2"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":160,"y":182}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":160,"height":96}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"2","x":240,"y":230}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 240, y: 230
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":240,"y":230}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 240, y: 230
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/touch/perform 200 203 ms - 76 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 5 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 3 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 3 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 4 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 3 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 3 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 2 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 3 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 81 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 3 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 3 ms - 193 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 2 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"32013479b25184c3","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '32013479b25184c3'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[HTTP] <-- POST /wd/hub/session 500 3 ms - 193 
+[HTTP] --> DELETE /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83 {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[HTTP] --> POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements {"using":"id","value":"id"}
+[HTTP] <-- POST /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83/elements 404 2 ms - 131 
+[HTTP] <-- DELETE /wd/hub/session/23a75cf4-2e15-4de4-bd4a-10a310907d83 - - ms - - 
+[Appium] Removing session 23a75cf4-2e15-4de4-bd4a-10a310907d83 from our master session list

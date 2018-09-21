@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 35" time="385" tests="16" failures="0" errors="0">
+   <testsuite name="Story 35" tests="16" failures="0" errors="0" time="385" timestamp="2018-03-15 07:33:32" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 35">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 35\\20180315_073331"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 35\\20180315_073331\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 35\\20180315_073331\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Screenshoot\\BarangMandatory.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Screenshoot\\TambahBarang.png"/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.43.137"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 1" classname="Test Cases/Story 35 -Tambah Barang/TC 1" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:33:32 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 1: Test Cases/Story 35 -Tambah Barang/TC 1
+
+2018-03-15 07:33:33 - [TEST_STEP][PASSED] - comment: Start Story 35
+
+2018-03-15 07:33:33 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 07:33:33 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 07:33:48 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 07:33:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 07:33:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 07:33:55 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-03-15 07:33:55 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-03-15 07:33:55 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 07:33:59 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 07:33:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 07:34:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 07:34:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 07:34:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 07:34:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 07:34:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 07:34:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:34:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 07:34:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-03-15 07:34:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-03-15 07:34:10 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' is exist
+
+2018-03-15 07:34:11 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 2" classname="Test Cases/Story 35 -Tambah Barang/TC 2" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:34:11 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 2: Test Cases/Story 35 -Tambah Barang/TC 2
+
+2018-03-15 07:34:11 - [TEST_STEP][PASSED] - Statement - For (def index : (0..10)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-03-15 07:34:27 - [TEST_STEP][PASSED] - Statement - For (def index : (0..5)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-03-15 07:34:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 3" classname="Test Cases/Story 35 -Tambah Barang/TC 3" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:34:36 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 3: Test Cases/Story 35 -Tambah Barang/TC 3
+
+2018-03-15 07:34:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-03-15 07:34:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-03-15 07:34:38 - [TEST_STEP][PASSED] - setText: Text '-23' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-03-15 07:34:56 - [MESSAGE][PASSED] - Text '-23' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-03-15 07:34:56 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-03-15 07:35:01 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-03-15 07:35:01 - [TEST_STEP][PASSED] - setText: Text '8.2' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-03-15 07:35:19 - [MESSAGE][PASSED] - Text '8.2' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-03-15 07:35:19 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:35:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 07:35:20 - [TEST_STEP][PASSED] - swipe: Swiped from 24,679 to 24,453
+
+2018-03-15 07:35:21 - [MESSAGE][PASSED] - Swiped from 24,679 to 24,453]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 4" classname="Test Cases/Story 35 -Tambah Barang/TC 4" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:35:21 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 4: Test Cases/Story 35 -Tambah Barang/TC 4
+
+2018-03-15 07:35:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:35:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 07:35:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-03-15 07:35:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-03-15 07:35:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-03-15 07:35:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-03-15 07:35:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:35:33 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 5" classname="Test Cases/Story 35 -Tambah Barang/TC 5" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:35:33 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 5: Test Cases/Story 35 -Tambah Barang/TC 5
+
+2018-03-15 07:35:33 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-03-15 07:35:39 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-03-15 07:35:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/android.widget.TextView6 - Makanan'
+
+2018-03-15 07:35:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/android.widget.TextView6 - Makanan'
+
+2018-03-15 07:35:40 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-03-15 07:35:50 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 6" classname="Test Cases/Story 35 -Tambah Barang/TC 6" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:35:50 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 6: Test Cases/Story 35 -Tambah Barang/TC 6
+
+2018-03-15 07:35:50 - [TEST_STEP][PASSED] - comment: Test HARGA JUAL
+
+2018-03-15 07:35:50 - [TEST_STEP][PASSED] - setText: Text '-200' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:35:59 - [MESSAGE][PASSED] - Text '-200' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:35:59 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:36:00 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 07:36:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 07:36:05 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 7" classname="Test Cases/Story 35 -Tambah Barang/TC 7" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:36:05 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 7: Test Cases/Story 35 -Tambah Barang/TC 7
+
+2018-03-15 07:36:05 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-03-15 07:36:07 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-03-15 07:36:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:36:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:36:08 - [TEST_STEP][PASSED] - setText: Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:36:23 - [MESSAGE][PASSED] - Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:36:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-03-15 07:36:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-03-15 07:36:24 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:36:25 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 8" classname="Test Cases/Story 35 -Tambah Barang/TC 8" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:36:25 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 8: Test Cases/Story 35 -Tambah Barang/TC 8
+
+2018-03-15 07:36:25 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-03-15 07:36:27 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-03-15 07:36:27 - [TEST_STEP][PASSED] - setText: Text '2k' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:36:41 - [MESSAGE][PASSED] - Text '2k' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:36:41 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:36:42 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 07:36:42 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-03-15 07:36:44 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-03-15 07:36:44 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:36:45 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 9" classname="Test Cases/Story 35 -Tambah Barang/TC 9" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:36:45 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 9: Test Cases/Story 35 -Tambah Barang/TC 9
+
+2018-03-15 07:36:45 - [TEST_STEP][PASSED] - comment: Test NOMINAL Diskon
+
+2018-03-15 07:36:45 - [TEST_STEP][PASSED] - setText: Text '-2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:36:55 - [MESSAGE][PASSED] - Text '-2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:36:55 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:36:56 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 07:36:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:36:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:36:57 - [TEST_STEP][PASSED] - setText: Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:37:11 - [MESSAGE][PASSED] - Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-03-15 07:37:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-03-15 07:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-03-15 07:37:13 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:37:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 07:37:13 - [TEST_STEP][PASSED] - setText: Text '2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:37:25 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:37:25 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:37:26 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 10" classname="Test Cases/Story 35 -Tambah Barang/TC 10" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:37:26 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 10: Test Cases/Story 35 -Tambah Barang/TC 10
+
+2018-03-15 07:37:26 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox' text is cleared
+
+2018-03-15 07:37:28 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox' text is cleared
+
+2018-03-15 07:37:28 - [TEST_STEP][PASSED] - setText: Text '20' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox'
+
+2018-03-15 07:37:43 - [MESSAGE][PASSED] - Text '20' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox'
+
+2018-03-15 07:37:43 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:37:44 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 11" classname="Test Cases/Story 35 -Tambah Barang/TC 11" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:37:44 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 11: Test Cases/Story 35 -Tambah Barang/TC 11
+
+2018-03-15 07:37:44 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox' text is cleared
+
+2018-03-15 07:37:47 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox' text is cleared
+
+2018-03-15 07:37:47 - [TEST_STEP][PASSED] - setText: Text '-20' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox'
+
+2018-03-15 07:38:02 - [MESSAGE][PASSED] - Text '-20' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox'
+
+2018-03-15 07:38:02 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:38:03 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 12" classname="Test Cases/Story 35 -Tambah Barang/TC 12" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:38:03 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 12: Test Cases/Story 35 -Tambah Barang/TC 12
+
+2018-03-15 07:38:03 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-03-15 07:38:05 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-03-15 07:38:05 - [TEST_STEP][PASSED] - setText: Text '30000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:38:20 - [MESSAGE][PASSED] - Text '30000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:38:20 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:38:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 07:38:21 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-03-15 07:38:24 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-03-15 07:38:24 - [TEST_STEP][PASSED] - setText: Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:38:39 - [MESSAGE][PASSED] - Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:38:39 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:38:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 07:38:40 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-03-15 07:38:43 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-03-15 07:38:43 - [TEST_STEP][PASSED] - setText: Text '2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:38:58 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-03-15 07:38:58 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:39:00 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 13" classname="Test Cases/Story 35 -Tambah Barang/TC 13" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:39:00 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 13: Test Cases/Story 35 -Tambah Barang/TC 13
+
+2018-03-15 07:39:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button'
+
+2018-03-15 07:39:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button'
+
+2018-03-15 07:39:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-15 07:39:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-15 07:39:03 - [TEST_STEP][PASSED] - takeScreenshot: Screenshot is taken
+
+2018-03-15 07:39:04 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Screenshoot\\BarangMandatory.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 14" classname="Test Cases/Story 35 -Tambah Barang/TC 14" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:39:05 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 14: Test Cases/Story 35 -Tambah Barang/TC 14
+
+2018-03-15 07:39:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-03-15 07:39:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-03-15 07:39:06 - [TEST_STEP][PASSED] - setText: Text 'yesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesi' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-03-15 07:39:24 - [MESSAGE][PASSED] - Text 'yesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesiyesi' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-03-15 07:39:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' are matched.
+
+2018-03-15 07:39:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' are matched.
+
+2018-03-15 07:39:24 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:39:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 07:39:25 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' text is cleared
+
+2018-03-15 07:39:31 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' text is cleared
+
+2018-03-15 07:39:31 - [TEST_STEP][PASSED] - setText: Text 'Nestle Air Murni' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-03-15 07:39:45 - [MESSAGE][PASSED] - Text 'Nestle Air Murni' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-03-15 07:39:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' are matched.
+
+2018-03-15 07:39:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' are matched.
+
+2018-03-15 07:39:46 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 07:39:47 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 15" classname="Test Cases/Story 35 -Tambah Barang/TC 15" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:39:47 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 15: Test Cases/Story 35 -Tambah Barang/TC 15
+
+2018-03-15 07:39:47 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 07:39:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-15 07:39:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Batal - Button'
+
+2018-03-15 07:39:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Batal - Button'
+
+2018-03-15 07:39:49 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button' is present
+
+2018-03-15 07:39:50 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 -Tambah Barang/TC 16" classname="Test Cases/Story 35 -Tambah Barang/TC 16" status="PASSED">
+         <system-out><![CDATA[2018-03-15 07:39:50 - [TEST_CASE][PASSED] - Test Cases/Story 35 -Tambah Barang/TC 16: Test Cases/Story 35 -Tambah Barang/TC 16
+
+2018-03-15 07:39:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button'
+
+2018-03-15 07:39:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button'
+
+2018-03-15 07:39:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-15 07:39:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-03-15 07:39:53 - [TEST_STEP][PASSED] - takeScreenshot: Screenshot is taken
+
+2018-03-15 07:39:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Screenshoot\\TambahBarang.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 07:33:32 - [TEST_SUITE][PASSED] - Story 35: Test Cases/Story 35 -Tambah Barang/TC 16]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

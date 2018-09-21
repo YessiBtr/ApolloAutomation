@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 1799 - Request OR Conect EDC" time="921" tests="2" failures="2" errors="0">
+   <testsuite name="Story 1799 - Request OR Conect EDC" tests="2" failures="2" errors="0" time="921" timestamp="2018-09-07 16:03:27" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 1799 - Request OR Conect EDC">
+      <properties>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1799 - Request OR Conect EDC\\20180907_160325"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1799 - Request OR Conect EDC\\20180907_160325\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1799 - Request OR Conect EDC\\20180907_160325\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1799 - Request OR Conect EDC\\20180907_160325\\1536311919303.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1799 - Request OR Conect EDC\\20180907_160325\\1536311921076.png"/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="A37f"/>
+         <property name="hostAddress" value="192.168.62.1"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="6e4df14"/>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 1 - View EDC screen and check contain" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 1 - View EDC screen and check contain" status="PASSED">
+         <system-out><![CDATA[2018-09-07 16:03:28 - [TEST_CASE][PASSED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 1 - View EDC screen and check contain: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 1 - View EDC screen and check contain
+
+2018-09-07 16:03:29 - [TEST_STEP][PASSED] - comment: Start Login Test Case
+
+2018-09-07 16:03:29 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-07 16:03:29 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-07 16:04:03 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-07 16:04:03 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-07 16:04:18 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-07 16:04:18 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-07 16:04:18 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-07 16:04:18 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-07 16:04:18 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:04:21 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:04:29 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:04:29 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:04:32 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:04:40 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:04:40 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:04:43 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:04:51 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:04:51 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:04:54 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:05:02 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:05:02 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-07 16:05:09 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-07 16:05:09 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Splash Screen/Mulai - Button' has attribute 'content-desc' with value 'start_button_touch'
+
+2018-09-07 16:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/Splash Screen/Mulai - Button' has attribute 'content-desc' with value 'start_button_touch'
+
+2018-09-07 16:05:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-07 16:05:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-07 16:05:22 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-07 16:05:29 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-07 16:05:29 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-07 16:05:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-07 16:05:33 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-07 16:05:54 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-07 16:05:54 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-07 16:05:55 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-07 16:05:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-07 16:06:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-07 16:06:00 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-07 16:06:07 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-07 16:06:07 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-07 16:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-07 16:06:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-07 16:06:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-07 16:06:18 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-07 16:06:25 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-07 16:06:25 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-07 16:06:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-07 16:06:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:06:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:06:42 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:07:04 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:07:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-07 16:07:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-07 16:07:09 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-07 16:07:09 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-07 16:07:12 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-07 16:07:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-07 16:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-07 16:07:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-07 16:07:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-07 16:07:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko' has attribute 'content-desc' with value 'aturTokoMenuItem'
+
+2018-09-07 16:07:30 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko' has attribute 'content-desc' with value 'aturTokoMenuItem'
+
+2018-09-07 16:07:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko'
+
+2018-09-07 16:07:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko'
+
+2018-09-07 16:07:38 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is visible
+
+2018-09-07 16:07:45 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is visible
+
+2018-09-07 16:07:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:07:50 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:07:50 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' is visible
+
+2018-09-07 16:07:54 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' is visible
+
+2018-09-07 16:07:54 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' has attribute 'content-desc' with value 'tokoListScreen_button_printer'
+
+2018-09-07 16:07:58 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' has attribute 'content-desc' with value 'tokoListScreen_button_printer'
+
+2018-09-07 16:07:58 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is present
+
+2018-09-07 16:08:01 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is present
+
+2018-09-07 16:08:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:08:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC'
+
+2018-09-07 16:08:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC'
+
+2018-09-07 16:08:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-07 16:08:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-07 16:08:16 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-07 16:08:24 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 3 - Check EDC status while EDS is connected" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 3 - Check EDC status while EDS is connected" status="PASSED">
+         <system-out><![CDATA[2018-09-07 16:08:24 - [TEST_CASE][PASSED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 3 - Check EDC status while EDS is connected: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 3 - Check EDC status while EDS is connected
+
+2018-09-07 16:08:25 - [TEST_STEP][PASSED] - comment: Start Login Test Case
+
+2018-09-07 16:08:25 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-07 16:08:25 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-07 16:08:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-07 16:08:59 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-07 16:09:14 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-07 16:09:14 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-07 16:09:14 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-07 16:09:14 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-07 16:09:14 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:09:16 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:09:24 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:09:24 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:09:27 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:09:35 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:09:35 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:09:38 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:09:46 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:09:46 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:09:49 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:09:57 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:09:57 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-07 16:10:00 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-07 16:10:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Splash Screen/Mulai - Button' has attribute 'content-desc' with value 'start_button_touch'
+
+2018-09-07 16:10:08 - [MESSAGE][PASSED] - Object 'Object Repository/Splash Screen/Mulai - Button' has attribute 'content-desc' with value 'start_button_touch'
+
+2018-09-07 16:10:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-07 16:10:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-07 16:10:15 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-07 16:10:20 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-07 16:10:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-07 16:10:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-07 16:10:27 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-07 16:10:46 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-07 16:10:46 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-07 16:10:47 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-07 16:10:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-07 16:10:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-07 16:10:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-07 16:10:59 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-07 16:10:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-07 16:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-07 16:11:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-07 16:11:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-07 16:11:15 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-07 16:11:19 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-07 16:11:19 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-07 16:11:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-07 16:11:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:11:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:11:33 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:12:01 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:12:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-07 16:12:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-07 16:12:06 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-07 16:12:06 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-07 16:12:08 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-07 16:12:08 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-07 16:12:13 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-07 16:12:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-07 16:12:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-07 16:12:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko' has attribute 'content-desc' with value 'aturTokoMenuItem'
+
+2018-09-07 16:12:26 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko' has attribute 'content-desc' with value 'aturTokoMenuItem'
+
+2018-09-07 16:12:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko'
+
+2018-09-07 16:12:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko'
+
+2018-09-07 16:12:37 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is visible
+
+2018-09-07 16:12:41 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is visible
+
+2018-09-07 16:12:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:12:47 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:12:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-07 16:12:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-07 16:12:52 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' is visible
+
+2018-09-07 16:12:56 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' is visible
+
+2018-09-07 16:12:56 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' has attribute 'content-desc' with value 'tokoListScreen_button_printer'
+
+2018-09-07 16:13:00 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' has attribute 'content-desc' with value 'tokoListScreen_button_printer'
+
+2018-09-07 16:13:00 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is present
+
+2018-09-07 16:13:03 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is present
+
+2018-09-07 16:13:03 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:13:07 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:13:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC'
+
+2018-09-07 16:13:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC'
+
+2018-09-07 16:13:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-07 16:13:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-07 16:13:15 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' is visible
+
+2018-09-07 16:13:21 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' is visible
+
+2018-09-07 16:13:21 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/ErMsg - Mesin EDC telah terhubung' is visible
+
+2018-09-07 16:13:25 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/ErMsg - Mesin EDC telah terhubung' is visible
+
+2018-09-07 16:13:25 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/ErMsg - Untuk menghubungkan mesin EDC baru harap untuk memutuskan koneksi yang sudah ada terlebih dahulu.' is visible
+
+2018-09-07 16:13:29 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/ErMsg - Untuk menghubungkan mesin EDC baru harap untuk memutuskan koneksi yang sudah ada terlebih dahulu.' is visible
+
+2018-09-07 16:13:29 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-07 16:13:36 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 4 - Click Back button from apps" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 4 - Click Back button from apps" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' visible (Root cause: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' not found)"/>
+         <system-out><![CDATA[2018-09-07 16:13:36 - [TEST_CASE][FAILED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 4 - Click Back button from apps: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 4 - Click Back button from apps FAILED because (of) Failed to check for element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' visible (Root cause: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' not found)
+
+2018-09-07 16:13:36 - [TEST_STEP][PASSED] - comment: Start Login Test Case
+
+2018-09-07 16:13:36 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-07 16:13:36 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-07 16:14:13 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-07 16:14:13 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-07 16:14:28 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-07 16:14:28 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-07 16:14:28 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-07 16:14:28 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-07 16:14:28 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:14:30 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:14:38 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:14:38 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:14:41 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:14:49 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:14:49 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:14:52 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:15:00 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:15:00 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-07 16:15:03 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-07 16:15:11 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-07 16:15:11 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-07 16:15:20 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-07 16:15:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Splash Screen/Mulai - Button' has attribute 'content-desc' with value 'start_button_touch'
+
+2018-09-07 16:15:25 - [MESSAGE][PASSED] - Object 'Object Repository/Splash Screen/Mulai - Button' has attribute 'content-desc' with value 'start_button_touch'
+
+2018-09-07 16:15:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-07 16:15:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-07 16:15:33 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-07 16:15:38 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-07 16:15:38 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-07 16:15:43 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-07 16:15:43 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-07 16:16:08 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-07 16:16:08 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-07 16:16:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-07 16:16:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-07 16:16:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-07 16:16:26 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-07 16:16:28 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-07 16:16:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-07 16:16:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-07 16:16:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-07 16:16:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-07 16:16:40 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-07 16:16:45 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-07 16:16:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-07 16:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-07 16:16:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:16:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:16:56 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:17:22 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-07 16:17:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-07 16:17:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-07 16:17:27 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-07 16:17:27 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-07 16:17:31 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-07 16:17:31 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-07 16:17:35 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-07 16:17:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-07 16:17:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-07 16:17:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko' has attribute 'content-desc' with value 'aturTokoMenuItem'
+
+2018-09-07 16:17:47 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko' has attribute 'content-desc' with value 'aturTokoMenuItem'
+
+2018-09-07 16:17:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko'
+
+2018-09-07 16:17:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/Pengaturan Toko'
+
+2018-09-07 16:17:55 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is visible
+
+2018-09-07 16:18:00 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is visible
+
+2018-09-07 16:18:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:18:04 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:18:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-07 16:18:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-07 16:18:09 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' is visible
+
+2018-09-07 16:18:12 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' is visible
+
+2018-09-07 16:18:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' has attribute 'content-desc' with value 'tokoListScreen_button_printer'
+
+2018-09-07 16:18:16 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/Printer Menu/Printer' has attribute 'content-desc' with value 'tokoListScreen_button_printer'
+
+2018-09-07 16:18:16 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is present
+
+2018-09-07 16:18:20 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' is present
+
+2018-09-07 16:18:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:18:24 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC' has attribute 'content-desc' with value 'tokoListScreen_button_edc'
+
+2018-09-07 16:18:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC'
+
+2018-09-07 16:18:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/EDC'
+
+2018-09-07 16:18:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-09-07 16:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-09-07 16:18:33 - [TEST_STEP][FAILED] - verifyElementVisible: Failed to check for element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' visible (Root cause: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' not found)
+
+2018-09-07 16:18:41 - [MESSAGE][FAILED] - Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' not found
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1799 - Request OR Conect EDC\\20180907_160325\\1536311919303.png]]
+
+2018-09-07 16:18:42 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' visible (Root cause: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' not found)
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1799 - Request OR Conect EDC\\20180907_160325\\1536311921076.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-07 16:13:36 - [TEST_CASE][FAILED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 4 - Click Back button from apps: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 4 - Click Back button from apps FAILED because (of) Failed to check for element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' visible (Root cause: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 5 - Click Back button from device" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 5 - Click Back button from device" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '7 September.apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid)"/>
+         <system-out><![CDATA[2018-09-07 16:18:42 - [TEST_CASE][FAILED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 5 - Click Back button from device: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 5 - Click Back button from device FAILED because (of) Unable to start app at: '7 September.apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid)
+
+2018-09-07 16:18:43 - [TEST_STEP][PASSED] - comment: Start Login Test Case
+
+2018-09-07 16:18:43 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-07 16:18:43 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '7 September.apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid)
+
+2018-09-07 16:18:43 - [MESSAGE][FAILED] - Unable to start app at: '7 September.apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid)]]></system-out>
+         <system-err><![CDATA[2018-09-07 16:18:42 - [TEST_CASE][FAILED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 5 - Click Back button from device: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 5 - Click Back button from device FAILED because (of) Unable to start app at: '7 September.apk' (Root cause: java.io.IOException: GetExitCodeProcess error=6, The handle is invalid)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-07 16:03:27 - [TEST_SUITE][FAILED] - Story 1799 - Request OR Conect EDC: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 4 - Click Back button from apps FAILED because (of) Failed to check for element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' visible (Root cause: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' not found)]]></system-out>
+      <system-err><![CDATA[2018-09-07 16:03:27 - [TEST_SUITE][FAILED] - Story 1799 - Request OR Conect EDC: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1799 - Request OR Conect EDC/TC 4 - Click Back button from apps FAILED because (of) Failed to check for element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' visible (Root cause: Element 'Object Repository/Sidebar Menu/Pengaturan Toko/EDC Menu/Image - EDC_Terhubung' not found)]]></system-err>
+   </testsuite>
+</testsuites>

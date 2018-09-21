@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sprint 2" time="58" tests="0" failures="8" errors="0">
+   <testsuite name="Sprint 2" tests="0" failures="8" errors="0" time="58" timestamp="2018-02-13 14:25:41" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Sprint 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\Apollo Test\\Reports\\Sprint 2\\20180213_142537"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\Apollo Test\\Reports\\Sprint 2\\20180213_142537\\appium.log, C:\\Users\\AV2017005903\\Documents\\Apollo Test\\Reports\\Sprint 2\\20180213_142537\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="hostAddress" value="192.168.17.200"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/26 - TC - All" classname="Test Cases/26 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)"/>
+         <system-out><![CDATA[2018-02-13 14:25:42 - [TEST_CASE][FAILED] - Test Cases/26 - TC - All: Test Cases/26 - TC - All FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-02-13 14:25:43 - [TEST_STEP][PASSED] - comment: Start Story 26
+
+2018-02-13 14:25:43 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-02-13 14:26:17 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+         <system-err><![CDATA[2018-02-13 14:25:42 - [TEST_CASE][FAILED] - Test Cases/26 - TC - All: Test Cases/26 - TC - All FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/35 - TC-All" classname="Test Cases/35 - TC-All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-02-13 14:26:17 - [TEST_CASE][FAILED] - Test Cases/35 - TC-All: Test Cases/35 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:17 - [TEST_STEP][PASSED] - comment: Start Story 35
+
+2018-02-13 14:26:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-13 14:26:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-13 14:26:22 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:22 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-02-13 14:26:17 - [TEST_CASE][FAILED] - Test Cases/35 - TC-All: Test Cases/35 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/27 - TC - All" classname="Test Cases/27 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Cannot swipe on device. (Root cause: No driver found)"/>
+         <system-out><![CDATA[2018-02-13 14:26:22 - [TEST_CASE][FAILED] - Test Cases/27 - TC - All: Test Cases/27 - TC - All FAILED because (of) Cannot swipe on device. (Root cause: No driver found)
+
+2018-02-13 14:26:23 - [TEST_STEP][PASSED] - comment: Start Story 27
+
+2018-02-13 14:26:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-13 14:26:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-13 14:26:28 - [TEST_STEP][FAILED] - Statement - For (def index : (0..5)): Cannot swipe on device. (Root cause: No driver found)
+
+2018-02-13 14:26:28 - [TEST_STEP][FAILED] - swipe: Cannot swipe on device. (Root cause: No driver found)
+
+2018-02-13 14:26:28 - [MESSAGE][FAILED] - Cannot swipe on device. (Root cause: No driver found)]]></system-out>
+         <system-err><![CDATA[2018-02-13 14:26:22 - [TEST_CASE][FAILED] - Test Cases/27 - TC - All: Test Cases/27 - TC - All FAILED because (of) Cannot swipe on device. (Root cause: No driver found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/46 - TC - All" classname="Test Cases/46 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-02-13 14:26:28 - [TEST_CASE][FAILED] - Test Cases/46 - TC - All: Test Cases/46 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:28 - [TEST_STEP][PASSED] - comment: Start Story 46
+
+2018-02-13 14:26:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-13 14:26:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-13 14:26:33 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:33 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-02-13 14:26:28 - [TEST_CASE][FAILED] - Test Cases/46 - TC - All: Test Cases/46 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/28 - TC-All" classname="Test Cases/28 - TC-All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-02-13 14:26:33 - [TEST_CASE][FAILED] - Test Cases/28 - TC-All: Test Cases/28 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:33 - [TEST_STEP][PASSED] - comment: Start Story 28
+
+2018-02-13 14:26:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-13 14:26:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-13 14:26:38 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:39 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-02-13 14:26:33 - [TEST_CASE][FAILED] - Test Cases/28 - TC-All: Test Cases/28 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/29 - TC - All" classname="Test Cases/29 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-02-13 14:26:39 - [TEST_CASE][FAILED] - Test Cases/29 - TC - All: Test Cases/29 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:39 - [TEST_STEP][PASSED] - comment: Start Story 29
+
+2018-02-13 14:26:39 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..5)): NOT_RUN: Statement - For (def index : (0..5))
+
+2018-02-13 14:26:39 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..5))
+
+2018-02-13 14:26:39 - [TEST_STEP][FAILED] - Statement - For (def index : (0..3)): Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:39 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-13 14:26:39 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-02-13 14:26:39 - [TEST_CASE][FAILED] - Test Cases/29 - TC - All: Test Cases/29 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/47 - TC- All" classname="Test Cases/47 - TC- All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-02-13 14:26:39 - [TEST_CASE][FAILED] - Test Cases/47 - TC- All: Test Cases/47 - TC- All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:39 - [TEST_STEP][PASSED] - comment: Start Story 47
+
+2018-02-13 14:26:39 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: No application is started yet.)
+
+2018-02-13 14:26:39 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-02-13 14:26:39 - [TEST_CASE][FAILED] - Test Cases/47 - TC- All: Test Cases/47 - TC- All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/30 - TC - All" classname="Test Cases/30 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-02-13 14:26:39 - [TEST_CASE][FAILED] - Test Cases/30 - TC - All: Test Cases/30 - TC - All FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-02-13 14:26:39 - [TEST_STEP][PASSED] - comment: Start Story 30
+
+2018-02-13 14:26:39 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-02-13 14:26:39 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-02-13 14:26:39 - [TEST_CASE][FAILED] - Test Cases/30 - TC - All: Test Cases/30 - TC - All FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-13 14:25:41 - [TEST_SUITE][FAILED] - Sprint 2: Test Cases/26 - TC - All FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+      <system-err><![CDATA[2018-02-13 14:25:41 - [TEST_SUITE][FAILED] - Sprint 2: Test Cases/26 - TC - All FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\Apollo Test\SIT v-8.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BTPNAP-26 Kelola Stok" time="150" tests="4" failures="7" errors="0">
+   <testsuite name="BTPNAP-26 Kelola Stok" tests="4" failures="7" errors="0" time="150" timestamp="2017-12-04 08:11:06" hostname="AV2017005903 - NB17Q7U8IT.corp.bankbtpn.co.id" id="Test Suites/BTPNAP-26 Kelola Stok">
+      <properties>
+         <property name="deviceName" value="samsung SM-J120G 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171204_081103"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171204_081103\\appium.log, C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171204_081103\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NB17Q7U8IT.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.3"/>
+         <property name="deviceModel" value="SM-J120G"/>
+         <property name="hostAddress" value="192.168.8.101"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="3201281be0f78439"/>
+         <property name="deviceName" value="samsung SM-J120G 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TC-1" classname="Test Cases/TC-1" status="PASSED">
+         <system-out><![CDATA[2017-12-04 08:11:07 - [TEST_CASE][PASSED] - Test Cases/TC-1: Test Cases/TC-1
+
+2017-12-04 08:11:08 - [TEST_STEP][PASSED] - startApplication: Started app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+
+2017-12-04 08:12:06 - [MESSAGE][PASSED] - Started app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+
+2017-12-04 08:12:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Transaksi - Tab'
+
+2017-12-04 08:12:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Transaksi - Tab'
+
+2017-12-04 08:12:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Stock - Tab'
+
+2017-12-04 08:12:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Stock - Tab']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2" classname="Test Cases/TC-2" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)"/>
+         <system-out><![CDATA[2017-12-04 08:12:11 - [TEST_CASE][FAILED] - Test Cases/TC-2: Test Cases/TC-2 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)
+
+2017-12-04 08:12:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Kategori - Tab'
+
+2017-12-04 08:12:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Kategori - Tab'
+
+2017-12-04 08:12:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-04 08:12:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-04 08:12:17 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)
+
+2017-12-04 08:12:22 - [MESSAGE][FAILED] - Object Object Repository/Transaksi/Stock/Kategori - Tab not found
+
+2017-12-04 08:12:22 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)]]></system-out>
+         <system-err><![CDATA[2017-12-04 08:12:11 - [TEST_CASE][FAILED] - Test Cases/TC-2: Test Cases/TC-2 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-3" classname="Test Cases/TC-3" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)"/>
+         <system-out><![CDATA[2017-12-04 08:12:22 - [TEST_CASE][FAILED] - Test Cases/TC-3: Test Cases/TC-3 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)
+
+2017-12-04 08:12:22 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)
+
+2017-12-04 08:12:27 - [MESSAGE][FAILED] - Object Object Repository/Transaksi/Stock/Kategori - Tab not found
+
+2017-12-04 08:12:27 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)]]></system-out>
+         <system-err><![CDATA[2017-12-04 08:12:22 - [TEST_CASE][FAILED] - Test Cases/TC-3: Test Cases/TC-3 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-4" classname="Test Cases/TC-4" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)"/>
+         <system-out><![CDATA[2017-12-04 08:12:27 - [TEST_CASE][FAILED] - Test Cases/TC-4: Test Cases/TC-4 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:27 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:32 - [MESSAGE][FAILED] - Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found
+
+2017-12-04 08:12:32 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-out>
+         <system-err><![CDATA[2017-12-04 08:12:27 - [TEST_CASE][FAILED] - Test Cases/TC-4: Test Cases/TC-4 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-5" classname="Test Cases/TC-5" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)"/>
+         <system-out><![CDATA[2017-12-04 08:12:32 - [TEST_CASE][FAILED] - Test Cases/TC-5: Test Cases/TC-5 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:33 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:38 - [MESSAGE][FAILED] - Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found
+
+2017-12-04 08:12:38 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-out>
+         <system-err><![CDATA[2017-12-04 08:12:32 - [TEST_CASE][FAILED] - Test Cases/TC-5: Test Cases/TC-5 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-6" classname="Test Cases/TC-6" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)"/>
+         <system-out><![CDATA[2017-12-04 08:12:38 - [TEST_CASE][FAILED] - Test Cases/TC-6: Test Cases/TC-6 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:38 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:43 - [MESSAGE][FAILED] - Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found
+
+2017-12-04 08:12:43 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-out>
+         <system-err><![CDATA[2017-12-04 08:12:38 - [TEST_CASE][FAILED] - Test Cases/TC-6: Test Cases/TC-6 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-7" classname="Test Cases/TC-7" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)"/>
+         <system-out><![CDATA[2017-12-04 08:12:43 - [TEST_CASE][FAILED] - Test Cases/TC-7: Test Cases/TC-7 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:43 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:48 - [MESSAGE][FAILED] - Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found
+
+2017-12-04 08:12:48 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-out>
+         <system-err><![CDATA[2017-12-04 08:12:43 - [TEST_CASE][FAILED] - Test Cases/TC-7: Test Cases/TC-7 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-8" classname="Test Cases/TC-8" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)"/>
+         <system-out><![CDATA[2017-12-04 08:12:48 - [TEST_CASE][FAILED] - Test Cases/TC-8: Test Cases/TC-8 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:49 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)
+
+2017-12-04 08:12:54 - [MESSAGE][FAILED] - Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found
+
+2017-12-04 08:12:54 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-out>
+         <system-err><![CDATA[2017-12-04 08:12:48 - [TEST_CASE][FAILED] - Test Cases/TC-8: Test Cases/TC-8 FAILED because (of) Failed to clear text of element (Root cause: Element 'Object Repository/Transaksi/Stock/CariProduk - View' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-9" classname="Test Cases/TC-9" status="PASSED">
+         <system-out><![CDATA[2017-12-04 08:12:54 - [TEST_CASE][PASSED] - Test Cases/TC-9: Test Cases/TC-9
+
+2017-12-04 08:12:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Terapkan - Kategori Btn'
+
+2017-12-04 08:12:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Terapkan - Kategori Btn'
+
+2017-12-04 08:12:54 - [TEST_STEP][PASSED] - swipe: Swiped from 126,683 to 126,440
+
+2017-12-04 08:12:59 - [MESSAGE][PASSED] - Swiped from 126,683 to 126,440
+
+2017-12-04 08:13:01 - [TEST_STEP][PASSED] - swipe: Swiped from 126,683 to 126,440
+
+2017-12-04 08:13:07 - [MESSAGE][PASSED] - Swiped from 126,683 to 126,440]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-10" classname="Test Cases/TC-10" status="PASSED">
+         <system-out><![CDATA[2017-12-04 08:13:09 - [TEST_CASE][PASSED] - Test Cases/TC-10: Test Cases/TC-10
+
+2017-12-04 08:13:09 - [TEST_STEP][PASSED] - swipe: Swiped from 126,683 to 126,440
+
+2017-12-04 08:13:14 - [MESSAGE][PASSED] - Swiped from 126,683 to 126,440
+
+2017-12-04 08:13:16 - [TEST_STEP][PASSED] - swipe: Swiped from 126,683 to 126,440
+
+2017-12-04 08:13:21 - [MESSAGE][PASSED] - Swiped from 126,683 to 126,440]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-11" classname="Test Cases/TC-11" status="PASSED">
+         <system-out><![CDATA[2017-12-04 08:13:23 - [TEST_CASE][PASSED] - Test Cases/TC-11: Test Cases/TC-11
+
+2017-12-04 08:13:23 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-12-04 08:13:23 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-12-04 08:13:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/TambahBarang - Btn'
+
+2017-12-04 08:13:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/TambahBarang - Btn'
+
+2017-12-04 08:13:24 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2017-12-04 08:13:37 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-04 08:11:06 - [TEST_SUITE][FAILED] - BTPNAP-26 Kelola Stok: Test Cases/TC-2 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)]]></system-out>
+      <system-err><![CDATA[2017-12-04 08:11:06 - [TEST_SUITE][FAILED] - BTPNAP-26 Kelola Stok: Test Cases/TC-2 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Kategori - Tab' (Root cause: Object Object Repository/Transaksi/Stock/Kategori - Tab not found)]]></system-err>
+   </testsuite>
+</testsuites>

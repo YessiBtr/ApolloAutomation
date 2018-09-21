@@ -1,0 +1,445 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 1770 - Additional Biaya Tambahan in shoopping cart,,,2018-09-13 11:27:32,2018-09-13 12:09:05,41m - 33.608s,FAILED
+,,,,,,
+Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 1 - View Biaya tambahan field and button in shopping cart,,,2018-09-13 11:27:32,2018-09-13 11:32:57,5m - 24.281s,PASSED
+comment,,,2018-09-13 11:27:33,2018-09-13 11:27:33,0.050s,PASSED
+Statement - apkPath = apkName,,,2018-09-13 11:27:33,2018-09-13 11:27:33,0.015s,PASSED
+startApplication,,,2018-09-13 11:27:33,2018-09-13 11:28:16,43.424s,PASSED
+delay,,,2018-09-13 11:28:16,2018-09-13 11:28:31,15.017s,PASSED
+"Comment - ""If there is a Update TopuUp, click No, Else you can delay for waiting lazyload """,,,2018-09-13 11:28:31,2018-09-13 11:28:31,0.003s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-09-13 11:28:31,2018-09-13 11:28:31,0.016s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-09-13 11:28:31,2018-09-13 11:28:31,0.007s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:28:31,2018-09-13 11:28:34,2.540s,PASSED
+delay,,,2018-09-13 11:28:34,2018-09-13 11:28:42,8.010s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:28:42,2018-09-13 11:28:45,3.105s,PASSED
+delay,,,2018-09-13 11:28:45,2018-09-13 11:28:53,8.011s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:28:53,2018-09-13 11:28:56,2.886s,PASSED
+delay,,,2018-09-13 11:28:56,2018-09-13 11:29:04,8.008s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:29:04,2018-09-13 11:29:06,2.289s,PASSED
+delay,,,2018-09-13 11:29:06,2018-09-13 11:29:14,8.006s,PASSED
+waitForElementPresent,,,2018-09-13 11:29:14,2018-09-13 11:29:18,3.610s,PASSED
+tap,,,2018-09-13 11:29:18,2018-09-13 11:29:24,6.570s,PASSED
+comment,,,2018-09-13 11:29:24,2018-09-13 11:29:24,0.005s,PASSED
+comment,,,2018-09-13 11:29:24,2018-09-13 11:29:24,0.008s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-09-13 11:29:24,2018-09-13 11:29:29,4.999s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-09-13 11:29:29,2018-09-13 11:29:33,4.113s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-09-13 11:29:33,2018-09-13 11:30:01,27.192s,PASSED
+hideKeyboard,,Hide Keyboard,2018-09-13 11:30:01,2018-09-13 11:30:02,1.147s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-09-13 11:30:02,2018-09-13 11:30:06,3.875s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-09-13 11:30:06,2018-09-13 11:30:09,2.938s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-09-13 11:30:09,2018-09-13 11:30:13,4.035s,PASSED
+tap,,Click Masuk Button,2018-09-13 11:30:13,2018-09-13 11:30:19,6.111s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-09-13 11:30:19,2018-09-13 11:30:22,3.574s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-09-13 11:30:22,2018-09-13 11:30:26,4.067s,PASSED
+tap,,Click Input Pin TextBox,2018-09-13 11:30:26,2018-09-13 11:30:32,5.332s,PASSED
+setText,,SetText to PIN Textbox,2018-09-13 11:30:32,2018-09-13 11:30:57,25.429s,PASSED
+delay,,,2018-09-13 11:30:57,2018-09-13 11:31:02,5.027s,PASSED
+comment,,End Login Test Case,2018-09-13 11:31:02,2018-09-13 11:31:02,0.007s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-09-13 11:31:02,2018-09-13 11:31:08,5.326s,PASSED
+comment,,,2018-09-13 11:31:08,2018-09-13 11:31:08,0.007s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-09-13 11:31:08,2018-09-13 11:31:11,3.837s,PASSED
+tap,,Click Hamburger Button,2018-09-13 11:31:11,2018-09-13 11:31:19,7.129s,PASSED
+waitForElementPresent,,,2018-09-13 11:31:19,2018-09-13 11:31:23,4.410s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:31:23,2018-09-13 11:31:27,4.072s,PASSED
+tap,,Go to Mesin Kasir Menu,2018-09-13 11:31:27,2018-09-13 11:31:32,5.281s,PASSED
+waitForElementPresent,,,2018-09-13 11:31:32,2018-09-13 11:31:36,4.110s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:31:36,2018-09-13 11:31:40,3.789s,PASSED
+Statement - For (def index : (0..1)),,ADD PRODUCT to shopping cart,2018-09-13 11:31:40,2018-09-13 11:31:56,15.334s,PASSED
+Statement - For (def index : (0..1)),,,2018-09-13 11:31:56,2018-09-13 11:32:08,12.290s,PASSED
+waitForElementPresent,,See shopping cart,2018-09-13 11:32:08,2018-09-13 11:32:11,3.134s,PASSED
+tap,,,2018-09-13 11:32:11,2018-09-13 11:32:15,4.525s,PASSED
+comment,,,2018-09-13 11:32:15,2018-09-13 11:32:15,0.005s,PASSED
+waitForElementPresent,,,2018-09-13 11:32:15,2018-09-13 11:32:20,4.808s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:32:20,2018-09-13 11:32:28,7.248s,PASSED
+verifyElementVisible,,,2018-09-13 11:32:28,2018-09-13 11:32:36,8.120s,PASSED
+waitForElementPresent,,,2018-09-13 11:32:36,2018-09-13 11:32:40,4.012s,PASSED
+verifyElementVisible,,,2018-09-13 11:32:40,2018-09-13 11:32:44,4.006s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:32:44,2018-09-13 11:32:48,4.780s,PASSED
+closeApplication,,,2018-09-13 11:32:48,2018-09-13 11:32:57,8.216s,PASSED
+,,,,,,
+Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 2 - Click X button from Biaya Tambahan field to Cancel and check contain,,,2018-09-13 11:32:57,2018-09-13 11:39:54,6m - 57.295s,PASSED
+comment,,,2018-09-13 11:32:57,2018-09-13 11:32:57,0.002s,PASSED
+Statement - apkPath = apkName,,,2018-09-13 11:32:57,2018-09-13 11:32:57,0.000s,PASSED
+startApplication,,,2018-09-13 11:32:57,2018-09-13 11:33:32,35.174s,PASSED
+delay,,,2018-09-13 11:33:32,2018-09-13 11:33:47,15.004s,PASSED
+"Comment - ""If there is a Update TopuUp, click No, Else you can delay for waiting lazyload """,,,2018-09-13 11:33:47,2018-09-13 11:33:47,0.002s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-09-13 11:33:47,2018-09-13 11:33:47,0.005s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-09-13 11:33:47,2018-09-13 11:33:47,0.003s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:33:47,2018-09-13 11:33:50,3.092s,PASSED
+delay,,,2018-09-13 11:33:50,2018-09-13 11:33:58,8.007s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:33:58,2018-09-13 11:34:01,2.642s,PASSED
+delay,,,2018-09-13 11:34:01,2018-09-13 11:34:09,8.007s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:34:09,2018-09-13 11:34:12,3.054s,PASSED
+delay,,,2018-09-13 11:34:12,2018-09-13 11:34:20,8.003s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:34:20,2018-09-13 11:34:22,2.428s,PASSED
+delay,,,2018-09-13 11:34:22,2018-09-13 11:34:30,8.008s,PASSED
+waitForElementPresent,,,2018-09-13 11:34:30,2018-09-13 11:34:33,2.711s,PASSED
+tap,,,2018-09-13 11:34:33,2018-09-13 11:34:38,4.898s,PASSED
+comment,,,2018-09-13 11:34:38,2018-09-13 11:34:38,0.001s,PASSED
+comment,,,2018-09-13 11:34:38,2018-09-13 11:34:38,0.001s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-09-13 11:34:38,2018-09-13 11:34:42,3.710s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-09-13 11:34:42,2018-09-13 11:34:46,4.249s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-09-13 11:34:46,2018-09-13 11:35:04,17.559s,PASSED
+hideKeyboard,,Hide Keyboard,2018-09-13 11:35:04,2018-09-13 11:35:05,1.000s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-09-13 11:35:05,2018-09-13 11:35:08,3.859s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-09-13 11:35:08,2018-09-13 11:35:11,2.925s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-09-13 11:35:11,2018-09-13 11:35:15,4.030s,PASSED
+tap,,Click Masuk Button,2018-09-13 11:35:15,2018-09-13 11:35:21,5.597s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-09-13 11:35:21,2018-09-13 11:35:25,4.435s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-09-13 11:35:25,2018-09-13 11:35:30,4.266s,PASSED
+tap,,Click Input Pin TextBox,2018-09-13 11:35:30,2018-09-13 11:35:36,5.983s,PASSED
+setText,,SetText to PIN Textbox,2018-09-13 11:35:36,2018-09-13 11:35:56,20.318s,PASSED
+delay,,,2018-09-13 11:35:56,2018-09-13 11:36:01,5.008s,PASSED
+comment,,End Login Test Case,2018-09-13 11:36:01,2018-09-13 11:36:01,0.004s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-09-13 11:36:01,2018-09-13 11:36:09,7.931s,PASSED
+comment,,,2018-09-13 11:36:09,2018-09-13 11:36:09,0.005s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-09-13 11:36:09,2018-09-13 11:36:16,6.910s,PASSED
+tap,,Click Hamburger Button,2018-09-13 11:36:16,2018-09-13 11:36:22,6.000s,PASSED
+waitForElementPresent,,,2018-09-13 11:36:22,2018-09-13 11:36:26,4.253s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:36:26,2018-09-13 11:36:30,4.019s,PASSED
+tap,,Go to Mesin Kasir Menu,2018-09-13 11:36:30,2018-09-13 11:36:36,6.057s,PASSED
+waitForElementPresent,,,2018-09-13 11:36:36,2018-09-13 11:36:44,7.889s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:36:44,2018-09-13 11:36:49,5.165s,PASSED
+Statement - For (def index : (0..1)),,ADD PRODUCT to shopping cart,2018-09-13 11:36:49,2018-09-13 11:37:00,11.119s,PASSED
+Statement - For (def index : (0..1)),,,2018-09-13 11:37:00,2018-09-13 11:37:13,12.140s,PASSED
+waitForElementPresent,,See shopping cart,2018-09-13 11:37:13,2018-09-13 11:37:15,2.077s,PASSED
+tap,,,2018-09-13 11:37:15,2018-09-13 11:37:19,4.502s,PASSED
+comment,,,2018-09-13 11:37:19,2018-09-13 11:37:19,0.005s,PASSED
+waitForElementPresent,,,2018-09-13 11:37:19,2018-09-13 11:37:24,5.335s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:37:24,2018-09-13 11:37:29,4.049s,PASSED
+verifyElementVisible,,,2018-09-13 11:37:29,2018-09-13 11:37:35,6.737s,PASSED
+waitForElementPresent,,,2018-09-13 11:37:35,2018-09-13 11:37:43,7.538s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:37:43,2018-09-13 11:37:47,4.563s,PASSED
+tap,,,2018-09-13 11:37:47,2018-09-13 11:37:54,6.922s,PASSED
+waitForElementPresent,,,2018-09-13 11:37:54,2018-09-13 11:37:58,4.061s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:37:58,2018-09-13 11:38:02,4.021s,PASSED
+tap,,,2018-09-13 11:38:02,2018-09-13 11:38:07,4.960s,PASSED
+waitForElementPresent,,,2018-09-13 11:38:07,2018-09-13 11:38:15,8.107s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:38:15,2018-09-13 11:38:24,8.126s,PASSED
+tap,,,2018-09-13 11:38:24,2018-09-13 11:38:30,6.646s,PASSED
+waitForElementPresent,,,2018-09-13 11:38:30,2018-09-13 11:38:34,3.885s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:38:34,2018-09-13 11:38:39,4.567s,PASSED
+setText,,,2018-09-13 11:38:39,2018-09-13 11:38:55,15.883s,PASSED
+hideKeyboard,,,2018-09-13 11:38:55,2018-09-13 11:38:56,1.114s,PASSED
+waitForElementPresent,,,2018-09-13 11:38:56,2018-09-13 11:39:03,7.183s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:39:03,2018-09-13 11:39:08,4.669s,PASSED
+tap,,,2018-09-13 11:39:08,2018-09-13 11:39:12,4.771s,PASSED
+waitForElementPresent,,,2018-09-13 11:39:12,2018-09-13 11:39:19,6.751s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:39:19,2018-09-13 11:39:23,4.086s,PASSED
+tap,,,2018-09-13 11:39:23,2018-09-13 11:39:28,4.811s,PASSED
+waitForElementPresent,,,2018-09-13 11:39:28,2018-09-13 11:39:35,7.290s,PASSED
+verifyElementVisible,,,2018-09-13 11:39:35,2018-09-13 11:39:43,8.157s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:39:43,2018-09-13 11:39:47,3.920s,PASSED
+closeApplication,,,2018-09-13 11:39:47,2018-09-13 11:39:54,6.674s,PASSED
+,,,,,,
+Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 3 - Edit Biaya Tambahan,,,2018-09-13 11:39:54,2018-09-13 11:48:22,8m - 28.463s,PASSED
+comment,,,2018-09-13 11:39:54,2018-09-13 11:39:54,0.001s,PASSED
+Statement - apkPath = apkName,,,2018-09-13 11:39:54,2018-09-13 11:39:54,0.000s,PASSED
+startApplication,,,2018-09-13 11:39:54,2018-09-13 11:40:30,36.136s,PASSED
+delay,,,2018-09-13 11:40:30,2018-09-13 11:40:45,15.003s,PASSED
+"Comment - ""If there is a Update TopuUp, click No, Else you can delay for waiting lazyload """,,,2018-09-13 11:40:45,2018-09-13 11:40:45,0.001s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-09-13 11:40:45,2018-09-13 11:40:45,0.002s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-09-13 11:40:45,2018-09-13 11:40:45,0.002s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:40:45,2018-09-13 11:40:48,2.570s,PASSED
+delay,,,2018-09-13 11:40:48,2018-09-13 11:40:56,8.005s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:40:56,2018-09-13 11:40:59,2.865s,PASSED
+delay,,,2018-09-13 11:40:59,2018-09-13 11:41:07,8.006s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:41:07,2018-09-13 11:41:10,3.092s,PASSED
+delay,,,2018-09-13 11:41:10,2018-09-13 11:41:18,8.005s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:41:18,2018-09-13 11:41:20,2.481s,PASSED
+delay,,,2018-09-13 11:41:20,2018-09-13 11:41:28,8.005s,PASSED
+waitForElementPresent,,,2018-09-13 11:41:28,2018-09-13 11:41:32,3.259s,PASSED
+tap,,,2018-09-13 11:41:32,2018-09-13 11:41:40,8.399s,PASSED
+comment,,,2018-09-13 11:41:40,2018-09-13 11:41:40,0.002s,PASSED
+comment,,,2018-09-13 11:41:40,2018-09-13 11:41:40,0.002s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-09-13 11:41:40,2018-09-13 11:41:44,3.694s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-09-13 11:41:44,2018-09-13 11:41:48,4.084s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-09-13 11:41:48,2018-09-13 11:42:11,22.779s,PASSED
+hideKeyboard,,Hide Keyboard,2018-09-13 11:42:11,2018-09-13 11:42:12,1.563s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-09-13 11:42:12,2018-09-13 11:42:16,3.818s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-09-13 11:42:16,2018-09-13 11:42:19,2.902s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-09-13 11:42:19,2018-09-13 11:42:27,8.099s,PASSED
+tap,,Click Masuk Button,2018-09-13 11:42:27,2018-09-13 11:42:37,9.623s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-09-13 11:42:37,2018-09-13 11:42:44,7.654s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-09-13 11:42:44,2018-09-13 11:42:48,4.037s,PASSED
+tap,,Click Input Pin TextBox,2018-09-13 11:42:48,2018-09-13 11:42:54,5.866s,PASSED
+setText,,SetText to PIN Textbox,2018-09-13 11:42:54,2018-09-13 11:43:16,21.313s,PASSED
+delay,,,2018-09-13 11:43:16,2018-09-13 11:43:21,5.006s,PASSED
+comment,,End Login Test Case,2018-09-13 11:43:21,2018-09-13 11:43:21,0.006s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-09-13 11:43:21,2018-09-13 11:43:24,2.980s,PASSED
+comment,,,2018-09-13 11:43:24,2018-09-13 11:43:24,0.002s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-09-13 11:43:24,2018-09-13 11:43:28,4.067s,PASSED
+tap,,Click Hamburger Button,2018-09-13 11:43:28,2018-09-13 11:43:33,5.219s,PASSED
+waitForElementPresent,,,2018-09-13 11:43:33,2018-09-13 11:43:40,6.904s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:43:40,2018-09-13 11:43:48,8.051s,PASSED
+tap,,Go to Mesin Kasir Menu,2018-09-13 11:43:48,2018-09-13 11:43:53,5.215s,PASSED
+waitForElementPresent,,,2018-09-13 11:43:53,2018-09-13 11:43:58,4.463s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:43:58,2018-09-13 11:44:02,4.623s,PASSED
+Statement - For (def index : (0..1)),,ADD PRODUCT to shopping cart,2018-09-13 11:44:02,2018-09-13 11:44:13,11.276s,PASSED
+Statement - For (def index : (0..1)),,,2018-09-13 11:44:13,2018-09-13 11:44:26,12.189s,PASSED
+waitForElementPresent,,See shopping cart,2018-09-13 11:44:26,2018-09-13 11:44:28,2.552s,PASSED
+tap,,,2018-09-13 11:44:28,2018-09-13 11:44:34,5.528s,PASSED
+comment,,,2018-09-13 11:44:34,2018-09-13 11:44:34,0.001s,PASSED
+waitForElementPresent,,,2018-09-13 11:44:34,2018-09-13 11:44:39,5.275s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:44:39,2018-09-13 11:44:47,8.077s,PASSED
+verifyElementVisible,,,2018-09-13 11:44:47,2018-09-13 11:44:55,7.593s,PASSED
+waitForElementPresent,,,2018-09-13 11:44:55,2018-09-13 11:44:58,3.408s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:44:58,2018-09-13 11:45:07,8.659s,PASSED
+tap,,,2018-09-13 11:45:07,2018-09-13 11:45:15,8.786s,PASSED
+waitForElementPresent,,,2018-09-13 11:45:15,2018-09-13 11:45:21,5.112s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:45:21,2018-09-13 11:45:25,4.040s,PASSED
+tap,,,2018-09-13 11:45:25,2018-09-13 11:45:30,5.752s,PASSED
+waitForElementPresent,,,2018-09-13 11:45:30,2018-09-13 11:45:34,3.910s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:45:34,2018-09-13 11:45:40,5.383s,PASSED
+tap,,,2018-09-13 11:45:40,2018-09-13 11:45:45,5.246s,PASSED
+waitForElementPresent,,,2018-09-13 11:45:45,2018-09-13 11:45:47,2.482s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:45:47,2018-09-13 11:45:55,7.140s,PASSED
+setText,,,2018-09-13 11:45:55,2018-09-13 11:46:13,18.410s,PASSED
+hideKeyboard,,,2018-09-13 11:46:13,2018-09-13 11:46:14,1.359s,PASSED
+waitForElementPresent,,,2018-09-13 11:46:14,2018-09-13 11:46:18,3.816s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:46:18,2018-09-13 11:46:23,5.081s,PASSED
+tap,,,2018-09-13 11:46:23,2018-09-13 11:46:28,4.862s,PASSED
+comment,,,2018-09-13 11:46:28,2018-09-13 11:46:28,0.001s,PASSED
+waitForElementPresent,,,2018-09-13 11:46:28,2018-09-13 11:46:31,3.289s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:46:31,2018-09-13 11:46:36,4.143s,PASSED
+tap,,,2018-09-13 11:46:36,2018-09-13 11:46:40,4.584s,PASSED
+waitForElementPresent,,,2018-09-13 11:46:40,2018-09-13 11:46:49,9.198s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:46:49,2018-09-13 11:46:54,5.137s,PASSED
+tap,,,2018-09-13 11:46:54,2018-09-13 11:47:00,5.562s,PASSED
+waitForElementPresent,,,2018-09-13 11:47:00,2018-09-13 11:47:07,7.047s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:47:07,2018-09-13 11:47:11,4.299s,PASSED
+tap,,,2018-09-13 11:47:11,2018-09-13 11:47:16,4.882s,PASSED
+waitForElementPresent,,,2018-09-13 11:47:16,2018-09-13 11:47:24,7.907s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:47:24,2018-09-13 11:47:28,4.100s,PASSED
+clearText,,,2018-09-13 11:47:28,2018-09-13 11:47:36,7.804s,PASSED
+setText,,,2018-09-13 11:47:36,2018-09-13 11:47:58,21.844s,PASSED
+hideKeyboard,,,2018-09-13 11:47:58,2018-09-13 11:47:59,1.255s,PASSED
+verifyElementText,,,2018-09-13 11:47:59,2018-09-13 11:48:03,3.839s,PASSED
+waitForElementPresent,,,2018-09-13 11:48:03,2018-09-13 11:48:06,2.931s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:48:06,2018-09-13 11:48:10,4.025s,PASSED
+tap,,,2018-09-13 11:48:10,2018-09-13 11:48:16,5.850s,PASSED
+closeApplication,,,2018-09-13 11:48:16,2018-09-13 11:48:22,6.656s,PASSED
+,,,,,,
+Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 4 - Select Ongkos Kirim from Biaya Tambahan droplist,,,2018-09-13 11:48:22,2018-09-13 11:54:59,6m - 36.433s,PASSED
+comment,,,2018-09-13 11:48:23,2018-09-13 11:48:23,0.001s,PASSED
+Statement - apkPath = apkName,,,2018-09-13 11:48:23,2018-09-13 11:48:23,0.001s,PASSED
+startApplication,,,2018-09-13 11:48:23,2018-09-13 11:49:01,38.223s,PASSED
+delay,,,2018-09-13 11:49:01,2018-09-13 11:49:16,15.004s,PASSED
+"Comment - ""If there is a Update TopuUp, click No, Else you can delay for waiting lazyload """,,,2018-09-13 11:49:16,2018-09-13 11:49:16,0.002s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-09-13 11:49:16,2018-09-13 11:49:16,0.002s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-09-13 11:49:16,2018-09-13 11:49:16,0.002s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:49:16,2018-09-13 11:49:19,2.732s,PASSED
+delay,,,2018-09-13 11:49:19,2018-09-13 11:49:27,8.005s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:49:27,2018-09-13 11:49:29,2.705s,PASSED
+delay,,,2018-09-13 11:49:29,2018-09-13 11:49:38,8.006s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:49:38,2018-09-13 11:49:40,2.760s,PASSED
+delay,,,2018-09-13 11:49:40,2018-09-13 11:49:48,8.003s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:49:48,2018-09-13 11:49:51,2.413s,PASSED
+delay,,,2018-09-13 11:49:51,2018-09-13 11:49:59,8.003s,PASSED
+waitForElementPresent,,,2018-09-13 11:49:59,2018-09-13 11:50:05,6.765s,PASSED
+tap,,,2018-09-13 11:50:05,2018-09-13 11:50:11,5.654s,PASSED
+comment,,,2018-09-13 11:50:11,2018-09-13 11:50:11,0.000s,PASSED
+comment,,,2018-09-13 11:50:11,2018-09-13 11:50:11,0.001s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-09-13 11:50:11,2018-09-13 11:50:15,3.914s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-09-13 11:50:15,2018-09-13 11:50:20,5.141s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-09-13 11:50:20,2018-09-13 11:50:39,18.717s,PASSED
+hideKeyboard,,Hide Keyboard,2018-09-13 11:50:39,2018-09-13 11:50:40,1.593s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-09-13 11:50:40,2018-09-13 11:50:44,3.894s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-09-13 11:50:44,2018-09-13 11:50:48,4.019s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-09-13 11:50:48,2018-09-13 11:50:55,6.988s,PASSED
+tap,,Click Masuk Button,2018-09-13 11:50:55,2018-09-13 11:51:01,5.612s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-09-13 11:51:01,2018-09-13 11:51:05,4.008s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-09-13 11:51:05,2018-09-13 11:51:09,4.450s,PASSED
+tap,,Click Input Pin TextBox,2018-09-13 11:51:09,2018-09-13 11:51:18,9.005s,PASSED
+setText,,SetText to PIN Textbox,2018-09-13 11:51:18,2018-09-13 11:51:36,17.289s,PASSED
+delay,,,2018-09-13 11:51:36,2018-09-13 11:51:41,5.004s,PASSED
+comment,,End Login Test Case,2018-09-13 11:51:41,2018-09-13 11:51:41,0.001s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-09-13 11:51:41,2018-09-13 11:51:44,2.965s,PASSED
+comment,,,2018-09-13 11:51:44,2018-09-13 11:51:44,0.002s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-09-13 11:51:44,2018-09-13 11:51:49,5.218s,PASSED
+tap,,Click Hamburger Button,2018-09-13 11:51:49,2018-09-13 11:51:54,4.703s,PASSED
+waitForElementPresent,,,2018-09-13 11:51:54,2018-09-13 11:52:01,7.855s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:52:01,2018-09-13 11:52:06,4.287s,PASSED
+tap,,Go to Mesin Kasir Menu,2018-09-13 11:52:06,2018-09-13 11:52:11,4.942s,PASSED
+waitForElementPresent,,,2018-09-13 11:52:11,2018-09-13 11:52:18,7.466s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:52:18,2018-09-13 11:52:22,4.028s,PASSED
+Statement - For (def index : (0..1)),,ADD PRODUCT to shopping cart,2018-09-13 11:52:22,2018-09-13 11:52:36,14.080s,PASSED
+Statement - For (def index : (0..1)),,,2018-09-13 11:52:36,2018-09-13 11:52:48,12.075s,PASSED
+waitForElementPresent,,See shopping cart,2018-09-13 11:52:48,2018-09-13 11:52:51,2.162s,PASSED
+tap,,,2018-09-13 11:52:51,2018-09-13 11:52:55,4.702s,PASSED
+comment,,,2018-09-13 11:52:55,2018-09-13 11:52:55,0.003s,PASSED
+waitForElementPresent,,,2018-09-13 11:52:55,2018-09-13 11:52:59,3.688s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:52:59,2018-09-13 11:53:03,4.158s,PASSED
+verifyElementVisible,,,2018-09-13 11:53:03,2018-09-13 11:53:07,4.145s,PASSED
+waitForElementPresent,,,2018-09-13 11:53:07,2018-09-13 11:53:14,6.882s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:53:14,2018-09-13 11:53:22,7.477s,PASSED
+tap,,,2018-09-13 11:53:22,2018-09-13 11:53:27,4.932s,PASSED
+waitForElementPresent,,,2018-09-13 11:53:27,2018-09-13 11:53:31,4.710s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:53:31,2018-09-13 11:53:37,5.373s,PASSED
+tap,,,2018-09-13 11:53:37,2018-09-13 11:53:45,8.156s,PASSED
+waitForElementPresent,,,2018-09-13 11:53:45,2018-09-13 11:53:47,2.532s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:53:47,2018-09-13 11:53:51,4.034s,PASSED
+tap,,,2018-09-13 11:53:51,2018-09-13 11:54:01,9.594s,PASSED
+waitForElementPresent,,,2018-09-13 11:54:01,2018-09-13 11:54:07,6.050s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:54:07,2018-09-13 11:54:11,4.015s,PASSED
+setText,,,2018-09-13 11:54:11,2018-09-13 11:54:34,23.441s,PASSED
+hideKeyboard,,,2018-09-13 11:54:34,2018-09-13 11:54:36,1.125s,PASSED
+verifyElementText,,,2018-09-13 11:54:36,2018-09-13 11:54:39,3.776s,PASSED
+waitForElementPresent,,,2018-09-13 11:54:39,2018-09-13 11:54:43,3.436s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:54:43,2018-09-13 11:54:47,4.260s,PASSED
+tap,,,2018-09-13 11:54:47,2018-09-13 11:54:52,5.236s,PASSED
+closeApplication,,,2018-09-13 11:54:52,2018-09-13 11:54:59,6.609s,PASSED
+,,,,,,
+Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 5 - Select Biaya Packing from Biaya Tambahan droplist,,,2018-09-13 11:54:59,2018-09-13 12:01:53,6m - 53.993s,PASSED
+comment,,,2018-09-13 11:54:59,2018-09-13 11:54:59,0.000s,PASSED
+Statement - apkPath = apkName,,,2018-09-13 11:54:59,2018-09-13 11:54:59,0.000s,PASSED
+startApplication,,,2018-09-13 11:54:59,2018-09-13 11:55:36,36.895s,PASSED
+delay,,,2018-09-13 11:55:36,2018-09-13 11:55:51,15.003s,PASSED
+"Comment - ""If there is a Update TopuUp, click No, Else you can delay for waiting lazyload """,,,2018-09-13 11:55:51,2018-09-13 11:55:51,0.002s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-09-13 11:55:51,2018-09-13 11:55:51,0.003s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-09-13 11:55:51,2018-09-13 11:55:51,0.002s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:55:51,2018-09-13 11:55:54,2.761s,PASSED
+delay,,,2018-09-13 11:55:54,2018-09-13 11:56:02,8.005s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:56:02,2018-09-13 11:56:04,2.708s,PASSED
+delay,,,2018-09-13 11:56:04,2018-09-13 11:56:12,8.005s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:56:12,2018-09-13 11:56:16,3.050s,PASSED
+delay,,,2018-09-13 11:56:16,2018-09-13 11:56:24,8.005s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 11:56:24,2018-09-13 11:56:26,2.497s,PASSED
+delay,,,2018-09-13 11:56:26,2018-09-13 11:56:34,8.006s,PASSED
+waitForElementPresent,,,2018-09-13 11:56:34,2018-09-13 11:56:37,2.691s,PASSED
+tap,,,2018-09-13 11:56:37,2018-09-13 11:56:42,5.616s,PASSED
+comment,,,2018-09-13 11:56:42,2018-09-13 11:56:42,0.002s,PASSED
+comment,,,2018-09-13 11:56:42,2018-09-13 11:56:42,0.002s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-09-13 11:56:42,2018-09-13 11:56:48,6.042s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-09-13 11:56:48,2018-09-13 11:56:56,7.537s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-09-13 11:56:56,2018-09-13 11:57:14,18.277s,PASSED
+hideKeyboard,,Hide Keyboard,2018-09-13 11:57:14,2018-09-13 11:57:16,1.527s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-09-13 11:57:16,2018-09-13 11:57:20,3.877s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-09-13 11:57:20,2018-09-13 11:57:24,3.992s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-09-13 11:57:24,2018-09-13 11:57:28,4.051s,PASSED
+tap,,Click Masuk Button,2018-09-13 11:57:28,2018-09-13 11:57:33,5.005s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-09-13 11:57:33,2018-09-13 11:57:36,3.578s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-09-13 11:57:36,2018-09-13 11:57:44,8.103s,PASSED
+tap,,Click Input Pin TextBox,2018-09-13 11:57:44,2018-09-13 11:57:54,9.396s,PASSED
+setText,,SetText to PIN Textbox,2018-09-13 11:57:54,2018-09-13 11:58:12,18.596s,PASSED
+delay,,,2018-09-13 11:58:12,2018-09-13 11:58:17,5.006s,PASSED
+comment,,End Login Test Case,2018-09-13 11:58:17,2018-09-13 11:58:17,0.004s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-09-13 11:58:17,2018-09-13 11:58:25,7.849s,PASSED
+comment,,,2018-09-13 11:58:25,2018-09-13 11:58:25,0.002s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-09-13 11:58:25,2018-09-13 11:58:33,8.162s,PASSED
+tap,,Click Hamburger Button,2018-09-13 11:58:33,2018-09-13 11:58:38,4.703s,PASSED
+waitForElementPresent,,,2018-09-13 11:58:38,2018-09-13 11:58:43,5.160s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:58:43,2018-09-13 11:58:51,8.040s,PASSED
+tap,,Go to Mesin Kasir Menu,2018-09-13 11:58:51,2018-09-13 11:58:57,5.769s,PASSED
+waitForElementPresent,,,2018-09-13 11:58:57,2018-09-13 11:59:05,7.920s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:59:05,2018-09-13 11:59:13,7.546s,PASSED
+Statement - For (def index : (0..1)),,ADD PRODUCT to shopping cart,2018-09-13 11:59:13,2018-09-13 11:59:26,13.954s,PASSED
+Statement - For (def index : (0..1)),,,2018-09-13 11:59:26,2018-09-13 11:59:38,11.168s,PASSED
+waitForElementPresent,,See shopping cart,2018-09-13 11:59:38,2018-09-13 11:59:41,3.128s,PASSED
+tap,,,2018-09-13 11:59:41,2018-09-13 11:59:45,4.571s,PASSED
+comment,,,2018-09-13 11:59:45,2018-09-13 11:59:45,0.004s,PASSED
+waitForElementPresent,,,2018-09-13 11:59:45,2018-09-13 11:59:50,4.868s,PASSED
+verifyElementAttributeValue,,,2018-09-13 11:59:50,2018-09-13 11:59:56,5.599s,PASSED
+verifyElementVisible,,,2018-09-13 11:59:56,2018-09-13 12:00:05,9.159s,PASSED
+waitForElementPresent,,,2018-09-13 12:00:05,2018-09-13 12:00:08,2.938s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:00:08,2018-09-13 12:00:15,6.847s,PASSED
+tap,,,2018-09-13 12:00:15,2018-09-13 12:00:23,8.178s,PASSED
+waitForElementPresent,,,2018-09-13 12:00:23,2018-09-13 12:00:27,3.682s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:00:27,2018-09-13 12:00:31,4.045s,PASSED
+tap,,,2018-09-13 12:00:31,2018-09-13 12:00:40,9.611s,PASSED
+waitForElementPresent,,,2018-09-13 12:00:40,2018-09-13 12:00:45,5.033s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:00:45,2018-09-13 12:00:53,8.069s,PASSED
+tap,,,2018-09-13 12:00:53,2018-09-13 12:00:58,4.846s,PASSED
+waitForElementPresent,,,2018-09-13 12:00:58,2018-09-13 12:01:02,3.715s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:01:02,2018-09-13 12:01:10,7.563s,PASSED
+setText,,,2018-09-13 12:01:10,2018-09-13 12:01:29,19.156s,PASSED
+hideKeyboard,,,2018-09-13 12:01:29,2018-09-13 12:01:30,1.180s,PASSED
+verifyElementText,,,2018-09-13 12:01:30,2018-09-13 12:01:34,3.847s,PASSED
+waitForElementPresent,,,2018-09-13 12:01:34,2018-09-13 12:01:37,2.929s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:01:37,2018-09-13 12:01:41,4.036s,PASSED
+tap,,,2018-09-13 12:01:41,2018-09-13 12:01:46,5.605s,PASSED
+closeApplication,,,2018-09-13 12:01:46,2018-09-13 12:01:53,6.621s,PASSED
+,,,,,,
+Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 6 - Select Other from Biaya Tambahan droplist,,,2018-09-13 12:01:53,2018-09-13 12:09:05,7m - 11.835s,PASSED
+comment,,,2018-09-13 12:01:53,2018-09-13 12:01:53,0.002s,PASSED
+Statement - apkPath = apkName,,,2018-09-13 12:01:53,2018-09-13 12:01:53,0.000s,PASSED
+startApplication,,,2018-09-13 12:01:53,2018-09-13 12:02:30,36.861s,PASSED
+delay,,,2018-09-13 12:02:30,2018-09-13 12:02:45,15.003s,PASSED
+"Comment - ""If there is a Update TopuUp, click No, Else you can delay for waiting lazyload """,,,2018-09-13 12:02:45,2018-09-13 12:02:45,0.001s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-09-13 12:02:45,2018-09-13 12:02:45,0.002s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-09-13 12:02:45,2018-09-13 12:02:45,0.001s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 12:02:45,2018-09-13 12:02:47,2.507s,PASSED
+delay,,,2018-09-13 12:02:47,2018-09-13 12:02:55,8.004s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 12:02:55,2018-09-13 12:02:59,3.057s,PASSED
+delay,,,2018-09-13 12:02:59,2018-09-13 12:03:07,8.005s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 12:03:07,2018-09-13 12:03:09,2.827s,PASSED
+delay,,,2018-09-13 12:03:09,2018-09-13 12:03:17,8.004s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-13 12:03:17,2018-09-13 12:03:20,2.340s,PASSED
+delay,,,2018-09-13 12:03:20,2018-09-13 12:03:28,8.005s,PASSED
+waitForElementPresent,,,2018-09-13 12:03:28,2018-09-13 12:03:36,8.612s,PASSED
+tap,,,2018-09-13 12:03:36,2018-09-13 12:03:42,5.484s,PASSED
+comment,,,2018-09-13 12:03:42,2018-09-13 12:03:42,0.003s,PASSED
+comment,,,2018-09-13 12:03:42,2018-09-13 12:03:42,0.003s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-09-13 12:03:42,2018-09-13 12:03:48,6.584s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-09-13 12:03:48,2018-09-13 12:03:52,4.056s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-09-13 12:03:52,2018-09-13 12:04:12,19.091s,PASSED
+hideKeyboard,,Hide Keyboard,2018-09-13 12:04:12,2018-09-13 12:04:12,0.728s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-09-13 12:04:12,2018-09-13 12:04:20,7.561s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-09-13 12:04:20,2018-09-13 12:04:24,3.935s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-09-13 12:04:24,2018-09-13 12:04:28,4.267s,PASSED
+tap,,Click Masuk Button,2018-09-13 12:04:28,2018-09-13 12:04:33,5.085s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-09-13 12:04:33,2018-09-13 12:04:37,3.971s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-09-13 12:04:37,2018-09-13 12:04:41,3.814s,PASSED
+tap,,Click Input Pin TextBox,2018-09-13 12:04:41,2018-09-13 12:04:49,8.345s,PASSED
+setText,,SetText to PIN Textbox,2018-09-13 12:04:49,2018-09-13 12:05:11,21.547s,PASSED
+delay,,,2018-09-13 12:05:11,2018-09-13 12:05:16,5.006s,PASSED
+comment,,End Login Test Case,2018-09-13 12:05:16,2018-09-13 12:05:16,0.002s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-09-13 12:05:16,2018-09-13 12:05:23,6.863s,PASSED
+comment,,,2018-09-13 12:05:23,2018-09-13 12:05:23,0.003s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-09-13 12:05:23,2018-09-13 12:05:27,4.047s,PASSED
+tap,,Click Hamburger Button,2018-09-13 12:05:27,2018-09-13 12:05:32,5.246s,PASSED
+waitForElementPresent,,,2018-09-13 12:05:32,2018-09-13 12:05:40,7.926s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:05:40,2018-09-13 12:05:44,4.023s,PASSED
+tap,,Go to Mesin Kasir Menu,2018-09-13 12:05:44,2018-09-13 12:05:49,4.983s,PASSED
+waitForElementPresent,,,2018-09-13 12:05:49,2018-09-13 12:05:53,4.139s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:05:53,2018-09-13 12:05:57,4.048s,PASSED
+Statement - For (def index : (0..1)),,ADD PRODUCT to shopping cart,2018-09-13 12:05:57,2018-09-13 12:06:13,15.905s,PASSED
+Statement - For (def index : (0..1)),,,2018-09-13 12:06:13,2018-09-13 12:06:25,11.663s,PASSED
+waitForElementPresent,,See shopping cart,2018-09-13 12:06:25,2018-09-13 12:06:27,2.549s,PASSED
+tap,,,2018-09-13 12:06:27,2018-09-13 12:06:33,5.679s,PASSED
+comment,,,2018-09-13 12:06:33,2018-09-13 12:06:33,0.000s,PASSED
+waitForElementPresent,,,2018-09-13 12:06:33,2018-09-13 12:06:41,7.574s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:06:41,2018-09-13 12:06:44,3.967s,PASSED
+verifyElementVisible,,,2018-09-13 12:06:44,2018-09-13 12:06:49,4.073s,PASSED
+waitForElementPresent,,,2018-09-13 12:06:49,2018-09-13 12:06:51,2.884s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:06:51,2018-09-13 12:06:55,4.034s,PASSED
+tap,,,2018-09-13 12:06:55,2018-09-13 12:07:01,6.025s,PASSED
+waitForElementPresent,,,2018-09-13 12:07:01,2018-09-13 12:07:06,4.148s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:07:06,2018-09-13 12:07:14,8.608s,PASSED
+tap,,,2018-09-13 12:07:14,2018-09-13 12:07:21,6.621s,PASSED
+waitForElementPresent,,,2018-09-13 12:07:21,2018-09-13 12:07:25,3.926s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:07:25,2018-09-13 12:07:29,4.009s,PASSED
+tap,,,2018-09-13 12:07:29,2018-09-13 12:07:34,5.570s,PASSED
+waitForElementPresent,,,2018-09-13 12:07:34,2018-09-13 12:07:38,4.022s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:07:38,2018-09-13 12:07:45,6.558s,PASSED
+setText,,,2018-09-13 12:07:45,2018-09-13 12:08:02,16.551s,PASSED
+hideKeyboard,,,2018-09-13 12:08:02,2018-09-13 12:08:02,0.917s,PASSED
+waitForElementPresent,,,2018-09-13 12:08:02,2018-09-13 12:08:06,3.193s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:08:06,2018-09-13 12:08:15,9.123s,PASSED
+setText,,,2018-09-13 12:08:15,2018-09-13 12:08:32,17.517s,PASSED
+hideKeyboard,,,2018-09-13 12:08:32,2018-09-13 12:08:34,1.313s,PASSED
+verifyElementText,,,2018-09-13 12:08:34,2018-09-13 12:08:41,7.898s,PASSED
+waitForElementPresent,,,2018-09-13 12:08:41,2018-09-13 12:08:47,5.585s,PASSED
+verifyElementAttributeValue,,,2018-09-13 12:08:47,2018-09-13 12:08:51,4.407s,PASSED
+tap,,,2018-09-13 12:08:51,2018-09-13 12:08:58,6.728s,PASSED
+closeApplication,,,2018-09-13 12:08:58,2018-09-13 12:09:05,6.546s,PASSED
+,,,,,,
+Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 7 - Nama Biaya field and Biaya field Mandatory,,,2018-09-13 12:09:05,2018-09-13 12:09:05,0.232s,FAILED
+comment,,,2018-09-13 12:09:05,2018-09-13 12:09:05,0.001s,PASSED
+Statement - apkPath = apkName,,,2018-09-13 12:09:05,2018-09-13 12:09:05,0.001s,PASSED
+startApplication,,,2018-09-13 12:09:05,2018-09-13 12:09:05,0.022s,FAILED
+,,,,,,
+Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 8 -  Biaya lain is not taxable and should not be less than Rp 0,,,2018-09-13 12:09:05,2018-09-13 12:09:05,0.242s,FAILED
+comment,,,2018-09-13 12:09:05,2018-09-13 12:09:05,0.000s,PASSED
+Statement - apkPath = apkName,,,2018-09-13 12:09:05,2018-09-13 12:09:05,0.000s,PASSED
+startApplication,,,2018-09-13 12:09:05,2018-09-13 12:09:05,0.003s,FAILED

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 26" time="36" tests="0" failures="10" errors="0">
+   <testsuite name="Story 26" tests="0" failures="10" errors="0" time="36" timestamp="2018-03-15 07:19:19" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 26">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180315_071917"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180315_071917\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180315_071917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="hostAddress" value="192.168.43.137"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 1" classname="Test Cases/Story 26 -Kelola Stok Final/TC 1" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)"/>
+         <system-out><![CDATA[2018-03-15 07:19:20 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 1: Test Cases/Story 26 -Kelola Stok Final/TC 1 FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-03-15 07:19:20 - [TEST_STEP][PASSED] - comment: Start Story 26
+
+2018-03-15 07:19:20 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 07:19:20 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-03-15 07:19:53 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:20 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 1: Test Cases/Story 26 -Kelola Stok Final/TC 1 FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 2" classname="Test Cases/Story 26 -Kelola Stok Final/TC 2" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 07:19:53 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 2: Test Cases/Story 26 -Kelola Stok Final/TC 2 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:53 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:53 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:53 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 2: Test Cases/Story 26 -Kelola Stok Final/TC 2 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 3" classname="Test Cases/Story 26 -Kelola Stok Final/TC 3" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 07:19:53 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 3: Test Cases/Story 26 -Kelola Stok Final/TC 3 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:54 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:54 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:53 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 3: Test Cases/Story 26 -Kelola Stok Final/TC 3 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 4" classname="Test Cases/Story 26 -Kelola Stok Final/TC 4" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 07:19:54 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 4: Test Cases/Story 26 -Kelola Stok Final/TC 4 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:54 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:54 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:54 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 4: Test Cases/Story 26 -Kelola Stok Final/TC 4 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 5" classname="Test Cases/Story 26 -Kelola Stok Final/TC 5" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 07:19:54 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 5: Test Cases/Story 26 -Kelola Stok Final/TC 5 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: No application is started yet.)
+
+2018-03-15 07:19:54 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: No application is started yet.)
+
+2018-03-15 07:19:54 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:54 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 5: Test Cases/Story 26 -Kelola Stok Final/TC 5 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 6" classname="Test Cases/Story 26 -Kelola Stok Final/TC 6" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 07:19:54 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 6: Test Cases/Story 26 -Kelola Stok Final/TC 6 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)
+
+2018-03-15 07:19:55 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: No application is started yet.)
+
+2018-03-15 07:19:55 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:54 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 6: Test Cases/Story 26 -Kelola Stok Final/TC 6 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 7" classname="Test Cases/Story 26 -Kelola Stok Final/TC 7" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 07:19:55 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 7: Test Cases/Story 26 -Kelola Stok Final/TC 7 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)
+
+2018-03-15 07:19:55 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: No application is started yet.)
+
+2018-03-15 07:19:55 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:55 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 7: Test Cases/Story 26 -Kelola Stok Final/TC 7 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 8" classname="Test Cases/Story 26 -Kelola Stok Final/TC 8" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 07:19:55 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 8: Test Cases/Story 26 -Kelola Stok Final/TC 8 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:55 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:55 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:55 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 8: Test Cases/Story 26 -Kelola Stok Final/TC 8 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 9" classname="Test Cases/Story 26 -Kelola Stok Final/TC 9" status="FAILED">
+         <failure type="FAILED" message="Cannot swipe on device. (Root cause: No driver found)"/>
+         <system-out><![CDATA[2018-03-15 07:19:55 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 9: Test Cases/Story 26 -Kelola Stok Final/TC 9 FAILED because (of) Cannot swipe on device. (Root cause: No driver found)
+
+2018-03-15 07:19:55 - [TEST_STEP][FAILED] - Statement - For (def index : (0..3)): Cannot swipe on device. (Root cause: No driver found)
+
+2018-03-15 07:19:55 - [TEST_STEP][FAILED] - swipe: Cannot swipe on device. (Root cause: No driver found)
+
+2018-03-15 07:19:55 - [MESSAGE][FAILED] - Cannot swipe on device. (Root cause: No driver found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:55 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 9: Test Cases/Story 26 -Kelola Stok Final/TC 9 FAILED because (of) Cannot swipe on device. (Root cause: No driver found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 10" classname="Test Cases/Story 26 -Kelola Stok Final/TC 10" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-15 07:19:55 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 10: Test Cases/Story 26 -Kelola Stok Final/TC 10 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:56 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-15 07:19:56 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:19:55 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 10: Test Cases/Story 26 -Kelola Stok Final/TC 10 FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 07:19:19 - [TEST_SUITE][FAILED] - Story 26: Test Cases/Story 26 -Kelola Stok Final/TC 1 FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+      <system-err><![CDATA[2018-03-15 07:19:19 - [TEST_SUITE][FAILED] - Story 26: Test Cases/Story 26 -Kelola Stok Final/TC 1 FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,284 @@
+1
+00:00:00,355 --> 00:00:00,356
+1. comment
+
+2
+00:00:00,359 --> 00:00:00,360
+5. Statement - apkPath = apkName
+
+3
+00:00:00,361 --> 00:00:00,362
+9. startApplication
+
+4
+00:00:38,257 --> 00:00:38,257
+13. delay
+
+5
+00:00:53,264 --> 00:00:53,266
+21. If there is a Update TopuUp, click No, Else you can delay for waiting lazyload 
+
+6
+00:00:53,271 --> 00:00:53,273
+25. Statement - action = new io.appium.java_client.TouchAction(driver)
+
+7
+00:00:53,280 --> 00:00:53,282
+29. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+8
+00:00:55,943 --> 00:00:55,946
+33. delay
+
+9
+00:01:03,954 --> 00:01:03,956
+37. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+10
+00:01:06,407 --> 00:01:06,410
+41. delay
+
+11
+00:01:14,420 --> 00:01:14,422
+45. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+12
+00:01:17,352 --> 00:01:17,355
+49. delay
+
+13
+00:01:25,364 --> 00:01:25,366
+53. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+14
+00:01:27,743 --> 00:01:27,745
+57. delay
+
+15
+00:01:35,755 --> 00:01:35,759
+61. waitForElementPresent
+
+16
+00:01:39,410 --> 00:01:39,411
+65. tap
+
+17
+00:01:43,906 --> 00:01:43,908
+69. comment
+
+18
+00:01:43,915 --> 00:01:43,918
+73. comment
+
+19
+00:01:43,926 --> 00:01:43,930
+79. Wait until Nomor HP/Nama Pengguna Textbox present
+
+20
+00:01:47,684 --> 00:01:47,687
+85. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  
+
+21
+00:01:52,219 --> 00:01:52,220
+91. SetText to Nomor HP/Nama Pengguna Textbox
+
+22
+00:02:12,476 --> 00:02:12,478
+97. Hide Keyboard
+
+23
+00:02:14,239 --> 00:02:14,240
+103. Verify Element Nomor HP/Nama Pengguna which has been you set  
+
+24
+00:02:18,968 --> 00:02:18,972
+109. Wait until Masuk Button  present
+
+25
+00:02:21,900 --> 00:02:21,903
+115. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action 
+
+26
+00:02:25,947 --> 00:02:25,949
+121. Click Masuk Button
+
+27
+00:02:32,117 --> 00:02:32,121
+127. Wait until Input Pin Textbox  present
+
+28
+00:02:40,598 --> 00:02:40,601
+133. Verify Element Attribute Pin Textbox  with content-desc  to do action 
+
+29
+00:02:48,571 --> 00:02:48,573
+139. Click Input Pin TextBox
+
+30
+00:02:57,133 --> 00:02:57,136
+145. SetText to PIN Textbox
+
+31
+00:03:15,704 --> 00:03:15,707
+149. delay
+
+32
+00:03:20,718 --> 00:03:20,721
+155. End Login Test Case
+
+33
+00:03:20,728 --> 00:03:20,730
+161. Wait until HamburgerButton on the Sidebar  present
+
+34
+00:03:28,043 --> 00:03:28,046
+165. comment
+
+35
+00:03:28,052 --> 00:03:28,054
+171. Verify Element HamburgerButton that have value content desc to do action
+
+36
+00:03:32,628 --> 00:03:32,632
+177. Click Hamburger Button
+
+37
+00:03:37,289 --> 00:03:37,291
+181. waitForElementPresent
+
+38
+00:03:44,231 --> 00:03:44,234
+185. verifyElementAttributeValue
+
+39
+00:03:48,156 --> 00:03:48,159
+191. Go to Mesin Kasir Menu
+
+40
+00:03:56,908 --> 00:03:56,911
+195. waitForElementPresent
+
+41
+00:04:04,870 --> 00:04:04,873
+199. verifyElementAttributeValue
+
+42
+00:04:08,968 --> 00:04:08,971
+205. ADD PRODUCT to shopping cart
+
+43
+00:04:08,976 --> 00:04:08,978
+3. Go to Mesin Kasir Menu
+
+44
+00:04:18,980 --> 00:04:18,982
+3. Go to Mesin Kasir Menu
+
+45
+00:04:25,407 --> 00:04:25,410
+209. Statement - For (def index : (0..1))
+
+46
+00:04:25,415 --> 00:04:25,417
+1. tap
+
+47
+00:04:31,114 --> 00:04:31,116
+1. tap
+
+48
+00:04:37,000 --> 00:04:37,004
+215. See shopping cart
+
+49
+00:04:40,171 --> 00:04:40,174
+219. tap
+
+50
+00:04:44,608 --> 00:04:44,610
+223. comment
+
+51
+00:04:44,618 --> 00:04:44,623
+227. waitForElementPresent
+
+52
+00:04:49,430 --> 00:04:49,433
+231. verifyElementAttributeValue
+
+53
+00:04:53,871 --> 00:04:53,875
+235. verifyElementVisible
+
+54
+00:04:59,318 --> 00:04:59,321
+239. waitForElementPresent
+
+55
+00:05:01,854 --> 00:05:01,857
+243. verifyElementAttributeValue
+
+56
+00:05:05,931 --> 00:05:05,934
+247. tap
+
+57
+00:05:11,416 --> 00:05:11,419
+251. waitForElementPresent
+
+58
+00:05:16,400 --> 00:05:16,403
+255. verifyElementAttributeValue
+
+59
+00:05:20,539 --> 00:05:20,543
+259. tap
+
+60
+00:05:25,820 --> 00:05:25,823
+263. waitForElementPresent
+
+61
+00:05:29,526 --> 00:05:29,528
+267. verifyElementAttributeValue
+
+62
+00:05:33,519 --> 00:05:33,523
+271. tap
+
+63
+00:05:39,627 --> 00:05:39,630
+275. waitForElementPresent
+
+64
+00:05:42,111 --> 00:05:42,113
+279. verifyElementAttributeValue
+
+65
+00:05:47,554 --> 00:05:47,556
+283. setText
+
+66
+00:06:03,681 --> 00:06:03,685
+287. hideKeyboard
+
+67
+00:06:05,251 --> 00:06:05,252
+291. verifyElementText
+
+68
+00:06:11,818 --> 00:06:11,819
+295. waitForElementPresent
+
+69
+00:06:14,420 --> 00:06:14,420
+299. verifyElementAttributeValue
+
+70
+00:06:19,897 --> 00:06:19,897
+303. tap
+
+71
+00:06:25,603 --> 00:06:25,605
+307. closeApplication
+

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 41" time="164" tests="8" failures="3" errors="0">
+   <testsuite name="Story 41" tests="8" failures="3" errors="0" time="164" timestamp="2018-03-15 11:50:42" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 41">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 41\\20180315_115040"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 41\\20180315_115040\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 41\\20180315_115040\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.17.167"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 1" classname="Test Cases/Story 41 - Create Expense/TC 1" status="PASSED">
+         <system-out><![CDATA[2018-03-15 11:50:42 - [TEST_CASE][PASSED] - Test Cases/Story 41 - Create Expense/TC 1: Test Cases/Story 41 - Create Expense/TC 1
+
+2018-03-15 11:50:43 - [TEST_STEP][PASSED] - comment: Start Story 41
+
+2018-03-15 11:50:43 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 11:50:43 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 11:50:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 11:50:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 11:51:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 11:51:04 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 11:51:08 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 11:51:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 11:51:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 11:51:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 11:51:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 11:51:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/PengeluaranNavbar'
+
+2018-03-15 11:51:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/PengeluaranNavbar'
+
+2018-03-15 11:51:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 11:51:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 11:51:19 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' is present
+
+2018-03-15 11:51:20 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' is present
+
+2018-03-15 11:51:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button'
+
+2018-03-15 11:51:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button'
+
+2018-03-15 11:51:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 11:51:25 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 2" classname="Test Cases/Story 41 - Create Expense/TC 2" status="PASSED">
+         <system-out><![CDATA[2018-03-15 11:51:25 - [TEST_CASE][PASSED] - Test Cases/Story 41 - Create Expense/TC 2: Test Cases/Story 41 - Create Expense/TC 2
+
+2018-03-15 11:51:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox'
+
+2018-03-15 11:51:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox'
+
+2018-03-15 11:51:26 - [TEST_STEP][PASSED] - setText: Text 'Pengeluaran Kos Kosan' has been set to element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox'
+
+2018-03-15 11:51:42 - [MESSAGE][PASSED] - Text 'Pengeluaran Kos Kosan' has been set to element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox'
+
+2018-03-15 11:51:42 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' are matched.
+
+2018-03-15 11:51:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' are matched.
+
+2018-03-15 11:51:43 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' is: 'Pengeluaran Kos Kosan'
+
+2018-03-15 11:51:43 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' is: 'Pengeluaran Kos Kosan'
+
+2018-03-15 11:51:43 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 11:51:44 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 11:51:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan'
+
+2018-03-15 11:51:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan'
+
+2018-03-15 11:51:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-15 11:51:48 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 3" classname="Test Cases/Story 41 - Create Expense/TC 3" status="PASSED">
+         <system-out><![CDATA[2018-03-15 11:51:48 - [TEST_CASE][PASSED] - Test Cases/Story 41 - Create Expense/TC 3: Test Cases/Story 41 - Create Expense/TC 3
+
+2018-03-15 11:51:48 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' text is cleared
+
+2018-03-15 11:51:50 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' text is cleared
+
+2018-03-15 11:51:50 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1' is present
+
+2018-03-15 11:51:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1' is present
+
+2018-03-15 11:51:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1'
+
+2018-03-15 11:51:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1'
+
+2018-03-15 11:51:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1'
+
+2018-03-15 11:51:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1'
+
+2018-03-15 11:51:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-15 11:51:56 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 4" classname="Test Cases/Story 41 - Create Expense/TC 4" status="PASSED">
+         <system-out><![CDATA[2018-03-15 11:51:56 - [TEST_CASE][PASSED] - Test Cases/Story 41 - Create Expense/TC 4: Test Cases/Story 41 - Create Expense/TC 4
+
+2018-03-15 11:51:57 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori Elemen ke 1' is present
+
+2018-03-15 11:51:57 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori Elemen ke 1' is present
+
+2018-03-15 11:51:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori Elemen ke 1'
+
+2018-03-15 11:51:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori Elemen ke 1'
+
+2018-03-15 11:51:57 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan' is present
+
+2018-03-15 11:51:59 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan' is present
+
+2018-03-15 11:51:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan'
+
+2018-03-15 11:51:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan'
+
+2018-03-15 11:51:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-15 11:52:02 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 5" classname="Test Cases/Story 41 - Create Expense/TC 5" status="PASSED">
+         <system-out><![CDATA[2018-03-15 11:52:02 - [TEST_CASE][PASSED] - Test Cases/Story 41 - Create Expense/TC 5: Test Cases/Story 41 - Create Expense/TC 5
+
+2018-03-15 11:52:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox'
+
+2018-03-15 11:52:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox'
+
+2018-03-15 11:52:03 - [TEST_STEP][PASSED] - setText: Text 'Pengeluaran Kos Kosan' has been set to element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox'
+
+2018-03-15 11:52:19 - [MESSAGE][PASSED] - Text 'Pengeluaran Kos Kosan' has been set to element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox'
+
+2018-03-15 11:52:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' are matched.
+
+2018-03-15 11:52:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' are matched.
+
+2018-03-15 11:52:20 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' is: 'Pengeluaran Kos Kosan'
+
+2018-03-15 11:52:21 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' is: 'Pengeluaran Kos Kosan'
+
+2018-03-15 11:52:21 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 11:52:21 - [MESSAGE][PASSED] - Keyboard is hidden]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 6" classname="Test Cases/Story 41 - Create Expense/TC 6" status="PASSED">
+         <system-out><![CDATA[2018-03-15 11:52:21 - [TEST_CASE][PASSED] - Test Cases/Story 41 - Create Expense/TC 6: Test Cases/Story 41 - Create Expense/TC 6
+
+2018-03-15 11:52:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox'
+
+2018-03-15 11:52:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox'
+
+2018-03-15 11:52:23 - [TEST_STEP][PASSED] - setText: Text 'Rp. 4500000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox'
+
+2018-03-15 11:52:33 - [MESSAGE][PASSED] - Text 'Rp. 4500000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox'
+
+2018-03-15 11:52:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox' are matched.
+
+2018-03-15 11:52:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox' are matched.
+
+2018-03-15 11:52:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-15 11:52:36 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 7" classname="Test Cases/Story 41 - Create Expense/TC 7" status="PASSED">
+         <system-out><![CDATA[2018-03-15 11:52:36 - [TEST_CASE][PASSED] - Test Cases/Story 41 - Create Expense/TC 7: Test Cases/Story 41 - Create Expense/TC 7
+
+2018-03-15 11:52:36 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Deskripsi - TextBox' is present
+
+2018-03-15 11:52:37 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Deskripsi - TextBox' is present
+
+2018-03-15 11:52:37 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox' is: '4.500.000'
+
+2018-03-15 11:52:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox' is: '4.500.000'
+
+2018-03-15 11:52:37 - [TEST_STEP][PASSED] - sendKeys: Send keys 'Pengeluaran untuk uang Listrik, Uang Makan, dan Uang Kos bulan Januari' on test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Deskripsi - TextBox' successfully.
+
+2018-03-15 11:52:44 - [MESSAGE][PASSED] - Send keys 'Pengeluaran untuk uang Listrik, Uang Makan, dan Uang Kos bulan Januari' on test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Deskripsi - TextBox' successfully.
+
+2018-03-15 11:52:44 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-15 11:52:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-15 11:52:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-03-15 11:52:47 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 8" classname="Test Cases/Story 41 - Create Expense/TC 8" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found)"/>
+         <system-out><![CDATA[2018-03-15 11:52:47 - [TEST_CASE][FAILED] - Test Cases/Story 41 - Create Expense/TC 8: Test Cases/Story 41 - Create Expense/TC 8 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found)
+
+2018-03-15 11:52:47 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' is present
+
+2018-03-15 11:52:48 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' is present
+
+2018-03-15 11:52:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-15 11:52:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-15 11:52:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-15 11:52:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-15 11:52:49 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/10 Maret 2018' is present
+
+2018-03-15 11:52:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/10 Maret 2018' is present
+
+2018-03-15 11:52:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/10 Maret 2018'
+
+2018-03-15 11:52:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/10 Maret 2018'
+
+2018-03-15 11:52:51 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/OK Tanggal' is present
+
+2018-03-15 11:52:52 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/OK Tanggal' is present
+
+2018-03-15 11:52:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/OK Tanggal'
+
+2018-03-15 11:52:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/OK Tanggal'
+
+2018-03-15 11:52:52 - [TEST_STEP][FAILED] - Statement - For (def index : (0..1)): Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found)
+
+2018-03-15 11:52:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found
+
+2018-03-15 11:52:55 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found
+
+2018-03-15 11:52:55 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found)
+
+2018-03-15 11:52:58 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found
+
+2018-03-15 11:52:58 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 11:52:47 - [TEST_CASE][FAILED] - Test Cases/Story 41 - Create Expense/TC 8: Test Cases/Story 41 - Create Expense/TC 8 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 9" classname="Test Cases/Story 41 - Create Expense/TC 9" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal not found)"/>
+         <system-out><![CDATA[2018-03-15 11:52:58 - [TEST_CASE][FAILED] - Test Cases/Story 41 - Create Expense/TC 9: Test Cases/Story 41 - Create Expense/TC 9 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal not found)
+
+2018-03-15 11:52:58 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' is present
+
+2018-03-15 11:52:59 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' is present
+
+2018-03-15 11:52:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-15 11:52:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-15 11:52:59 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal not found)
+
+2018-03-15 11:53:04 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal not found
+
+2018-03-15 11:53:04 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 11:52:58 - [TEST_CASE][FAILED] - Test Cases/Story 41 - Create Expense/TC 9: Test Cases/Story 41 - Create Expense/TC 9 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 10" classname="Test Cases/Story 41 - Create Expense/TC 10" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal not found)"/>
+         <system-out><![CDATA[2018-03-15 11:53:04 - [TEST_CASE][FAILED] - Test Cases/Story 41 - Create Expense/TC 10: Test Cases/Story 41 - Create Expense/TC 10 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal not found)
+
+2018-03-15 11:53:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 11:53:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 11:53:10 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 11:53:10 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-15 11:53:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal not found
+
+2018-03-15 11:53:14 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal not found
+
+2018-03-15 11:53:14 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal not found)
+
+2018-03-15 11:53:17 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal not found
+
+2018-03-15 11:53:17 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 11:53:04 - [TEST_CASE][FAILED] - Test Cases/Story 41 - Create Expense/TC 10: Test Cases/Story 41 - Create Expense/TC 10 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Batal not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 41 - Create Expense/TC 11" classname="Test Cases/Story 41 - Create Expense/TC 11" status="PASSED">
+         <system-out><![CDATA[2018-03-15 11:53:17 - [TEST_CASE][PASSED] - Test Cases/Story 41 - Create Expense/TC 11: Test Cases/Story 41 - Create Expense/TC 11
+
+2018-03-15 11:53:17 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan' is present
+
+2018-03-15 11:53:18 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan' is present
+
+2018-03-15 11:53:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan'
+
+2018-03-15 11:53:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan - Tambah Catatan'
+
+2018-03-15 11:53:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 11:53:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 11:53:23 - [TEST_STEP][PASSED] - comment: End Story 41
+
+2018-03-15 11:53:23 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-03-15 11:53:26 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 11:50:42 - [TEST_SUITE][FAILED] - Story 41: Test Cases/Story 41 - Create Expense/TC 8 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found)]]></system-out>
+      <system-err><![CDATA[2018-03-15 11:50:42 - [TEST_SUITE][FAILED] - Story 41: Test Cases/Story 41 - Create Expense/TC 8 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/Checkbox (1) not found)]]></system-err>
+   </testsuite>
+</testsuites>

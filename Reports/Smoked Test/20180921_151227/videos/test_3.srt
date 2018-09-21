@@ -1,0 +1,214 @@
+1
+00:00:00,651 --> 00:00:00,652
+1. comment
+
+2
+00:00:00,657 --> 00:00:00,659
+7. Call "apk" from Global Variabel
+
+
+3
+00:00:00,662 --> 00:00:00,663
+13. Start Application
+
+4
+00:00:30,259 --> 00:00:30,259
+19. Give delay for install "apk"
+
+5
+00:00:45,272 --> 00:00:45,275
+29. If there is a Update TopuUp, click No, Else you can delay for waiting lazyload 
+
+6
+00:00:45,281 --> 00:00:45,284
+35. Function to call appium server to swipe to side
+
+
+7
+00:00:45,292 --> 00:00:45,296
+41. Call function swipe to side
+
+8
+00:00:48,024 --> 00:00:48,028
+45. delay
+
+9
+00:00:56,040 --> 00:00:56,047
+49. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+10
+00:00:59,037 --> 00:00:59,042
+53. delay
+
+11
+00:01:07,051 --> 00:01:07,052
+57. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+12
+00:01:09,980 --> 00:01:09,985
+61. delay
+
+13
+00:01:18,000 --> 00:01:18,004
+65. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+14
+00:01:20,625 --> 00:01:20,628
+69. delay
+
+15
+00:01:28,639 --> 00:01:28,644
+75. Wait until the swipe is done to do "Mulai" button
+
+16
+00:01:31,965 --> 00:01:31,966
+81. Tap "Mulai" Button
+
+17
+00:01:40,840 --> 00:01:40,841
+87. Look at Comment Input!
+
+18
+00:01:40,843 --> 00:01:40,843
+93. Look at Comment  Input!
+
+19
+00:01:40,846 --> 00:01:40,847
+99. Wait until Nomor HP/Nama Pengguna Textbox present
+
+20
+00:01:45,452 --> 00:01:45,455
+105. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  
+
+21
+00:01:52,136 --> 00:01:52,138
+111. SetText to Nomor HP/Nama Pengguna Textbox
+
+22
+00:02:18,442 --> 00:02:18,446
+117. Hide Keyboard
+
+23
+00:02:19,672 --> 00:02:19,676
+123. Verify Element Nomor HP/Nama Pengguna which has been you set  
+
+24
+00:02:23,309 --> 00:02:23,311
+129. Wait until Masuk Button  present
+
+25
+00:02:31,379 --> 00:02:31,382
+135. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action 
+
+26
+00:02:36,534 --> 00:02:36,537
+141. Click Masuk Button
+
+27
+00:02:45,251 --> 00:02:45,253
+147. Wait until Input Pin Textbox  present
+
+28
+00:02:49,635 --> 00:02:49,637
+153. Verify Element Attribute Pin Textbox  with content-desc  to do action 
+
+29
+00:02:53,992 --> 00:02:53,999
+159. Click Input Pin TextBox
+
+30
+00:02:59,708 --> 00:02:59,710
+165. SetText to PIN Textbox
+
+31
+00:03:27,358 --> 00:03:27,361
+171. Give delay for the Server to sent your PIN
+
+32
+00:03:32,371 --> 00:03:32,373
+177. End Login Test Case
+
+33
+00:03:32,381 --> 00:03:32,384
+183. Look at Comment Input!
+
+34
+00:03:32,391 --> 00:03:32,394
+189. Wait until HamburgerButton on the Sidebar  present
+
+35
+00:03:34,564 --> 00:03:34,566
+195. Verify Element HamburgerButton that have value content desc to do action
+
+36
+00:03:39,882 --> 00:03:39,883
+201. Click Hamburger Button
+
+37
+00:03:45,694 --> 00:03:45,697
+207. Wait until Produk Button on the Sidebar  present
+
+38
+00:03:50,646 --> 00:03:50,647
+213. Verify Element Produk Button that have value content desc to do action
+
+39
+00:03:57,169 --> 00:03:57,173
+219. Click Produk Button
+
+40
+00:04:03,219 --> 00:04:03,223
+225. Verify Onboarding Produk screen if element is visible
+
+41
+00:04:09,711 --> 00:04:09,714
+231. Give delay
+
+42
+00:04:14,721 --> 00:04:14,722
+235. comment
+
+43
+00:04:14,724 --> 00:04:14,725
+239. comment
+
+44
+00:04:14,726 --> 00:04:14,727
+243. delay
+
+45
+00:04:19,730 --> 00:04:19,732
+247. waitForElementPresent
+
+46
+00:04:22,439 --> 00:04:22,442
+251. verifyElementAttributeValue
+
+47
+00:04:26,448 --> 00:04:26,450
+257. Click Cari Produk - Parent
+
+48
+00:04:31,274 --> 00:04:31,277
+263. SetText in Cari Produk - Parent 
+
+49
+00:04:51,289 --> 00:04:51,292
+267. hideKeyboard
+
+50
+00:04:54,244 --> 00:04:54,245
+271. waitForElementPresent
+
+51
+00:05:02,704 --> 00:05:02,706
+275. verifyElementAttributeValue
+
+52
+00:05:04,631 --> 00:05:04,635
+279. tap
+
+53
+00:05:16,143 --> 00:05:16,144
+1. delay
+

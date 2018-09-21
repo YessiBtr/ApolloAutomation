@@ -1,0 +1,218 @@
+1
+00:00:00,272 --> 00:00:00,274
+1. comment
+
+2
+00:00:00,274 --> 00:00:00,274
+7. Call "apk" from Global Variabel
+
+
+3
+00:00:00,278 --> 00:00:00,278
+13. Start Application
+
+4
+00:00:33,863 --> 00:00:33,863
+19. Give delay for install "apk"
+
+5
+00:00:48,870 --> 00:00:48,874
+29. If there is a Update TopuUp, click No, Else you can delay for waiting lazyload 
+
+6
+00:00:48,878 --> 00:00:48,882
+35. Function to call appium server to swipe to side
+
+
+7
+00:00:48,886 --> 00:00:48,890
+41. Call function swipe to side
+
+8
+00:00:51,844 --> 00:00:51,846
+45. delay
+
+9
+00:00:59,854 --> 00:00:59,856
+49. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+10
+00:01:02,726 --> 00:01:02,728
+53. delay
+
+11
+00:01:10,733 --> 00:01:10,735
+57. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+12
+00:01:13,632 --> 00:01:13,636
+61. delay
+
+13
+00:01:21,644 --> 00:01:21,645
+65. Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()
+
+14
+00:01:24,171 --> 00:01:24,173
+69. delay
+
+15
+00:01:32,185 --> 00:01:32,186
+75. Wait until the swipe is done to do "Mulai" button
+
+16
+00:01:35,448 --> 00:01:35,450
+81. Tap "Mulai" Button
+
+17
+00:01:40,917 --> 00:01:40,919
+87. Look at Comment Input!
+
+18
+00:01:40,923 --> 00:01:40,927
+93. Look at Comment  Input!
+
+19
+00:01:40,939 --> 00:01:40,943
+99. Wait until Nomor HP/Nama Pengguna Textbox present
+
+20
+00:01:44,633 --> 00:01:44,633
+105. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  
+
+21
+00:01:48,673 --> 00:01:48,676
+111. SetText to Nomor HP/Nama Pengguna Textbox
+
+22
+00:02:06,350 --> 00:02:06,351
+117. Hide Keyboard
+
+23
+00:02:07,997 --> 00:02:07,998
+123. Verify Element Nomor HP/Nama Pengguna which has been you set  
+
+24
+00:02:12,873 --> 00:02:12,876
+129. Wait until Masuk Button  present
+
+25
+00:02:15,771 --> 00:02:15,774
+135. Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action 
+
+26
+00:02:19,842 --> 00:02:19,842
+141. Click Masuk Button
+
+27
+00:02:25,416 --> 00:02:25,417
+147. Wait until Input Pin Textbox  present
+
+28
+00:02:29,528 --> 00:02:29,529
+153. Verify Element Attribute Pin Textbox  with content-desc  to do action 
+
+29
+00:02:33,564 --> 00:02:33,564
+159. Click Input Pin TextBox
+
+30
+00:02:38,942 --> 00:02:38,943
+165. SetText to PIN Textbox
+
+31
+00:02:59,866 --> 00:02:59,869
+171. Give delay for the Server to sent your PIN
+
+32
+00:03:04,874 --> 00:03:04,875
+177. End Login Test Case
+
+33
+00:03:04,883 --> 00:03:04,883
+183. Look at Comment Input!
+
+34
+00:03:04,895 --> 00:03:04,899
+189. Wait until HamburgerButton on the Sidebar  present
+
+35
+00:03:12,257 --> 00:03:12,259
+195. Verify Element HamburgerButton that have value content desc to do action
+
+36
+00:03:17,440 --> 00:03:17,444
+201. Click Hamburger Button
+
+37
+00:03:25,605 --> 00:03:25,606
+207. Wait until Produk Button on the Sidebar  present
+
+38
+00:03:30,520 --> 00:03:30,520
+213. Verify Element Produk Button that have value content desc to do action
+
+39
+00:03:37,606 --> 00:03:37,607
+219. Click Produk Button
+
+40
+00:03:48,686 --> 00:03:48,688
+225. Verify Onboarding Produk screen if element is visible
+
+41
+00:03:53,684 --> 00:03:53,685
+231. Give delay
+
+42
+00:03:58,696 --> 00:03:58,696
+235. comment
+
+43
+00:03:58,707 --> 00:03:58,710
+239. comment
+
+44
+00:03:58,717 --> 00:03:58,717
+243. delay
+
+45
+00:04:03,727 --> 00:04:03,727
+247. waitForElementPresent
+
+46
+00:04:07,345 --> 00:04:07,346
+251. verifyElementAttributeValue
+
+47
+00:04:11,338 --> 00:04:11,339
+257. Click Cari Produk - Parent
+
+48
+00:04:18,132 --> 00:04:18,133
+263. SetText in Cari Produk - Parent 
+
+49
+00:04:39,302 --> 00:04:39,303
+267. hideKeyboard
+
+50
+00:04:41,201 --> 00:04:41,202
+271. waitForElementPresent
+
+51
+00:04:43,645 --> 00:04:43,648
+275. verifyElementAttributeValue
+
+52
+00:04:47,681 --> 00:04:47,681
+279. tap
+
+53
+00:04:54,905 --> 00:04:54,906
+283. delay
+
+54
+00:04:57,917 --> 00:04:57,917
+287. Statement - Alert = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Alert -  Stok Sedikit), G_ShortTimeOut)
+

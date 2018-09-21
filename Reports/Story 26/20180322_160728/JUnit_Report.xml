@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 26" time="84" tests="1" failures="1" errors="0">
+   <testsuite name="Story 26" tests="1" failures="1" errors="0" time="84" timestamp="2018-03-22 16:07:29" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 26">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180322_160728"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180322_160728\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 26\\20180322_160728\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.17.178"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 1" classname="Test Cases/Story 26 -Kelola Stok Final/TC 1" status="PASSED">
+         <system-out><![CDATA[2018-03-22 16:07:30 - [TEST_CASE][PASSED] - Test Cases/Story 26 -Kelola Stok Final/TC 1: Test Cases/Story 26 -Kelola Stok Final/TC 1
+
+2018-03-22 16:07:30 - [TEST_STEP][PASSED] - comment: Start Story 26
+
+2018-03-22 16:07:30 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-03-22 16:07:30 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-22 16:07:47 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-22 16:07:47 - [TEST_STEP][NOT_RUN] - verifyElementExist: NOT_RUN: verifyElementExist
+
+2018-03-22 16:07:47 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementExist
+
+2018-03-22 16:07:47 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-03-22 16:07:47 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-03-22 16:07:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Login/Nomor HP  Nama Pengguna - Text Box not found
+
+2018-03-22 16:07:52 - [MESSAGE][WARNING] - Object Object Repository/Login/Nomor HP  Nama Pengguna - Text Box not found
+
+2018-03-22 16:07:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-03-22 16:07:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-03-22 16:07:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-03-22 16:07:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-03-22 16:07:56 - [TEST_STEP][PASSED] - setText: Text 'Yessi' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-03-22 16:08:05 - [MESSAGE][PASSED] - Text 'Yessi' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-03-22 16:08:05 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is: 'Yessi'
+
+2018-03-22 16:08:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is: 'Yessi'
+
+2018-03-22 16:08:06 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-22 16:08:07 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-22 16:08:07 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-03-22 16:08:08 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-03-22 16:08:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-03-22 16:08:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-03-22 16:08:08 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-03-22 16:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-03-22 16:08:08 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/InputPin' is present
+
+2018-03-22 16:08:09 - [MESSAGE][PASSED] - Element 'Object Repository/Login/InputPin' is present
+
+2018-03-22 16:08:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/InputPin'
+
+2018-03-22 16:08:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/InputPin'
+
+2018-03-22 16:08:10 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/InputPin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-03-22 16:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/InputPin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-03-22 16:08:10 - [TEST_STEP][PASSED] - setText: Text '160996' has been set to element 'Object Repository/Login/InputPin'
+
+2018-03-22 16:08:22 - [MESSAGE][PASSED] - Text '160996' has been set to element 'Object Repository/Login/InputPin'
+
+2018-03-22 16:08:22 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Login/InputPin' is: ''
+
+2018-03-22 16:08:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/Login/InputPin' is: ''
+
+2018-03-22 16:08:23 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-22 16:08:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-22 16:08:24 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-22 16:08:25 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-22 16:08:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-22 16:08:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-22 16:08:27 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/HamburgerButton' has attribute 'content-desc' with value 'hamburgerButton'
+
+2018-03-22 16:08:28 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/HamburgerButton' has attribute 'content-desc' with value 'hamburgerButton'
+
+2018-03-22 16:08:28 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu' is present
+
+2018-03-22 16:08:29 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu' is present
+
+2018-03-22 16:08:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-22 16:08:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-22 16:08:29 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu' has attribute 'content-desc' with value 'operasionalMenuItem'
+
+2018-03-22 16:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu' has attribute 'content-desc' with value 'operasionalMenuItem'
+
+2018-03-22 16:08:29 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu' is present
+
+2018-03-22 16:08:31 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu' is present
+
+2018-03-22 16:08:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-22 16:08:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-22 16:08:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu' has attribute 'text' with value 'Stok'
+
+2018-03-22 16:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu' has attribute 'text' with value 'Stok'
+
+2018-03-22 16:08:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-22 16:08:38 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 26 -Kelola Stok Final/TC 2" classname="Test Cases/Story 26 -Kelola Stok Final/TC 2" status="FAILED">
+         <failure type="FAILED" message="Unable to verify if object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' has attribute 'content-desc' with value 'filterProductButton' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: f37abee5-0b70-46bb-952c-c972fef7b094)"/>
+         <system-out><![CDATA[2018-03-22 16:08:38 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 2: Test Cases/Story 26 -Kelola Stok Final/TC 2 FAILED because (of) Unable to verify if object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' has attribute 'content-desc' with value 'filterProductButton' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: f37abee5-0b70-46bb-952c-c972fef7b094)
+
+2018-03-22 16:08:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-22 16:08:38 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-03-22 16:08:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-22 16:08:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-03-22 16:08:39 - [TEST_STEP][FAILED] - verifyElementAttributeValue: Unable to verify if object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' has attribute 'content-desc' with value 'filterProductButton' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: f37abee5-0b70-46bb-952c-c972fef7b094)
+
+2018-03-22 16:08:51 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' has attribute 'content-desc' with value 'filterProductButton' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: f37abee5-0b70-46bb-952c-c972fef7b094)]]></system-out>
+         <system-err><![CDATA[2018-03-22 16:08:38 - [TEST_CASE][FAILED] - Test Cases/Story 26 -Kelola Stok Final/TC 2: Test Cases/Story 26 -Kelola Stok Final/TC 2 FAILED because (of) Unable to verify if object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' has attribute 'content-desc' with value 'filterProductButton' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: f37abee5-0b70-46bb-952c-c972fef7b094)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-22 16:07:29 - [TEST_SUITE][FAILED] - Story 26: Test Cases/Story 26 -Kelola Stok Final/TC 2 FAILED because (of) Unable to verify if object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' has attribute 'content-desc' with value 'filterProductButton' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: f37abee5-0b70-46bb-952c-c972fef7b094)]]></system-out>
+      <system-err><![CDATA[2018-03-22 16:07:29 - [TEST_SUITE][FAILED] - Story 26: Test Cases/Story 26 -Kelola Stok Final/TC 2 FAILED because (of) Unable to verify if object 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' has attribute 'content-desc' with value 'filterProductButton' (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.81 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.sit, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.sit, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: f37abee5-0b70-46bb-952c-c972fef7b094)]]></system-err>
+   </testsuite>
+</testsuites>

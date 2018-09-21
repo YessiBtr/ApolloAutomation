@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 27,,,2018-03-15 07:44:34,2018-03-15 07:45:56,1m - 21.877s,FAILED
+,,,,,,
+Test Cases/Story 27 - Detail Product/TC 1,,Detail Product - Info Stock,2018-03-15 07:44:35,2018-03-15 07:45:32,57.097s,PASSED
+comment,,,2018-03-15 07:44:35,2018-03-15 07:44:35,0.041s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 07:44:35,2018-03-15 07:44:35,0.011s,PASSED
+startApplication,,,2018-03-15 07:44:35,2018-03-15 07:44:51,15.304s,PASSED
+verifyElementExist,,,2018-03-15 07:44:51,2018-03-15 07:44:51,0.003s,NOT_RUN
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 07:44:51,2018-03-15 07:44:57,6.834s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 07:44:57,2018-03-15 07:45:01,3.949s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 07:45:01,2018-03-15 07:45:03,1.213s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 07:45:03,2018-03-15 07:45:04,1.846s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-03-15 07:45:04,2018-03-15 07:45:08,3.335s,PASSED
+waitForElementPresent,,,2018-03-15 07:45:08,2018-03-15 07:45:10,2.089s,PASSED
+comment,,,2018-03-15 07:45:10,2018-03-15 07:45:10,0.004s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-03-15 07:45:10,2018-03-15 07:45:12,1.903s,PASSED
+setText,,"Melakukan Input Text lebih dari satu kata dalam search produk pada kategori \""Makanan\""",2018-03-15 07:45:12,2018-03-15 07:45:25,12.680s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element Text yang telah di Input,2018-03-15 07:45:25,2018-03-15 07:45:25,0.928s,PASSED
+getText,,Mengambil Text yang telah di input,2018-03-15 07:45:25,2018-03-15 07:45:26,0.300s,PASSED
+delay,,,2018-03-15 07:45:26,2018-03-15 07:45:31,5.026s,PASSED
+waitForElementPresent,,,2018-03-15 07:45:31,2018-03-15 07:45:31,0.338s,PASSED
+tap,,,2018-03-15 07:45:31,2018-03-15 07:45:32,0.747s,PASSED
+,,,,,,
+Test Cases/Story 27 - Detail Product/TC 2,,Info Stock - Back button,2018-03-15 07:45:32,2018-03-15 07:45:37,5.213s,FAILED
+tap,,,2018-03-15 07:45:32,2018-03-15 07:45:37,5.085s,FAILED
+,,,,,,
+Test Cases/Story 27 - Detail Product/TC 3,,Detail Product - Ubah Info,2018-03-15 07:45:37,2018-03-15 07:45:53,16.244s,FAILED
+comment,,,2018-03-15 07:45:37,2018-03-15 07:45:37,0.001s,PASSED
+swipe,,,2018-03-15 07:45:37,2018-03-15 07:45:38,0.654s,PASSED
+waitForElementPresent,,,2018-03-15 07:45:38,2018-03-15 07:45:43,5.395s,PASSED
+tap,,,2018-03-15 07:45:43,2018-03-15 07:45:53,10.033s,FAILED

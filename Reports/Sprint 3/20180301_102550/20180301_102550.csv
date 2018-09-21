@@ -1,0 +1,94 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sprint 3,,,2018-03-01 10:25:52,2018-03-01 10:28:53,3m - 1.066s,FAILED
+,,,,,,
+Test Cases/Sprint 3/40 - TC - All,,View Pengeluaran,2018-03-01 10:25:53,2018-03-01 10:27:08,1m - 15.298s,FAILED
+comment,,,2018-03-01 10:25:53,2018-03-01 10:25:53,0.043s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-01 10:25:53,2018-03-01 10:25:53,0.009s,PASSED
+startApplication,,,2018-03-01 10:25:53,2018-03-01 10:26:11,17.265s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-01 10:26:11,2018-03-01 10:26:18,7.300s,PASSED
+tap,,Mengklik Text Box untuk mengisi Nomor HP/Nama Pengguna,2018-03-01 10:26:18,2018-03-01 10:26:18,0.006s,NOT_RUN
+setText,,"Megisi inputan dengan Nama Pengguna \""Yessi\""",2018-03-01 10:26:18,2018-03-01 10:26:18,0.006s,NOT_RUN
+hideKeyboard,,Hide Keyboard Device,2018-03-01 10:26:18,2018-03-01 10:26:18,0.006s,NOT_RUN
+tap,,Mengklik Button Masuk,2018-03-01 10:26:18,2018-03-01 10:26:18,0.002s,NOT_RUN
+waitForElementPresent,,Menunggu action button masuk hingga selesai untuk masuk ke action Input PIN,2018-03-01 10:26:18,2018-03-01 10:26:18,0.002s,NOT_RUN
+tap,,Mengklik Text Field Pin,2018-03-01 10:26:18,2018-03-01 10:26:18,0.002s,NOT_RUN
+setText,,Menginput PIN Pengguna dengan 6 digit,2018-03-01 10:26:18,2018-03-01 10:26:18,0.002s,NOT_RUN
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-01 10:26:18,2018-03-01 10:26:22,3.609s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-01 10:26:22,2018-03-01 10:26:22,0.410s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-01 10:26:22,2018-03-01 10:26:24,1.720s,PASSED
+tap,,Click Navbar 'Pengeluaran',2018-03-01 10:26:24,2018-03-01 10:26:26,2.627s,PASSED
+delay,,,2018-03-01 10:26:26,2018-03-01 10:26:31,5.030s,PASSED
+tap,,Klik Drop Down Semua Kategori,2018-03-01 10:26:31,2018-03-01 10:26:32,0.484s,PASSED
+tap,,"Pilih Kategori \""Biaya Listrik\""",2018-03-01 10:26:32,2018-03-01 10:26:34,1.866s,PASSED
+tap,,"Klik \""Terapkan Button\""",2018-03-01 10:26:34,2018-03-01 10:26:35,0.886s,PASSED
+tap,,Klik Drop Down Semua Kategori,2018-03-01 10:26:35,2018-03-01 10:26:36,1.599s,PASSED
+tap,,,2018-03-01 10:26:36,2018-03-01 10:26:38,1.504s,PASSED
+tap,,"Klik \""Terapkan Button\""",2018-03-01 10:26:38,2018-03-01 10:26:39,1.003s,PASSED
+tap,,Klik Drop Down Semua Kategori,2018-03-01 10:26:39,2018-03-01 10:26:40,1.734s,PASSED
+tap,,,2018-03-01 10:26:40,2018-03-01 10:26:42,1.696s,PASSED
+tap,,"Klik \""Terapkan Button\""",2018-03-01 10:26:42,2018-03-01 10:26:43,0.990s,PASSED
+delay,,,2018-03-01 10:26:43,2018-03-01 10:26:48,5.003s,PASSED
+waitForElementPresent,,,2018-03-01 10:26:48,2018-03-01 10:26:53,5.132s,PASSED
+tap,,,2018-03-01 10:26:53,2018-03-01 10:26:54,0.476s,PASSED
+pressBack,,,2018-03-01 10:26:54,2018-03-01 10:26:56,1.841s,PASSED
+tap,,,2018-03-01 10:26:56,2018-03-01 10:26:57,1.277s,PASSED
+pressBack,,,2018-03-01 10:26:57,2018-03-01 10:26:58,0.885s,PASSED
+waitForElementPresent,,,2018-03-01 10:26:58,2018-03-01 10:27:03,5.028s,PASSED
+tap,,"Klik button  \""Tambah Catatan\""",2018-03-01 10:27:03,2018-03-01 10:27:08,5.220s,FAILED
+,,,,,,
+Test Cases/Sprint 3/41 - TC-All,,Create Expense,2018-03-01 10:27:08,2018-03-01 10:28:40,1m - 32.004s,FAILED
+comment,,,2018-03-01 10:27:08,2018-03-01 10:27:08,0.001s,PASSED
+waitForElementPresent,,"Menungg//////////////////////u hingga elemen Pengeluaran barang untuk melanjutkan action element \""Tambah Catatan\""",2018-03-01 10:27:08,2018-03-01 10:27:12,4.175s,PASSED
+tap,,"Mengklik Button \""Tambah Catatan\""",2018-03-01 10:27:12,2018-03-01 10:27:13,0.357s,PASSED
+sendKeys,,Mengklik TextBox Judul MengInput Text pada Judul Catatan,2018-03-01 10:27:13,2018-03-01 10:27:22,8.873s,PASSED
+hideKeyboard,,Keyboard device tertutup,2018-03-01 10:27:22,2018-03-01 10:27:23,0.990s,PASSED
+waitForElementPresent,,"Menunggu hingga elemen Input Judul Catatan selesai untuk melanjutkan action element \""Tambah Catatan\""",2018-03-01 10:27:23,2018-03-01 10:27:24,1.173s,PASSED
+tap,,"Mengklik \""Pilih Kategori\""",2018-03-01 10:27:24,2018-03-01 10:27:24,0.497s,PASSED
+tap,,"Mengklik \""Pilih Kategori\""",2018-03-01 10:27:24,2018-03-01 10:27:25,0.842s,PASSED
+waitForElementPresent,,,2018-03-01 10:27:25,2018-03-01 10:27:27,1.843s,PASSED
+comment,,Menggabungkan Story 42- \tManage Kategori,2018-03-01 10:27:27,2018-03-01 10:27:27,0.004s,PASSED
+tap,,Klik 'Pengaturan Kategori',2018-03-01 10:27:27,2018-03-01 10:27:28,0.584s,PASSED
+comment,,"Selanjutnya, Melakukan Looping Swipe pada List Kategori",2018-03-01 10:27:28,2018-03-01 10:27:28,0.001s,PASSED
+Statement - For (def index : (0..3)),,Looping Toogle Kategori Elemen 1,2018-03-01 10:27:28,2018-03-01 10:27:30,2.716s,PASSED
+Statement - For (def index : (0..3)),,Looping Toogle Kategori Elemen 2,2018-03-01 10:27:30,2018-03-01 10:27:33,2.283s,PASSED
+Statement - For (def index : (0..3)),,Looping Toogle Kategori Elemen 3,2018-03-01 10:27:33,2018-03-01 10:27:35,2.624s,PASSED
+Statement - For (def index : (0..3)),,Looping Toogle Kategori Elemen 4,2018-03-01 10:27:35,2018-03-01 10:27:38,2.429s,PASSED
+Statement - For (def index : (0..3)),,Looping Toogle Kategori Elemen 5,2018-03-01 10:27:38,2018-03-01 10:27:40,2.487s,PASSED
+waitForElementPresent,,,2018-03-01 10:27:40,2018-03-01 10:27:41,0.817s,PASSED
+tap,,,2018-03-01 10:27:41,2018-03-01 10:27:41,0.449s,PASSED
+waitForElementPresent,,,2018-03-01 10:27:41,2018-03-01 10:27:42,0.237s,PASSED
+tap,,Klik 'Tambah Kategori',2018-03-01 10:27:42,2018-03-01 10:27:45,3.180s,PASSED
+comment,,"Setelah mengKlik Button 'Terapkan', muncul Notifikasi \""Perlu diisi\""",2018-03-01 10:27:45,2018-03-01 10:27:45,0.003s,PASSED
+tap,,Input Nama Kategori Baru yang akan di tambahkan,2018-03-01 10:27:45,2018-03-01 10:27:46,1.369s,PASSED
+sendKeys,,"Input Tambah Kategori Baru dengan \""Buku\""",2018-03-01 10:27:46,2018-03-01 10:27:52,5.710s,PASSED
+tap,,"Klik Button \""Terapkan\""",2018-03-01 10:27:52,2018-03-01 10:27:53,0.776s,PASSED
+waitForElementPresent,,,2018-03-01 10:27:53,2018-03-01 10:27:55,2.400s,PASSED
+tap,,Klik Button 'Simpan' untuk menyimpan perubahan,2018-03-01 10:27:55,2018-03-01 10:27:56,0.946s,PASSED
+pressBack,,Klik 'Terapkan Button',2018-03-01 10:27:56,2018-03-01 10:27:56,0.463s,PASSED
+tap,,,2018-03-01 10:27:56,2018-03-01 10:27:58,1.290s,PASSED
+comment,,Kategori Baru sudah muncul pada List Kategori dengan status 'active',2018-03-01 10:27:58,2018-03-01 10:27:58,0.004s,PASSED
+comment,,End Story 42 - Manage Kategori,2018-03-01 10:27:58,2018-03-01 10:27:58,0.006s,PASSED
+tap,,"Mengklik \""Nominal Pengeluaran\""",2018-03-01 10:27:58,2018-03-01 10:28:00,1.829s,PASSED
+setText,,MengInput nilai Nominal Pengeluaran,2018-03-01 10:28:00,2018-03-01 10:28:11,11.517s,PASSED
+verifyElementText,,Memverifikasi nilai Nominal Pengeluaran yang telah di Input apakah sama actual dengan expectednya,2018-03-01 10:28:11,2018-03-01 10:28:12,1.047s,PASSED
+getText,,Mengambil nilai Nominal Pengeluaran setelah di verifikasi,2018-03-01 10:28:12,2018-03-01 10:28:12,0.273s,PASSED
+waitForElementPresent,,"Menunggu sampai nilai Nominal Pengeluaran terGet, kemudian melakukan action selanjutnya",2018-03-01 10:28:12,2018-03-01 10:28:13,0.291s,PASSED
+sendKeys,,Mengklik TextBox Deskripsi dan mengInput Deskripsinya ,2018-03-01 10:28:13,2018-03-01 10:28:22,9.002s,PASSED
+hideKeyboard,,Keyboard device tertutup,2018-03-01 10:28:22,2018-03-01 10:28:23,0.946s,PASSED
+waitForElementPresent,,"Menunggu sampai Deskripsi selesai di Input, kemudian melakukan action selanjutnya",2018-03-01 10:28:23,2018-03-01 10:28:24,0.803s,PASSED
+tap,,Mengklik Selector Tanggal Pengeluaran,2018-03-01 10:28:24,2018-03-01 10:28:24,0.492s,PASSED
+tap,,Mengklik Selector Tanggal Pengeluaran,2018-03-01 10:28:24,2018-03-01 10:28:25,0.903s,PASSED
+swipe,,,2018-03-01 10:28:25,2018-03-01 10:28:26,0.623s,PASSED
+tap,,Memilih Tanggal yang belum lewat dengan tanggal hari ini,2018-03-01 10:28:26,2018-03-01 10:28:27,1.648s,PASSED
+tap,,Klik Batal untuk membatalkan tanggal yang dipilih,2018-03-01 10:28:27,2018-03-01 10:28:28,0.909s,PASSED
+tap,,Mengklik Selector Tanggal Pengeluaran,2018-03-01 10:28:28,2018-03-01 10:28:29,1.065s,PASSED
+comment,,,2018-03-01 10:28:29,2018-03-01 10:28:29,0.000s,PASSED
+scrollToText,,,2018-03-01 10:28:29,2018-03-01 10:28:29,0.000s,NOT_RUN
+delay,,,2018-03-01 10:28:29,2018-03-01 10:28:34,5.002s,PASSED
+swipe,,,2018-03-01 10:28:34,2018-03-01 10:28:35,0.593s,PASSED
+tap,,Memilih Tanggal yang belum lewat dengan tanggal hari ini,2018-03-01 10:28:35,2018-03-01 10:28:40,5.268s,FAILED
+,,,,,,
+Test Cases/Sprint 3/215 - TC -All,,,2018-03-01 10:28:40,2018-03-01 10:28:51,10.622s,FAILED
+comment,,,2018-03-01 10:28:40,2018-03-01 10:28:40,0.002s,PASSED
+delay,,,2018-03-01 10:28:40,2018-03-01 10:28:45,5.004s,PASSED
+tap,,Klik List Pengeluaran di Elemen ke 3,2018-03-01 10:28:45,2018-03-01 10:28:51,5.417s,FAILED

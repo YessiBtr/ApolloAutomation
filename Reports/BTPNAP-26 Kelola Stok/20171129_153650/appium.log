@@ -1,0 +1,562 @@
+[Appium] Welcome to Appium v1.6.3
+[Appium] Non-default server args:
+[Appium]   port: 57814
+[Appium]   loglevel: 'info'
+[Appium]   chromeDriverPort: 57823
+[Appium]   tmpDir: 'C:\\Users\\AV2017~1\\AppData\\Local\\Temp\\\\Katalon\\Appium\\Temp1511944613190'
+[Appium] Appium REST http interface listener started on 0.0.0.0:57814
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 8 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\Project Apollo\\Appolo Test\\app-development-debug.apk","noReset":true,"newCommandTimeout":1800,"autoGrantPermissions":true,"udid":"3201281be0f78439","platformName":"Android","deviceName":"samsung SM-J120G 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\Project Apollo\\Appolo Test\\app-development-debug.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: '3201281be0f78439'
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'samsung SM-J120G 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: autoGrantPermissions, platform.
+[BaseDriver] Session created with session id: 51ebb3f9-1b96-40cd-b44c-eb339beca577
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\FAF\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 3201281be0f78439
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\FAF\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+[AndroidDriver] Starting Android session
+[ADB] Getting device platform version
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\FAF\Katalon 5.0\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/febe78c683361f129f0da50fe58e0a51.apk
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from D:\FAF\Katalon 5.0\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[Appium] New AndroidDriver session created successfully, session 51ebb3f9-1b96-40cd-b44c-eb339beca577 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 49278 ms - 1014 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 4 ms - 83 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 23 ms - 98 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 122 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 112 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 94 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 88 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 115 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 104 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 145 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 97 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 129 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 2231 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/1/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":186,"y":138}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/1/location 200 28 ms - 89 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform {"actions":[{"action":"press","options":{"element":"1"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":186,"y":138}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":108,"height":28}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"1","x":240,"y":152}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 240, y: 152
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":240,"y":152}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 240, y: 152
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform 200 207 ms - 76 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 23 ms - 98 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 272 ms - 74 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.HorizontalScrollView[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=29]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=29]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 613 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/2/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":160,"y":182}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/2/location 200 46 ms - 89 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform {"actions":[{"action":"press","options":{"element":"2"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":160,"y":182}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":160,"height":96}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"2","x":240,"y":230}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 240, y: 230
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":240,"y":230}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 240, y: 230
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform 200 219 ms - 76 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 9 ms - 98 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.support.v4.view.ViewPager[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.support.v4.view.ViewPager[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.support.v4.view.ViewPager[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.support.v4.view.ViewPager[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=37]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=37]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"3"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 909 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/3/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":117,"y":286}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/3/location 200 36 ms - 89 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform {"actions":[{"action":"press","options":{"element":"3"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":117,"y":286}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":246,"height":51}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"3","x":240,"y":311.5}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 240, y: 311
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":240,"y":311.5}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 240, y: 311
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform 200 197 ms - 76 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 10 ms - 98 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=5]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=5]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"4"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 358 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/4/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":51,"y":448}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/4/location 200 27 ms - 88 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform {"actions":[{"action":"press","options":{"element":"4"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":51,"y":448}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":28,"height":36}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"4","x":65,"y":466}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 65, y: 466
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":65,"y":466}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 65, y: 466
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform 200 155 ms - 76 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 8 ms - 98 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"5"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 992 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/5/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"5"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":155,"y":635}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/5/location 200 29 ms - 89 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform {"actions":[{"action":"press","options":{"element":"5"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"5"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":155,"y":635}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"5"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":171,"height":36}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"5","x":240.5,"y":653}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 240, y: 653
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":240.5,"y":653}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 240, y: 653
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform 200 158 ms - 76 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 7 ms - 98 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.support.v4.view.ViewPager[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.support.v4.view.ViewPager[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.support.v4.widget.DrawerLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.support.v4.view.ViewPager[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.view.View, INSTANCE=37]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.view.View, INSTANCE=37]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"6"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 171 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/6/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"6"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":98,"y":286}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/6/location 200 38 ms - 88 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform {"actions":[{"action":"press","options":{"element":"6"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"6"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":98,"y":286}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"6"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":285,"height":51}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"6","x":240.5,"y":311.5}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 240, y: 311
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":240.5,"y":311.5}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 240, y: 311
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform 200 189 ms - 76 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/context {}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/context 200 4 ms - 84 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/contexts {}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/contexts 200 2076 ms - 86 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/context 200 2134 ms - 76 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element {"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description(\"Otomotif\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"Otomotif\").instance(0));"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description(\"Otomotif\").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text(\"Otomotif\").instance(0));","context":"","multiple":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("Otomotif").instance(0));new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("Otomotif").instance(0));' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing scrollable: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().description("Otomotif").instance(0))
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: boolean arg: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiScrollable invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException args: new UiSelector().description("Otomotif").instance(0),
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiScrollable coerce type: class com.android.uiautomator.core.UiObject arg: new UiSelector().description("Otomotif").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Otomotif"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Method name: scrollIntoView
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Setting uiObject for scrollIntoView
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException with: com.android.uiautomator.core.UiObject@27ba22af
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Invoke complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing scrollable: new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("Otomotif").instance(0))
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: boolean arg: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiScrollable invoking method: public boolean com.android.uiautomator.core.UiScrollable.scrollIntoView(com.android.uiautomator.core.UiObject) throws com.android.uiautomator.core.UiObjectNotFoundException args: new UiSelector().text("Otomotif").instance(0),
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiScrollable coerce type: class com.android.uiautomator.core.UiObject arg: new UiSelector().text("Otomotif").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "Otomotif"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Method name: scrollIntoView
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Setting uiObject for scrollIntoView
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[DESCRIPTION=Otomotif, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=Otomotif, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element 200 6669 ms - 87 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/context 200 3208 ms - 76 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 9 ms - 98 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=5]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=5]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"8"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 107 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/8/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"8"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":51,"y":450}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/8/location 200 19 ms - 88 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform {"actions":[{"action":"press","options":{"element":"8"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"8"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":51,"y":450}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"8"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":28,"height":36}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"8","x":65,"y":468}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 65, y: 468
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":65,"y":468}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 65, y: 468
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform 200 165 ms - 76 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 8 ms - 98 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[4]/android.view.View[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=6]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=6]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"9"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 108 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/9/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"9"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":100,"y":450}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/9/location 200 21 ms - 89 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/9/attribute/text {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"text","elementId":"9"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Otomotif"}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/9/attribute/text 200 32 ms - 82 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/window/current/size 200 10 ms - 98 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":800,"width":480}}
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[2]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=9]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"10"}]}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 200 116 ms - 90 
+[HTTP] --> GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/10/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"10"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":155,"y":635}}
+[HTTP] <-- GET /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/element/10/location 200 29 ms - 89 
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform {"actions":[{"action":"press","options":{"element":"10"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"10"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":155,"y":635}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"10"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":171,"height":36}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchDown","params":{"elementId":"10","x":240.5,"y":653}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchDown
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchDown using element? true x: 240, y: 653
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:touchUp","params":{"x":240.5,"y":653}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: touchUp
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][480,800]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Performing TouchUp using element? false x: 240, y: 653
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/touch/perform 200 145 ms - 76 
+[HTTP] --> DELETE /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577 {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[HTTP] --> POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements {"using":"id","value":"id"}
+[HTTP] <-- POST /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577/elements 404 2 ms - 131 
+[HTTP] <-- DELETE /wd/hub/session/51ebb3f9-1b96-40cd-b44c-eb339beca577 - - ms - - 
+[Appium] Removing session 51ebb3f9-1b96-40cd-b44c-eb339beca577 from our master session list

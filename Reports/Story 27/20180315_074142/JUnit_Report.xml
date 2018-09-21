@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 27" time="45" tests="0" failures="3" errors="0">
+   <testsuite name="Story 27" tests="0" failures="3" errors="0" time="45" timestamp="2018-03-15 07:41:44" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 27">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 27\\20180315_074142"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 27\\20180315_074142\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 27\\20180315_074142\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.43.137"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 27 - Detail Product/TC 1" classname="Test Cases/Story 27 - Detail Product/TC 1" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' exist (Root cause: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' not found)"/>
+         <system-out><![CDATA[2018-03-15 07:41:44 - [TEST_CASE][FAILED] - Test Cases/Story 27 - Detail Product/TC 1: Test Cases/Story 27 - Detail Product/TC 1 FAILED because (of) Failed to check for element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' exist (Root cause: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' not found)
+
+2018-03-15 07:41:45 - [TEST_STEP][PASSED] - comment: Start Story 27
+
+2018-03-15 07:41:45 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 07:41:45 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 07:42:00 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 07:42:00 - [TEST_STEP][FAILED] - verifyElementExist: Failed to check for element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' exist (Root cause: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' not found)
+
+2018-03-15 07:42:06 - [MESSAGE][FAILED] - Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' not found
+
+2018-03-15 07:42:06 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' exist (Root cause: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:41:44 - [TEST_CASE][FAILED] - Test Cases/Story 27 - Detail Product/TC 1: Test Cases/Story 27 - Detail Product/TC 1 FAILED because (of) Failed to check for element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' exist (Root cause: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 27 - Detail Product/TC 2" classname="Test Cases/Story 27 - Detail Product/TC 2" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER not found)"/>
+         <system-out><![CDATA[2018-03-15 07:42:06 - [TEST_CASE][FAILED] - Test Cases/Story 27 - Detail Product/TC 2: Test Cases/Story 27 - Detail Product/TC 2 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER not found)
+
+2018-03-15 07:42:06 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER not found)
+
+2018-03-15 07:42:11 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER not found
+
+2018-03-15 07:42:11 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:42:06 - [TEST_CASE][FAILED] - Test Cases/Story 27 - Detail Product/TC 2: Test Cases/Story 27 - Detail Product/TC 2 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/INFO SUPPLIER not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 27 - Detail Product/TC 3" classname="Test Cases/Story 27 - Detail Product/TC 3" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)"/>
+         <system-out><![CDATA[2018-03-15 07:42:11 - [TEST_CASE][FAILED] - Test Cases/Story 27 - Detail Product/TC 3: Test Cases/Story 27 - Detail Product/TC 3 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)
+
+2018-03-15 07:42:11 - [TEST_STEP][PASSED] - comment: Swipe ke Bawah
+
+2018-03-15 07:42:11 - [TEST_STEP][PASSED] - swipe: Swiped from 24,788 to 24,452
+
+2018-03-15 07:42:11 - [MESSAGE][PASSED] - Swiped from 24,788 to 24,452
+
+2018-03-15 07:42:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found
+
+2018-03-15 07:42:17 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found
+
+2018-03-15 07:42:17 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)
+
+2018-03-15 07:42:27 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found
+
+2018-03-15 07:42:27 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 07:42:11 - [TEST_CASE][FAILED] - Test Cases/Story 27 - Detail Product/TC 3: Test Cases/Story 27 - Detail Product/TC 3 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 07:41:44 - [TEST_SUITE][FAILED] - Story 27: Test Cases/Story 27 - Detail Product/TC 1 FAILED because (of) Failed to check for element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' exist (Root cause: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-15 07:41:44 - [TEST_SUITE][FAILED] - Story 27: Test Cases/Story 27 - Detail Product/TC 1 FAILED because (of) Failed to check for element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' exist (Root cause: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' not found)]]></system-err>
+   </testsuite>
+</testsuites>

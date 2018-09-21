@@ -1,0 +1,116 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35,,,2018-03-14 14:48:35,2018-03-14 14:55:16,6m - 40.743s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 1,,Display Tambah Barang Form,2018-03-14 14:48:36,2018-03-14 14:49:22,46.909s,PASSED
+comment,,,2018-03-14 14:48:36,2018-03-14 14:48:36,0.046s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-14 14:48:36,2018-03-14 14:48:36,0.014s,PASSED
+startApplication,,,2018-03-14 14:48:36,2018-03-14 14:48:58,22.103s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-14 14:48:58,2018-03-14 14:49:05,7.085s,PASSED
+verifyElementExist,,,2018-03-14 14:49:05,2018-03-14 14:49:05,0.093s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-14 14:49:05,2018-03-14 14:49:09,3.556s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-14 14:49:09,2018-03-14 14:49:10,1.410s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-14 14:49:10,2018-03-14 14:49:12,1.878s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-03-14 14:49:12,2018-03-14 14:49:16,3.615s,PASSED
+delay,,,2018-03-14 14:49:16,2018-03-14 14:49:21,5.044s,PASSED
+tap,,,2018-03-14 14:49:21,2018-03-14 14:49:22,1.177s,PASSED
+verifyElementExist,,,2018-03-14 14:49:22,2018-03-14 14:49:22,0.316s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 2,,Increase or decrease product stock,2018-03-14 14:49:23,2018-03-14 14:49:48,25.964s,PASSED
+Statement - For (def index : (0..10)),,,2018-03-14 14:49:23,2018-03-14 14:49:40,17.124s,PASSED
+Statement - For (def index : (0..5)),,,2018-03-14 14:49:40,2018-03-14 14:49:48,8.657s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 3,,user update stock when specifies stock = -(minus),2018-03-14 14:49:49,2018-03-14 14:50:28,39.912s,PASSED
+tap,,,2018-03-14 14:49:49,2018-03-14 14:49:50,1.025s,PASSED
+setText,,,2018-03-14 14:49:50,2018-03-14 14:50:09,18.763s,PASSED
+clearText,,,2018-03-14 14:50:09,2018-03-14 14:50:14,5.411s,PASSED
+setText,,,2018-03-14 14:50:14,2018-03-14 14:50:26,11.870s,PASSED
+hideKeyboard,,,2018-03-14 14:50:26,2018-03-14 14:50:27,1.433s,PASSED
+swipe,,,2018-03-14 14:50:27,2018-03-14 14:50:28,1.211s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 4,,Display Pick Category,2018-03-14 14:50:29,2018-03-14 14:50:40,11.931s,PASSED
+delay,,,2018-03-14 14:50:29,2018-03-14 14:50:34,5.003s,PASSED
+tap,,,2018-03-14 14:50:34,2018-03-14 14:50:34,0.708s,PASSED
+tap,,,2018-03-14 14:50:34,2018-03-14 14:50:35,1.030s,PASSED
+delay,,,2018-03-14 14:50:35,2018-03-14 14:50:40,5.012s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 5,,Pick Category,2018-03-14 14:50:41,2018-03-14 14:50:58,17.907s,PASSED
+scrollToText,,,2018-03-14 14:50:41,2018-03-14 14:50:48,7.155s,PASSED
+tap,,,2018-03-14 14:50:48,2018-03-14 14:50:48,0.540s,PASSED
+delay,,,2018-03-14 14:50:48,2018-03-14 14:50:58,10.004s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 6,,Input Harga Jual with - (minus),2018-03-14 14:50:58,2018-03-14 14:51:15,16.824s,PASSED
+comment,,,2018-03-14 14:50:59,2018-03-14 14:50:59,0.001s,PASSED
+setText,,,2018-03-14 14:50:59,2018-03-14 14:51:09,10.174s,PASSED
+hideKeyboard,,,2018-03-14 14:51:09,2018-03-14 14:51:10,1.450s,PASSED
+delay,,,2018-03-14 14:51:10,2018-03-14 14:51:15,5.007s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 7,,Validate the format of input and adjust the input into financial format,2018-03-14 14:51:15,2018-03-14 14:51:36,20.442s,PASSED
+clearText,,,2018-03-14 14:51:16,2018-03-14 14:51:18,1.932s,PASSED
+tap,,,2018-03-14 14:51:18,2018-03-14 14:51:18,0.882s,PASSED
+setText,,,2018-03-14 14:51:18,2018-03-14 14:51:34,15.067s,PASSED
+verifyElementText,,,2018-03-14 14:51:34,2018-03-14 14:51:35,1.072s,PASSED
+hideKeyboard,,,2018-03-14 14:51:35,2018-03-14 14:51:36,1.245s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 8,,Input invalid format Harga Jual = 2k,2018-03-14 14:51:36,2018-03-14 14:51:56,20.349s,PASSED
+clearText,,,2018-03-14 14:51:36,2018-03-14 14:51:38,1.692s,PASSED
+setText,,,2018-03-14 14:51:38,2018-03-14 14:51:52,13.951s,PASSED
+hideKeyboard,,,2018-03-14 14:51:52,2018-03-14 14:51:53,1.214s,PASSED
+clearText,,,2018-03-14 14:51:53,2018-03-14 14:51:55,1.963s,PASSED
+hideKeyboard,,,2018-03-14 14:51:55,2018-03-14 14:51:56,1.277s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 9,,Add discount by Nominal (Rp.),2018-03-14 14:51:56,2018-03-14 14:52:37,41.034s,PASSED
+comment,,,2018-03-14 14:51:56,2018-03-14 14:51:56,0.002s,PASSED
+setText,,,2018-03-14 14:51:56,2018-03-14 14:52:06,9.656s,PASSED
+hideKeyboard,,,2018-03-14 14:52:06,2018-03-14 14:52:07,1.279s,PASSED
+tap,,,2018-03-14 14:52:07,2018-03-14 14:52:09,1.079s,PASSED
+setText,,,2018-03-14 14:52:09,2018-03-14 14:52:23,14.986s,PASSED
+verifyElementText,,,2018-03-14 14:52:23,2018-03-14 14:52:24,0.905s,PASSED
+hideKeyboard,,,2018-03-14 14:52:24,2018-03-14 14:52:25,1.071s,PASSED
+setText,,,2018-03-14 14:52:25,2018-03-14 14:52:36,10.494s,PASSED
+hideKeyboard,,,2018-03-14 14:52:36,2018-03-14 14:52:37,1.366s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 10,,Add discount by Percentage (%),2018-03-14 14:52:37,2018-03-14 14:52:55,17.545s,PASSED
+clearText,,,2018-03-14 14:52:38,2018-03-14 14:52:39,1.756s,PASSED
+setText,,,2018-03-14 14:52:39,2018-03-14 14:52:54,14.250s,PASSED
+hideKeyboard,,,2018-03-14 14:52:54,2018-03-14 14:52:55,1.318s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 11,,Input discount nominal in Percentage (%) with - (minus),2018-03-14 14:52:55,2018-03-14 14:53:13,17.888s,PASSED
+clearText,,,2018-03-14 14:52:55,2018-03-14 14:52:57,1.797s,PASSED
+setText,,,2018-03-14 14:52:57,2018-03-14 14:53:12,14.390s,PASSED
+hideKeyboard,,,2018-03-14 14:53:12,2018-03-14 14:53:13,1.360s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 12,,Add Product with discount nominal (Rp) amount bigger than the product price amount,2018-03-14 14:53:13,2018-03-14 14:54:09,56.310s,PASSED
+clearText,,,2018-03-14 14:53:13,2018-03-14 14:53:15,1.706s,PASSED
+setText,,,2018-03-14 14:53:15,2018-03-14 14:53:31,16.172s,PASSED
+hideKeyboard,,,2018-03-14 14:53:31,2018-03-14 14:53:33,1.528s,PASSED
+clearText,,,2018-03-14 14:53:33,2018-03-14 14:53:35,2.196s,PASSED
+setText,,,2018-03-14 14:53:35,2018-03-14 14:53:50,15.079s,PASSED
+hideKeyboard,,,2018-03-14 14:53:50,2018-03-14 14:53:51,1.521s,PASSED
+clearText,,,2018-03-14 14:53:51,2018-03-14 14:53:54,2.194s,PASSED
+setText,,,2018-03-14 14:53:54,2018-03-14 14:54:08,14.325s,PASSED
+hideKeyboard,,,2018-03-14 14:54:08,2018-03-14 14:54:09,1.324s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 13,,Add Product with empty data,2018-03-14 14:54:09,2018-03-14 14:54:17,8.135s,PASSED
+tap,,,2018-03-14 14:54:09,2018-03-14 14:54:11,1.075s,PASSED
+delay,,,2018-03-14 14:54:11,2018-03-14 14:54:13,2.005s,PASSED
+takeScreenshot,,,2018-03-14 14:54:13,2018-03-14 14:54:17,4.929s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 14,,Add Product with Product name more than 100 Characters,2018-03-14 14:54:17,2018-03-14 14:55:03,45.755s,PASSED
+tap,,,2018-03-14 14:54:18,2018-03-14 14:54:18,0.673s,PASSED
+setText,,,2018-03-14 14:54:18,2018-03-14 14:54:37,18.334s,PASSED
+verifyElementText,,,2018-03-14 14:54:37,2018-03-14 14:54:38,0.946s,PASSED
+hideKeyboard,,,2018-03-14 14:54:38,2018-03-14 14:54:39,1.073s,PASSED
+clearText,,,2018-03-14 14:54:39,2018-03-14 14:54:46,7.520s,PASSED
+setText,,,2018-03-14 14:54:46,2018-03-14 14:55:01,14.962s,PASSED
+verifyElementText,,,2018-03-14 14:55:01,2018-03-14 14:55:02,0.908s,PASSED
+hideKeyboard,,,2018-03-14 14:55:02,2018-03-14 14:55:03,1.215s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 15,,Tambah Barang Successfully,2018-03-14 14:55:03,2018-03-14 14:55:07,3.314s,PASSED
+pressBack,,,2018-03-14 14:55:04,2018-03-14 14:55:04,0.628s,PASSED
+tap,,,2018-03-14 14:55:04,2018-03-14 14:55:05,1.040s,PASSED
+waitForElementPresent,,,2018-03-14 14:55:05,2018-03-14 14:55:07,1.449s,PASSED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 16,,Back from Tambah Barang Form,2018-03-14 14:55:07,2018-03-14 14:55:13,5.886s,PASSED
+tap,,,2018-03-14 14:55:07,2018-03-14 14:55:08,0.599s,PASSED
+delay,,,2018-03-14 14:55:08,2018-03-14 14:55:10,2.005s,PASSED
+takeScreenshot,,,2018-03-14 14:55:10,2018-03-14 14:55:13,3.020s,PASSED

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BTPNAP-26 Kelola Stok" time="4" tests="0" failures="11" errors="0">
+   <testsuite name="BTPNAP-26 Kelola Stok" tests="0" failures="11" errors="0" time="4" timestamp="2017-12-05 08:40:25" hostname="AV2017005903 - NB17Q7U8IT.corp.bankbtpn.co.id" id="Test Suites/BTPNAP-26 Kelola Stok">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171205_084023"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171205_084023\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NB17Q7U8IT.corp.bankbtpn.co.id"/>
+         <property name="hostAddress" value="192.168.8.103"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TC-1" classname="Test Cases/TC-1" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:25 - [TEST_CASE][FAILED] - Test Cases/TC-1: Test Cases/TC-1 FAILED because (of) Unable to start app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2017-12-05 08:40:26 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2017-12-05 08:40:26 - [MESSAGE][FAILED] - Unable to start app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:25 - [TEST_CASE][FAILED] - Test Cases/TC-1: Test Cases/TC-1 FAILED because (of) Unable to start app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2" classname="Test Cases/TC-2" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:26 - [TEST_CASE][FAILED] - Test Cases/TC-2: Test Cases/TC-2 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)
+
+2017-12-05 08:40:26 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)
+
+2017-12-05 08:40:27 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:26 - [TEST_CASE][FAILED] - Test Cases/TC-2: Test Cases/TC-2 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-3" classname="Test Cases/TC-3" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:27 - [TEST_CASE][FAILED] - Test Cases/TC-3: Test Cases/TC-3 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)
+
+2017-12-05 08:40:27 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)
+
+2017-12-05 08:40:27 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:27 - [TEST_CASE][FAILED] - Test Cases/TC-3: Test Cases/TC-3 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Kategori - Tab' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-4" classname="Test Cases/TC-4" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:27 - [TEST_CASE][FAILED] - Test Cases/TC-4: Test Cases/TC-4 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:27 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:27 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:27 - [TEST_CASE][FAILED] - Test Cases/TC-4: Test Cases/TC-4 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-5" classname="Test Cases/TC-5" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:27 - [TEST_CASE][FAILED] - Test Cases/TC-5: Test Cases/TC-5 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:27 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:27 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:27 - [TEST_CASE][FAILED] - Test Cases/TC-5: Test Cases/TC-5 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-6" classname="Test Cases/TC-6" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:28 - [TEST_CASE][FAILED] - Test Cases/TC-6: Test Cases/TC-6 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:28 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:28 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:28 - [TEST_CASE][FAILED] - Test Cases/TC-6: Test Cases/TC-6 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-7" classname="Test Cases/TC-7" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:28 - [TEST_CASE][FAILED] - Test Cases/TC-7: Test Cases/TC-7 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:28 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:28 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:28 - [TEST_CASE][FAILED] - Test Cases/TC-7: Test Cases/TC-7 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-8" classname="Test Cases/TC-8" status="FAILED">
+         <failure type="FAILED" message="Failed to clear text of element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:28 - [TEST_CASE][FAILED] - Test Cases/TC-8: Test Cases/TC-8 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:28 - [TEST_STEP][FAILED] - clearText: Failed to clear text of element (Root cause: No application is started yet.)
+
+2017-12-05 08:40:28 - [MESSAGE][FAILED] - Failed to clear text of element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:28 - [TEST_CASE][FAILED] - Test Cases/TC-8: Test Cases/TC-8 FAILED because (of) Failed to clear text of element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-9" classname="Test Cases/TC-9" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Terapkan - Kategori Btn' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:28 - [TEST_CASE][FAILED] - Test Cases/TC-9: Test Cases/TC-9 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Terapkan - Kategori Btn' (Root cause: No application is started yet.)
+
+2017-12-05 08:40:29 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Terapkan - Kategori Btn' (Root cause: No application is started yet.)
+
+2017-12-05 08:40:29 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Terapkan - Kategori Btn' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:28 - [TEST_CASE][FAILED] - Test Cases/TC-9: Test Cases/TC-9 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/Terapkan - Kategori Btn' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-10" classname="Test Cases/TC-10" status="FAILED">
+         <failure type="FAILED" message="Cannot swipe on device. (Root cause: No driver found)"/>
+         <system-out><![CDATA[2017-12-05 08:40:29 - [TEST_CASE][FAILED] - Test Cases/TC-10: Test Cases/TC-10 FAILED because (of) Cannot swipe on device. (Root cause: No driver found)
+
+2017-12-05 08:40:29 - [TEST_STEP][FAILED] - swipe: Cannot swipe on device. (Root cause: No driver found)
+
+2017-12-05 08:40:29 - [MESSAGE][FAILED] - Cannot swipe on device. (Root cause: No driver found)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:29 - [TEST_CASE][FAILED] - Test Cases/TC-10: Test Cases/TC-10 FAILED because (of) Cannot swipe on device. (Root cause: No driver found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-11" classname="Test Cases/TC-11" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/TambahBarang - Btn' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-12-05 08:40:29 - [TEST_CASE][FAILED] - Test Cases/TC-11: Test Cases/TC-11 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/TambahBarang - Btn' (Root cause: No application is started yet.)
+
+2017-12-05 08:40:29 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-12-05 08:40:29 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-12-05 08:40:29 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/TambahBarang - Btn' (Root cause: No application is started yet.)
+
+2017-12-05 08:40:29 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/TambahBarang - Btn' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-12-05 08:40:29 - [TEST_CASE][FAILED] - Test Cases/TC-11: Test Cases/TC-11 FAILED because (of) Failed to tap on element 'Object Repository/Transaksi/Stock/Stock View/TambahBarang - Btn' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 08:40:25 - [TEST_SUITE][FAILED] - BTPNAP-26 Kelola Stok: Test Cases/TC-1 FAILED because (of) Unable to start app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+      <system-err><![CDATA[2017-12-05 08:40:25 - [TEST_SUITE][FAILED] - BTPNAP-26 Kelola Stok: Test Cases/TC-1 FAILED because (of) Unable to start app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+   </testsuite>
+</testsuites>

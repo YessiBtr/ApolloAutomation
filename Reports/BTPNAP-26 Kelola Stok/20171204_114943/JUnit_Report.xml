@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BTPNAP-26 Kelola Stok" time="122" tests="3" failures="0" errors="0">
+   <testsuite name="BTPNAP-26 Kelola Stok" tests="3" failures="0" errors="0" time="122" timestamp="2017-12-04 11:49:45" hostname="AV2017005903 - NB17Q7U8IT.corp.bankbtpn.co.id" id="Test Suites/BTPNAP-26 Kelola Stok">
+      <properties>
+         <property name="deviceName" value="samsung SM-J120G 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171204_114943"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171204_114943\\appium.log, C:\\Users\\AV2017005903\\Documents\\Appolo Test\\Reports\\BTPNAP-26 Kelola Stok\\20171204_114943\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NB17Q7U8IT.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.3"/>
+         <property name="deviceModel" value="SM-J120G"/>
+         <property name="hostAddress" value="192.168.8.103"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="32013479b25184c3"/>
+         <property name="deviceName" value="samsung SM-J120G 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TC-1" classname="Test Cases/TC-1" status="PASSED">
+         <system-out><![CDATA[2017-12-04 11:49:46 - [TEST_CASE][PASSED] - Test Cases/TC-1: Test Cases/TC-1
+
+2017-12-04 11:49:47 - [TEST_STEP][PASSED] - startApplication: Started app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+
+2017-12-04 11:50:43 - [MESSAGE][PASSED] - Started app at: 'D:\Project Apollo\Appolo Test\app-development-debug.apk'
+
+2017-12-04 11:50:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Transaksi - Tab'
+
+2017-12-04 11:50:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Transaksi - Tab'
+
+2017-12-04 11:50:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Stock - Tab'
+
+2017-12-04 11:50:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Stock - Tab']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2" classname="Test Cases/TC-2" status="PASSED">
+         <system-out><![CDATA[2017-12-04 11:50:49 - [TEST_CASE][PASSED] - Test Cases/TC-2: Test Cases/TC-2
+
+2017-12-04 11:50:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Kategori - Tab'
+
+2017-12-04 11:50:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Kategori - Tab'
+
+2017-12-04 11:50:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-04 11:50:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-04 11:50:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Handphone Tablet - Kategori Tab'
+
+2017-12-04 11:50:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Handphone Tablet - Kategori Tab'
+
+2017-12-04 11:50:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Terapkan - Kategori Btn'
+
+2017-12-04 11:50:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Terapkan - Kategori Btn'
+
+2017-12-04 11:50:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-04 11:51:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-04 11:51:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Kategori - Tab'
+
+2017-12-04 11:51:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Kategori - Tab'
+
+2017-12-04 11:51:01 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Otomotif' successfully
+
+2017-12-04 11:51:09 - [MESSAGE][PASSED] - Scrolling to text 'Otomotif' successfully
+
+2017-12-04 11:51:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Otomotif - Kategori Btn'
+
+2017-12-04 11:51:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Otomotif - Kategori Btn'
+
+2017-12-04 11:51:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-04 11:51:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-04 11:51:17 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Transaksi/Stock/Otomotif - Kategori Btn' has attribute 'text' with value 'Otomotif'
+
+2017-12-04 11:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/Transaksi/Stock/Otomotif - Kategori Btn' has attribute 'text' with value 'Otomotif'
+
+2017-12-04 11:51:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Terapkan - Kategori Btn'
+
+2017-12-04 11:51:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Terapkan - Kategori Btn']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-3" classname="Test Cases/TC-3" status="PASSED">
+         <system-out><![CDATA[2017-12-04 11:51:17 - [TEST_CASE][PASSED] - Test Cases/TC-3: Test Cases/TC-3
+
+2017-12-04 11:51:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Kategori - Tab'
+
+2017-12-04 11:51:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Kategori - Tab'
+
+2017-12-04 11:51:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/SemuaKategori - KategoriBtn'
+
+2017-12-04 11:51:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/SemuaKategori - KategoriBtn'
+
+2017-12-04 11:51:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/Terapkan - Kategori Btn'
+
+2017-12-04 11:51:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/Terapkan - Kategori Btn'
+
+2017-12-04 11:51:22 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-12-04 11:51:22 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-12-04 11:51:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Transaksi/Stock/CariProduk - View'
+
+2017-12-04 11:51:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Transaksi/Stock/CariProduk - View'
+
+2017-12-04 11:51:23 - [TEST_STEP][PASSED] - setText: Text 'Jambu' has been set to element 'Object Repository/Transaksi/Stock/CariProduk - View'
+
+2017-12-04 11:51:33 - [MESSAGE][PASSED] - Text 'Jambu' has been set to element 'Object Repository/Transaksi/Stock/CariProduk - View'
+
+2017-12-04 11:51:33 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Transaksi/Stock/CariProduk - View' is: 'Jambu'
+
+2017-12-04 11:51:34 - [MESSAGE][PASSED] - Text of element 'Object Repository/Transaksi/Stock/CariProduk - View' is: 'Jambu'
+
+2017-12-04 11:51:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Transaksi/Stock/CariProduk - View' are matched.
+
+2017-12-04 11:51:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Transaksi/Stock/CariProduk - View' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-04 11:49:45 - [TEST_SUITE][PASSED] - BTPNAP-26 Kelola Stok: Test Cases/TC-3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

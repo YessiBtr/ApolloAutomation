@@ -1,0 +1,121 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 61368
+[Appium]   chromeDriverPort: 61369
+[Appium]   tmpDir: C:\Users\AV2017~2\AppData\Local\Temp\\Katalon\Appium\Temp1519878627751
+[Appium] Appium REST http interface listener started on 0.0.0.0:61368
+[HTTP] --> GET /wd/hub/status {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.5","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 38 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Dev - 1 Maret 2018.apk","noReset":true,"newCommandTimeout":1800,"appWaitActivity":"com.*","autoGrantPermissions":true,"udid":"GBAXGV411465ERX","platformName":"Android","deviceId":"","deviceName":"asus ASUS_X014D 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Dev - 1 Maret 2018.apk","noReset":true,"newCommandTimeout":1800,"appWaitActivity":"com.*","autoGrantPermissions":true,"udid":"GBAXGV411465ERX","platformName":"Android","deviceId":"","deviceName":"asus ASUS_X014D 5.1.1","fullReset":false,"platform":"ANDROID"},null,null]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1519878635121 (11:30:35 GMT+0700 (SE Asia Standard Time))
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Dev - 1 Maret 2018.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   appWaitActivity: 'com.*'
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: 'GBAXGV411465ERX'
+[Appium]   platformName: 'Android'
+[Appium]   deviceId: ''
+[Appium]   deviceName: 'asus ASUS_X014D 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[debug] [AndroidDriver] AndroidDriver version: 1.20.0
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 4b4817d6-217a-4509-babf-dd98d2e995c4
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Yessy\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: GBAXGV411465ERX
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Yessy\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[debug] [ADB] Setting device id to GBAXGV411465ERX
+[BaseDriver] Using local app 'C:\Users\AV2017005903\Documents\apollo-automation\Dev - 1 Maret 2018.apk'
+[debug] [AndroidDriver] Checking whether app is actually present
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Yessy\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","GBAXGV411465ERX","shell","am","force-stop","io.appium.unlock"]
+[debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[HTTP] <-- POST /wd/hub/session 500 1106 ms - 240 
+[HTTP] --> GET /wd/hub/status {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.5","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 435 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Dev - 1 Maret 2018.apk","noReset":true,"newCommandTimeout":1800,"appWaitActivity":"com.*","autoGrantPermissions":true,"udid":"GBAXGV411465ERX","platformName":"Android","deviceId":"","deviceName":"asus ASUS_X014D 5.1.1","fullReset":false,"platform":"ANDROID"}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Dev - 1 Maret 2018.apk","noReset":true,"newCommandTimeout":1800,"appWaitActivity":"com.*","autoGrantPermissions":true,"udid":"GBAXGV411465ERX","platformName":"Android","deviceId":"","deviceName":"asus ASUS_X014D 5.1.1","fullReset":false,"platform":"ANDROID"},null,null]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1519878653204 (11:30:53 GMT+0700 (SE Asia Standard Time))
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Dev - 1 Maret 2018.apk'
+[Appium]   noReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   appWaitActivity: 'com.*'
+[Appium]   autoGrantPermissions: true
+[Appium]   udid: 'GBAXGV411465ERX'
+[Appium]   platformName: 'Android'
+[Appium]   deviceId: ''
+[Appium]   deviceName: 'asus ASUS_X014D 5.1.1'
+[Appium]   fullReset: false
+[Appium]   platform: 'ANDROID'
+[debug] [AndroidDriver] AndroidDriver version: 1.20.0
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 46d0e106-acfe-4b37-beeb-adfa8a14480c
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Yessy\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: GBAXGV411465ERX
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from D:\Yessy\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[debug] [ADB] Setting device id to GBAXGV411465ERX
+[BaseDriver] Using local app 'C:\Users\AV2017005903\Documents\apollo-automation\Dev - 1 Maret 2018.apk'
+[debug] [AndroidDriver] Checking whether app is actually present
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+[debug] [ADB] Getting connected devices...
+[HTTP] <-- POST /wd/hub/session - - ms - - 
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'D:\Yessy\Katalon 5.0\configuration\resources\tools\android_sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","GBAXGV411465ERX","shell","am","force-stop","io.appium.unlock"]
+[debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+Error: write EPIPE
+    at _errnoException (util.js:1024:11)
+    at Socket._writeGeneric (net.js:767:25)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.stream.write (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\ansi\lib\newlines.js:36:21)
+    at exports.Console.Console.log (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:119:20)
+    at transportLog (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:234:15)
+    at C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:157:13
+    at _each (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:57:9)
+    at Object.async.each (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:156:9)
+    at exports.Logger.Logger.log (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:246:9)
+    at exports.Logger.target.(anonymous function) [as error] (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\common.js:54:18)
+    at EventEmitter.<anonymous> (../../lib/logsink.js:197:22)
+    at emitOne (events.js:116:13)
+    at EventEmitter.emit (events.js:211:7)
+    at EventEmitter.<anonymous> (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:158:8)
+    at EventEmitter.<anonymous> (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:231:21)
+    at asyncHandler$ (../../../lib/mjsonwp/mjsonwp.js:279:13)
+    at tryCatch (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\AV2017005903\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>

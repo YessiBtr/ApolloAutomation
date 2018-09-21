@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 40" time="89" tests="8" failures="0" errors="0">
+   <testsuite name="Story 40" tests="8" failures="0" errors="0" time="89" timestamp="2018-03-15 09:29:04" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 40">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 40\\20180315_092901"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 40\\20180315_092901\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 40\\20180315_092901\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.17.167"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 40 - View Expense/TC 1" classname="Test Cases/Story 40 - View Expense/TC 1" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:29:04 - [TEST_CASE][PASSED] - Test Cases/Story 40 - View Expense/TC 1: Test Cases/Story 40 - View Expense/TC 1
+
+2018-03-15 09:29:05 - [TEST_STEP][PASSED] - comment: Start Story 40
+
+2018-03-15 09:29:05 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 09:29:05 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 09:29:22 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 09:29:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 09:29:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 09:29:29 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 09:29:33 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 09:29:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 09:29:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 09:29:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 09:29:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 09:29:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/PengeluaranNavbar'
+
+2018-03-15 09:29:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/PengeluaranNavbar'
+
+2018-03-15 09:29:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 09:29:43 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 40 - View Expense/TC 2" classname="Test Cases/Story 40 - View Expense/TC 2" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:29:43 - [TEST_CASE][PASSED] - Test Cases/Story 40 - View Expense/TC 2: Test Cases/Story 40 - View Expense/TC 2
+
+2018-03-15 09:29:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-15 09:29:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-15 09:29:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 2(DropDown)'
+
+2018-03-15 09:29:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 2(DropDown)'
+
+2018-03-15 09:29:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-15 09:29:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-15 09:29:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 09:29:52 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 40 - View Expense/TC 3" classname="Test Cases/Story 40 - View Expense/TC 3" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:29:52 - [TEST_CASE][PASSED] - Test Cases/Story 40 - View Expense/TC 3: Test Cases/Story 40 - View Expense/TC 3
+
+2018-03-15 09:29:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-15 09:29:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-15 09:29:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 3(Drop Down)'
+
+2018-03-15 09:29:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 3(Drop Down)'
+
+2018-03-15 09:29:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-15 09:29:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-15 09:29:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-15 09:29:58 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 40 - View Expense/TC 4" classname="Test Cases/Story 40 - View Expense/TC 4" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:29:58 - [TEST_CASE][PASSED] - Test Cases/Story 40 - View Expense/TC 4: Test Cases/Story 40 - View Expense/TC 4
+
+2018-03-15 09:29:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-15 09:29:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-15 09:29:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 1(Drop Down)'
+
+2018-03-15 09:30:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 1(Drop Down)'
+
+2018-03-15 09:30:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-15 09:30:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-15 09:30:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 09:30:07 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 40 - View Expense/TC 5" classname="Test Cases/Story 40 - View Expense/TC 5" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:30:07 - [TEST_CASE][PASSED] - Test Cases/Story 40 - View Expense/TC 5: Test Cases/Story 40 - View Expense/TC 5
+
+2018-03-15 09:30:07 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 1' is present
+
+2018-03-15 09:30:08 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 1' is present
+
+2018-03-15 09:30:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 1'
+
+2018-03-15 09:30:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 1'
+
+2018-03-15 09:30:08 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 09:30:10 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-15 09:30:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-15 09:30:13 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 40 - View Expense/TC 6" classname="Test Cases/Story 40 - View Expense/TC 6" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:30:13 - [TEST_CASE][PASSED] - Test Cases/Story 40 - View Expense/TC 6: Test Cases/Story 40 - View Expense/TC 6
+
+2018-03-15 09:30:14 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' is present
+
+2018-03-15 09:30:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4' is present
+
+2018-03-15 09:30:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4'
+
+2018-03-15 09:30:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4'
+
+2018-03-15 09:30:14 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 09:30:16 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-15 09:30:16 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-03-15 09:30:20 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 40 - View Expense/TC 7" classname="Test Cases/Story 40 - View Expense/TC 7" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:30:20 - [TEST_CASE][PASSED] - Test Cases/Story 40 - View Expense/TC 7: Test Cases/Story 40 - View Expense/TC 7
+
+2018-03-15 09:30:21 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' is present
+
+2018-03-15 09:30:21 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' is present
+
+2018-03-15 09:30:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button'
+
+2018-03-15 09:30:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button'
+
+2018-03-15 09:30:21 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 09:30:22 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-15 09:30:22 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-03-15 09:30:26 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 40 - View Expense/TC 8" classname="Test Cases/Story 40 - View Expense/TC 8" status="PASSED">
+         <system-out><![CDATA[2018-03-15 09:30:26 - [TEST_CASE][PASSED] - Test Cases/Story 40 - View Expense/TC 8: Test Cases/Story 40 - View Expense/TC 8
+
+2018-03-15 09:30:26 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Swiped from 0,626 to 0,284
+
+2018-03-15 09:30:26 - [TEST_STEP][PASSED] - swipe: Swiped from 0,626 to 0,284
+
+2018-03-15 09:30:26 - [MESSAGE][PASSED] - Swiped from 0,626 to 0,284
+
+2018-03-15 09:30:27 - [TEST_STEP][PASSED] - swipe: Swiped from 0,626 to 0,284
+
+2018-03-15 09:30:27 - [MESSAGE][PASSED] - Swiped from 0,626 to 0,284
+
+2018-03-15 09:30:27 - [TEST_STEP][PASSED] - swipe: Swiped from 0,626 to 0,284
+
+2018-03-15 09:30:28 - [MESSAGE][PASSED] - Swiped from 0,626 to 0,284
+
+2018-03-15 09:30:28 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Swiped from 0,284 to 0,626
+
+2018-03-15 09:30:28 - [TEST_STEP][PASSED] - swipe: Swiped from 0,284 to 0,626
+
+2018-03-15 09:30:29 - [MESSAGE][PASSED] - Swiped from 0,284 to 0,626
+
+2018-03-15 09:30:29 - [TEST_STEP][PASSED] - swipe: Swiped from 0,284 to 0,626
+
+2018-03-15 09:30:30 - [MESSAGE][PASSED] - Swiped from 0,284 to 0,626
+
+2018-03-15 09:30:30 - [TEST_STEP][PASSED] - swipe: Swiped from 0,284 to 0,626
+
+2018-03-15 09:30:30 - [MESSAGE][PASSED] - Swiped from 0,284 to 0,626
+
+2018-03-15 09:30:30 - [TEST_STEP][PASSED] - comment: End Story 40
+
+2018-03-15 09:30:30 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-03-15 09:30:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 09:29:04 - [TEST_SUITE][PASSED] - Story 40: Test Cases/Story 40 - View Expense/TC 8]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

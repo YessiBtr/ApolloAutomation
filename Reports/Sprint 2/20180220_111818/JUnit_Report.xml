@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sprint 2" time="685" tests="0" failures="8" errors="0">
+   <testsuite name="Sprint 2" tests="0" failures="8" errors="0" time="685" timestamp="2018-02-20 11:18:19" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Sprint 2">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\ApolloTest\\apollo-automation\\Apollo Test\\Reports\\Sprint 2\\20180220_111818"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\ApolloTest\\apollo-automation\\Apollo Test\\Reports\\Sprint 2\\20180220_111818\\appium.log, C:\\Users\\AV2017005903\\Documents\\ApolloTest\\apollo-automation\\Apollo Test\\Reports\\Sprint 2\\20180220_111818\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.17.200"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 2/26 - TC - All" classname="Test Cases/Sprint 2/26 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori not found)"/>
+         <system-out><![CDATA[2018-02-20 11:18:20 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/26 - TC - All: Test Cases/Sprint 2/26 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori not found)
+
+2018-02-20 11:18:21 - [TEST_STEP][PASSED] - comment: Start Story 26
+
+2018-02-20 11:18:21 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-02-20 11:18:21 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk'
+
+2018-02-20 11:19:06 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk'
+
+2018-02-20 11:19:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-02-20 11:19:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-02-20 11:19:13 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-02-20 11:19:13 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun' is exist
+
+2018-02-20 11:19:13 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-20 11:19:13 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-20 11:19:13 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-20 11:19:13 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-20 11:19:13 - [TEST_STEP][NOT_RUN] - hideKeyboard: NOT_RUN: hideKeyboard
+
+2018-02-20 11:19:13 - [MESSAGE][NOT_RUN] - NOT_RUN: hideKeyboard
+
+2018-02-20 11:19:13 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-20 11:19:13 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-20 11:19:13 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-02-20 11:19:13 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-02-20 11:19:13 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-02-20 11:19:13 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-02-20 11:19:13 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-02-20 11:19:13 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-02-20 11:19:13 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-02-20 11:19:17 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-02-20 11:19:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-02-20 11:19:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-02-20 11:19:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-02-20 11:19:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-02-20 11:19:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-02-20 11:19:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-02-20 11:19:23 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-02-20 11:19:23 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-02-20 11:19:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:19:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:19:26 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2' is present
+
+2018-02-20 11:19:28 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2' is present
+
+2018-02-20 11:19:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2'
+
+2018-02-20 11:19:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 2'
+
+2018-02-20 11:19:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:19:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:19:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:19:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:19:34 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-02-20 11:20:23 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-02-20 11:20:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-02-20 11:20:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-02-20 11:20:24 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-02-20 11:20:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:20:24 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-02-20 11:20:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:20:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:20:25 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-02-20 11:20:29 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down' is present
+
+2018-02-20 11:20:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:20:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:20:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-02-20 11:20:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-02-20 11:20:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:20:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:20:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:20:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:20:34 - [TEST_STEP][PASSED] - setText: Text 'Jambu' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:20:47 - [MESSAGE][PASSED] - Text 'Jambu' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:20:47 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:20:48 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:20:48 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Jambu'
+
+2018-02-20 11:20:49 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Jambu'
+
+2018-02-20 11:20:49 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-02-20 11:20:50 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-02-20 11:20:50 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:20:52 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:20:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:20:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:20:54 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-02-20 11:21:40 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-02-20 11:21:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-02-20 11:21:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan'
+
+2018-02-20 11:21:41 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-02-20 11:21:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:21:41 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen Makanan' is not checked
+
+2018-02-20 11:21:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:21:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:21:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:21:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:21:46 - [TEST_STEP][PASSED] - setText: Text 'Fifty Shades of Grey' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:21:57 - [MESSAGE][PASSED] - Text 'Fifty Shades of Grey' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:21:57 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:21:58 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:21:58 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Fifty Shades of Grey'
+
+2018-02-20 11:21:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Fifty Shades of Grey'
+
+2018-02-20 11:21:58 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:22:02 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:22:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:22:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:22:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-02-20 11:22:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/List Kategori - Elemen 0'
+
+2018-02-20 11:22:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:22:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori'
+
+2018-02-20 11:22:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:22:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:22:09 - [TEST_STEP][PASSED] - setText: Text 'app' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:22:21 - [MESSAGE][PASSED] - Text 'app' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:22:21 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:22:22 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:22:22 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'app'
+
+2018-02-20 11:22:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'app'
+
+2018-02-20 11:22:23 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:22:25 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:22:25 - [TEST_STEP][PASSED] - setText: Text 'ap' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:22:33 - [MESSAGE][PASSED] - Text 'ap' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:22:33 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:22:34 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:22:34 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'ap'
+
+2018-02-20 11:22:34 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'ap'
+
+2018-02-20 11:22:34 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:22:39 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:22:39 - [TEST_STEP][PASSED] - setText: Text 'Rujak' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:22:47 - [MESSAGE][PASSED] - Text 'Rujak' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-02-20 11:22:47 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:22:48 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-02-20 11:22:48 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Rujak'
+
+2018-02-20 11:22:50 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Rujak'
+
+2018-02-20 11:22:50 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:22:52 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' text is cleared
+
+2018-02-20 11:22:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:22:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Semua Kategori - Drop Down'
+
+2018-02-20 11:22:54 - [TEST_STEP][PASSED] - swipe: Swiped from 30,541 to 30,257
+
+2018-02-20 11:22:55 - [MESSAGE][PASSED] - Swiped from 30,541 to 30,257
+
+2018-02-20 11:22:55 - [TEST_STEP][PASSED] - swipe: Swiped from 30,257 to 30,541
+
+2018-02-20 11:22:56 - [MESSAGE][PASSED] - Swiped from 30,257 to 30,541
+
+2018-02-20 11:22:56 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori not found)
+
+2018-02-20 11:23:01 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori not found
+
+2018-02-20 11:23:01 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori not found)]]></system-out>
+         <system-err><![CDATA[2018-02-20 11:18:20 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/26 - TC - All: Test Cases/Sprint 2/26 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/35 - TC-All" classname="Test Cases/Sprint 2/35 - TC-All" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.dev, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.dev, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 60981ddf-a58c-43f7-bdce-584bc4c9b6f2)"/>
+         <system-out><![CDATA[2018-02-20 11:23:01 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/35 - TC-All: Test Cases/Sprint 2/35 - TC-All FAILED because (of) Failed to set text into element (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.dev, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.dev, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 60981ddf-a58c-43f7-bdce-584bc4c9b6f2)
+
+2018-02-20 11:23:02 - [TEST_STEP][PASSED] - comment: Start Story 35
+
+2018-02-20 11:23:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-20 11:23:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-20 11:23:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-02-20 11:23:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Tambah Barang Button'
+
+2018-02-20 11:23:07 - [TEST_STEP][PASSED] - Statement - For (def index : (0..5)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-02-20 11:23:17 - [TEST_STEP][PASSED] - Statement - For (def index : (0..10)): Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-02-20 11:23:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-02-20 11:23:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-02-20 11:23:34 - [TEST_STEP][PASSED] - setText: Text '123' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-02-20 11:23:45 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-02-20 11:23:45 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-02-20 11:23:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-02-20 11:23:51 - [TEST_STEP][PASSED] - setText: Text '1.2' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-02-20 11:24:50 - [MESSAGE][PASSED] - Text '1.2' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Jumlah Stock - by typing'
+
+2018-02-20 11:24:50 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:24:51 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:24:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-02-20 11:24:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-02-20 11:24:52 - [TEST_STEP][PASSED] - setText: Text 'Kacang Sukro' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-02-20 11:25:08 - [MESSAGE][PASSED] - Text 'Kacang Sukro' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box'
+
+2018-02-20 11:25:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' are matched.
+
+2018-02-20 11:25:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nama Barang - Text Box' are matched.
+
+2018-02-20 11:25:09 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:25:10 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:25:10 - [TEST_STEP][PASSED] - swipe: Swiped from 24,679 to 24,453
+
+2018-02-20 11:25:10 - [MESSAGE][PASSED] - Swiped from 24,679 to 24,453
+
+2018-02-20 11:25:10 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-02-20 11:25:11 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-02-20 11:25:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Batal - Button'
+
+2018-02-20 11:25:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Batal - Button'
+
+2018-02-20 11:25:12 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton' is present
+
+2018-02-20 11:25:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton' is present
+
+2018-02-20 11:25:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-02-20 11:25:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-02-20 11:25:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-02-20 11:25:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-02-20 11:25:15 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Makanan' successfully
+
+2018-02-20 11:25:31 - [MESSAGE][PASSED] - Scrolling to text 'Makanan' successfully
+
+2018-02-20 11:25:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/android.widget.TextView6 - Makanan'
+
+2018-02-20 11:25:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:25:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/android.widget.TextView6 - Makanan'
+
+2018-02-20 11:25:32 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-02-20 11:25:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-02-20 11:25:42 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'TENTUKAN DISKON' successfully
+
+2018-02-20 11:25:46 - [MESSAGE][PASSED] - Scrolling to text 'TENTUKAN DISKON' successfully
+
+2018-02-20 11:25:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:25:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:25:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-20 11:25:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-20 11:25:51 - [TEST_STEP][PASSED] - setText: Text '0' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:25:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:26:06 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:26:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-02-20 11:26:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-02-20 11:26:07 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:26:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:26:08 - [TEST_STEP][PASSED] - setText: Text '0' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-20 11:26:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:26:17 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-20 11:26:17 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:26:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:26:18 - [TEST_STEP][PASSED] - setText: Text '0' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox'
+
+2018-02-20 11:26:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:26:28 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Persentase Diskon - TextBox'
+
+2018-02-20 11:26:28 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:26:29 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:26:29 - [TEST_STEP][PASSED] - comment: Test HARGA JUAL
+
+2018-02-20 11:26:29 - [TEST_STEP][PASSED] - setText: Text '-2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:26:37 - [MESSAGE][PASSED] - Text '-2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:26:37 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:26:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:26:38 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-02-20 11:26:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-02-20 11:26:48 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-02-20 11:26:50 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-02-20 11:26:50 - [TEST_STEP][PASSED] - setText: Text '2k' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:26:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:27:03 - [MESSAGE][PASSED] - Text '2k' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:27:03 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:27:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:27:05 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-02-20 11:27:06 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' text is cleared
+
+2018-02-20 11:27:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:27:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:27:07 - [TEST_STEP][PASSED] - setText: Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:27:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:27:22 - [MESSAGE][PASSED] - Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox'
+
+2018-02-20 11:27:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-02-20 11:27:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Harga Jual - TextBox' are matched.
+
+2018-02-20 11:27:23 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:27:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:27:24 - [TEST_STEP][PASSED] - comment: Test NOMINAL
+
+2018-02-20 11:27:24 - [TEST_STEP][PASSED] - setText: Text '-2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-20 11:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:27:34 - [MESSAGE][PASSED] - Text '-2000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-20 11:27:34 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:27:35 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:27:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-20 11:27:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-20 11:27:36 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-02-20 11:27:42 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-02-20 11:27:42 - [TEST_STEP][PASSED] - setText: Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-20 11:27:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:27:57 - [MESSAGE][PASSED] - Text '20000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox'
+
+2018-02-20 11:27:57 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-02-20 11:27:58 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-02-20 11:27:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button'
+
+2018-02-20 11:27:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Simpan Button'
+
+2018-02-20 11:27:59 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-02-20 11:27:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:28:02 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Nominal Diskon- TextBox' text is cleared
+
+2018-02-20 11:28:02 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.dev, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.dev, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 60981ddf-a58c-43f7-bdce-584bc4c9b6f2)
+
+2018-02-20 11:28:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:28:19 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.dev, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.dev, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 60981ddf-a58c-43f7-bdce-584bc4c9b6f2)]]></system-out>
+         <system-err><![CDATA[2018-02-20 11:23:01 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/35 - TC-All: Test Cases/Sprint 2/35 - TC-All FAILED because (of) Failed to set text into element (Root cause: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'NBMP18A211ITSQA', ip: '192.168.17.200', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities [{appPackage=com.btpn.appbisnis.dev, noReset=true, deviceId=, deviceName=GBAXGV411465ERX, fullReset=false, platform=ANDROID, deviceUDID=GBAXGV411465ERX, desired={app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, noReset=true, newCommandTimeout=1800, appWaitActivity=com.*, autoGrantPermissions=true, udid=GBAXGV411465ERX, platformName=Android, deviceId=, deviceName=asus ASUS_X014D 5.1.1, fullReset=false, platform=ANDROID}, newCommandTimeout=1800, platformVersion=5.1.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, udid=GBAXGV411465ERX, platformName=Android, deviceManufacturer=asus, app=C:\Users\AV2017005903\Documents\ApolloTest\apollo-automation\Apollo Test\app-development-debug.apk, deviceScreenSize=480x854, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.*, appWaitPackage=com.btpn.appbisnis.dev, databaseEnabled=false, appActivity=com.btpn_mpos_rn.MainActivity, locationContextEnabled=false, autoGrantPermissions=true, deviceModel=ASUS_X014D}]
+Session ID: 60981ddf-a58c-43f7-bdce-584bc4c9b6f2)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/27 - TC - All" classname="Test Cases/Sprint 2/27 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent not found)"/>
+         <system-out><![CDATA[2018-02-20 11:28:19 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/27 - TC - All: Test Cases/Sprint 2/27 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent not found)
+
+2018-02-20 11:28:19 - [TEST_STEP][PASSED] - comment: Start Story 27
+
+2018-02-20 11:28:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-20 11:28:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-20 11:28:24 - [TEST_STEP][PASSED] - Statement - For (def index : (0..5)): Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:24 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:25 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:25 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:25 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:25 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:26 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:26 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:26 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:27 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:27 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:27 - [TEST_STEP][PASSED] - swipe: Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:28 - [MESSAGE][PASSED] - Swiped from 0,642 to 0,399
+
+2018-02-20 11:28:28 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent not found)
+
+2018-02-20 11:28:30 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent not found
+
+2018-02-20 11:28:30 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent not found)]]></system-out>
+         <system-err><![CDATA[2018-02-20 11:28:19 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/27 - TC - All: Test Cases/Sprint 2/27 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/46 - TC - All" classname="Test Cases/Sprint 2/46 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)"/>
+         <system-out><![CDATA[2018-02-20 11:28:30 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/46 - TC - All: Test Cases/Sprint 2/46 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)
+
+2018-02-20 11:28:30 - [TEST_STEP][PASSED] - comment: Start Story 46
+
+2018-02-20 11:28:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-20 11:28:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-20 11:28:35 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)
+
+2018-02-20 11:28:46 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found
+
+2018-02-20 11:28:46 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)]]></system-out>
+         <system-err><![CDATA[2018-02-20 11:28:30 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/46 - TC - All: Test Cases/Sprint 2/46 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/28 - TC-All" classname="Test Cases/Sprint 2/28 - TC-All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar not found)"/>
+         <system-out><![CDATA[2018-02-20 11:28:46 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/28 - TC-All: Test Cases/Sprint 2/28 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar not found)
+
+2018-02-20 11:28:46 - [TEST_STEP][PASSED] - comment: Start Story 28
+
+2018-02-20 11:28:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-02-20 11:28:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-02-20 11:28:51 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar not found)
+
+2018-02-20 11:28:56 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar not found
+
+2018-02-20 11:28:56 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar not found)]]></system-out>
+         <system-err><![CDATA[2018-02-20 11:28:46 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/28 - TC-All: Test Cases/Sprint 2/28 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kasir - Navbar not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/29 - TC - All" classname="Test Cases/Sprint 2/29 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1 not found)"/>
+         <system-out><![CDATA[2018-02-20 11:28:56 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/29 - TC - All: Test Cases/Sprint 2/29 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1 not found)
+
+2018-02-20 11:28:56 - [TEST_STEP][PASSED] - comment: Start Story 29
+
+2018-02-20 11:28:56 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..5)): NOT_RUN: Statement - For (def index : (0..5))
+
+2018-02-20 11:28:56 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..5))
+
+2018-02-20 11:28:56 - [TEST_STEP][FAILED] - Statement - For (def index : (0..3)): Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1 not found)
+
+2018-02-20 11:28:56 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1 not found)
+
+2018-02-20 11:28:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-02-20 11:29:26 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1 not found
+
+2018-02-20 11:29:26 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1 not found)]]></system-out>
+         <system-err><![CDATA[2018-02-20 11:28:56 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/29 - TC - All: Test Cases/Sprint 2/29 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/MinusTap - Elemen 1 not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/47 - TC- All" classname="Test Cases/Sprint 2/47 - TC- All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)"/>
+         <system-out><![CDATA[2018-02-20 11:29:26 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/47 - TC- All: Test Cases/Sprint 2/47 - TC- All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)
+
+2018-02-20 11:29:26 - [TEST_STEP][PASSED] - comment: Start Story 47
+
+2018-02-20 11:29:26 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)
+
+2018-02-20 11:29:31 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found
+
+2018-02-20 11:29:31 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)]]></system-out>
+         <system-err><![CDATA[2018-02-20 11:29:26 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/47 - TC- All: Test Cases/Sprint 2/47 - TC- All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/Tunai not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 2/30 - TC - All" classname="Test Cases/Sprint 2/30 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)"/>
+         <system-out><![CDATA[2018-02-20 11:29:31 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/30 - TC - All: Test Cases/Sprint 2/30 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)
+
+2018-02-20 11:29:32 - [TEST_STEP][PASSED] - comment: Start Story 30
+
+2018-02-20 11:29:32 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found
+
+2018-02-20 11:29:37 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found
+
+2018-02-20 11:29:37 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)
+
+2018-02-20 11:29:42 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found
+
+2018-02-20 11:29:42 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)]]></system-out>
+         <system-err><![CDATA[2018-02-20 11:29:31 - [TEST_CASE][FAILED] - Test Cases/Sprint 2/30 - TC - All: Test Cases/Sprint 2/30 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1)' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Kasir/Kerajang dan Pembayaran/LANJUT (1) not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-20 11:18:19 - [TEST_SUITE][FAILED] - Sprint 2: Test Cases/Sprint 2/26 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori not found)]]></system-out>
+      <system-err><![CDATA[2018-02-20 11:18:19 - [TEST_SUITE][FAILED] - Sprint 2: Test Cases/Sprint 2/26 - TC - All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Terapkan - Select Kategori not found)]]></system-err>
+   </testsuite>
+</testsuites>

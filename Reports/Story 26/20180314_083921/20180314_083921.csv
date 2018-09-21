@@ -1,0 +1,89 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 26,,,2018-03-14 08:39:23,2018-03-14 08:43:05,3m - 42.227s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 1,,All Search Product,2018-03-14 08:39:23,2018-03-14 08:40:19,55.830s,PASSED
+comment,,,2018-03-14 08:39:24,2018-03-14 08:39:24,0.075s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-14 08:39:24,2018-03-14 08:39:24,0.010s,PASSED
+startApplication,,,2018-03-14 08:39:24,2018-03-14 08:39:57,32.669s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-14 08:39:57,2018-03-14 08:40:04,7.137s,PASSED
+verifyElementExist,,,2018-03-14 08:40:04,2018-03-14 08:40:04,0.159s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-14 08:40:04,2018-03-14 08:40:09,4.746s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-14 08:40:09,2018-03-14 08:40:09,0.542s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-14 08:40:09,2018-03-14 08:40:11,1.600s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-03-14 08:40:11,2018-03-14 08:40:14,3.170s,PASSED
+delay,,,2018-03-14 08:40:14,2018-03-14 08:40:19,5.014s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 2,,Search by selected Product Category,2018-03-14 08:40:19,2018-03-14 08:40:42,22.830s,PASSED
+waitForElementPresent,,"Menunggu hingga \""Stok Tabbar\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-03-14 08:40:19,2018-03-14 08:40:20,0.530s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-14 08:40:20,2018-03-14 08:40:20,0.522s,PASSED
+waitForElementPresent,,,2018-03-14 08:40:20,2018-03-14 08:40:22,1.587s,PASSED
+tap,,Memilih Kategori pada Elemen ke dua,2018-03-14 08:40:22,2018-03-14 08:40:23,1.278s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-03-14 08:40:23,2018-03-14 08:40:24,0.868s,PASSED
+tap,,"Mengklik lagi Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-14 08:40:24,2018-03-14 08:40:27,2.578s,PASSED
+scrollToText,,"Mencari kategori dengan text \""Makanan\""",2018-03-14 08:40:27,2018-03-14 08:40:40,13.458s,PASSED
+tap,,"Memilih Kategori pada dengan text \""Makanan\""",2018-03-14 08:40:40,2018-03-14 08:40:40,0.357s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element yang telah di pilih,2018-03-14 08:40:40,2018-03-14 08:40:41,1.027s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-03-14 08:40:41,2018-03-14 08:40:42,0.415s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 3,,Search by specific product,2018-03-14 08:40:42,2018-03-14 08:41:04,21.646s,PASSED
+waitForElementPresent,,"Menunggu hingga proses \""Terapkan\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-03-14 08:40:42,2018-03-14 08:40:44,2.027s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-14 08:40:44,2018-03-14 08:40:45,0.819s,PASSED
+tap,,Memilih Kategori Elemen 0 yaitu Semua Kategori,2018-03-14 08:40:45,2018-03-14 08:40:47,2.142s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-03-14 08:40:47,2018-03-14 08:40:48,0.897s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-03-14 08:40:48,2018-03-14 08:40:51,2.720s,PASSED
+setText,,Melakukan Input Text satu kata dalam search produk di semua Kategori,2018-03-14 08:40:51,2018-03-14 08:41:02,11.684s,PASSED
+verifyElementNotChecked,,Melakukan Verify Text yang teah di input,2018-03-14 08:41:02,2018-03-14 08:41:03,0.858s,PASSED
+getText,,Mengambil Text yang telah di input,2018-03-14 08:41:03,2018-03-14 08:41:04,0.362s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 4,,Search by specific category and product,2018-03-14 08:41:04,2018-03-14 08:41:49,45.559s,PASSED
+waitForElementPresent,,Menunggu hingga proses pengambilan element text selesai untuk melakukan action clear text,2018-03-14 08:41:04,2018-03-14 08:41:05,1.209s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-14 08:41:05,2018-03-14 08:41:07,2.457s,PASSED
+tap,,"Mengklik lagi Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-14 08:41:07,2018-03-14 08:41:10,2.795s,PASSED
+scrollToText,,"Mencari kategori dengan text \""Makanan\""",2018-03-14 08:41:10,2018-03-14 08:41:24,14.291s,PASSED
+tap,,"Memilih Kategori pada dengan text \""Makanan\""",2018-03-14 08:41:24,2018-03-14 08:41:25,0.260s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element yang telah di pilih,2018-03-14 08:41:25,2018-03-14 08:41:25,0.193s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-03-14 08:41:25,2018-03-14 08:41:26,0.707s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-03-14 08:41:26,2018-03-14 08:41:28,2.641s,PASSED
+setText,,"Melakukan Input Text lebih dari satu kata dalam search produk pada kategori \""Makanan\""",2018-03-14 08:41:28,2018-03-14 08:41:39,11.200s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element Text yang telah di Input,2018-03-14 08:41:39,2018-03-14 08:41:41,1.085s,PASSED
+getText,,Mengambil Text yang telah di input,2018-03-14 08:41:41,2018-03-14 08:41:42,1.476s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-14 08:41:42,2018-03-14 08:41:45,2.462s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-14 08:41:45,2018-03-14 08:41:45,0.922s,PASSED
+tap,,Memilih Kategori Elemen 0 yaitu Semua Kategori,2018-03-14 08:41:45,2018-03-14 08:41:48,2.802s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-03-14 08:41:48,2018-03-14 08:41:49,0.910s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 5,,Search by inputed 3 digit,2018-03-14 08:41:49,2018-03-14 08:42:05,15.943s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-03-14 08:41:49,2018-03-14 08:41:52,3.075s,PASSED
+setText,,"Melakukan Input Text dengan 3 huruf dalam search produk pada kategori \""Semua Kategori\""",2018-03-14 08:41:52,2018-03-14 08:42:04,11.380s,PASSED
+verifyElementNotChecked,,Melakukan Verifikasi pada Element Text yang telah di input.,2018-03-14 08:42:04,2018-03-14 08:42:05,0.953s,PASSED
+getText,,Mengambil text setelah di verifikasi,2018-03-14 08:42:05,2018-03-14 08:42:05,0.368s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 6,,Search by inputed less then 3 digit,2018-03-14 08:42:05,2018-03-14 08:42:19,14.244s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-14 08:42:05,2018-03-14 08:42:08,3.023s,PASSED
+setText,,"Melakukan Input Text dengan 2 huruf dalam search produk pada kategori \""Semua Kategori\""",2018-03-14 08:42:08,2018-03-14 08:42:18,10.034s,PASSED
+verifyElementNotChecked,,Melakukan Verifikasi pada Element Text yang telah di input.,2018-03-14 08:42:18,2018-03-14 08:42:19,0.776s,PASSED
+getText,,Mengambil text setelah di verifikasi,2018-03-14 08:42:19,2018-03-14 08:42:19,0.236s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 7,,Search by invalid product,2018-03-14 08:42:20,2018-03-14 08:42:41,21.460s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-14 08:42:20,2018-03-14 08:42:24,4.477s,PASSED
+setText,,"Melakukan Input Text dengan 3 huruf dalam search produk pada kategori \""Semua Kategori\""",2018-03-14 08:42:24,2018-03-14 08:42:31,7.245s,PASSED
+verifyElementNotChecked,,Melakukan Verifikasi pada Element Text yang telah di input.,2018-03-14 08:42:31,2018-03-14 08:42:33,1.203s,PASSED
+getText,,Mengambil text setelah di verifikasi,2018-03-14 08:42:33,2018-03-14 08:42:34,1.689s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-03-14 08:42:34,2018-03-14 08:42:36,1.708s,PASSED
+delay,,,2018-03-14 08:42:36,2018-03-14 08:42:41,5.003s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 8,,Drop down consist of product category,2018-03-14 08:42:41,2018-03-14 08:42:57,15.819s,PASSED
+waitForElementPresent,,,2018-03-14 08:42:41,2018-03-14 08:42:41,0.232s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-03-14 08:42:41,2018-03-14 08:42:42,0.470s,PASSED
+Statement - For (def index : (0..2)),,,2018-03-14 08:42:42,2018-03-14 08:42:44,2.548s,PASSED
+Statement - For (def index : (0..2)),,,2018-03-14 08:42:44,2018-03-14 08:42:46,1.780s,PASSED
+waitForElementPresent,,,2018-03-14 08:42:46,2018-03-14 08:42:46,0.132s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-03-14 08:42:46,2018-03-14 08:42:47,0.527s,PASSED
+delay,,,2018-03-14 08:42:47,2018-03-14 08:42:57,10.005s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 9,,Check paging,2018-03-14 08:42:57,2018-03-14 08:43:00,2.917s,PASSED
+Statement - For (def index : (0..3)),,Melakukan Swipe Loopinh hingga 3 kali  pada screen Stock untuk mengecek lazy load ,2018-03-14 08:42:57,2018-03-14 08:43:00,2.817s,PASSED
+,,,,,,
+Test Cases/Story 26 -Kelola Stok Final/TC 10,,Click Tambah Barang button,2018-03-14 08:43:00,2018-03-14 08:43:02,2.206s,PASSED
+waitForElementPresent,,,2018-03-14 08:43:00,2018-03-14 08:43:01,1.245s,PASSED
+tap,,,2018-03-14 08:43:01,2018-03-14 08:43:02,0.794s,PASSED

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 38" time="139" tests="5" failures="2" errors="0">
+   <testsuite name="Story 38" tests="5" failures="2" errors="0" time="139" timestamp="2018-03-15 10:16:57" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 38">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 38\\20180315_101655"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 38\\20180315_101655\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 38\\20180315_101655\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.17.167"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 1" classname="Test Cases/Story 38 - Manage Category/TC 1" status="PASSED">
+         <system-out><![CDATA[2018-03-15 10:16:57 - [TEST_CASE][PASSED] - Test Cases/Story 38 - Manage Category/TC 1: Test Cases/Story 38 - Manage Category/TC 1
+
+2018-03-15 10:16:58 - [TEST_STEP][PASSED] - comment: Start Story 38
+
+2018-03-15 10:16:58 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-15 10:16:58 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 10:17:16 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\13 Maret 17.23.apk'
+
+2018-03-15 10:17:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 10:17:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-15 10:17:23 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 10:17:27 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-15 10:17:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 10:17:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-15 10:17:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 10:17:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-15 10:17:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 10:17:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Stok - Navbar Menu'
+
+2018-03-15 10:17:33 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-03-15 10:17:36 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is present
+
+2018-03-15 10:17:36 - [TEST_STEP][PASSED] - comment: Search Product
+
+2018-03-15 10:17:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 10:17:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 10:17:37 - [TEST_STEP][PASSED] - setText: Text 'Nestle Air Murni' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 10:17:48 - [MESSAGE][PASSED] - Text 'Nestle Air Murni' has been set to element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent'
+
+2018-03-15 10:17:48 - [TEST_STEP][PASSED] - verifyElementNotChecked: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 10:17:49 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is not checked
+
+2018-03-15 10:17:49 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Nestle Air Murni'
+
+2018-03-15 10:17:50 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Stock/Stock View/Cari Produk - Parent' is: 'Nestle Air Murni'
+
+2018-03-15 10:17:50 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' is present
+
+2018-03-15 10:17:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1' is present
+
+2018-03-15 10:17:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1'
+
+2018-03-15 10:17:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/List Produk Search - Elemen 1'
+
+2018-03-15 10:17:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 10:17:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 10:17:57 - [TEST_STEP][PASSED] - comment: Swipe ke Bawah
+
+2018-03-15 10:17:57 - [TEST_STEP][PASSED] - swipe: Swiped from 24,788 to 24,452
+
+2018-03-15 10:17:58 - [MESSAGE][PASSED] - Swiped from 24,788 to 24,452
+
+2018-03-15 10:17:58 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' is present
+
+2018-03-15 10:17:59 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button' is present
+
+2018-03-15 10:17:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button'
+
+2018-03-15 10:17:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Ubah Info - Button'
+
+2018-03-15 10:17:59 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton' is present
+
+2018-03-15 10:18:01 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton' is present
+
+2018-03-15 10:18:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-03-15 10:18:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-03-15 10:18:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-03-15 10:18:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-03-15 10:18:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 10:18:08 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 2" classname="Test Cases/Story 38 - Manage Category/TC 2" status="PASSED">
+         <system-out><![CDATA[2018-03-15 10:18:08 - [TEST_CASE][PASSED] - Test Cases/Story 38 - Manage Category/TC 2: Test Cases/Story 38 - Manage Category/TC 2
+
+2018-03-15 10:18:08 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'PENGATURAN KATEGORI' successfully
+
+2018-03-15 10:18:12 - [MESSAGE][PASSED] - Scrolling to text 'PENGATURAN KATEGORI' successfully
+
+2018-03-15 10:18:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Pengaturan Kategori'
+
+2018-03-15 10:18:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Pengaturan Kategori'
+
+2018-03-15 10:18:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 10:18:18 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 3" classname="Test Cases/Story 38 - Manage Category/TC 3" status="PASSED">
+         <system-out><![CDATA[2018-03-15 10:18:18 - [TEST_CASE][PASSED] - Test Cases/Story 38 - Manage Category/TC 3: Test Cases/Story 38 - Manage Category/TC 3
+
+2018-03-15 10:18:19 - [TEST_STEP][PASSED] - Statement - For (def index : (0..4)): Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:19 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:19 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:19 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:20 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:20 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:20 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:21 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:21 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:21 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:22 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:22 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:22 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:23 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:23 - [TEST_STEP][PASSED] - swipe: Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:23 - [MESSAGE][PASSED] - Swiped from 381,139 to 450,139
+
+2018-03-15 10:18:23 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,213 to 450,213
+
+2018-03-15 10:18:23 - [TEST_STEP][PASSED] - swipe: Swiped from 381,213 to 450,213
+
+2018-03-15 10:18:24 - [MESSAGE][PASSED] - Swiped from 381,213 to 450,213
+
+2018-03-15 10:18:24 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,286 to 450,286
+
+2018-03-15 10:18:24 - [TEST_STEP][PASSED] - swipe: Swiped from 381,286 to 450,286
+
+2018-03-15 10:18:25 - [MESSAGE][PASSED] - Swiped from 381,286 to 450,286
+
+2018-03-15 10:18:25 - [TEST_STEP][PASSED] - Statement - For (def index : (0..4)): Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:25 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:25 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:26 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:26 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:26 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:27 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:27 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:27 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:28 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:28 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:28 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:29 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:29 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:29 - [TEST_STEP][PASSED] - swipe: Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:30 - [MESSAGE][PASSED] - Swiped from 381,727 to 450,727
+
+2018-03-15 10:18:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-03-15 10:18:33 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 4" classname="Test Cases/Story 38 - Manage Category/TC 4" status="PASSED">
+         <system-out><![CDATA[2018-03-15 10:18:33 - [TEST_CASE][PASSED] - Test Cases/Story 38 - Manage Category/TC 4: Test Cases/Story 38 - Manage Category/TC 4
+
+2018-03-15 10:18:33 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button' is present
+
+2018-03-15 10:18:34 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button' is present
+
+2018-03-15 10:18:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button'
+
+2018-03-15 10:18:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/SIMPAN Button'
+
+2018-03-15 10:18:34 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2018-03-15 10:18:38 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 5" classname="Test Cases/Story 38 - Manage Category/TC 5" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI not found)"/>
+         <system-out><![CDATA[2018-03-15 10:18:38 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 5: Test Cases/Story 38 - Manage Category/TC 5 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI not found)
+
+2018-03-15 10:18:39 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'TAMBAH KATEGORI' successfully
+
+2018-03-15 10:18:57 - [MESSAGE][PASSED] - Scrolling to text 'TAMBAH KATEGORI' successfully
+
+2018-03-15 10:18:58 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' is present
+
+2018-03-15 10:18:58 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' is present
+
+2018-03-15 10:18:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI'
+
+2018-03-15 10:18:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI'
+
+2018-03-15 10:18:58 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 10:18:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-15 10:18:59 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI not found)
+
+2018-03-15 10:19:04 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI not found
+
+2018-03-15 10:19:04 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 10:18:38 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 5: Test Cases/Story 38 - Manage Category/TC 5 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 6" classname="Test Cases/Story 38 - Manage Category/TC 6" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)"/>
+         <system-out><![CDATA[2018-03-15 10:19:04 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 6: Test Cases/Story 38 - Manage Category/TC 6 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)
+
+2018-03-15 10:19:05 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)
+
+2018-03-15 10:19:08 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found
+
+2018-03-15 10:19:08 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)]]></system-out>
+         <system-err><![CDATA[2018-03-15 10:19:04 - [TEST_CASE][FAILED] - Test Cases/Story 38 - Manage Category/TC 6: Test Cases/Story 38 - Manage Category/TC 6 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/Nama Kategori not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 38 - Manage Category/TC 7" classname="Test Cases/Story 38 - Manage Category/TC 7" status="PASSED">
+         <system-out><![CDATA[2018-03-15 10:19:08 - [TEST_CASE][PASSED] - Test Cases/Story 38 - Manage Category/TC 7: Test Cases/Story 38 - Manage Category/TC 7
+
+2018-03-15 10:19:08 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-15 10:19:09 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-15 10:19:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-15 10:19:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-15 10:19:14 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-03-15 10:19:17 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-15 10:16:57 - [TEST_SUITE][FAILED] - Story 38: Test Cases/Story 38 - Manage Category/TC 5 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI not found)]]></system-out>
+      <system-err><![CDATA[2018-03-15 10:16:57 - [TEST_SUITE][FAILED] - Story 38: Test Cases/Story 38 - Manage Category/TC 5 FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Stock/Detail Barang/TAMBAH KATEGORI not found)]]></system-err>
+   </testsuite>
+</testsuites>

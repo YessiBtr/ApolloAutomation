@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 1770 - Additional Biaya Tambahan in shoopping cart" time="2333" tests="5" failures="1" errors="0">
+   <testsuite name="Story 1770 - Additional Biaya Tambahan in shoopping cart" tests="5" failures="1" errors="0" time="2333" timestamp="2018-09-13 10:44:55" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 1770 - Additional Biaya Tambahan in shoopping cart">
+      <properties>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1770 - Additional Biaya Tambahan in shoopping cart\\20180913_104452"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1770 - Additional Biaya Tambahan in shoopping cart\\20180913_104452\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1770 - Additional Biaya Tambahan in shoopping cart\\20180913_104452\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1770 - Additional Biaya Tambahan in shoopping cart\\20180913_104452\\1536812625783.png, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1770 - Additional Biaya Tambahan in shoopping cart\\20180913_104452\\1536812627295.png"/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="A37f"/>
+         <property name="hostAddress" value="192.168.62.1"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="6e4df14"/>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 1 - View Biaya tambahan field and button in shopping cart" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 1 - View Biaya tambahan field and button in shopping cart" status="PASSED">
+         <system-out><![CDATA[2018-09-13 10:44:56 - [TEST_CASE][PASSED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 1 - View Biaya tambahan field and button in shopping cart: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 1 - View Biaya tambahan field and button in shopping cart
+
+2018-09-13 10:44:56 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-13 10:44:56 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-13 10:44:56 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 10:45:41 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 10:45:41 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-13 10:45:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-13 10:45:56 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-13 10:45:56 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-13 10:45:56 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-13 10:45:56 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:45:59 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:46:07 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:46:07 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:46:09 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:46:17 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:46:17 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:46:20 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:46:28 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:46:28 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:46:31 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:46:39 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:46:39 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 10:46:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 10:46:42 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 10:46:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 10:46:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 10:46:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 10:46:47 - [TEST_STEP][PASSED] - comment: end Welcome Screen
+
+2018-09-13 10:46:47 - [TEST_STEP][PASSED] - comment: LOGIN
+
+2018-09-13 10:46:47 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 10:46:54 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 10:46:54 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 10:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 10:47:01 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 10:47:24 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 10:47:24 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 10:47:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 10:47:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 10:47:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 10:47:29 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 10:47:32 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 10:47:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 10:47:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 10:47:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 10:47:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 10:47:41 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 10:47:45 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 10:47:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 10:47:52 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 10:47:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 10:47:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 10:47:56 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 10:48:14 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 10:48:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-13 10:48:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-13 10:48:19 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-13 10:48:19 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 10:48:25 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 10:48:25 - [TEST_STEP][PASSED] - comment: MESIN KASIR
+
+2018-09-13 10:48:25 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 10:48:32 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 10:48:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 10:48:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 10:48:41 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 10:48:45 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 10:48:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 10:48:53 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 10:48:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 10:49:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 10:49:01 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 10:49:05 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 10:49:05 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 10:49:09 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 10:49:09 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:49:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:49:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:49:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:49:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:49:21 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:49:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:49:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:49:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:49:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:49:33 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 10:49:35 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 10:49:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 10:49:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 10:49:40 - [TEST_STEP][PASSED] - comment: Ringkasan Pesanan Onboarding
+
+2018-09-13 10:49:40 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 10:49:49 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 10:49:49 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 10:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 10:49:53 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 10:49:58 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 10:49:58 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 10:50:02 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 10:50:02 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is visible
+
+2018-09-13 10:50:06 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is visible
+
+2018-09-13 10:50:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 10:50:10 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 10:50:10 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-13 10:50:18 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 2 - Click X button from Biaya Tambahan field to Cancel and check contain" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 2 - Click X button from Biaya Tambahan field to Cancel and check contain" status="PASSED">
+         <system-out><![CDATA[2018-09-13 10:50:18 - [TEST_CASE][PASSED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 2 - Click X button from Biaya Tambahan field to Cancel and check contain: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 2 - Click X button from Biaya Tambahan field to Cancel and check contain
+
+2018-09-13 10:50:19 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-13 10:50:19 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-13 10:50:19 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 10:50:55 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 10:50:55 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-13 10:51:10 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-13 10:51:10 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-13 10:51:10 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-13 10:51:10 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-13 10:51:10 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:51:12 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:51:20 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:51:20 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:51:23 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:51:31 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:51:31 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:51:34 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:51:42 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:51:42 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:51:44 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:51:52 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:51:52 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 10:51:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 10:51:58 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 10:51:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 10:51:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 10:52:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 10:52:06 - [TEST_STEP][PASSED] - comment: end Welcome Screen
+
+2018-09-13 10:52:06 - [TEST_STEP][PASSED] - comment: LOGIN
+
+2018-09-13 10:52:06 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 10:52:10 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 10:52:10 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 10:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 10:52:15 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 10:52:33 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 10:52:33 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 10:52:34 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 10:52:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 10:52:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 10:52:41 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 10:52:47 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 10:52:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 10:52:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 10:52:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 10:53:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 10:53:04 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 10:53:07 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 10:53:07 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 10:53:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 10:53:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 10:53:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 10:53:21 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 10:53:39 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 10:53:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-13 10:53:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-13 10:53:44 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-13 10:53:44 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 10:53:47 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 10:53:47 - [TEST_STEP][PASSED] - comment: MESIN KASIR
+
+2018-09-13 10:53:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 10:53:51 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 10:53:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 10:53:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 10:53:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 10:54:00 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 10:54:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 10:54:06 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 10:54:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 10:54:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 10:54:12 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 10:54:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 10:54:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 10:54:22 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 10:54:22 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:54:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:54:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:54:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:54:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 10:54:33 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:54:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:54:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:54:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:54:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 10:54:44 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 10:54:47 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 10:54:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 10:54:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 10:54:52 - [TEST_STEP][PASSED] - comment: Ringkasan Pesanan Onboarding
+
+2018-09-13 10:54:52 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 10:55:00 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 10:55:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 10:55:08 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 10:55:08 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 10:55:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 10:55:16 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 10:55:20 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 10:55:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 10:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 10:55:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 10:55:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 10:55:31 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 10:55:35 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 10:55:35 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 10:55:39 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 10:55:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 10:55:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 10:55:44 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' is present
+
+2018-09-13 10:55:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' is present
+
+2018-09-13 10:55:51 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' has attribute 'content-desc' with value 'additionalCost_text_costType_1'
+
+2018-09-13 10:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' has attribute 'content-desc' with value 'additionalCost_text_costType_1'
+
+2018-09-13 10:56:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2'
+
+2018-09-13 10:56:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2'
+
+2018-09-13 10:56:09 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 10:56:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 10:56:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 10:56:20 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 10:56:20 - [TEST_STEP][PASSED] - setText: Text '2000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 10:56:36 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 10:56:36 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 10:56:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 10:56:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 10:56:45 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 10:56:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 10:56:49 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 10:56:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 10:56:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 10:56:54 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/cross_button - BiayaKirim' is present
+
+2018-09-13 10:57:01 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/cross_button - BiayaKirim' is present
+
+2018-09-13 10:57:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/cross_button - BiayaKirim' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost_clear'
+
+2018-09-13 10:57:06 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/cross_button - BiayaKirim' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost_clear'
+
+2018-09-13 10:57:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/cross_button - BiayaKirim'
+
+2018-09-13 10:57:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/cross_button - BiayaKirim'
+
+2018-09-13 10:57:10 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 10:57:18 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 10:57:18 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is visible
+
+2018-09-13 10:57:22 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is visible
+
+2018-09-13 10:57:22 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 10:57:26 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 10:57:26 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-13 10:57:32 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 3 - Edit Biaya Tambahan" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 3 - Edit Biaya Tambahan" status="PASSED">
+         <system-out><![CDATA[2018-09-13 10:57:32 - [TEST_CASE][PASSED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 3 - Edit Biaya Tambahan: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 3 - Edit Biaya Tambahan
+
+2018-09-13 10:57:33 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-13 10:57:33 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-13 10:57:33 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 10:58:09 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 10:58:09 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-13 10:58:24 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-13 10:58:24 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-13 10:58:24 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-13 10:58:24 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-13 10:58:24 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:58:26 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:58:34 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:58:34 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:58:37 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:58:45 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:58:45 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:58:48 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:58:56 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:58:56 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 10:58:58 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 10:59:06 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 10:59:06 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 10:59:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 10:59:10 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 10:59:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 10:59:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 10:59:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 10:59:18 - [TEST_STEP][PASSED] - comment: end Welcome Screen
+
+2018-09-13 10:59:18 - [TEST_STEP][PASSED] - comment: LOGIN
+
+2018-09-13 10:59:18 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 10:59:22 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 10:59:22 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 10:59:30 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 10:59:30 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 10:59:47 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 10:59:47 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 10:59:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 10:59:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 10:59:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 10:59:54 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 10:59:58 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 10:59:58 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 11:00:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 11:00:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 11:00:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 11:00:16 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 11:00:20 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 11:00:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 11:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 11:00:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:00:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:00:36 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:00:57 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:00:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-13 11:01:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-13 11:01:02 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-13 11:01:02 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 11:01:04 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 11:01:04 - [TEST_STEP][PASSED] - comment: MESIN KASIR
+
+2018-09-13 11:01:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 11:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 11:01:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 11:01:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 11:01:23 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 11:01:27 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 11:01:27 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 11:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 11:01:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 11:01:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 11:01:35 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 11:01:40 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 11:01:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 11:01:47 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 11:01:47 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:01:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:01:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:01:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:01:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:01:57 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:01:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:02:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:02:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:02:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:02:12 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 11:02:15 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 11:02:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 11:02:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 11:02:19 - [TEST_STEP][PASSED] - comment: Ringkasan Pesanan Onboarding
+
+2018-09-13 11:02:19 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 11:02:24 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 11:02:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 11:02:32 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 11:02:32 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 11:02:36 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 11:02:36 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 11:02:39 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 11:02:39 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 11:02:46 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 11:02:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 11:02:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 11:02:57 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 11:03:00 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 11:03:00 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 11:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 11:03:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 11:03:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 11:03:16 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' is present
+
+2018-09-13 11:03:25 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' is present
+
+2018-09-13 11:03:25 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' has attribute 'content-desc' with value 'additionalCost_text_costType_1'
+
+2018-09-13 11:03:32 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' has attribute 'content-desc' with value 'additionalCost_text_costType_1'
+
+2018-09-13 11:03:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2'
+
+2018-09-13 11:03:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2'
+
+2018-09-13 11:03:37 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 11:03:41 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 11:03:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 11:03:45 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 11:03:45 - [TEST_STEP][PASSED] - setText: Text '2000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 11:04:03 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 11:04:03 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 11:04:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 11:04:04 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 11:04:08 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 11:04:08 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 11:04:12 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 11:04:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 11:04:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 11:04:17 - [TEST_STEP][PASSED] - comment: Edit Biaya Tambahan
+
+2018-09-13 11:04:17 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 11:04:21 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 11:04:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 11:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 11:04:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 11:04:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 11:04:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 11:04:42 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 11:04:42 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 11:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 11:04:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 11:04:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 11:04:58 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1' is present
+
+2018-09-13 11:05:02 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1' is present
+
+2018-09-13 11:05:02 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1' has attribute 'content-desc' with value 'additionalCost_text_costType_0'
+
+2018-09-13 11:05:09 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1' has attribute 'content-desc' with value 'additionalCost_text_costType_0'
+
+2018-09-13 11:05:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1'
+
+2018-09-13 11:05:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1'
+
+2018-09-13 11:05:18 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 11:05:25 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 11:05:25 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 11:05:30 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 11:05:30 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' text is cleared
+
+2018-09-13 11:05:37 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' text is cleared
+
+2018-09-13 11:05:37 - [TEST_STEP][PASSED] - setText: Text '50000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 11:05:53 - [MESSAGE][PASSED] - Text '50000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 11:05:53 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 11:05:54 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 11:05:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' are matched.
+
+2018-09-13 11:05:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' are matched.
+
+2018-09-13 11:05:59 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 11:06:03 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 11:06:03 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 11:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 11:06:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 11:06:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 11:06:22 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-13 11:06:28 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 4 - Select Ongkos Kirim from Biaya Tambahan droplist" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 4 - Select Ongkos Kirim from Biaya Tambahan droplist" status="PASSED">
+         <system-out><![CDATA[2018-09-13 11:06:28 - [TEST_CASE][PASSED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 4 - Select Ongkos Kirim from Biaya Tambahan droplist: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 4 - Select Ongkos Kirim from Biaya Tambahan droplist
+
+2018-09-13 11:06:29 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-13 11:06:29 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-13 11:06:29 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 11:07:05 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 11:07:05 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-13 11:07:20 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-13 11:07:20 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-13 11:07:20 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-13 11:07:20 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-13 11:07:20 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:07:22 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:07:30 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:07:30 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:07:33 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:07:41 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:07:41 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:07:44 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:07:52 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:07:52 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:07:55 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:08:03 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:08:03 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 11:08:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 11:08:06 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 11:08:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 11:08:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 11:08:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 11:08:11 - [TEST_STEP][PASSED] - comment: end Welcome Screen
+
+2018-09-13 11:08:11 - [TEST_STEP][PASSED] - comment: LOGIN
+
+2018-09-13 11:08:11 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 11:08:15 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 11:08:15 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 11:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 11:08:19 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 11:08:40 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 11:08:40 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 11:08:42 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 11:08:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 11:08:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 11:08:47 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 11:08:49 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 11:08:49 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 11:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 11:08:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 11:09:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 11:09:00 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 11:09:04 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 11:09:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 11:09:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 11:09:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:09:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:09:17 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:09:40 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:09:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-13 11:09:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-13 11:09:45 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-13 11:09:45 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 11:09:52 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 11:09:52 - [TEST_STEP][PASSED] - comment: MESIN KASIR
+
+2018-09-13 11:09:52 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 11:09:59 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 11:09:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 11:10:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 11:10:09 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 11:10:12 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 11:10:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 11:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 11:10:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 11:10:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 11:10:29 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 11:10:33 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 11:10:33 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 11:10:38 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 11:10:38 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:10:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:10:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:10:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:10:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:10:57 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:10:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:11:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:11:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:11:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:11:09 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 11:11:12 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 11:11:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 11:11:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 11:11:16 - [TEST_STEP][PASSED] - comment: Ringkasan Pesanan Onboarding
+
+2018-09-13 11:11:16 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 11:11:24 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 11:11:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 11:11:28 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 11:11:28 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 11:11:33 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 11:11:33 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 11:11:36 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 11:11:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 11:11:40 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 11:11:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 11:11:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 11:11:48 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 11:11:53 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 11:11:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 11:11:57 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 11:11:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 11:12:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 11:12:02 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1' is present
+
+2018-09-13 11:12:05 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1' is present
+
+2018-09-13 11:12:05 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1' has attribute 'content-desc' with value 'additionalCost_text_costType_0'
+
+2018-09-13 11:12:09 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1' has attribute 'content-desc' with value 'additionalCost_text_costType_0'
+
+2018-09-13 11:12:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1'
+
+2018-09-13 11:12:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList1'
+
+2018-09-13 11:12:15 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 11:12:18 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 11:12:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 11:12:25 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 11:12:25 - [TEST_STEP][PASSED] - setText: Text '2000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 11:12:45 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 11:12:45 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 11:12:46 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 11:12:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' are matched.
+
+2018-09-13 11:12:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' are matched.
+
+2018-09-13 11:12:50 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 11:12:53 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 11:12:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 11:12:58 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 11:12:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 11:13:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 11:13:04 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-13 11:13:11 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 5 - Select Biaya Packing from Biaya Tambahan droplist" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 5 - Select Biaya Packing from Biaya Tambahan droplist" status="PASSED">
+         <system-out><![CDATA[2018-09-13 11:13:11 - [TEST_CASE][PASSED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 5 - Select Biaya Packing from Biaya Tambahan droplist: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 5 - Select Biaya Packing from Biaya Tambahan droplist
+
+2018-09-13 11:13:11 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-13 11:13:11 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-13 11:13:11 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 11:13:47 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 11:13:47 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-13 11:14:02 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-13 11:14:02 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-13 11:14:02 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-13 11:14:02 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-13 11:14:02 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:14:05 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:14:13 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:14:13 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:14:16 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:14:24 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:14:24 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:14:26 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:14:34 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:14:34 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:14:37 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:14:45 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:14:45 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 11:14:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 11:14:47 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 11:14:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 11:14:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 11:14:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 11:14:59 - [TEST_STEP][PASSED] - comment: end Welcome Screen
+
+2018-09-13 11:14:59 - [TEST_STEP][PASSED] - comment: LOGIN
+
+2018-09-13 11:14:59 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 11:15:03 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 11:15:03 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 11:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 11:15:07 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 11:15:24 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 11:15:24 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 11:15:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 11:15:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 11:15:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 11:15:33 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 11:15:39 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 11:15:39 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 11:15:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 11:15:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 11:15:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 11:15:51 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 11:15:57 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 11:15:57 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 11:16:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 11:16:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:16:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:16:12 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:16:27 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:16:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-13 11:16:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-13 11:16:32 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-13 11:16:32 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 11:16:36 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' is present
+
+2018-09-13 11:16:36 - [TEST_STEP][PASSED] - comment: MESIN KASIR
+
+2018-09-13 11:16:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 11:16:43 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-09-13 11:16:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 11:16:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton'
+
+2018-09-13 11:16:47 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 11:16:55 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' is present
+
+2018-09-13 11:16:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 11:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir' has attribute 'content-desc' with value 'drawerContainer_button_cashierSwitch'
+
+2018-09-13 11:16:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 11:17:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/Kasir'
+
+2018-09-13 11:17:04 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 11:17:12 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' is present
+
+2018-09-13 11:17:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 11:17:16 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1' has attribute 'content-desc' with value 'productSalesItem0'
+
+2018-09-13 11:17:16 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:17:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:17:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:17:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:17:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 1'
+
+2018-09-13 11:17:30 - [TEST_STEP][PASSED] - Statement - For (def index : (0..1)): Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:17:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:17:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:17:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:17:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Dashboard Kasir/ListProduk 2'
+
+2018-09-13 11:17:41 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 11:17:44 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn' is present
+
+2018-09-13 11:17:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 11:17:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Estimasi Detail Pesanan/Keranjangbtn'
+
+2018-09-13 11:17:49 - [TEST_STEP][PASSED] - comment: Ringkasan Pesanan Onboarding
+
+2018-09-13 11:17:49 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 11:17:53 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is present
+
+2018-09-13 11:17:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 11:18:01 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' has attribute 'content-desc' with value 'asubtotal_atext_additional_discount'
+
+2018-09-13 11:18:01 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 11:18:06 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Diskon Tambahan/Tambah_Diskon' is visible
+
+2018-09-13 11:18:06 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 11:18:13 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' is present
+
+2018-09-13 11:18:13 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 11:18:17 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya' has attribute 'content-desc' with value 'asubtotal_abutton_additional_cost'
+
+2018-09-13 11:18:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 11:18:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/Tambah_Biaya'
+
+2018-09-13 11:18:24 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 11:18:32 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' is present
+
+2018-09-13 11:18:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 11:18:39 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown' has attribute 'content-desc' with value 'additionalCost_icon_costType'
+
+2018-09-13 11:18:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 11:18:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulDropdown'
+
+2018-09-13 11:18:49 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' is present
+
+2018-09-13 11:18:53 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' is present
+
+2018-09-13 11:18:53 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' has attribute 'content-desc' with value 'additionalCost_text_costType_1'
+
+2018-09-13 11:19:02 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2' has attribute 'content-desc' with value 'additionalCost_text_costType_1'
+
+2018-09-13 11:19:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2'
+
+2018-09-13 11:19:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - JudulList2'
+
+2018-09-13 11:19:07 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 11:19:10 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' is present
+
+2018-09-13 11:19:10 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 11:19:19 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' has attribute 'content-desc' with value 'additionalCost_input_costAmount'
+
+2018-09-13 11:19:19 - [TEST_STEP][PASSED] - setText: Text '2000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 11:19:39 - [MESSAGE][PASSED] - Text '2000' has been set to element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt'
+
+2018-09-13 11:19:39 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 11:19:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 11:19:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' are matched.
+
+2018-09-13 11:19:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - BiayaEditTxt' are matched.
+
+2018-09-13 11:19:44 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 11:19:47 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' is present
+
+2018-09-13 11:19:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 11:19:51 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn' has attribute 'content-desc' with value 'additionalCost_button_saveCost'
+
+2018-09-13 11:19:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 11:19:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Mesin Kasir/Kasir/Ringkasan Pesanan/Biaya Tambahan/TambahBiaya - SIMPANbtn'
+
+2018-09-13 11:19:57 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-09-13 11:20:04 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 6 - Select Other from Biaya Tambahan droplist" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 6 - Select Other from Biaya Tambahan droplist" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' (Root cause: Object Object Repository/Sidebar Menu/Biaya/HamburgerButton not found)"/>
+         <system-out><![CDATA[2018-09-13 11:20:04 - [TEST_CASE][FAILED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 6 - Select Other from Biaya Tambahan droplist: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 6 - Select Other from Biaya Tambahan droplist FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' (Root cause: Object Object Repository/Sidebar Menu/Biaya/HamburgerButton not found)
+
+2018-09-13 11:20:04 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-13 11:20:04 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-13 11:20:04 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 11:20:41 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\7 September.apk'
+
+2018-09-13 11:20:41 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-09-13 11:20:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-09-13 11:20:56 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-09-13 11:20:56 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-09-13 11:20:56 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-09-13 11:20:56 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:20:58 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:21:06 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:21:06 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:21:09 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:21:17 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:21:17 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:21:20 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:21:28 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:21:28 - [TEST_STEP][PASSED] - Statement - action.longPress(550, 300).moveTo(100, 300).release().perform(): null
+
+2018-09-13 11:21:30 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-13 11:21:38 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-13 11:21:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 11:21:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 11:21:46 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-09-13 11:21:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 11:21:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-09-13 11:21:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-09-13 11:21:51 - [TEST_STEP][PASSED] - comment: end Welcome Screen
+
+2018-09-13 11:21:51 - [TEST_STEP][PASSED] - comment: LOGIN
+
+2018-09-13 11:21:51 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 11:21:58 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-09-13 11:21:58 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 11:22:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-09-13 11:22:06 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 11:22:30 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-09-13 11:22:30 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-09-13 11:22:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-09-13 11:22:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 11:22:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-09-13 11:22:35 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 11:22:38 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-09-13 11:22:38 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 11:22:42 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-09-13 11:22:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 11:22:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-09-13 11:22:47 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 11:22:51 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-09-13 11:22:51 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 11:22:55 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-09-13 11:22:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:23:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:23:04 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:23:24 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-09-13 11:23:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-13 11:23:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-13 11:23:29 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-09-13 11:23:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Biaya/HamburgerButton not found
+
+2018-09-13 11:23:37 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Biaya/HamburgerButton not found
+
+2018-09-13 11:23:37 - [TEST_STEP][PASSED] - comment: MESIN KASIR
+
+2018-09-13 11:23:37 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' not found
+
+2018-09-13 11:23:39 - [MESSAGE][WARNING] - Element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' not found
+
+2018-09-13 11:23:39 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' (Root cause: Object Object Repository/Sidebar Menu/Biaya/HamburgerButton not found)
+
+2018-09-13 11:23:47 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Biaya/HamburgerButton not found
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1770 - Additional Biaya Tambahan in shoopping cart\\20180913_104452\\1536812625783.png]]
+
+2018-09-13 11:23:48 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' (Root cause: Object Object Repository/Sidebar Menu/Biaya/HamburgerButton not found)
+[[ATTACHMENT|C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 1770 - Additional Biaya Tambahan in shoopping cart\\20180913_104452\\1536812627295.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-13 11:20:04 - [TEST_CASE][FAILED] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 6 - Select Other from Biaya Tambahan droplist: Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 6 - Select Other from Biaya Tambahan droplist FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Biaya/HamburgerButton' (Root cause: Object Object Repository/Sidebar Menu/Biaya/HamburgerButton not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 7 - Nama Biaya field and Biaya field Mandatory" classname="Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 7 - Nama Biaya field and Biaya field Mandatory" status="INCOMPLETE">
+         <system-out><![CDATA[2018-09-13 11:23:48 - [TEST_CASE][INCOMPLETE] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 7 - Nama Biaya field and Biaya field Mandatory: null
+
+2018-09-13 11:23:49 - [TEST_STEP][PASSED] - comment: WELCOME SCREEN
+
+2018-09-13 11:23:49 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-09-13 11:23:49 - [TEST_STEP][INCOMPLETE] - startApplication: User set preference: ['deviceId', '6e4df14']]]></system-out>
+         <system-err><![CDATA[2018-09-13 11:23:48 - [TEST_CASE][INCOMPLETE] - Test Cases/Release 3 - Squad Hades/Sprint 1/Story 1770 - Additional Biaya Tambahan in shoopping cart/TC 7 - Nama Biaya field and Biaya field Mandatory: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-13 10:44:55 - [TEST_SUITE][INCOMPLETE] - Story 1770 - Additional Biaya Tambahan in shoopping cart: null]]></system-out>
+      <system-err><![CDATA[2018-09-13 10:44:55 - [TEST_SUITE][INCOMPLETE] - Story 1770 - Additional Biaya Tambahan in shoopping cart: null]]></system-err>
+   </testsuite>
+</testsuites>

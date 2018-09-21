@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sprint 3" time="40" tests="0" failures="3" errors="0">
+   <testsuite name="Sprint 3" tests="0" failures="3" errors="0" time="40" timestamp="2018-03-01 08:35:53" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Sprint 3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180301_083547"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180301_083547\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180301_083547\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="hostAddress" value="192.168.17.200"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 3/40 - TC - All" classname="Test Cases/Sprint 3/40 - TC - All" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)"/>
+         <system-out><![CDATA[2018-03-01 08:35:54 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/40 - TC - All: Test Cases/Sprint 3/40 - TC - All FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-03-01 08:35:55 - [TEST_STEP][PASSED] - comment: Start Story 40
+
+2018-03-01 08:35:55 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-01 08:35:55 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-03-01 08:36:28 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+         <system-err><![CDATA[2018-03-01 08:35:54 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/40 - TC - All: Test Cases/Sprint 3/40 - TC - All FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 3/41 - TC-All" classname="Test Cases/Sprint 3/41 - TC-All" status="FAILED">
+         <failure type="FAILED" message="Failed to wait for element present (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-01 08:36:28 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/41 - TC-All: Test Cases/Sprint 3/41 - TC-All FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-01 08:36:28 - [TEST_STEP][PASSED] - comment: Start Story 41
+
+2018-03-01 08:36:28 - [TEST_STEP][FAILED] - waitForElementPresent: Failed to wait for element present (Root cause: No application is started yet.)
+
+2018-03-01 08:36:28 - [MESSAGE][FAILED] - Failed to wait for element present (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-01 08:36:28 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/41 - TC-All: Test Cases/Sprint 3/41 - TC-All FAILED because (of) Failed to wait for element present (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 3/215 - TC -All" classname="Test Cases/Sprint 3/215 - TC -All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-03-01 08:36:28 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/215 - TC -All: Test Cases/Sprint 3/215 - TC -All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: No application is started yet.)
+
+2018-03-01 08:36:29 - [TEST_STEP][PASSED] - comment: Start Story 215
+
+2018-03-01 08:36:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-01 08:36:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-01 08:36:34 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: No application is started yet.)
+
+2018-03-01 08:36:34 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-03-01 08:36:28 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/215 - TC -All: Test Cases/Sprint 3/215 - TC -All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 3' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-01 08:35:53 - [TEST_SUITE][FAILED] - Sprint 3: Test Cases/Sprint 3/40 - TC - All FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+      <system-err><![CDATA[2018-03-01 08:35:53 - [TEST_SUITE][FAILED] - Sprint 3: Test Cases/Sprint 3/40 - TC - All FAILED because (of) Unable to start app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Regression_24Februari_PakAnka.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

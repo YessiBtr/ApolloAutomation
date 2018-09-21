@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35 - Tambah Barang,,,2018-07-13 10:32:55,2018-07-13 10:38:23,5m - 27.793s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1,,Display Tambah Barang Form,2018-07-13 10:32:56,2018-07-13 10:35:38,2m - 42.456s,FAILED
+comment,,,2018-07-13 10:32:56,2018-07-13 10:32:56,0.048s,PASSED
+comment,,,2018-07-13 10:32:56,2018-07-13 10:32:56,0.004s,PASSED
+callTestCase,,,2018-07-13 10:32:56,2018-07-13 10:35:38,2m - 42.218s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2,,Increase or decrease product stock,2018-07-13 10:35:38,2018-07-13 10:35:58,19.700s,FAILED
+comment,,,2018-07-13 10:35:38,2018-07-13 10:35:38,0.004s,PASSED
+Statement - For (def index : (0..10)),,,2018-07-13 10:35:38,2018-07-13 10:35:58,19.516s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3,,user update stock when specifies stock = -(minus),2018-07-13 10:35:58,2018-07-13 10:36:17,19.113s,FAILED
+comment,,,2018-07-13 10:35:58,2018-07-13 10:35:58,0.002s,PASSED
+waitForElementPresent,,,2018-07-13 10:35:58,2018-07-13 10:36:06,7.626s,PASSED
+verifyElementAttributeValue,,,2018-07-13 10:36:06,2018-07-13 10:36:07,1.653s,PASSED
+clearText,,,2018-07-13 10:36:07,2018-07-13 10:36:17,9.636s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4,,Display Pick Category,2018-07-13 10:36:17,2018-07-13 10:36:43,26.060s,FAILED
+comment,,,2018-07-13 10:36:17,2018-07-13 10:36:17,0.002s,PASSED
+waitForElementPresent,,,2018-07-13 10:36:17,2018-07-13 10:36:23,6.338s,PASSED
+verifyElementAttributeValue,,,2018-07-13 10:36:23,2018-07-13 10:36:32,8.636s,PASSED
+clearText,,,2018-07-13 10:36:32,2018-07-13 10:36:43,10.955s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5,,Pick Category,2018-07-13 10:36:43,2018-07-13 10:37:03,19.744s,FAILED
+comment,,,2018-07-13 10:36:43,2018-07-13 10:36:43,0.002s,PASSED
+waitForElementPresent,,,2018-07-13 10:36:43,2018-07-13 10:36:49,5.491s,PASSED
+verifyElementAttributeValue,,,2018-07-13 10:36:49,2018-07-13 10:36:51,2.471s,PASSED
+clearText,,,2018-07-13 10:36:51,2018-07-13 10:37:03,11.619s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6,,Input Harga Jual with - (minus),2018-07-13 10:37:03,2018-07-13 10:37:21,18.599s,FAILED
+comment,,,2018-07-13 10:37:03,2018-07-13 10:37:03,0.002s,PASSED
+waitForElementPresent,,,2018-07-13 10:37:03,2018-07-13 10:37:08,5.317s,PASSED
+verifyElementAttributeValue,,,2018-07-13 10:37:08,2018-07-13 10:37:13,4.712s,PASSED
+tap,,,2018-07-13 10:37:13,2018-07-13 10:37:21,8.374s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7,,Validate the format of input and adjust the input into financial format,2018-07-13 10:37:21,2018-07-13 10:37:44,22.377s,FAILED
+comment,,,2018-07-13 10:37:21,2018-07-13 10:37:21,0.002s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2018-07-13 10:37:21,2018-07-13 10:37:21,0.001s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-07-13 10:37:21,2018-07-13 10:37:21,0.001s,PASSED
+"Statement - action.longPress(242, 360).moveTo(242, 743).release().perform()",,,2018-07-13 10:37:21,2018-07-13 10:37:24,2.138s,PASSED
+waitForElementPresent,,,2018-07-13 10:37:24,2018-07-13 10:37:29,5.322s,PASSED
+verifyElementAttributeValue,,,2018-07-13 10:37:29,2018-07-13 10:37:34,5.403s,PASSED
+Statement - NamaBarang = CustomKeywords.newpackage.randomstring.randombigname(),,,2018-07-13 10:37:34,2018-07-13 10:37:34,0.034s,PASSED
+setText,,,2018-07-13 10:37:34,2018-07-13 10:37:44,9.302s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 8,,,2018-07-13 10:37:44,2018-07-13 10:37:52,8.691s,FAILED
+comment,,,2018-07-13 10:37:44,2018-07-13 10:37:44,0.001s,PASSED
+clearText,,,2018-07-13 10:37:44,2018-07-13 10:37:52,8.541s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 9,,,2018-07-13 10:37:52,2018-07-13 10:38:15,22.345s,FAILED
+comment,,,2018-07-13 10:37:53,2018-07-13 10:37:53,0.002s,PASSED
+waitForElementPresent,,,2018-07-13 10:37:53,2018-07-13 10:37:59,6.944s,PASSED
+verifyElementAttributeValue,,,2018-07-13 10:37:59,2018-07-13 10:38:04,4.603s,PASSED
+tap,,,2018-07-13 10:38:04,2018-07-13 10:38:15,10.615s,FAILED

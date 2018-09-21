@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Story 35 - Tambah Barang" time="906" tests="9" failures="0" errors="0">
+   <testsuite name="Story 35 - Tambah Barang" tests="9" failures="0" errors="0" time="906" timestamp="2018-07-13 14:49:56" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Story 35 - Tambah Barang">
+      <properties>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 35 - Tambah Barang\\20180713_144953"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 35 - Tambah Barang\\20180713_144953\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Story 35 - Tambah Barang\\20180713_144953\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="A37f"/>
+         <property name="hostAddress" value="192.168.62.1"/>
+         <property name="deviceManufacturer" value="OPPO"/>
+         <property name="deviceId" value="6e4df14"/>
+         <property name="deviceName" value="OPPO A37f (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1" status="PASSED">
+         <system-out><![CDATA[2018-07-13 14:49:57 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1
+
+2018-07-13 14:49:57 - [TEST_STEP][PASSED] - comment: Start Story 35 - Display Tambah Barang Form
+
+2018-07-13 14:49:57 - [TEST_STEP][PASSED] - comment: Call Test Case 26 (TC1)
+
+2018-07-13 14:49:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 1' successfully
+
+2018-07-13 14:49:57 - [TEST_CASE][PASSED] - Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 1: Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 1
+
+2018-07-13 14:49:58 - [TEST_STEP][PASSED] - comment: Kelola Stock - View
+
+2018-07-13 14:49:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen' successfully
+
+2018-07-13 14:49:58 - [TEST_CASE][PASSED] - Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen: Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen
+
+2018-07-13 14:49:58 - [TEST_STEP][PASSED] - comment: Start Story 679
+
+2018-07-13 14:49:58 - [TEST_STEP][PASSED] - Statement - apkPath = apkName: null
+
+2018-07-13 14:49:58 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\app-sit-3 Juli.apk'
+
+2018-07-13 14:50:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\app-sit-3 Juli.apk'
+
+2018-07-13 14:50:32 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-07-13 14:50:47 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-07-13 14:50:47 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-07-13 14:50:47 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-07-13 14:50:47 - [TEST_STEP][NOT_RUN] - verifyElementVisible: NOT_RUN: verifyElementVisible
+
+2018-07-13 14:50:47 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible
+
+2018-07-13 14:50:47 - [TEST_STEP][PASSED] - Comment - "Delay until UpdateApp TopUp appear": null
+
+2018-07-13 14:50:47 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-07-13 14:50:47 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-07-13 14:50:47 - [TEST_STEP][PASSED] - Statement - action.longPress(450, 300).moveTo(100, 300).release().perform(): null
+
+2018-07-13 14:50:49 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-07-13 14:50:57 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-07-13 14:50:57 - [TEST_STEP][PASSED] - Statement - action.longPress(450, 300).moveTo(100, 300).release().perform(): null
+
+2018-07-13 14:51:00 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-07-13 14:51:08 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-07-13 14:51:08 - [TEST_STEP][PASSED] - Statement - action.longPress(450, 300).moveTo(100, 300).release().perform(): null
+
+2018-07-13 14:51:10 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-07-13 14:51:18 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-07-13 14:51:18 - [TEST_STEP][PASSED] - Statement - action.longPress(450, 300).moveTo(100, 300).release().perform(): null
+
+2018-07-13 14:51:21 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-07-13 14:51:29 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-07-13 14:51:29 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-07-13 14:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-13 14:51:32 - [MESSAGE][PASSED] - Element 'Object Repository/Splash Screen/Mulai - Button' is present
+
+2018-07-13 14:51:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-07-13 14:51:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-13 14:51:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Splash Screen/Mulai - Button'
+
+2018-07-13 14:51:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Story 679 - Welcome Screen/679 TC - Welcome Screen' successfully
+
+2018-07-13 14:51:37 - [TEST_STEP][NOT_RUN] - Statement - apkPath = apkName: NOT_RUN: Statement - apkPath = apkName
+
+2018-07-13 14:51:37 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - apkPath = apkName
+
+2018-07-13 14:51:37 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-07-13 14:51:37 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-07-13 14:51:37 - [TEST_STEP][NOT_RUN] - verifyElementVisible: NOT_RUN: verifyElementVisible
+
+2018-07-13 14:51:37 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible
+
+2018-07-13 14:51:37 - [TEST_STEP][PASSED] - comment: Start Login Test Case
+
+2018-07-13 14:51:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 14:51:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 14:51:42 - [TEST_STEP][PASSED] - Comment - "If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ": null
+
+2018-07-13 14:51:42 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-07-13 14:51:45 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' is present
+
+2018-07-13 14:51:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-07-13 14:51:52 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' has attribute 'content-desc' with value 'LoginNameTextInput'
+
+2018-07-13 14:51:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-07-13 14:51:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-07-13 14:51:57 - [TEST_STEP][PASSED] - setText: Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-07-13 14:52:19 - [MESSAGE][PASSED] - Text '08112233445567' has been set to element 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box'
+
+2018-07-13 14:52:19 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-13 14:52:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-13 14:52:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-07-13 14:52:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Nomor HP  Nama Pengguna - Text Box' are matched.
+
+2018-07-13 14:52:24 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Button Masuk' is present
+
+2018-07-13 14:52:28 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Button Masuk' is present
+
+2018-07-13 14:52:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-07-13 14:52:32 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Button Masuk' has attribute 'content-desc' with value 'LoginJumpNextBtn'
+
+2018-07-13 14:52:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-07-13 14:52:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Button Masuk'
+
+2018-07-13 14:52:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Login/Input Pin' is present
+
+2018-07-13 14:52:41 - [MESSAGE][PASSED] - Element 'Object Repository/Login/Input Pin' is present
+
+2018-07-13 14:52:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-07-13 14:52:50 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Input Pin' has attribute 'content-desc' with value 'pinCircleFocus'
+
+2018-07-13 14:52:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-07-13 14:52:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Input Pin'
+
+2018-07-13 14:52:56 - [TEST_STEP][PASSED] - setText: Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-07-13 14:53:11 - [MESSAGE][PASSED] - Text '123456' has been set to element 'Object Repository/Login/Input Pin'
+
+2018-07-13 14:53:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 14:53:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 14:53:16 - [TEST_STEP][PASSED] - getAttribute: Element 'Object Repository/Login/DashboardScreen' has attribute 'content-desc' is 'DashboardScreen'
+
+2018-07-13 14:53:24 - [MESSAGE][PASSED] - Element 'Object Repository/Login/DashboardScreen' has attribute 'content-desc' is 'DashboardScreen'
+
+2018-07-13 14:53:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Login/DashboardScreen' has attribute 'content-desc' with value 'DashboardScreen'
+
+2018-07-13 14:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login/DashboardScreen' has attribute 'content-desc' with value 'DashboardScreen'
+
+2018-07-13 14:53:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 14:53:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 14:53:33 - [TEST_STEP][PASSED] - comment: End Login Test Case
+
+2018-07-13 14:53:33 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-07-13 14:53:40 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-07-13 14:53:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-07-13 14:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/HamburgerButton' has attribute 'content-desc' with value 'headerBar_button_hamburgerMenu'
+
+2018-07-13 14:53:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-07-13 14:53:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-07-13 14:53:49 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Produk' is present
+
+2018-07-13 14:53:55 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Produk' is present
+
+2018-07-13 14:53:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Produk' has attribute 'content-desc' with value 'produkMenuItem'
+
+2018-07-13 14:54:00 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Produk' has attribute 'content-desc' with value 'produkMenuItem'
+
+2018-07-13 14:54:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Produk'
+
+2018-07-13 14:54:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Produk'
+
+2018-07-13 14:54:08 - [TEST_STEP][PASSED] - verifyElementVisible: Element 'Object Repository/Sidebar Menu/Produk/Text Header -  Produk' is visible
+
+2018-07-13 14:54:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Text Header -  Produk' is visible
+
+2018-07-13 14:54:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 14:54:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 14:54:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 1' successfully
+
+2018-07-13 14:54:21 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button' is present
+
+2018-07-13 14:54:28 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button' is present
+
+2018-07-13 14:54:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button' has attribute 'content-desc' with value 'productListComponent_button_addProduct'
+
+2018-07-13 14:54:33 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button' has attribute 'content-desc' with value 'productListComponent_button_addProduct'
+
+2018-07-13 14:54:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button'
+
+2018-07-13 14:54:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Tambah Barang Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2" status="PASSED">
+         <system-out><![CDATA[2018-07-13 14:54:37 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2
+
+2018-07-13 14:54:38 - [TEST_STEP][PASSED] - comment: Increase or decrease product stock
+
+2018-07-13 14:54:38 - [TEST_STEP][PASSED] - Statement - For (def index : (0..10)): Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:54:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:54:41 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:54:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:54:47 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:54:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:54:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:54:52 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:54:56 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:54:56 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:55:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:55:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:55:10 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:55:13 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:55:13 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:55:18 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:55:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:55:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:55:23 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:55:27 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:55:27 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:55:31 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:55:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:55:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:55:38 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:55:41 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:55:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:55:45 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:55:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:55:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:55:50 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:55:57 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:55:57 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:56:01 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:56:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:56:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:56:10 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:56:14 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:56:14 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:56:22 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:56:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:56:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:56:32 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:56:38 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:56:38 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:56:46 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:56:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:56:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:56:55 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:56:58 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:56:58 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:57:02 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:57:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:57:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:57:11 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:57:17 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:57:17 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:57:21 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:57:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:57:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:57:27 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:57:30 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' is present
+
+2018-07-13 14:57:30 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock' has attribute 'content-desc' with value 'action_plus_anumberpicker'
+
+2018-07-13 14:57:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:57:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/PlusTap - JumlaH Stock'
+
+2018-07-13 14:57:40 - [TEST_STEP][PASSED] - Statement - For (def index : (0..5)): Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:57:40 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:57:47 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:57:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:57:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:57:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:57:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:57:59 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:57:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:58:04 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:58:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:58:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:58:11 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:58:15 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:58:15 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:58:19 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:58:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:58:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:58:24 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:58:28 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:58:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:58:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:58:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:58:39 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:58:43 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:58:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:58:47 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:58:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:58:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:58:56 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:58:59 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' is present
+
+2018-07-13 14:58:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock' has attribute 'content-desc' with value 'action_minus_anumberpicker'
+
+2018-07-13 14:59:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock'
+
+2018-07-13 14:59:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Minus Tap - Jumlah Stock']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3" status="PASSED">
+         <system-out><![CDATA[2018-07-13 14:59:16 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3
+
+2018-07-13 14:59:16 - [TEST_STEP][PASSED] - comment: User update stock when specifies stock = -(minus)
+
+2018-07-13 14:59:16 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' is present
+
+2018-07-13 14:59:19 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' is present
+
+2018-07-13 14:59:19 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'content-desc' with value 'input_anumberpicker'
+
+2018-07-13 14:59:23 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'content-desc' with value 'input_anumberpicker'
+
+2018-07-13 14:59:23 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-07-13 14:59:34 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-07-13 14:59:34 - [TEST_STEP][PASSED] - setText: Text '-23' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing'
+
+2018-07-13 14:59:49 - [MESSAGE][PASSED] - Text '-23' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing'
+
+2018-07-13 14:59:49 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-13 14:59:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-13 14:59:50 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'text' with value '23'
+
+2018-07-13 14:59:55 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'text' with value '23'
+
+2018-07-13 14:59:55 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-07-13 15:00:01 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-07-13 15:00:01 - [TEST_STEP][PASSED] - setText: Text '8.2' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing'
+
+2018-07-13 15:00:18 - [MESSAGE][PASSED] - Text '8.2' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing'
+
+2018-07-13 15:00:18 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-13 15:00:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-13 15:00:19 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'text' with value '82'
+
+2018-07-13 15:00:23 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'text' with value '82'
+
+2018-07-13 15:00:23 - [TEST_STEP][PASSED] - comment: move to TC 4]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4" status="PASSED">
+         <system-out><![CDATA[2018-07-13 15:00:23 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4
+
+2018-07-13 15:00:23 - [TEST_STEP][PASSED] - comment: Check maximum input stock - max 3 digit
+
+2018-07-13 15:00:23 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' is present
+
+2018-07-13 15:00:27 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' is present
+
+2018-07-13 15:00:27 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'content-desc' with value 'input_anumberpicker'
+
+2018-07-13 15:00:31 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'content-desc' with value 'input_anumberpicker'
+
+2018-07-13 15:00:31 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-07-13 15:00:37 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-07-13 15:00:37 - [TEST_STEP][PASSED] - setText: Text '23434567' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing'
+
+2018-07-13 15:00:55 - [MESSAGE][PASSED] - Text '23434567' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing'
+
+2018-07-13 15:00:55 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-13 15:00:56 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-13 15:00:56 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'text' with value '234'
+
+2018-07-13 15:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'text' with value '234']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5" status="PASSED">
+         <system-out><![CDATA[2018-07-13 15:01:00 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5
+
+2018-07-13 15:01:01 - [TEST_STEP][PASSED] - comment: Tambah Produk with jumlah stok 0
+
+2018-07-13 15:01:01 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' is present
+
+2018-07-13 15:01:04 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' is present
+
+2018-07-13 15:01:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'content-desc' with value 'input_anumberpicker'
+
+2018-07-13 15:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'content-desc' with value 'input_anumberpicker'
+
+2018-07-13 15:01:08 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-07-13 15:01:15 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' text is cleared
+
+2018-07-13 15:01:15 - [TEST_STEP][PASSED] - setText: Text '0' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing'
+
+2018-07-13 15:01:33 - [MESSAGE][PASSED] - Text '0' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing'
+
+2018-07-13 15:01:33 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-13 15:01:35 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-13 15:01:35 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'text' with value '0'
+
+2018-07-13 15:01:40 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Jumlah Stock - by typing' has attribute 'text' with value '0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6" status="PASSED">
+         <system-out><![CDATA[2018-07-13 15:01:40 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6
+
+2018-07-13 15:01:40 - [TEST_STEP][PASSED] - comment: Check Mandatory field
+
+2018-07-13 15:01:40 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Simpan Button' is present
+
+2018-07-13 15:01:44 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Simpan Button' is present
+
+2018-07-13 15:01:44 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Simpan Button' has attribute 'content-desc' with value 'productSubmitBtn'
+
+2018-07-13 15:01:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-13 15:01:48 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Simpan Button' has attribute 'content-desc' with value 'productSubmitBtn'
+
+2018-07-13 15:01:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Simpan Button'
+
+2018-07-13 15:01:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Simpan Button'
+
+2018-07-13 15:01:53 - [TEST_STEP][PASSED] - Statement - ErMsg = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Nama Barang field), 5): Text of element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Error Message - Nama Barang field' is: 'Nama Barang is required'
+
+2018-07-13 15:01:57 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Error Message - Nama Barang field' is: 'Nama Barang is required'
+
+2018-07-13 15:01:57 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Nama Barang is required' and expected object 'Nama Barang is required' are equal
+
+2018-07-13 15:01:57 - [MESSAGE][PASSED] - Actual object 'Nama Barang is required' and expected object 'Nama Barang is required' are equal
+
+2018-07-13 15:01:57 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Stok Rendah' successfully
+
+2018-07-13 15:02:07 - [MESSAGE][PASSED] - Scrolling to text 'Stok Rendah' successfully
+
+2018-07-13 15:02:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 15:02:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 15:02:13 - [TEST_STEP][PASSED] - Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Kategori field), 5): Text of element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Error Message - Kategori field' is: 'Kategori is required'
+
+2018-07-13 15:02:16 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Error Message - Kategori field' is: 'Kategori is required'
+
+2018-07-13 15:02:16 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Kategori is required' and expected object 'Kategori is required' are equal
+
+2018-07-13 15:02:16 - [MESSAGE][PASSED] - Actual object 'Kategori is required' and expected object 'Kategori is required' are equal
+
+2018-07-13 15:02:16 - [TEST_STEP][PASSED] - Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Beli filed), 5): Text of element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Beli filed' is: 'Mohon diisi'
+
+2018-07-13 15:02:22 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Beli filed' is: 'Mohon diisi'
+
+2018-07-13 15:02:22 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Mohon diisi' and expected object 'Mohon diisi' are equal
+
+2018-07-13 15:02:22 - [MESSAGE][PASSED] - Actual object 'Mohon diisi' and expected object 'Mohon diisi' are equal
+
+2018-07-13 15:02:22 - [TEST_STEP][PASSED] - Statement - ErMsg1 = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Jual field), 5): Text of element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Jual field' is: 'Mohon diisi'
+
+2018-07-13 15:02:26 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Error Message - Harga Jual field' is: 'Mohon diisi'
+
+2018-07-13 15:02:26 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Mohon diisi' and expected object 'Mohon diisi' are equal
+
+2018-07-13 15:02:26 - [MESSAGE][PASSED] - Actual object 'Mohon diisi' and expected object 'Mohon diisi' are equal
+
+2018-07-13 15:02:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-13 15:02:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-13 15:02:31 - [TEST_STEP][PASSED] - comment: TC 4 finish]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7" status="PASSED">
+         <system-out><![CDATA[2018-07-13 15:02:31 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7
+
+2018-07-13 15:02:32 - [TEST_STEP][PASSED] - comment: Add Product with Product name more than 100 Characters
+
+2018-07-13 15:02:32 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2018-07-13 15:02:32 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2018-07-13 15:02:32 - [TEST_STEP][PASSED] - Statement - action.longPress(242, 360).moveTo(242, 743).release().perform(): null
+
+2018-07-13 15:02:34 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' is present
+
+2018-07-13 15:02:37 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' is present
+
+2018-07-13 15:02:37 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' has attribute 'content-desc' with value 'productNameTextInput'
+
+2018-07-13 15:02:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-13 15:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' has attribute 'content-desc' with value 'productNameTextInput'
+
+2018-07-13 15:02:43 - [TEST_STEP][PASSED] - Statement - NamaBarang = CustomKeywords.newpackage.randomstring.randombigname(): newpackage.randomstring.randombigname is PASSED
+
+2018-07-13 15:02:43 - [MESSAGE][PASSED] - newpackage.randomstring.randombigname is PASSED
+
+2018-07-13 15:02:43 - [TEST_STEP][PASSED] - setText: Text 'ykHIKRxDjtGdLExVqqbeDdJcJAfXobnCOEhHRkfjdwwlmyrjTeRosjDVbuopepjGlFyfrFFzIxnqBYiulcHQjLPXyXbQDoxvAdIWyhmzWBIIBuXECOtYMlLCkSSCkYxpGPxIppxwSrqxaAsFLgbjWk' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box'
+
+2018-07-13 15:03:02 - [MESSAGE][PASSED] - Text 'ykHIKRxDjtGdLExVqqbeDdJcJAfXobnCOEhHRkfjdwwlmyrjTeRosjDVbuopepjGlFyfrFFzIxnqBYiulcHQjLPXyXbQDoxvAdIWyhmzWBIIBuXECOtYMlLCkSSCkYxpGPxIppxwSrqxaAsFLgbjWk' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box'
+
+2018-07-13 15:03:02 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-13 15:03:03 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-13 15:03:03 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'ykHIKRxDjtGdLExVqqbeDdJcJAfXobnCOEhHRkfjdwwlmyrjTeRosjDVbuopepjGlFyfrFFzIxnqBYiulcHQjLPXyXbQDoxvAdIWyhmzWBIIBuXECOtYMlLCkSSCkYxpGPxIppxwSrqxaAsFLgbjWk' and expected object 'ykHIKRxDjtGdLExVqqbeDdJcJAfXobnCOEhHRkfjdwwlmyrjTeRosjDVbuopepjGlFyfrFFzIxnqBYiulcHQjLPXyXbQDoxvAdIWyhmzWBIIBuXECOtYMlLCkSSCkYxpGPxIppxwSrqxaAsFLgbjWk' are equal
+
+2018-07-13 15:03:03 - [MESSAGE][PASSED] - Actual object 'ykHIKRxDjtGdLExVqqbeDdJcJAfXobnCOEhHRkfjdwwlmyrjTeRosjDVbuopepjGlFyfrFFzIxnqBYiulcHQjLPXyXbQDoxvAdIWyhmzWBIIBuXECOtYMlLCkSSCkYxpGPxIppxwSrqxaAsFLgbjWk' and expected object 'ykHIKRxDjtGdLExVqqbeDdJcJAfXobnCOEhHRkfjdwwlmyrjTeRosjDVbuopepjGlFyfrFFzIxnqBYiulcHQjLPXyXbQDoxvAdIWyhmzWBIIBuXECOtYMlLCkSSCkYxpGPxIppxwSrqxaAsFLgbjWk' are equal
+
+2018-07-13 15:03:03 - [TEST_STEP][PASSED] - comment: TC 5 finish]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 8" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 8" status="PASSED">
+         <system-out><![CDATA[2018-07-13 15:03:03 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 8: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 8
+
+2018-07-13 15:03:03 - [TEST_STEP][PASSED] - comment: Tambah Produk with input manual barcode
+
+2018-07-13 15:03:03 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' text is cleared
+
+2018-07-13 15:03:12 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' text is cleared
+
+2018-07-13 15:03:12 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' is present
+
+2018-07-13 15:03:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' is present
+
+2018-07-13 15:03:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' has attribute 'content-desc' with value 'productNameTextInput'
+
+2018-07-13 15:03:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-13 15:03:20 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' has attribute 'content-desc' with value 'productNameTextInput'
+
+2018-07-13 15:03:20 - [TEST_STEP][PASSED] - setText: Text 'MIMINO Bottle' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box'
+
+2018-07-13 15:03:35 - [MESSAGE][PASSED] - Text 'MIMINO Bottle' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box'
+
+2018-07-13 15:03:35 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-13 15:03:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-13 15:03:36 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' has attribute 'text' with value 'MIMINO Bottle'
+
+2018-07-13 15:03:45 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Nama Barang - Text Box' has attribute 'text' with value 'MIMINO Bottle'
+
+2018-07-13 15:03:45 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box' is present
+
+2018-07-13 15:03:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box' is present
+
+2018-07-13 15:03:51 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box' has attribute 'content-desc' with value 'product_code_input'
+
+2018-07-13 15:03:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-13 15:03:55 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box' has attribute 'content-desc' with value 'product_code_input'
+
+2018-07-13 15:03:55 - [TEST_STEP][PASSED] - Statement - SKU = CustomKeywords.newpackage.randomstring.randomSKU(): newpackage.randomstring.randomSKU is PASSED
+
+2018-07-13 15:03:55 - [MESSAGE][PASSED] - newpackage.randomstring.randomSKU is PASSED
+
+2018-07-13 15:03:55 - [TEST_STEP][PASSED] - setText: Text 'SKU161150801434' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box'
+
+2018-07-13 15:04:12 - [MESSAGE][PASSED] - Text 'SKU161150801434' has been set to element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/SKU Produk - Text Box'
+
+2018-07-13 15:04:12 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-07-13 15:04:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-07-13 15:04:13 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'SKU161150801434' and expected object 'SKU161150801434' are equal
+
+2018-07-13 15:04:13 - [MESSAGE][PASSED] - Actual object 'SKU161150801434' and expected object 'SKU161150801434' are equal
+
+2018-07-13 15:04:13 - [TEST_STEP][PASSED] - comment: TC 6 finish]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 9" classname="Test Cases/Story 35 and 921 -Tambah Barang/35 TC 9" status="PASSED">
+         <system-out><![CDATA[2018-07-13 15:04:13 - [TEST_CASE][PASSED] - Test Cases/Story 35 and 921 -Tambah Barang/35 TC 9: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 9
+
+2018-07-13 15:04:13 - [TEST_STEP][PASSED] - comment: Pick One Category
+
+2018-07-13 15:04:13 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Pilih Kategori - SelectButton' is present
+
+2018-07-13 15:04:16 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Pilih Kategori - SelectButton' is present
+
+2018-07-13 15:04:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Pilih Kategori - SelectButton' has attribute 'content-desc' with value 'selectCategoryBtn'
+
+2018-07-13 15:04:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-13 15:04:23 - [MESSAGE][PASSED] - Object 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Pilih Kategori - SelectButton' has attribute 'content-desc' with value 'selectCategoryBtn'
+
+2018-07-13 15:04:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-07-13 15:04:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-07-13 15:04:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-07-13 15:04:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/Pilih Kategori - SelectButton'
+
+2018-07-13 15:04:37 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5' is present
+
+2018-07-13 15:04:46 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5' is present
+
+2018-07-13 15:04:46 - [TEST_STEP][NOT_RUN] - verifyElementAttributeValue: NOT_RUN: verifyElementAttributeValue
+
+2018-07-13 15:04:46 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementAttributeValue
+
+2018-07-13 15:04:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5'
+
+2018-07-13 15:04:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Produk/Tambah Barang/ListKategori - Elemen 5']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-13 14:49:56 - [TEST_SUITE][PASSED] - Story 35 - Tambah Barang: Test Cases/Story 35 and 921 -Tambah Barang/35 TC 9]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

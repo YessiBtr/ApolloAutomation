@@ -1,0 +1,94 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 28,,,2018-03-15 08:18:54,2018-03-15 08:22:28,3m - 33.116s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 1,,All Search Product,2018-03-15 08:18:55,2018-03-15 08:19:28,33.103s,PASSED
+comment,,,2018-03-15 08:18:55,2018-03-15 08:18:55,0.046s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-15 08:18:55,2018-03-15 08:18:55,0.010s,PASSED
+startApplication,,,2018-03-15 08:18:55,2018-03-15 08:19:11,15.395s,PASSED
+verifyElementExist,,,2018-03-15 08:19:11,2018-03-15 08:19:11,0.003s,NOT_RUN
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-03-15 08:19:11,2018-03-15 08:19:18,7.075s,PASSED
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-03-15 08:19:18,2018-03-15 08:19:22,3.977s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-03-15 08:19:22,2018-03-15 08:19:23,1.388s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-03-15 08:19:23,2018-03-15 08:19:25,1.864s,PASSED
+tap,,,2018-03-15 08:19:25,2018-03-15 08:19:28,2.823s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 2,,Search by selected Product,2018-03-15 08:19:28,2018-03-15 08:19:32,3.834s,PASSED
+waitForElementPresent,,,2018-03-15 08:19:28,2018-03-15 08:19:28,0.375s,PASSED
+tap,,,2018-03-15 08:19:28,2018-03-15 08:19:29,0.600s,PASSED
+tap,,,2018-03-15 08:19:29,2018-03-15 08:19:31,2.366s,PASSED
+tap,,,2018-03-15 08:19:31,2018-03-15 08:19:32,0.337s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 3,,Search by specific product,2018-03-15 08:19:32,2018-03-15 08:19:49,16.836s,PASSED
+delay,,,2018-03-15 08:19:32,2018-03-15 08:19:37,5.010s,PASSED
+tap,,,2018-03-15 08:19:37,2018-03-15 08:19:37,0.505s,PASSED
+setText,,,2018-03-15 08:19:37,2018-03-15 08:19:48,10.362s,PASSED
+verifyElementText,,,2018-03-15 08:19:48,2018-03-15 08:19:49,0.817s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 4,,Search by specific category and product,2018-03-15 08:19:49,2018-03-15 08:20:00,11.798s,PASSED
+clearText,,,2018-03-15 08:19:49,2018-03-15 08:19:51,2.627s,PASSED
+setText,,,2018-03-15 08:19:51,2018-03-15 08:20:00,8.117s,PASSED
+verifyElementText,,,2018-03-15 08:20:00,2018-03-15 08:20:00,0.929s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 5,,Cashier - Search by inputed 3 digit,2018-03-15 08:20:01,2018-03-15 08:20:14,13.336s,PASSED
+clearText,,,2018-03-15 08:20:01,2018-03-15 08:20:04,3.026s,PASSED
+setText,,,2018-03-15 08:20:04,2018-03-15 08:20:13,9.238s,PASSED
+verifyElementText,,,2018-03-15 08:20:13,2018-03-15 08:20:14,0.926s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 6,,Search by inputed less then 3 digit,2018-03-15 08:20:14,2018-03-15 08:20:29,14.978s,PASSED
+clearText,,,2018-03-15 08:20:14,2018-03-15 08:20:16,2.300s,PASSED
+setText,,,2018-03-15 08:20:16,2018-03-15 08:20:26,9.937s,PASSED
+verifyElementText,,,2018-03-15 08:20:26,2018-03-15 08:20:27,1.029s,PASSED
+hideKeyboard,,,2018-03-15 08:20:27,2018-03-15 08:20:29,1.591s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 7,,Search by invalid product,2018-03-15 08:20:29,2018-03-15 08:20:53,24.005s,PASSED
+clearText,,,2018-03-15 08:20:29,2018-03-15 08:20:33,4.307s,PASSED
+setText,,,2018-03-15 08:20:33,2018-03-15 08:20:41,7.577s,PASSED
+verifyElementText,,,2018-03-15 08:20:41,2018-03-15 08:20:42,0.966s,PASSED
+delay,,,2018-03-15 08:20:42,2018-03-15 08:20:47,5.004s,PASSED
+tap,,,2018-03-15 08:20:47,2018-03-15 08:20:48,0.855s,PASSED
+clearText,,,2018-03-15 08:20:48,2018-03-15 08:20:53,5.152s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 8,,Drop down consist of product category and sort by ascending,2018-03-15 08:20:53,2018-03-15 08:21:02,8.933s,PASSED
+waitForElementPresent,,,2018-03-15 08:20:53,2018-03-15 08:20:53,0.224s,PASSED
+tap,,,2018-03-15 08:20:53,2018-03-15 08:20:54,0.297s,PASSED
+delay,,,2018-03-15 08:20:54,2018-03-15 08:20:59,5.003s,PASSED
+Statement - For (def index : (0..2)),,,2018-03-15 08:20:59,2018-03-15 08:21:01,2.013s,PASSED
+tap,,,2018-03-15 08:21:01,2018-03-15 08:21:02,1.216s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 9,,Paging : per 10 products using scroll,2018-03-15 08:21:02,2018-03-15 08:21:13,11.371s,PASSED
+delay,,,2018-03-15 08:21:02,2018-03-15 08:21:07,5.003s,PASSED
+Statement - For (def index : (0..2)),,,2018-03-15 08:21:07,2018-03-15 08:21:11,3.535s,PASSED
+Statement - For (def index : (0..1)),,,2018-03-15 08:21:11,2018-03-15 08:21:13,2.701s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 10,,Warning label on product appears when stock less than 10,2018-03-15 08:21:13,2018-03-15 08:21:27,13.499s,PASSED
+tap,,,2018-03-15 08:21:14,2018-03-15 08:21:15,1.343s,PASSED
+setText,,,2018-03-15 08:21:15,2018-03-15 08:21:26,10.918s,PASSED
+hideKeyboard,,,2018-03-15 08:21:26,2018-03-15 08:21:27,1.125s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 11,,Add product to Shopping Cart by Tapping button,2018-03-15 08:21:27,2018-03-15 08:21:36,9.000s,PASSED
+Statement - For (def index : (0..3)),,,2018-03-15 08:21:27,2018-03-15 08:21:31,4.354s,PASSED
+Statement - For (def index : (0..2)),,,2018-03-15 08:21:31,2018-03-15 08:21:36,4.543s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 12,,Add product to Shopping Cart by Typing,2018-03-15 08:21:36,2018-03-15 08:21:50,14.333s,PASSED
+tap,,,2018-03-15 08:21:36,2018-03-15 08:21:37,1.215s,PASSED
+clearText,,,2018-03-15 08:21:37,2018-03-15 08:21:40,2.851s,PASSED
+setText,,Meninput Text dengan value '-2',2018-03-15 08:21:40,2018-03-15 08:21:49,9.139s,PASSED
+hideKeyboard,,,2018-03-15 08:21:49,2018-03-15 08:21:50,1.019s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 13,,Add product to Shopping Cart while selected product = stock,2018-03-15 08:21:50,2018-03-15 08:22:07,16.653s,PASSED
+tap,,,2018-03-15 08:21:51,2018-03-15 08:21:51,0.816s,PASSED
+clearText,,,2018-03-15 08:21:51,2018-03-15 08:21:54,2.479s,PASSED
+setText,,Meninput Text dengan value '999',2018-03-15 08:21:54,2018-03-15 08:22:06,12.085s,PASSED
+hideKeyboard,,,2018-03-15 08:22:06,2018-03-15 08:22:07,1.174s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 14,,Remove product from Shopping Cart by Tapping - button,2018-03-15 08:22:07,2018-03-15 08:22:24,16.638s,PASSED
+tap,,,2018-03-15 08:22:07,2018-03-15 08:22:08,0.774s,PASSED
+clearText,,,2018-03-15 08:22:08,2018-03-15 08:22:13,4.831s,PASSED
+setText,,Meninput Text dengan value '999',2018-03-15 08:22:13,2018-03-15 08:22:23,9.826s,PASSED
+hideKeyboard,,,2018-03-15 08:22:23,2018-03-15 08:22:24,1.106s,PASSED
+,,,,,,
+Test Cases/Story 28 - Kasir Menu/TC 15,,Remove product from Shopping Cart by Typing,2018-03-15 08:22:24,2018-03-15 08:22:25,0.908s,PASSED
+delay,,,2018-03-15 08:22:24,2018-03-15 08:22:24,0.001s,NOT_RUN
+tap,,,2018-03-15 08:22:24,2018-03-15 08:22:25,0.802s,PASSED
+tapAndHold,,,2018-03-15 08:22:25,2018-03-15 08:22:25,0.001s,NOT_RUN
+comment,,,2018-03-15 08:22:25,2018-03-15 08:22:25,0.002s,PASSED

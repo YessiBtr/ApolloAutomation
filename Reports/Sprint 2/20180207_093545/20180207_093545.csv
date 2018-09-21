@@ -1,0 +1,177 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sprint 2,,,2018-02-07 09:35:46,2018-02-07 09:48:04,12m - 17.484s,FAILED
+,,,,,,
+Test Cases/26 - TC - All,,Kelola Stok Final,2018-02-07 09:35:47,2018-02-07 09:39:48,4m - 1.251s,PASSED
+comment,,,2018-02-07 09:35:48,2018-02-07 09:35:48,0.060s,PASSED
+startApplication,,Step 1 - [Melakukan Kelola Stock],2018-02-07 09:35:48,2018-02-07 09:36:07,18.907s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-02-07 09:36:07,2018-02-07 09:36:13,6.765s,PASSED
+tap,,Mengklik Text Box untuk mengisi Nomor HP/Nama Pengguna,2018-02-07 09:36:13,2018-02-07 09:36:13,0.003s,NOT_RUN
+setText,,"Megisi inputan dengan Nama Pengguna \""Yessi\""",2018-02-07 09:36:13,2018-02-07 09:36:13,0.002s,NOT_RUN
+hideKeyboard,,Hide Keyboard Device,2018-02-07 09:36:13,2018-02-07 09:36:13,0.001s,NOT_RUN
+tap,,Mengklik Button Masuk,2018-02-07 09:36:13,2018-02-07 09:36:13,0.001s,NOT_RUN
+waitForElementPresent,,Menunggu action button masuk hingga selesai untuk masuk ke action Input PIN,2018-02-07 09:36:13,2018-02-07 09:36:13,0.001s,NOT_RUN
+tap,,Mengklik Text Field Pin,2018-02-07 09:36:13,2018-02-07 09:36:13,0.001s,NOT_RUN
+setText,,Menginput PIN Pengguna dengan 6 digit,2018-02-07 09:36:13,2018-02-07 09:36:13,0.001s,NOT_RUN
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-02-07 09:36:14,2018-02-07 09:36:17,3.365s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-02-07 09:36:17,2018-02-07 09:36:17,0.588s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-02-07 09:36:17,2018-02-07 09:36:20,2.985s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-02-07 09:36:20,2018-02-07 09:36:24,3.065s,PASSED
+waitForElementPresent,,"Menunggu hingga \""Stok Tabbar\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-02-07 09:36:24,2018-02-07 09:36:24,0.228s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-02-07 09:36:24,2018-02-07 09:36:26,2.324s,PASSED
+tap,,Memilih Kategori pada Elemen ke dua,2018-02-07 09:36:26,2018-02-07 09:36:29,2.901s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-02-07 09:36:29,2018-02-07 09:36:29,0.309s,PASSED
+tap,,"Mengklik lagi Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-02-07 09:36:29,2018-02-07 09:36:33,3.458s,PASSED
+scrollToText,,"Mencari kategori dengan text \""Makanan\""",2018-02-07 09:36:33,2018-02-07 09:36:55,22.002s,PASSED
+tap,,"Memilih Kategori pada dengan text \""Makanan\""",2018-02-07 09:36:55,2018-02-07 09:36:55,0.490s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element yang telah di pilih,2018-02-07 09:36:55,2018-02-07 09:36:55,0.258s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-02-07 09:36:55,2018-02-07 09:36:56,1.000s,PASSED
+waitForElementPresent,,"Menunggu hingga proses \""Terapkan\"" selesai kemudian melakukan action Drop Down Semua Kategori ",2018-02-07 09:36:56,2018-02-07 09:36:58,1.977s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-02-07 09:36:58,2018-02-07 09:36:59,0.540s,PASSED
+tap,,Memilih Kategori Elemen 0 yaitu Semua Kategori,2018-02-07 09:36:59,2018-02-07 09:37:01,1.542s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-02-07 09:37:01,2018-02-07 09:37:02,1.006s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-02-07 09:37:02,2018-02-07 09:37:04,2.544s,PASSED
+setText,,Melakukan Input Text satu kata dalam search produk di semua Kategori,2018-02-07 09:37:04,2018-02-07 09:37:15,10.573s,PASSED
+verifyElementNotChecked,,Melakukan Verify Text yang teah di input,2018-02-07 09:37:15,2018-02-07 09:37:16,1.189s,PASSED
+getText,,Mengambil Text yang telah di input,2018-02-07 09:37:16,2018-02-07 09:37:17,1.474s,PASSED
+waitForElementPresent,,Menunggu hingga proses pengambilan element text selesai untuk melakukan action clear text,2018-02-07 09:37:17,2018-02-07 09:37:18,0.296s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-02-07 09:37:18,2018-02-07 09:37:20,2.595s,PASSED
+tap,,"Mengklik lagi Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-02-07 09:37:20,2018-02-07 09:37:23,2.674s,PASSED
+scrollToText,,"Mencari kategori dengan text \""Makanan\""",2018-02-07 09:37:23,2018-02-07 09:38:21,57.664s,PASSED
+tap,,"Memilih Kategori pada dengan text \""Makanan\""",2018-02-07 09:38:21,2018-02-07 09:38:21,0.366s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element yang telah di pilih,2018-02-07 09:38:21,2018-02-07 09:38:21,0.342s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-02-07 09:38:21,2018-02-07 09:38:22,0.880s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-02-07 09:38:22,2018-02-07 09:38:25,2.695s,PASSED
+setText,,"Melakukan Input Text lebih dari satu kata dalam search produk pada kategori \""Makanan\""",2018-02-07 09:38:25,2018-02-07 09:38:35,10.473s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element Text yang telah di Input,2018-02-07 09:38:35,2018-02-07 09:38:36,0.982s,PASSED
+getText,,Mengambil Text yang telah di input,2018-02-07 09:38:36,2018-02-07 09:38:38,1.946s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-02-07 09:38:38,2018-02-07 09:38:44,5.303s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-02-07 09:38:44,2018-02-07 09:38:46,2.253s,PASSED
+tap,,Memilih Kategori Elemen 0 yaitu Semua Kategori,2018-02-07 09:38:46,2018-02-07 09:38:48,2.306s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-02-07 09:38:48,2018-02-07 09:38:49,0.859s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-02-07 09:38:49,2018-02-07 09:38:52,2.684s,PASSED
+setText,,"Melakukan Input Text dengan 3 huruf dalam search produk pada kategori \""Semua Kategori\""",2018-02-07 09:38:52,2018-02-07 09:39:02,10.723s,PASSED
+verifyElementNotChecked,,Melakukan Verifikasi pada Element Text yang telah di input.,2018-02-07 09:39:02,2018-02-07 09:39:03,0.894s,PASSED
+getText,,Mengambil text setelah di verifikasi,2018-02-07 09:39:03,2018-02-07 09:39:04,0.339s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-02-07 09:39:04,2018-02-07 09:39:07,3.005s,PASSED
+setText,,"Melakukan Input Text dengan 2 huruf dalam search produk pada kategori \""Semua Kategori\""",2018-02-07 09:39:07,2018-02-07 09:39:15,8.140s,PASSED
+verifyElementNotChecked,,Melakukan Verifikasi pada Element Text yang telah di input.,2018-02-07 09:39:15,2018-02-07 09:39:16,1.206s,PASSED
+getText,,Mengambil text setelah di verifikasi,2018-02-07 09:39:16,2018-02-07 09:39:16,0.295s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-02-07 09:39:16,2018-02-07 09:39:21,4.503s,PASSED
+setText,,"Melakukan Input Text dengan 3 huruf dalam search produk pada kategori \""Semua Kategori\""",2018-02-07 09:39:21,2018-02-07 09:39:29,7.930s,PASSED
+verifyElementNotChecked,,Melakukan Verifikasi pada Element Text yang telah di input.,2018-02-07 09:39:29,2018-02-07 09:39:31,2.512s,PASSED
+getText,,Mengambil text setelah di verifikasi,2018-02-07 09:39:31,2018-02-07 09:39:32,0.447s,PASSED
+clearText,,Menghapus inputan yang ada pada button search button produk,2018-02-07 09:39:32,2018-02-07 09:39:34,2.621s,PASSED
+tap,,"Mengklik Drop Down Semua Kategori yang ada pada \""Stok Tabbar\""",2018-02-07 09:39:34,2018-02-07 09:39:36,1.650s,PASSED
+swipe,,Melakukan Swipe ke bawah pada Drop Down Kategori ,2018-02-07 09:39:36,2018-02-07 09:39:37,1.056s,PASSED
+swipe,,Melakukan Swipe ke atas  pada Drop Down Kategori ,2018-02-07 09:39:37,2018-02-07 09:39:38,0.659s,PASSED
+tap,,"Melakukan action Klik \""Terapkan\"" button untuk menerapkan kategori yang di pilih",2018-02-07 09:39:38,2018-02-07 09:39:39,1.393s,PASSED
+delay,,,2018-02-07 09:39:39,2018-02-07 09:39:44,5.008s,PASSED
+Statement - For (def index : (0..3)),,Melakukan Swipe Loopinh hingga 3 kali  pada screen Stock untuk mengecek lazy load ,2018-02-07 09:39:44,2018-02-07 09:39:47,2.679s,PASSED
+waitForElementPresent,,,2018-02-07 09:39:47,2018-02-07 09:39:48,1.282s,PASSED
+comment,,,2018-02-07 09:39:48,2018-02-07 09:39:48,0.001s,PASSED
+,,,,,,
+Test Cases/35 - TC-All,,Tambah Barang,2018-02-07 09:39:48,2018-02-07 09:47:50,8m - 1.534s,PASSED
+comment,,,2018-02-07 09:39:48,2018-02-07 09:39:48,0.000s,PASSED
+delay,,,2018-02-07 09:39:48,2018-02-07 09:39:53,5.001s,PASSED
+tap,,,2018-02-07 09:39:53,2018-02-07 09:39:54,0.451s,PASSED
+Statement - For (def index : (0..5)),,,2018-02-07 09:39:54,2018-02-07 09:40:04,10.647s,PASSED
+Statement - For (def index : (0..10)),,,2018-02-07 09:40:04,2018-02-07 09:40:20,15.976s,PASSED
+tap,,,2018-02-07 09:40:20,2018-02-07 09:40:22,1.540s,PASSED
+setText,,,2018-02-07 09:40:22,2018-02-07 09:40:41,19.099s,PASSED
+clearText,,,2018-02-07 09:40:41,2018-02-07 09:40:46,5.304s,PASSED
+setText,,,2018-02-07 09:40:46,2018-02-07 09:41:04,17.383s,PASSED
+hideKeyboard,,,2018-02-07 09:41:04,2018-02-07 09:41:05,1.135s,PASSED
+tap,,,2018-02-07 09:41:05,2018-02-07 09:41:06,0.926s,PASSED
+setText,,,2018-02-07 09:41:06,2018-02-07 09:41:22,16.356s,PASSED
+verifyElementText,,,2018-02-07 09:41:22,2018-02-07 09:41:23,0.880s,PASSED
+hideKeyboard,,,2018-02-07 09:41:23,2018-02-07 09:41:24,0.675s,PASSED
+swipe,,,2018-02-07 09:41:24,2018-02-07 09:41:24,0.665s,PASSED
+pressBack,,,2018-02-07 09:41:24,2018-02-07 09:41:25,0.854s,PASSED
+tap,,,2018-02-07 09:41:25,2018-02-07 09:41:27,1.291s,PASSED
+waitForElementPresent,,,2018-02-07 09:41:27,2018-02-07 09:41:28,1.310s,PASSED
+tap,,,2018-02-07 09:41:28,2018-02-07 09:41:28,0.435s,PASSED
+tap,,,2018-02-07 09:41:28,2018-02-07 09:41:29,0.938s,PASSED
+scrollToText,,,2018-02-07 09:41:29,2018-02-07 09:41:39,9.978s,PASSED
+tap,,,2018-02-07 09:41:39,2018-02-07 09:41:40,0.561s,PASSED
+delay,,,2018-02-07 09:41:40,2018-02-07 09:41:50,10.003s,PASSED
+scrollToText,,,2018-02-07 09:41:50,2018-02-07 09:41:54,3.921s,PASSED
+tap,,,2018-02-07 09:41:54,2018-02-07 09:41:54,0.468s,PASSED
+delay,,,2018-02-07 09:41:54,2018-02-07 09:41:59,5.003s,PASSED
+setText,,,2018-02-07 09:41:59,2018-02-07 09:42:12,12.404s,PASSED
+verifyElementText,,,2018-02-07 09:42:12,2018-02-07 09:42:13,0.922s,PASSED
+hideKeyboard,,,2018-02-07 09:42:13,2018-02-07 09:42:13,0.672s,PASSED
+setText,,,2018-02-07 09:42:13,2018-02-07 09:42:23,10.016s,PASSED
+hideKeyboard,,,2018-02-07 09:42:23,2018-02-07 09:42:25,1.447s,PASSED
+setText,,,2018-02-07 09:42:25,2018-02-07 09:42:35,9.872s,PASSED
+hideKeyboard,,,2018-02-07 09:42:35,2018-02-07 09:42:36,1.526s,PASSED
+comment,,,2018-02-07 09:42:36,2018-02-07 09:42:36,0.000s,PASSED
+setText,,,2018-02-07 09:42:36,2018-02-07 09:42:45,8.718s,PASSED
+hideKeyboard,,,2018-02-07 09:42:45,2018-02-07 09:42:46,1.205s,PASSED
+delay,,,2018-02-07 09:42:46,2018-02-07 09:42:56,10.004s,PASSED
+clearText,,,2018-02-07 09:42:56,2018-02-07 09:42:58,1.637s,PASSED
+setText,,,2018-02-07 09:42:58,2018-02-07 09:43:13,15.419s,PASSED
+hideKeyboard,,,2018-02-07 09:43:13,2018-02-07 09:43:14,1.257s,PASSED
+clearText,,,2018-02-07 09:43:14,2018-02-07 09:43:16,2.185s,PASSED
+tap,,,2018-02-07 09:43:16,2018-02-07 09:43:17,0.878s,PASSED
+setText,,,2018-02-07 09:43:17,2018-02-07 09:43:31,13.789s,PASSED
+verifyElementText,,,2018-02-07 09:43:31,2018-02-07 09:43:32,1.269s,PASSED
+hideKeyboard,,,2018-02-07 09:43:32,2018-02-07 09:43:33,0.865s,PASSED
+comment,,,2018-02-07 09:43:33,2018-02-07 09:43:33,0.001s,PASSED
+setText,,,2018-02-07 09:43:33,2018-02-07 09:43:44,10.519s,PASSED
+hideKeyboard,,,2018-02-07 09:43:44,2018-02-07 09:43:45,1.507s,PASSED
+tap,,,2018-02-07 09:43:45,2018-02-07 09:43:47,1.409s,PASSED
+clearText,,,2018-02-07 09:43:47,2018-02-07 09:43:52,5.334s,PASSED
+setText,,,2018-02-07 09:43:52,2018-02-07 09:44:09,16.506s,PASSED
+hideKeyboard,,,2018-02-07 09:44:09,2018-02-07 09:44:10,1.491s,PASSED
+tap,,,2018-02-07 09:44:10,2018-02-07 09:44:11,1.112s,PASSED
+clearText,,,2018-02-07 09:44:11,2018-02-07 09:44:14,2.410s,PASSED
+setText,,,2018-02-07 09:44:14,2018-02-07 09:44:28,14.844s,PASSED
+hideKeyboard,,,2018-02-07 09:44:28,2018-02-07 09:44:30,1.461s,PASSED
+tap,,,2018-02-07 09:44:30,2018-02-07 09:44:31,0.973s,PASSED
+clearText,,,2018-02-07 09:44:31,2018-02-07 09:44:33,2.208s,PASSED
+tap,,,2018-02-07 09:44:33,2018-02-07 09:44:34,1.294s,PASSED
+setText,,,2018-02-07 09:44:34,2018-02-07 09:44:48,13.458s,PASSED
+hideKeyboard,,,2018-02-07 09:44:48,2018-02-07 09:44:49,1.332s,PASSED
+clearText,,,2018-02-07 09:44:49,2018-02-07 09:44:52,2.477s,PASSED
+sendKeys,,,2018-02-07 09:44:52,2018-02-07 09:44:59,7.424s,PASSED
+hideKeyboard,,,2018-02-07 09:44:59,2018-02-07 09:45:01,1.452s,PASSED
+clearText,,,2018-02-07 09:45:01,2018-02-07 09:45:03,2.533s,PASSED
+setText,,,2018-02-07 09:45:03,2018-02-07 09:45:18,15.113s,PASSED
+hideKeyboard,,,2018-02-07 09:45:18,2018-02-07 09:45:20,1.406s,PASSED
+clearText,,,2018-02-07 09:45:20,2018-02-07 09:45:22,2.369s,PASSED
+setText,,,2018-02-07 09:45:22,2018-02-07 09:45:36,13.660s,PASSED
+hideKeyboard,,,2018-02-07 09:45:36,2018-02-07 09:45:37,1.610s,PASSED
+tap,,,2018-02-07 09:45:37,2018-02-07 09:45:38,1.021s,PASSED
+clearText,,,2018-02-07 09:45:38,2018-02-07 09:45:41,2.580s,PASSED
+comment,,,2018-02-07 09:45:41,2018-02-07 09:45:41,0.001s,PASSED
+setText,,,2018-02-07 09:45:41,2018-02-07 09:45:53,12.531s,PASSED
+hideKeyboard,,,2018-02-07 09:45:53,2018-02-07 09:45:55,1.390s,PASSED
+clearText,,,2018-02-07 09:45:55,2018-02-07 09:45:57,2.243s,PASSED
+setText,,,2018-02-07 09:45:57,2018-02-07 09:46:12,15.414s,PASSED
+hideKeyboard,,,2018-02-07 09:46:12,2018-02-07 09:46:14,1.328s,PASSED
+clearText,,,2018-02-07 09:46:14,2018-02-07 09:46:16,2.132s,PASSED
+setText,,,2018-02-07 09:46:16,2018-02-07 09:46:31,15.398s,PASSED
+hideKeyboard,,,2018-02-07 09:46:31,2018-02-07 09:46:33,1.347s,PASSED
+setText,,,2018-02-07 09:46:33,2018-02-07 09:46:41,8.747s,PASSED
+hideKeyboard,,,2018-02-07 09:46:41,2018-02-07 09:46:43,1.411s,PASSED
+clearText,,,2018-02-07 09:46:43,2018-02-07 09:46:45,2.348s,PASSED
+setText,,,2018-02-07 09:46:45,2018-02-07 09:47:00,15.085s,PASSED
+hideKeyboard,,,2018-02-07 09:47:00,2018-02-07 09:47:02,1.370s,PASSED
+clearText,,,2018-02-07 09:47:02,2018-02-07 09:47:04,2.491s,PASSED
+setText,,,2018-02-07 09:47:04,2018-02-07 09:47:20,15.904s,PASSED
+hideKeyboard,,,2018-02-07 09:47:20,2018-02-07 09:47:21,1.441s,PASSED
+setText,,,2018-02-07 09:47:21,2018-02-07 09:47:29,8.006s,PASSED
+hideKeyboard,,,2018-02-07 09:47:29,2018-02-07 09:47:31,1.242s,PASSED
+clearText,,,2018-02-07 09:47:31,2018-02-07 09:47:33,2.404s,PASSED
+setText,,,2018-02-07 09:47:33,2018-02-07 09:47:47,13.853s,PASSED
+hideKeyboard,,,2018-02-07 09:47:47,2018-02-07 09:47:48,1.431s,PASSED
+tap,,,2018-02-07 09:47:48,2018-02-07 09:47:50,1.253s,PASSED
+comment,,,2018-02-07 09:47:50,2018-02-07 09:47:50,0.000s,PASSED
+,,,,,,
+Test Cases/27 - TC - All,,Detail Product,2018-02-07 09:47:50,2018-02-07 09:47:51,1.159s,FAILED
+comment,,,2018-02-07 09:47:50,2018-02-07 09:47:50,0.000s,PASSED
+Statement - For (def index : (0..5)),,,2018-02-07 09:47:50,2018-02-07 09:47:51,1.026s,FAILED
+,,,,,,
+Test Cases/46 - TC - All,,Change Product Info,2018-02-07 09:47:51,2018-02-07 09:48:01,10.237s,FAILED
+comment,,,2018-02-07 09:47:51,2018-02-07 09:47:51,0.001s,PASSED
+tap,,,2018-02-07 09:47:51,2018-02-07 09:48:01,10.009s,FAILED

@@ -1,0 +1,248 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 26 - Kelola Stock,,As User want to do Kelola Stock,2018-08-07 19:18:47,2018-08-07 19:39:16,20m - 29.799s,FAILED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 1 - All Search Product,,All Search Product,2018-08-07 19:18:47,2018-08-07 19:22:53,4m - 5.233s,PASSED
+comment,,Kelola Stock - View,2018-08-07 19:18:48,2018-08-07 19:18:48,0.055s,PASSED
+comment,,Start Login Test Case,2018-08-07 19:18:48,2018-08-07 19:18:48,0.003s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:18:48,2018-08-07 19:18:48,0.060s,PASSED
+startApplication,,,2018-08-07 19:18:48,2018-08-07 19:19:22,34.192s,PASSED
+delay,,,2018-08-07 19:19:22,2018-08-07 19:19:37,15.017s,PASSED
+"Comment - ""If there is a Update TopuUp, click No, Else you can delay for waiting lazyload """,,,2018-08-07 19:19:37,2018-08-07 19:19:37,0.005s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-08-07 19:19:37,2018-08-07 19:19:37,0.038s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2018-08-07 19:19:37,2018-08-07 19:19:37,0.013s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-08-07 19:19:37,2018-08-07 19:19:40,2.754s,PASSED
+delay,,,2018-08-07 19:19:40,2018-08-07 19:19:48,8.011s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-08-07 19:19:48,2018-08-07 19:19:51,2.740s,PASSED
+delay,,,2018-08-07 19:19:51,2018-08-07 19:19:59,8.008s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-08-07 19:19:59,2018-08-07 19:20:01,2.318s,PASSED
+delay,,,2018-08-07 19:20:01,2018-08-07 19:20:09,8.011s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-08-07 19:20:09,2018-08-07 19:20:12,2.512s,PASSED
+delay,,,2018-08-07 19:20:12,2018-08-07 19:20:20,8.010s,PASSED
+waitForElementPresent,,,2018-08-07 19:20:20,2018-08-07 19:20:22,2.361s,PASSED
+tap,,,2018-08-07 19:20:22,2018-08-07 19:20:30,8.303s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-08-07 19:20:30,2018-08-07 19:20:34,3.245s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-08-07 19:20:34,2018-08-07 19:20:41,7.517s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-08-07 19:20:41,2018-08-07 19:21:02,21.228s,PASSED
+hideKeyboard,,Hide Keyboard,2018-08-07 19:21:02,2018-08-07 19:21:04,1.556s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-08-07 19:21:04,2018-08-07 19:21:08,3.822s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-08-07 19:21:08,2018-08-07 19:21:10,2.709s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-08-07 19:21:10,2018-08-07 19:21:14,4.051s,PASSED
+tap,,Click Masuk Button,2018-08-07 19:21:14,2018-08-07 19:21:21,6.895s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-08-07 19:21:21,2018-08-07 19:21:25,4.069s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-08-07 19:21:25,2018-08-07 19:21:30,4.608s,PASSED
+tap,,Click Input Pin TextBox,2018-08-07 19:21:30,2018-08-07 19:21:36,5.985s,PASSED
+setText,,SetText to PIN Textbox,2018-08-07 19:21:36,2018-08-07 19:21:56,20.035s,PASSED
+delay,,,2018-08-07 19:21:56,2018-08-07 19:22:01,5.023s,PASSED
+comment,,End Login Test Case,2018-08-07 19:22:01,2018-08-07 19:22:01,0.004s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-08-07 19:22:01,2018-08-07 19:22:03,1.761s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-08-07 19:22:03,2018-08-07 19:22:07,4.012s,PASSED
+tap,,Click Hamburger Button,2018-08-07 19:22:07,2018-08-07 19:22:14,6.843s,PASSED
+waitForElementPresent,,Wait until Produk Button on the Sidebar  present,2018-08-07 19:22:14,2018-08-07 19:22:22,8.757s,PASSED
+verifyElementAttributeValue,,Verify Element Produk Button that have value content desc to do action,2018-08-07 19:22:22,2018-08-07 19:22:30,7.990s,PASSED
+tap,,Click Produk Button,2018-08-07 19:22:30,2018-08-07 19:22:38,8.029s,PASSED
+verifyElementVisible,,Verify Onboarding Produk screen if element is visible,2018-08-07 19:22:38,2018-08-07 19:22:43,4.807s,PASSED
+delay,,,2018-08-07 19:22:43,2018-08-07 19:22:48,5.006s,PASSED
+closeApplication,,,2018-08-07 19:22:48,2018-08-07 19:22:53,4.382s,PASSED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 2 - Search by selected Product Category,,Search by selected Product Category,2018-08-07 19:22:53,2018-08-07 19:26:41,3m - 48.498s,FAILED
+comment,,Search by selected Product Category,2018-08-07 19:22:53,2018-08-07 19:22:53,0.004s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:22:53,2018-08-07 19:22:53,0.002s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:22:53,2018-08-07 19:22:53,0.009s,PASSED
+startApplication,,,2018-08-07 19:22:53,2018-08-07 19:23:11,17.581s,PASSED
+delay,,,2018-08-07 19:23:11,2018-08-07 19:23:26,15.005s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-08-07 19:23:26,2018-08-07 19:23:33,7.027s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-08-07 19:23:33,2018-08-07 19:23:40,6.629s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-08-07 19:23:40,2018-08-07 19:23:59,19.025s,PASSED
+hideKeyboard,,Hide Keyboard,2018-08-07 19:23:59,2018-08-07 19:24:00,1.223s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-08-07 19:24:00,2018-08-07 19:24:05,5.362s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-08-07 19:24:05,2018-08-07 19:24:08,2.698s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-08-07 19:24:08,2018-08-07 19:24:13,5.321s,PASSED
+tap,,Click Masuk Button,2018-08-07 19:24:13,2018-08-07 19:24:19,6.217s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-08-07 19:24:19,2018-08-07 19:24:23,4.034s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-08-07 19:24:23,2018-08-07 19:24:27,4.033s,PASSED
+tap,,Click Input Pin TextBox,2018-08-07 19:24:27,2018-08-07 19:24:32,4.837s,PASSED
+setText,,SetText to PIN Textbox,2018-08-07 19:24:32,2018-08-07 19:24:58,25.463s,PASSED
+delay,,,2018-08-07 19:24:58,2018-08-07 19:25:03,5.006s,PASSED
+comment,,End Login Test Case,2018-08-07 19:25:03,2018-08-07 19:25:03,0.005s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-08-07 19:25:03,2018-08-07 19:25:08,5.560s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-08-07 19:25:08,2018-08-07 19:25:15,6.410s,PASSED
+tap,,Click Hamburger Button,2018-08-07 19:25:15,2018-08-07 19:25:24,8.789s,PASSED
+waitForElementPresent,,Wait until Produk Button on the Sidebar  present,2018-08-07 19:25:24,2018-08-07 19:25:28,4.961s,PASSED
+verifyElementAttributeValue,,Verify Element Produk Button that have value content desc to do action,2018-08-07 19:25:29,2018-08-07 19:25:35,6.418s,PASSED
+tap,,Click Produk Button,2018-08-07 19:25:35,2018-08-07 19:25:44,8.675s,PASSED
+verifyElementVisible,,Verify Onboarding Produk screen if element is visible,2018-08-07 19:25:44,2018-08-07 19:25:50,6.414s,PASSED
+comment,,,2018-08-07 19:25:50,2018-08-07 19:25:50,0.002s,PASSED
+waitForElementPresent,,Wait until Product All Category DropDown present,2018-08-07 19:25:50,2018-08-07 19:25:53,2.697s,PASSED
+verifyElementAttributeValue,,Verify Element Product All Category DropDown has Attribute  content-desc  to do action  ,2018-08-07 19:25:53,2018-08-07 19:25:57,4.026s,PASSED
+tap,,Click Product All Category DropDown,2018-08-07 19:25:57,2018-08-07 19:26:03,6.608s,PASSED
+waitForElementPresent,,Wait until List Kategori - Elemen 2 present,2018-08-07 19:26:03,2018-08-07 19:26:07,3.892s,PASSED
+verifyElementAttributeValue,,Verify Element List Kategori - Elemen 2 has Attribute  content-desc  to do action  ,2018-08-07 19:26:07,2018-08-07 19:26:12,4.386s,PASSED
+tap,,Click List Kategori - Elemen 2,2018-08-07 19:26:12,2018-08-07 19:26:17,5.227s,PASSED
+comment,,Make Condition To Check if it's have a product or not,2018-08-07 19:26:17,2018-08-07 19:26:17,0.005s,PASSED
+delay,,,2018-08-07 19:26:17,2018-08-07 19:26:22,5.005s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Stock View/List Produk - Elemen 1), G_ShortTimeOut, CONTINUE_ON_FAILURE))",,If it's have a product,2018-08-07 19:26:22,2018-08-07 19:26:29,7.194s,FAILED
+Statement - Else,,,2018-08-07 19:26:29,2018-08-07 19:26:33,4.178s,PASSED
+delay,,,2018-08-07 19:26:33,2018-08-07 19:26:38,5.005s,PASSED
+closeApplication,,,2018-08-07 19:26:38,2018-08-07 19:26:41,2.945s,PASSED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 3 - Search by specific product,,Search by specific product,2018-08-07 19:26:41,2018-08-07 19:30:54,4m - 12.425s,PASSED
+comment,,Search by specific product,2018-08-07 19:26:41,2018-08-07 19:26:41,0.002s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:26:41,2018-08-07 19:26:41,0.002s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:26:41,2018-08-07 19:26:41,0.001s,PASSED
+startApplication,,,2018-08-07 19:26:41,2018-08-07 19:26:57,15.210s,PASSED
+delay,,,2018-08-07 19:26:57,2018-08-07 19:27:12,15.003s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-08-07 19:27:12,2018-08-07 19:27:15,2.994s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-08-07 19:27:15,2018-08-07 19:27:19,4.014s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-08-07 19:27:19,2018-08-07 19:27:42,22.840s,PASSED
+hideKeyboard,,Hide Keyboard,2018-08-07 19:27:42,2018-08-07 19:27:43,1.562s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-08-07 19:27:43,2018-08-07 19:27:47,3.865s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-08-07 19:27:47,2018-08-07 19:27:50,2.691s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-08-07 19:27:50,2018-08-07 19:27:55,5.347s,PASSED
+tap,,Click Masuk Button,2018-08-07 19:27:55,2018-08-07 19:28:01,6.077s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-08-07 19:28:01,2018-08-07 19:28:05,4.163s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-08-07 19:28:05,2018-08-07 19:28:10,4.541s,PASSED
+tap,,Click Input Pin TextBox,2018-08-07 19:28:10,2018-08-07 19:28:15,5.531s,PASSED
+setText,,SetText to PIN Textbox,2018-08-07 19:28:15,2018-08-07 19:28:31,15.984s,PASSED
+delay,,,2018-08-07 19:28:31,2018-08-07 19:28:36,5.005s,PASSED
+comment,,End Login Test Case,2018-08-07 19:28:36,2018-08-07 19:28:36,0.001s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-08-07 19:28:36,2018-08-07 19:28:39,3.090s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-08-07 19:28:39,2018-08-07 19:28:43,3.994s,PASSED
+tap,,Click Hamburger Button,2018-08-07 19:28:43,2018-08-07 19:28:49,5.836s,PASSED
+waitForElementPresent,,Wait until Produk Button on the Sidebar  present,2018-08-07 19:28:49,2018-08-07 19:28:55,5.264s,PASSED
+verifyElementAttributeValue,,Verify Element Produk Button that have value content desc to do action,2018-08-07 19:28:55,2018-08-07 19:29:02,7.239s,PASSED
+tap,,Click Produk Button,2018-08-07 19:29:02,2018-08-07 19:29:09,7.511s,PASSED
+verifyElementVisible,,Verify Onboarding Produk screen if element is visible,2018-08-07 19:29:09,2018-08-07 19:29:14,5.128s,PASSED
+waitForElementPresent,,Wait until Semua Kategori - Drop Down present,2018-08-07 19:29:14,2018-08-07 19:29:18,3.460s,PASSED
+verifyElementAttributeValue,,Verify Element Semua Kategori - Drop Down has Attribute  content-desc  to do action ,2018-08-07 19:29:18,2018-08-07 19:29:22,4.099s,PASSED
+tap,,Click Semua Kategori - Drop Down on the Produk Page,2018-08-07 19:29:22,2018-08-07 19:29:27,4.645s,PASSED
+waitForElementPresent,,Wait until first element List Category present,2018-08-07 19:29:27,2018-08-07 19:29:30,3.373s,PASSED
+verifyElementAttributeValue,,Verify first element List Category has Attribute  content-desc  to do action ,2018-08-07 19:29:30,2018-08-07 19:29:34,4.010s,PASSED
+tap,,Click first element List Category on the Produk Page,2018-08-07 19:29:34,2018-08-07 19:29:40,5.993s,PASSED
+waitForElementPresent,,Wait until Cari nama produk button present,2018-08-07 19:29:40,2018-08-07 19:29:44,3.967s,PASSED
+verifyElementAttributeValue,,Verify Cari nama produk button has Attribute  content-desc  to do action,2018-08-07 19:29:44,2018-08-07 19:29:48,4.016s,PASSED
+setText,,Set Text in Cari nama produk button,2018-08-07 19:29:48,2018-08-07 19:30:10,21.573s,PASSED
+verifyElementText,,Verify Element Text what you set,2018-08-07 19:30:10,2018-08-07 19:30:15,5.310s,PASSED
+comment,,Make a condition if the element that u search be there or not,2018-08-07 19:30:15,2018-08-07 19:30:15,0.003s,PASSED
+delay,,,2018-08-07 19:30:15,2018-08-07 19:30:20,5.006s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Stock View/List Produk - Elemen 1), G_ShortTimeOut, CONTINUE_ON_FAILURE))",,if the element you are looking for is there,2018-08-07 19:30:20,2018-08-07 19:30:46,25.831s,PASSED
+delay,,,2018-08-07 19:30:46,2018-08-07 19:30:51,5.004s,PASSED
+closeApplication,,,2018-08-07 19:30:51,2018-08-07 19:30:54,2.943s,PASSED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 4 - Search by specific category and product,,Search by specific category and product,2018-08-07 19:30:54,2018-08-07 19:35:45,4m - 51.132s,PASSED
+comment,,,2018-08-07 19:30:54,2018-08-07 19:30:54,0.001s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:30:54,2018-08-07 19:30:54,0.005s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:30:54,2018-08-07 19:30:54,0.001s,PASSED
+startApplication,,,2018-08-07 19:30:54,2018-08-07 19:31:08,14.370s,PASSED
+delay,,,2018-08-07 19:31:08,2018-08-07 19:31:23,15.006s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-08-07 19:31:23,2018-08-07 19:31:27,3.606s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-08-07 19:31:27,2018-08-07 19:31:31,4.023s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-08-07 19:31:31,2018-08-07 19:31:49,17.597s,PASSED
+hideKeyboard,,Hide Keyboard,2018-08-07 19:31:49,2018-08-07 19:31:50,1.722s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-08-07 19:31:50,2018-08-07 19:31:59,8.394s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-08-07 19:31:59,2018-08-07 19:32:06,7.558s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-08-07 19:32:06,2018-08-07 19:32:10,4.029s,PASSED
+tap,,Click Masuk Button,2018-08-07 19:32:10,2018-08-07 19:32:19,9.009s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-08-07 19:32:19,2018-08-07 19:32:24,4.605s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-08-07 19:32:24,2018-08-07 19:32:29,5.446s,PASSED
+tap,,Click Input Pin TextBox,2018-08-07 19:32:29,2018-08-07 19:32:37,8.164s,PASSED
+setText,,SetText to PIN Textbox,2018-08-07 19:32:37,2018-08-07 19:33:01,23.754s,PASSED
+delay,,,2018-08-07 19:33:01,2018-08-07 19:33:06,5.006s,PASSED
+comment,,End Login Test Case,2018-08-07 19:33:06,2018-08-07 19:33:06,0.002s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-08-07 19:33:06,2018-08-07 19:33:08,2.081s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-08-07 19:33:08,2018-08-07 19:33:12,4.006s,PASSED
+tap,,Click Hamburger Button,2018-08-07 19:33:12,2018-08-07 19:33:19,6.949s,PASSED
+waitForElementPresent,,Wait until Produk Button on the Sidebar  present,2018-08-07 19:33:19,2018-08-07 19:33:24,5.126s,PASSED
+verifyElementAttributeValue,,Verify Element Produk Button that have value content desc to do action,2018-08-07 19:33:24,2018-08-07 19:33:31,6.521s,PASSED
+tap,,Click Produk Button,2018-08-07 19:33:31,2018-08-07 19:33:41,9.610s,PASSED
+verifyElementVisible,,Verify Onboarding Produk screen if element is visible,2018-08-07 19:33:41,2018-08-07 19:33:45,4.101s,PASSED
+waitForElementPresent,,Wait until Semua Kategori - Drop Down present,2018-08-07 19:33:45,2018-08-07 19:33:48,3.519s,PASSED
+verifyElementAttributeValue,,Verify Element Semua Kategori - Drop Down has Attribute  content-desc  to do action,2018-08-07 19:33:48,2018-08-07 19:33:53,4.470s,PASSED
+tap,,Click Semua Kategori - Drop Down ,2018-08-07 19:33:53,2018-08-07 19:34:00,7.090s,PASSED
+delay,,,2018-08-07 19:34:00,2018-08-07 19:34:03,3.003s,PASSED
+scrollToText,,Scroll Text to find MAKANAN category,2018-08-07 19:34:03,2018-08-07 19:34:06,3.543s,PASSED
+waitForElementPresent,,Wait until List Kategori - Elemen 0 present,2018-08-07 19:34:06,2018-08-07 19:34:12,6.025s,PASSED
+tap,,Click List Kategori - Elemen 0,2018-08-07 19:34:12,2018-08-07 19:34:21,8.709s,PASSED
+waitForElementPresent,,Wait until Cari Produk button present,2018-08-07 19:34:21,2018-08-07 19:34:28,7.492s,PASSED
+verifyElementAttributeValue,,Verify Element Cari Produk - Parent has Attribute  content-desc  to do action,2018-08-07 19:34:28,2018-08-07 19:34:36,7.516s,PASSED
+tap,,Click Cari Produk - Parent,2018-08-07 19:34:36,2018-08-07 19:34:44,8.360s,PASSED
+setText,,SetText in Cari Produk - Parent ,2018-08-07 19:34:44,2018-08-07 19:35:05,20.760s,PASSED
+comment,,Make a condition if the element that u search be there or not,2018-08-07 19:35:05,2018-08-07 19:35:05,0.007s,PASSED
+delay,,,2018-08-07 19:35:05,2018-08-07 19:35:10,5.005s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Sidebar Menu/Produk/Stock View/List Produk - Elemen 1), G_ShortTimeOut, CONTINUE_ON_FAILURE))",,if the element you are looking for is there,2018-08-07 19:35:10,2018-08-07 19:35:37,26.657s,PASSED
+delay,,,2018-08-07 19:35:37,2018-08-07 19:35:42,5.004s,PASSED
+closeApplication,,,2018-08-07 19:35:42,2018-08-07 19:35:45,2.952s,PASSED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 5 - Search by inputed 3 digit,,Search by inputed 3 digit,2018-08-07 19:35:45,2018-08-07 19:39:12,3m - 27.307s,FAILED
+comment,,,2018-08-07 19:35:45,2018-08-07 19:35:45,0.002s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:35:45,2018-08-07 19:35:45,0.001s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:35:45,2018-08-07 19:35:45,0.001s,PASSED
+startApplication,,,2018-08-07 19:35:45,2018-08-07 19:35:59,14.252s,PASSED
+delay,,,2018-08-07 19:35:59,2018-08-07 19:36:14,15.004s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-08-07 19:36:14,2018-08-07 19:36:18,3.982s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-08-07 19:36:18,2018-08-07 19:36:22,3.811s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-08-07 19:36:22,2018-08-07 19:36:44,21.615s,PASSED
+hideKeyboard,,Hide Keyboard,2018-08-07 19:36:44,2018-08-07 19:36:45,1.214s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-08-07 19:36:45,2018-08-07 19:36:49,3.833s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-08-07 19:36:49,2018-08-07 19:36:52,2.890s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-08-07 19:36:52,2018-08-07 19:36:56,4.081s,PASSED
+tap,,Click Masuk Button,2018-08-07 19:36:56,2018-08-07 19:37:02,6.017s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-08-07 19:37:02,2018-08-07 19:37:05,3.732s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-08-07 19:37:05,2018-08-07 19:37:09,4.013s,PASSED
+tap,,Click Input Pin TextBox,2018-08-07 19:37:09,2018-08-07 19:37:15,5.362s,PASSED
+setText,,SetText to PIN Textbox,2018-08-07 19:37:15,2018-08-07 19:37:32,17.255s,PASSED
+delay,,,2018-08-07 19:37:32,2018-08-07 19:37:37,5.005s,PASSED
+comment,,End Login Test Case,2018-08-07 19:37:37,2018-08-07 19:37:37,0.005s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-08-07 19:37:37,2018-08-07 19:37:42,4.491s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-08-07 19:37:42,2018-08-07 19:37:46,4.251s,PASSED
+tap,,Click Hamburger Button,2018-08-07 19:37:46,2018-08-07 19:37:50,4.651s,PASSED
+waitForElementPresent,,Wait until Produk Button on the Sidebar  present,2018-08-07 19:37:50,2018-08-07 19:38:00,9.774s,PASSED
+verifyElementAttributeValue,,Verify Element Produk Button that have value content desc to do action,2018-08-07 19:38:00,2018-08-07 19:38:06,6.237s,PASSED
+tap,,Click Produk Button,2018-08-07 19:38:06,2018-08-07 19:38:14,7.553s,PASSED
+verifyElementVisible,,Verify Onboarding Produk screen if element is visible,2018-08-07 19:38:14,2018-08-07 19:38:19,5.070s,PASSED
+waitForElementPresent,,Wait until Cari Produk - Parent present,2018-08-07 19:38:19,2018-08-07 19:38:23,3.956s,PASSED
+clearText,,Clear Text in Cari Produk TextBox,2018-08-07 19:38:23,2018-08-07 19:38:32,8.689s,PASSED
+waitForElementPresent,,Wait until Cari Produk TextBox is present ,2018-08-07 19:38:32,2018-08-07 19:38:35,2.951s,PASSED
+verifyElementAttributeValue,,Verify Element Semua Kategori - Drop Down has Attribute  content-desc  to do action  ,2018-08-07 19:38:35,2018-08-07 19:38:39,4.079s,PASSED
+tap,,Click Semua Kategori - Drop Down,2018-08-07 19:38:39,2018-08-07 19:38:43,4.618s,PASSED
+waitForElementPresent,,Wait until Semua Kategori - Drop Down is present,2018-08-07 19:38:43,2018-08-07 19:38:47,3.348s,PASSED
+verifyElementAttributeValue,,Verify element first list category product has attribute content-desc to do action,2018-08-07 19:38:47,2018-08-07 19:38:51,4.048s,PASSED
+tap,,Tap the element in the first list category product,2018-08-07 19:38:51,2018-08-07 19:38:56,4.854s,PASSED
+waitForElementPresent,,Wait until the element in the first list category product is present,2018-08-07 19:38:56,2018-08-07 19:39:01,5.078s,PASSED
+verifyElementAttributeValue,,Verify element cari nama produk button has aatribute content-desc to do action,2018-08-07 19:39:01,2018-08-07 19:39:02,1.670s,PASSED
+setText,,Set Test in the Cari nama produk button,2018-08-07 19:39:02,2018-08-07 19:39:12,9.684s,FAILED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 6 - Search by inputed less then 3 digit,,Search by inputed less then 3 digit,2018-08-07 19:39:12,2018-08-07 19:39:12,0.224s,FAILED
+comment,,,2018-08-07 19:39:12,2018-08-07 19:39:12,0.001s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:39:12,2018-08-07 19:39:12,0.000s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:39:12,2018-08-07 19:39:12,0.000s,PASSED
+startApplication,,,2018-08-07 19:39:12,2018-08-07 19:39:12,0.026s,FAILED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 7 - Search by invalid product,,Search by invalid product,2018-08-07 19:39:12,2018-08-07 19:39:12,0.193s,FAILED
+comment,,,2018-08-07 19:39:12,2018-08-07 19:39:12,0.002s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:39:12,2018-08-07 19:39:12,0.001s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:39:12,2018-08-07 19:39:12,0.000s,PASSED
+startApplication,,,2018-08-07 19:39:12,2018-08-07 19:39:12,0.001s,FAILED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 8 - Drop down consist of product category,,Drop down consist of product category,2018-08-07 19:39:12,2018-08-07 19:39:13,0.252s,FAILED
+comment,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.001s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:39:13,2018-08-07 19:39:13,0.000s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.000s,PASSED
+startApplication,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.002s,FAILED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 9 - Check paging,,Check paging,2018-08-07 19:39:13,2018-08-07 19:39:13,0.224s,FAILED
+comment,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.001s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:39:13,2018-08-07 19:39:13,0.000s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.000s,PASSED
+startApplication,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.004s,FAILED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 10 - Click Tambah Barang button,,Click Tambah Barang button,2018-08-07 19:39:13,2018-08-07 19:39:13,0.210s,FAILED
+comment,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.002s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:39:13,2018-08-07 19:39:13,0.001s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.000s,PASSED
+startApplication,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.002s,FAILED
+,,,,,,
+Test Cases/Story 26 dan 842 -Kelola Stok Final/26 TC 11 - Click Sidebar to LogOut,,Click Sidebar to LogOut,2018-08-07 19:39:13,2018-08-07 19:39:13,0.254s,FAILED
+comment,,Keluar Akun,2018-08-07 19:39:13,2018-08-07 19:39:13,0.001s,PASSED
+comment,,Start apps and than Login,2018-08-07 19:39:13,2018-08-07 19:39:13,0.004s,PASSED
+Statement - apkPath = apkName,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.000s,PASSED
+startApplication,,,2018-08-07 19:39:13,2018-08-07 19:39:13,0.003s,FAILED

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sprint 3,,,2018-03-01 06:59:12,2018-03-01 06:59:53,41.376s,FAILED
+,,,,,,
+Test Cases/Sprint 3/40 - TC - All,,View Pengeluaran,2018-03-01 06:59:12,2018-03-01 06:59:47,34.766s,FAILED
+comment,,,2018-03-01 06:59:13,2018-03-01 06:59:13,0.164s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-01 06:59:13,2018-03-01 06:59:13,0.022s,PASSED
+startApplication,,,2018-03-01 06:59:13,2018-03-01 06:59:47,33.948s,FAILED
+,,,,,,
+Test Cases/Sprint 3/41 - TC-All,,Create Expense,2018-03-01 06:59:47,2018-03-01 06:59:47,0.477s,FAILED
+comment,,,2018-03-01 06:59:47,2018-03-01 06:59:47,0.003s,PASSED
+waitForElementPresent,,"Menungg//////////////////////u hingga elemen Pengeluaran barang untuk melanjutkan action element \""Tambah Catatan\""",2018-03-01 06:59:47,2018-03-01 06:59:47,0.162s,FAILED
+,,,,,,
+Test Cases/Sprint 3/215 - TC -All,,,2018-03-01 06:59:47,2018-03-01 06:59:53,5.486s,FAILED
+comment,,,2018-03-01 06:59:48,2018-03-01 06:59:48,0.010s,PASSED
+delay,,,2018-03-01 06:59:48,2018-03-01 06:59:53,5.036s,PASSED
+tap,,Klik List Pengeluaran di Elemen ke 3,2018-03-01 06:59:53,2018-03-01 06:59:53,0.051s,FAILED

@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sprint 3" time="162" tests="1" failures="1" errors="0">
+   <testsuite name="Sprint 3" tests="1" failures="1" errors="0" time="162" timestamp="2018-03-01 10:35:43" hostname="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id" id="Test Suites/Sprint 3">
+      <properties>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180301_103541"/>
+         <property name="logFiles" value="C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180301_103541\\appium.log, C:\\Users\\AV2017005903\\Documents\\apollo-automation\\Reports\\Sprint 3\\20180301_103541\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AV2017005903 - NBMP18A211ITSQA.corp.bankbtpn.co.id"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="ASUS_X014D"/>
+         <property name="hostAddress" value="192.168.17.200"/>
+         <property name="deviceManufacturer" value="asus"/>
+         <property name="deviceId" value="GBAXGV411465ERX"/>
+         <property name="deviceName" value="asus ASUS_X014D 5.1.1"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Sprint 3/40 - TC - All" classname="Test Cases/Sprint 3/40 - TC - All" status="PASSED">
+         <system-out><![CDATA[2018-03-01 10:35:43 - [TEST_CASE][PASSED] - Test Cases/Sprint 3/40 - TC - All: Test Cases/Sprint 3/40 - TC - All
+
+2018-03-01 10:35:44 - [TEST_STEP][PASSED] - comment: Start Story 40
+
+2018-03-01 10:35:44 - [TEST_STEP][PASSED] - Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-03-01 10:35:44 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Dev - 1 Maret 2018.apk'
+
+2018-03-01 10:35:59 - [MESSAGE][PASSED] - Started app at: 'C:\Users\AV2017005903\Documents\apollo-automation\Dev - 1 Maret 2018.apk'
+
+2018-03-01 10:35:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-01 10:36:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/Daftar Sekarang - Belum Punya Akun'
+
+2018-03-01 10:36:07 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-03-01 10:36:07 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-03-01 10:36:07 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-01 10:36:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-01 10:36:07 - [TEST_STEP][NOT_RUN] - hideKeyboard: NOT_RUN: hideKeyboard
+
+2018-03-01 10:36:07 - [MESSAGE][NOT_RUN] - NOT_RUN: hideKeyboard
+
+2018-03-01 10:36:07 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-03-01 10:36:07 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-03-01 10:36:07 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-03-01 10:36:07 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-03-01 10:36:07 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-03-01 10:36:07 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-03-01 10:36:07 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-03-01 10:36:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-03-01 10:36:07 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-01 10:36:11 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/HamburgerButton' is present
+
+2018-03-01 10:36:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-01 10:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/HamburgerButton'
+
+2018-03-01 10:36:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-01 10:36:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Operasional - Sidebar Menu'
+
+2018-03-01 10:36:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/PengeluaranNavbar'
+
+2018-03-01 10:36:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/PengeluaranNavbar'
+
+2018-03-01 10:36:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-01 10:36:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-01 10:36:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-01 10:36:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-01 10:36:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 2(DropDown)'
+
+2018-03-01 10:36:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 2(DropDown)'
+
+2018-03-01 10:36:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-01 10:36:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-01 10:36:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-01 10:36:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-01 10:36:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 3(Drop Down)'
+
+2018-03-01 10:36:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 3(Drop Down)'
+
+2018-03-01 10:36:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-01 10:36:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-01 10:36:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-01 10:36:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SemuaKategori - DropDown'
+
+2018-03-01 10:36:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 1(Drop Down)'
+
+2018-03-01 10:36:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListKategori - Elemen 1(Drop Down)'
+
+2018-03-01 10:36:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-01 10:36:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori'
+
+2018-03-01 10:36:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-03-01 10:36:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-03-01 10:36:39 - [TEST_STEP][PASSED] - waitForElementPresent: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori not found
+
+2018-03-01 10:36:44 - [MESSAGE][WARNING] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/TerapkanBUtton - SelectKategori not found
+
+2018-03-01 10:36:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 1'
+
+2018-03-01 10:36:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 1'
+
+2018-03-01 10:36:45 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-01 10:36:47 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-01 10:36:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4'
+
+2018-03-01 10:36:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/ListPengeluaranKategori - Elemen 4'
+
+2018-03-01 10:36:48 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-01 10:36:50 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-01 10:36:50 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' is present
+
+2018-03-01 10:36:51 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' is present
+
+2018-03-01 10:36:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button'
+
+2018-03-01 10:36:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button'
+
+2018-03-01 10:36:52 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-01 10:36:52 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-01 10:36:52 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Swiped from 0,626 to 0,284
+
+2018-03-01 10:36:52 - [TEST_STEP][PASSED] - swipe: Swiped from 0,626 to 0,284
+
+2018-03-01 10:36:53 - [MESSAGE][PASSED] - Swiped from 0,626 to 0,284
+
+2018-03-01 10:36:53 - [TEST_STEP][PASSED] - swipe: Swiped from 0,626 to 0,284
+
+2018-03-01 10:36:53 - [MESSAGE][PASSED] - Swiped from 0,626 to 0,284
+
+2018-03-01 10:36:54 - [TEST_STEP][PASSED] - swipe: Swiped from 0,626 to 0,284
+
+2018-03-01 10:36:54 - [MESSAGE][PASSED] - Swiped from 0,626 to 0,284
+
+2018-03-01 10:36:54 - [TEST_STEP][PASSED] - Statement - For (def index : (0..2)): Swiped from 0,284 to 0,626
+
+2018-03-01 10:36:54 - [TEST_STEP][PASSED] - swipe: Swiped from 0,284 to 0,626
+
+2018-03-01 10:36:55 - [MESSAGE][PASSED] - Swiped from 0,284 to 0,626
+
+2018-03-01 10:36:55 - [TEST_STEP][PASSED] - swipe: Swiped from 0,284 to 0,626
+
+2018-03-01 10:36:56 - [MESSAGE][PASSED] - Swiped from 0,284 to 0,626
+
+2018-03-01 10:36:56 - [TEST_STEP][PASSED] - swipe: Swiped from 0,284 to 0,626
+
+2018-03-01 10:36:56 - [MESSAGE][PASSED] - Swiped from 0,284 to 0,626
+
+2018-03-01 10:36:56 - [TEST_STEP][PASSED] - comment: End Story 40]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sprint 3/41 - TC-All" classname="Test Cases/Sprint 3/41 - TC-All" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018 not found)"/>
+         <system-out><![CDATA[2018-03-01 10:36:56 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/41 - TC-All: Test Cases/Sprint 3/41 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018 not found)
+
+2018-03-01 10:36:57 - [TEST_STEP][PASSED] - comment: Start Story 41
+
+2018-03-01 10:36:57 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' is present
+
+2018-03-01 10:36:57 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button' is present
+
+2018-03-01 10:36:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button'
+
+2018-03-01 10:36:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/TAMBAH CATATAN - Button'
+
+2018-03-01 10:36:57 - [TEST_STEP][PASSED] - sendKeys: Send keys 'Pengeluaran Kos Kosan' on test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' successfully.
+
+2018-03-01 10:37:05 - [MESSAGE][PASSED] - Send keys 'Pengeluaran Kos Kosan' on test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Judul Catatan - TextBox' successfully.
+
+2018-03-01 10:37:05 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-01 10:37:06 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-01 10:37:06 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1' is present
+
+2018-03-01 10:37:07 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1' is present
+
+2018-03-01 10:37:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1'
+
+2018-03-01 10:37:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1'
+
+2018-03-01 10:37:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1'
+
+2018-03-01 10:37:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori 1'
+
+2018-03-01 10:37:08 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pengaturan Kategori - Button' is present
+
+2018-03-01 10:37:10 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pengaturan Kategori - Button' is present
+
+2018-03-01 10:37:10 - [TEST_STEP][PASSED] - comment: Start Story 42
+
+2018-03-01 10:37:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pengaturan Kategori - Button'
+
+2018-03-01 10:37:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pengaturan Kategori - Button'
+
+2018-03-01 10:37:11 - [TEST_STEP][PASSED] - comment: Selanjutnya, Melakukan Looping Swipe pada List Kategori
+
+2018-03-01 10:37:11 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:11 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:11 - [TEST_STEP][PASSED] - swipe: Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:12 - [MESSAGE][PASSED] - Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:12 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:12 - [TEST_STEP][PASSED] - swipe: Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:13 - [MESSAGE][PASSED] - Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:13 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:13 - [TEST_STEP][PASSED] - swipe: Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:14 - [MESSAGE][PASSED] - Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:14 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:14 - [TEST_STEP][PASSED] - swipe: Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:14 - [MESSAGE][PASSED] - Swiped from 383,143 to 425,143
+
+2018-03-01 10:37:14 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:14 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:14 - [TEST_STEP][PASSED] - swipe: Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:15 - [MESSAGE][PASSED] - Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:15 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:15 - [TEST_STEP][PASSED] - swipe: Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:16 - [MESSAGE][PASSED] - Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:16 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:16 - [TEST_STEP][PASSED] - swipe: Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:16 - [MESSAGE][PASSED] - Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:16 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:16 - [TEST_STEP][PASSED] - swipe: Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:17 - [MESSAGE][PASSED] - Swiped from 383,226 to 425,226
+
+2018-03-01 10:37:17 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:17 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:17 - [TEST_STEP][PASSED] - swipe: Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:18 - [MESSAGE][PASSED] - Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:18 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:18 - [TEST_STEP][PASSED] - swipe: Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:18 - [MESSAGE][PASSED] - Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:19 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:19 - [TEST_STEP][PASSED] - swipe: Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:19 - [MESSAGE][PASSED] - Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:19 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:19 - [TEST_STEP][PASSED] - swipe: Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:20 - [MESSAGE][PASSED] - Swiped from 383,310 to 425,310
+
+2018-03-01 10:37:20 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:20 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:20 - [TEST_STEP][PASSED] - swipe: Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:20 - [MESSAGE][PASSED] - Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:20 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:20 - [TEST_STEP][PASSED] - swipe: Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:21 - [MESSAGE][PASSED] - Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:21 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:21 - [TEST_STEP][PASSED] - swipe: Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:22 - [MESSAGE][PASSED] - Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:22 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:22 - [TEST_STEP][PASSED] - swipe: Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:22 - [MESSAGE][PASSED] - Swiped from 383,393 to 425,393
+
+2018-03-01 10:37:23 - [TEST_STEP][PASSED] - Statement - For (def index : (0..3)): Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:23 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:23 - [TEST_STEP][PASSED] - swipe: Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:23 - [MESSAGE][PASSED] - Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:23 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:23 - [TEST_STEP][PASSED] - swipe: Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:24 - [MESSAGE][PASSED] - Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:24 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:24 - [TEST_STEP][PASSED] - swipe: Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:24 - [MESSAGE][PASSED] - Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:25 - [TEST_STEP][PASSED] - Statement - If (true): Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:25 - [TEST_STEP][PASSED] - swipe: Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:25 - [MESSAGE][PASSED] - Swiped from 383,476 to 425,476
+
+2018-03-01 10:37:25 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan Button' is present
+
+2018-03-01 10:37:26 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan Button' is present
+
+2018-03-01 10:37:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan Button'
+
+2018-03-01 10:37:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan Button'
+
+2018-03-01 10:37:27 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Tambah Kategori - Button' is present
+
+2018-03-01 10:37:36 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Tambah Kategori - Button' is present
+
+2018-03-01 10:37:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Tambah Kategori - Button'
+
+2018-03-01 10:37:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Tambah Kategori - Button'
+
+2018-03-01 10:37:37 - [TEST_STEP][PASSED] - comment: Notifikasi "Pelu diisi"
+
+2018-03-01 10:37:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Input Tambah Kategori Baru'
+
+2018-03-01 10:37:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Input Tambah Kategori Baru'
+
+2018-03-01 10:37:38 - [TEST_STEP][PASSED] - sendKeys: Send keys 'Sticky' on test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Input Tambah Kategori Baru' successfully.
+
+2018-03-01 10:37:44 - [MESSAGE][PASSED] - Send keys 'Sticky' on test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Input Tambah Kategori Baru' successfully.
+
+2018-03-01 10:37:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Terapkan - ButtonTambahKategori'
+
+2018-03-01 10:37:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Terapkan - ButtonTambahKategori'
+
+2018-03-01 10:37:45 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan Button' is present
+
+2018-03-01 10:37:47 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan Button' is present
+
+2018-03-01 10:37:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan Button'
+
+2018-03-01 10:37:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Simpan Button'
+
+2018-03-01 10:37:48 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-03-01 10:37:48 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-03-01 10:37:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori Elemen ke 1'
+
+2018-03-01 10:37:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Pilih Kategori Elemen ke 1'
+
+2018-03-01 10:37:50 - [TEST_STEP][PASSED] - comment: Insert berhasil
+
+2018-03-01 10:37:50 - [TEST_STEP][PASSED] - comment: End Story 42
+
+2018-03-01 10:37:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox'
+
+2018-03-01 10:37:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox'
+
+2018-03-01 10:37:51 - [TEST_STEP][PASSED] - setText: Text '4500000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox'
+
+2018-03-01 10:38:03 - [MESSAGE][PASSED] - Text '4500000' has been set to element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox'
+
+2018-03-01 10:38:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox' are matched.
+
+2018-03-01 10:38:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox' are matched.
+
+2018-03-01 10:38:04 - [TEST_STEP][PASSED] - getText: Text of element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox' is: '4.500.000'
+
+2018-03-01 10:38:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Nominal Pengeluaran - TextBox' is: '4.500.000'
+
+2018-03-01 10:38:04 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Deskripsi - TextBox' is present
+
+2018-03-01 10:38:05 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Deskripsi - TextBox' is present
+
+2018-03-01 10:38:05 - [TEST_STEP][PASSED] - sendKeys: Send keys 'Pengeluaran untuk uang Listrik, Uang Makan, dan Uang Kos bulan Januari' on test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Deskripsi - TextBox' successfully.
+
+2018-03-01 10:38:13 - [MESSAGE][PASSED] - Send keys 'Pengeluaran untuk uang Listrik, Uang Makan, dan Uang Kos bulan Januari' on test object 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/Deskripsi - TextBox' successfully.
+
+2018-03-01 10:38:13 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-03-01 10:38:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-03-01 10:38:14 - [TEST_STEP][PASSED] - waitForElementPresent: Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' is present
+
+2018-03-01 10:38:15 - [MESSAGE][PASSED] - Element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal' is present
+
+2018-03-01 10:38:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-01 10:38:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-01 10:38:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-01 10:38:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/SelectorTangal'
+
+2018-03-01 10:38:16 - [TEST_STEP][PASSED] - swipe: Swiped from 320,566 to 375,421
+
+2018-03-01 10:38:17 - [MESSAGE][PASSED] - Swiped from 320,566 to 375,421
+
+2018-03-01 10:38:17 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018 not found)
+
+2018-03-01 10:38:22 - [MESSAGE][FAILED] - Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018 not found
+
+2018-03-01 10:38:22 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018 not found)]]></system-out>
+         <system-err><![CDATA[2018-03-01 10:36:56 - [TEST_CASE][FAILED] - Test Cases/Sprint 3/41 - TC-All: Test Cases/Sprint 3/41 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018 not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-01 10:35:43 - [TEST_SUITE][FAILED] - Sprint 3: Test Cases/Sprint 3/41 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018 not found)]]></system-out>
+      <system-err><![CDATA[2018-03-01 10:35:43 - [TEST_SUITE][FAILED] - Sprint 3: Test Cases/Sprint 3/41 - TC-All FAILED because (of) Failed to tap on element 'Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018' (Root cause: Object Object Repository/Sidebar Menu/Operasional/Pengeluaran/23 Februari 2018 not found)]]></system-err>
+   </testsuite>
+</testsuites>

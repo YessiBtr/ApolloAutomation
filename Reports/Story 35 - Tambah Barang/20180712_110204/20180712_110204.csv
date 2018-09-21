@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35 - Tambah Barang,,,2018-07-12 11:02:07,2018-07-12 11:08:09,6m - 2.650s,ERROR
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 1,,Display Tambah Barang Form,2018-07-12 11:02:08,2018-07-12 11:08:06,5m - 58.266s,ERROR
+comment,,,2018-07-12 11:02:08,2018-07-12 11:02:08,0.050s,PASSED
+comment,,,2018-07-12 11:02:08,2018-07-12 11:02:08,0.004s,PASSED
+callTestCase,,,2018-07-12 11:02:08,2018-07-12 11:08:06,5m - 57.962s,FAILED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 2,,Increase or decrease product stock,2018-07-12 11:08:06,2018-07-12 11:08:06,0.260s,ERROR
+comment,,,2018-07-12 11:08:06,2018-07-12 11:08:06,0.003s,PASSED
+Statement - For (def index : (0..10)),,,2018-07-12 11:08:06,2018-07-12 11:08:06,0.048s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 3,,user update stock when specifies stock = -(minus),2018-07-12 11:08:06,2018-07-12 11:08:06,0.254s,ERROR
+comment,,,2018-07-12 11:08:06,2018-07-12 11:08:06,0.003s,PASSED
+waitForElementPresent,,,2018-07-12 11:08:06,2018-07-12 11:08:06,0.043s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 4,,Display Pick Category,2018-07-12 11:08:06,2018-07-12 11:08:07,0.409s,ERROR
+comment,,,2018-07-12 11:08:07,2018-07-12 11:08:07,0.003s,PASSED
+waitForElementPresent,,,2018-07-12 11:08:07,2018-07-12 11:08:07,0.046s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 5,,Pick Category,2018-07-12 11:08:07,2018-07-12 11:08:07,0.366s,ERROR
+comment,,,2018-07-12 11:08:07,2018-07-12 11:08:07,0.006s,PASSED
+waitForElementPresent,,,2018-07-12 11:08:07,2018-07-12 11:08:07,0.123s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 6,,Input Harga Jual with - (minus),2018-07-12 11:08:07,2018-07-12 11:08:07,0.265s,ERROR
+comment,,,2018-07-12 11:08:07,2018-07-12 11:08:07,0.001s,PASSED
+waitForElementPresent,,,2018-07-12 11:08:07,2018-07-12 11:08:07,0.033s,PASSED
+,,,,,,
+Test Cases/Story 35 and 921 -Tambah Barang/35 TC 7,,Validate the format of input and adjust the input into financial format,2018-07-12 11:08:07,2018-07-12 11:08:08,0.192s,ERROR

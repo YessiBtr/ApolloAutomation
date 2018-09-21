@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 27 N 46 - Detail Produk N Change Produk,,Story 27 & 47 - Detail Produk dan Change Produk,2018-07-16 13:48:03,2018-07-16 14:00:22,12m - 19.222s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 1,,Detail Product - Info Stock,2018-07-16 13:48:04,2018-07-16 13:53:30,5m - 25.792s,PASSED
+comment,,,2018-07-16 13:48:04,2018-07-16 13:48:04,0.046s,PASSED
+callTestCase,,,2018-07-16 13:48:04,2018-07-16 13:52:35,4m - 30.612s,PASSED
+waitForElementPresent,,,2018-07-16 13:52:35,2018-07-16 13:52:38,2.697s,PASSED
+verifyElementAttributeValue,,,2018-07-16 13:52:38,2018-07-16 13:52:45,7.277s,PASSED
+comment,,,2018-07-16 13:52:45,2018-07-16 13:52:45,0.004s,PASSED
+setText,,"Melakukan Input Text lebih dari satu kata dalam search produk pada kategori ""Makanan""",2018-07-16 13:52:45,2018-07-16 13:53:08,23.002s,PASSED
+hideKeyboard,,,2018-07-16 13:53:08,2018-07-16 13:53:09,0.935s,PASSED
+waitForElementPresent,,,2018-07-16 13:53:09,2018-07-16 13:53:14,5.371s,PASSED
+verifyElementAttributeValue,,,2018-07-16 13:53:14,2018-07-16 13:53:20,5.348s,PASSED
+tap,,,2018-07-16 13:53:20,2018-07-16 13:53:25,5.277s,PASSED
+delay,,,2018-07-16 13:53:25,2018-07-16 13:53:30,5.005s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 2,,Info Stock - Back button,2018-07-16 13:53:30,2018-07-16 13:53:51,20.855s,PASSED
+comment,,,2018-07-16 13:53:30,2018-07-16 13:53:30,0.002s,PASSED
+pressBack,,,2018-07-16 13:53:30,2018-07-16 13:53:33,2.817s,PASSED
+waitForElementPresent,,,2018-07-16 13:53:33,2018-07-16 13:53:37,4.055s,PASSED
+verifyElementAttributeValue,,,2018-07-16 13:53:37,2018-07-16 13:53:41,3.888s,PASSED
+tap,,,2018-07-16 13:53:41,2018-07-16 13:53:46,4.873s,PASSED
+delay,,,2018-07-16 13:53:46,2018-07-16 13:53:51,5.006s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 3,,Detail Product - Ubah Info,2018-07-16 13:53:51,2018-07-16 13:54:11,20.102s,PASSED
+comment,,,2018-07-16 13:53:51,2018-07-16 13:53:51,0.001s,PASSED
+waitForElementPresent,,,2018-07-16 13:53:51,2018-07-16 13:53:56,4.953s,PASSED
+verifyElementAttributeValue,,,2018-07-16 13:53:56,2018-07-16 13:54:00,4.022s,PASSED
+tap,,,2018-07-16 13:54:00,2018-07-16 13:54:06,5.924s,PASSED
+delay,,,2018-07-16 13:54:06,2018-07-16 13:54:11,5.006s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 4,,,2018-07-16 13:54:11,2018-07-16 13:58:43,4m - 31.789s,PASSED
+comment,,,2018-07-16 13:54:11,2018-07-16 13:54:11,0.001s,PASSED
+Statement - For (def index : (0..10)),,,2018-07-16 13:54:11,2018-07-16 13:57:21,3m - 9.548s,PASSED
+Statement - For (def index : (0..2)),,,2018-07-16 13:57:21,2018-07-16 13:58:37,1m - 16.659s,PASSED
+delay,,,2018-07-16 13:58:37,2018-07-16 13:58:42,5.006s,PASSED
+,,,,,,
+Test Cases/Story 27 N 46 - Detail Product N Edit Barang/27 N 46 - TC 5,,,2018-07-16 13:58:44,2018-07-16 14:00:13,1m - 29.517s,PASSED
+comment,,,2018-07-16 13:59:12,2018-07-16 13:59:12,0.001s,PASSED
+waitForElementPresent,,,2018-07-16 13:59:12,2018-07-16 13:59:15,2.870s,PASSED
+verifyElementAttributeValue,,,2018-07-16 13:59:15,2018-07-16 13:59:22,6.996s,PASSED
+clearText,,,2018-07-16 13:59:22,2018-07-16 13:59:32,10.151s,PASSED
+setText,,,2018-07-16 13:59:32,2018-07-16 13:59:49,17.511s,PASSED
+hideKeyboard,,,2018-07-16 13:59:49,2018-07-16 13:59:51,1.831s,PASSED
+verifyElementAttributeValue,,,2018-07-16 13:59:51,2018-07-16 13:59:56,4.891s,PASSED
+waitForElementPresent,,,2018-07-16 13:59:56,2018-07-16 14:00:00,4.059s,PASSED
+verifyElementAttributeValue,,,2018-07-16 14:00:00,2018-07-16 14:00:05,4.611s,PASSED
+tap,,,2018-07-16 14:00:05,2018-07-16 14:00:13,8.608s,PASSED

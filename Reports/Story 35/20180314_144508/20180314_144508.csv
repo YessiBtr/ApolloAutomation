@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Story 35,,,2018-03-14 14:45:12,2018-03-14 14:45:57,44.653s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 1,,Display Tambah Barang Form,2018-03-14 14:45:12,2018-03-14 14:45:48,35.158s,FAILED
+comment,,,2018-03-14 14:45:13,2018-03-14 14:45:13,0.052s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Step 1 - [Melakukan Kelola Stock],2018-03-14 14:45:13,2018-03-14 14:45:13,0.015s,PASSED
+startApplication,,,2018-03-14 14:45:13,2018-03-14 14:45:48,34.541s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 2,,Increase or decrease product stock,2018-03-14 14:45:48,2018-03-14 14:45:48,0.330s,FAILED
+Statement - For (def index : (0..10)),,,2018-03-14 14:45:48,2018-03-14 14:45:48,0.123s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 3,,user update stock when specifies stock = -(minus),2018-03-14 14:45:48,2018-03-14 14:45:48,0.311s,FAILED
+tap,,,2018-03-14 14:45:48,2018-03-14 14:45:48,0.087s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 4,,Display Pick Category,2018-03-14 14:45:48,2018-03-14 14:45:54,5.296s,FAILED
+delay,,,2018-03-14 14:45:49,2018-03-14 14:45:54,5.020s,PASSED
+tap,,,2018-03-14 14:45:54,2018-03-14 14:45:54,0.038s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 5,,Pick Category,2018-03-14 14:45:54,2018-03-14 14:45:54,0.317s,FAILED
+scrollToText,,,2018-03-14 14:45:54,2018-03-14 14:45:54,0.081s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 6,,Input Harga Jual with - (minus),2018-03-14 14:45:54,2018-03-14 14:45:54,0.195s,FAILED
+comment,,,2018-03-14 14:45:54,2018-03-14 14:45:54,0.001s,PASSED
+setText,,,2018-03-14 14:45:54,2018-03-14 14:45:54,0.049s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 7,,Validate the format of input and adjust the input into financial format,2018-03-14 14:45:54,2018-03-14 14:45:55,0.244s,FAILED
+clearText,,,2018-03-14 14:45:55,2018-03-14 14:45:55,0.022s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 8,,Input invalid format Harga Jual = 2k,2018-03-14 14:45:55,2018-03-14 14:45:55,0.180s,FAILED
+clearText,,,2018-03-14 14:45:55,2018-03-14 14:45:55,0.014s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 9,,Add discount by Nominal (Rp.),2018-03-14 14:45:55,2018-03-14 14:45:55,0.211s,FAILED
+comment,,,2018-03-14 14:45:55,2018-03-14 14:45:55,0.003s,PASSED
+setText,,,2018-03-14 14:45:55,2018-03-14 14:45:55,0.014s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 10,,Add discount by Percentage (%),2018-03-14 14:45:55,2018-03-14 14:45:55,0.221s,FAILED
+clearText,,,2018-03-14 14:45:55,2018-03-14 14:45:55,0.010s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 11,,Input discount nominal in Percentage (%) with - (minus),2018-03-14 14:45:56,2018-03-14 14:45:56,0.204s,FAILED
+clearText,,,2018-03-14 14:45:56,2018-03-14 14:45:56,0.014s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 12,,Add Product with discount nominal (Rp) amount bigger than the product price amount,2018-03-14 14:45:56,2018-03-14 14:45:56,0.100s,FAILED
+clearText,,,2018-03-14 14:45:56,2018-03-14 14:45:56,0.006s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 13,,Add Product with empty data,2018-03-14 14:45:56,2018-03-14 14:45:56,0.132s,FAILED
+tap,,,2018-03-14 14:45:56,2018-03-14 14:45:56,0.006s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 14,,Add Product with Product name more than 100 Characters,2018-03-14 14:45:56,2018-03-14 14:45:56,0.154s,FAILED
+tap,,,2018-03-14 14:45:56,2018-03-14 14:45:56,0.007s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 15,,Tambah Barang Successfully,2018-03-14 14:45:56,2018-03-14 14:45:56,0.131s,FAILED
+pressBack,,,2018-03-14 14:45:56,2018-03-14 14:45:56,0.010s,FAILED
+,,,,,,
+Test Cases/Story 35 -Tambah Barang/TC 16,,Back from Tambah Barang Form,2018-03-14 14:45:57,2018-03-14 14:45:57,0.117s,FAILED
+tap,,,2018-03-14 14:45:57,2018-03-14 14:45:57,0.010s,FAILED

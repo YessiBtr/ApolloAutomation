@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Showcase,,,2018-02-14 16:09:49,2018-02-14 16:12:22,2m - 33.340s,PASSED
+,,,,,,
+Test Cases/Show Test Case,,Show Someone Test Case Appolo  by: Yessi\n\nConsist of :\n1. Tambah Barang\n2. Search Barang\n3. Detail Barang,2018-02-14 16:09:49,2018-02-14 16:12:19,2m - 30.004s,PASSED
+comment,,,2018-02-14 16:09:51,2018-02-14 16:09:51,0.062s,PASSED
+comment,,,2018-02-14 16:09:51,2018-02-14 16:09:51,0.010s,PASSED
+startApplication,,Step 1 - [Melakukan Kelola Stock],2018-02-14 16:09:51,2018-02-14 16:10:09,18.160s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-02-14 16:10:09,2018-02-14 16:10:16,6.926s,PASSED
+tap,,Mengklik Text Box untuk mengisi Nomor HP/Nama Pengguna,2018-02-14 16:10:16,2018-02-14 16:10:16,0.002s,NOT_RUN
+setText,,"Megisi inputan dengan Nama Pengguna \""Yessi\""",2018-02-14 16:10:16,2018-02-14 16:10:16,0.001s,NOT_RUN
+hideKeyboard,,Hide Keyboard Device,2018-02-14 16:10:16,2018-02-14 16:10:16,0.000s,NOT_RUN
+tap,,Mengklik Button Masuk,2018-02-14 16:10:16,2018-02-14 16:10:16,0.005s,NOT_RUN
+waitForElementPresent,,Menunggu action button masuk hingga selesai untuk masuk ke action Input PIN,2018-02-14 16:10:16,2018-02-14 16:10:16,0.002s,NOT_RUN
+tap,,Mengklik Text Field Pin,2018-02-14 16:10:16,2018-02-14 16:10:16,0.001s,NOT_RUN
+setText,,Menginput PIN Pengguna dengan 6 digit,2018-02-14 16:10:16,2018-02-14 16:10:16,0.003s,NOT_RUN
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-02-14 16:10:16,2018-02-14 16:10:19,3.147s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-02-14 16:10:19,2018-02-14 16:10:20,1.467s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-02-14 16:10:20,2018-02-14 16:10:23,2.276s,PASSED
+waitForElementPresent,,,2018-02-14 16:10:23,2018-02-14 16:10:25,2.227s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-02-14 16:10:25,2018-02-14 16:10:25,0.623s,PASSED
+tap,,"Mengklik button \""Tambah Barang\""",2018-02-14 16:10:25,2018-02-14 16:10:28,2.162s,PASSED
+Statement - For (def index : (0..4)),,Melakukan Looping terhadap Plus button di Jumlah Stock,2018-02-14 16:10:28,2018-02-14 16:10:34,6.415s,PASSED
+tap,,Mengklik TextBox SKU Produk,2018-02-14 16:10:34,2018-02-14 16:10:35,0.853s,PASSED
+setText,,MengInput value dari SKU Produk,2018-02-14 16:10:35,2018-02-14 16:10:43,8.580s,PASSED
+verifyElementText,,Memverifikasi value yang di masukan untuk mengecek antara actual text dan expected text,2018-02-14 16:10:43,2018-02-14 16:10:44,0.882s,PASSED
+getText,,Mengambil value yang telah di input dan verify,2018-02-14 16:10:44,2018-02-14 16:10:45,0.438s,PASSED
+hideKeyboard,,Menghide Keyboard,2018-02-14 16:10:45,2018-02-14 16:10:45,0.604s,PASSED
+tap,,Mengklik TetBox Nama Barang,2018-02-14 16:10:45,2018-02-14 16:10:46,1.092s,PASSED
+setText,,Mengisi Inputan di field Nama Barang,2018-02-14 16:10:46,2018-02-14 16:11:01,14.924s,PASSED
+verifyElementText,,Memverifikasi value yang telah di input pada field Nama Barang,2018-02-14 16:11:01,2018-02-14 16:11:03,1.186s,PASSED
+getText,,Mengambil value yang telah berhasil di input dan verify,2018-02-14 16:11:03,2018-02-14 16:11:03,0.243s,PASSED
+hideKeyboard,,Menghide Keyboard,2018-02-14 16:11:03,2018-02-14 16:11:03,0.646s,PASSED
+swipe,,Menurunkan layar screen ,2018-02-14 16:11:03,2018-02-14 16:11:04,0.709s,PASSED
+waitForElementPresent,,"Menunggu hingga layar screen berhasil di turunkan, kemudian melakukan action Pilih Kategori",2018-02-14 16:11:04,2018-02-14 16:11:05,1.133s,PASSED
+tap,,Mengklik TextBox Pilih Kategori,2018-02-14 16:11:05,2018-02-14 16:11:06,0.500s,PASSED
+tap,,Mengklik TextBox Pilih Kategori,2018-02-14 16:11:06,2018-02-14 16:11:07,0.964s,PASSED
+scrollToText,,Melakukan scroll untuk menemukan kategori makanan,2018-02-14 16:11:07,2018-02-14 16:11:18,11.371s,PASSED
+tap,,Klik kategori makanan,2018-02-14 16:11:18,2018-02-14 16:11:19,0.409s,PASSED
+scrollToText,,,2018-02-14 16:11:19,2018-02-14 16:11:24,5.174s,PASSED
+tap,,Mengklik TetBox Harga Jual,2018-02-14 16:11:24,2018-02-14 16:11:24,0.445s,PASSED
+setText,,Mengisi Inputan berupa nlai di field Harga Jual,2018-02-14 16:11:24,2018-02-14 16:11:40,15.312s,PASSED
+verifyElementText,,Memverifikasi value yang telah di input pada field Harga Jual,2018-02-14 16:11:40,2018-02-14 16:11:41,1.056s,PASSED
+getText,,Mengambil value yang telah berhasil di input dan verify,2018-02-14 16:11:41,2018-02-14 16:11:41,0.374s,PASSED
+hideKeyboard,,,2018-02-14 16:11:41,2018-02-14 16:11:42,0.915s,PASSED
+setText,,Mengklik dan Mengisi Inputan berupa nlai di field Nominal Diskon,2018-02-14 16:11:42,2018-02-14 16:11:50,8.541s,PASSED
+getText,,Mengambil value yang telah berhasil di input dan verify,2018-02-14 16:11:50,2018-02-14 16:11:52,1.397s,PASSED
+hideKeyboard,,,2018-02-14 16:11:52,2018-02-14 16:11:53,0.873s,PASSED
+tap,,Mengklik Simpan Button untuk menyimpan barang,2018-02-14 16:11:53,2018-02-14 16:11:54,1.158s,PASSED
+takeScreenshot,,,2018-02-14 16:11:54,2018-02-14 16:11:56,2.012s,PASSED
+delay,,,2018-02-14 16:11:56,2018-02-14 16:12:01,5.009s,PASSED
+waitForElementPresent,,,2018-02-14 16:12:01,2018-02-14 16:12:01,0.236s,PASSED
+comment,,,2018-02-14 16:12:01,2018-02-14 16:12:01,0.001s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-02-14 16:12:01,2018-02-14 16:12:02,0.655s,PASSED
+setText,,"Melakukan Input Text lebih dari satu kata dalam search produk pada kategori \""Makanan\""",2018-02-14 16:12:02,2018-02-14 16:12:13,11.052s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element Text yang telah di Input,2018-02-14 16:12:13,2018-02-14 16:12:14,0.849s,PASSED
+getText,,Mengambil Text yang telah di input,2018-02-14 16:12:14,2018-02-14 16:12:14,0.336s,PASSED
+delay,,,2018-02-14 16:12:14,2018-02-14 16:12:19,5.001s,PASSED
+tap,,,2018-02-14 16:12:19,2018-02-14 16:12:19,0.474s,PASSED

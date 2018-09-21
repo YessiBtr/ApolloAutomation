@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoked Test,,,2018-09-20 15:42:49,2018-09-20 15:49:27,6m - 37.520s,FAILED
+,,,,,,
+Test Cases/Smoked Test/Release 2/Product/Product - Tambah Barang,,,2018-09-20 15:42:50,2018-09-20 15:48:06,5m - 16.447s,FAILED
+comment,,,2018-09-20 15:42:51,2018-09-20 15:42:51,0.067s,PASSED
+Statement - apkPath = apkName,,"Call ""apk"" from Global Variabel
+",2018-09-20 15:42:51,2018-09-20 15:42:51,0.024s,PASSED
+startApplication,,Start Application,2018-09-20 15:42:51,2018-09-20 15:43:39,48.537s,PASSED
+delay,,"Give delay for install ""apk""",2018-09-20 15:43:39,2018-09-20 15:43:54,15.025s,PASSED
+"Comment - ""Look at Comment Description!""",,,2018-09-20 15:43:54,2018-09-20 15:43:54,0.004s,PASSED
+"Comment - ""If there is a Update TopuUp, click No, Else you can delay for waiting lazyload """,,,2018-09-20 15:43:54,2018-09-20 15:43:54,0.004s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,"If there is a Update TopuUp, click No, Else you can delay for waiting lazyload ",2018-09-20 15:43:54,2018-09-20 15:43:54,0.047s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,"Function to call appium server to swipe to side
+",2018-09-20 15:43:54,2018-09-20 15:43:54,0.016s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,Call function swipe to side,2018-09-20 15:43:54,2018-09-20 15:43:57,2.858s,PASSED
+delay,,,2018-09-20 15:43:57,2018-09-20 15:44:05,8.020s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-20 15:44:05,2018-09-20 15:44:08,2.931s,PASSED
+delay,,,2018-09-20 15:44:08,2018-09-20 15:44:16,8.016s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-20 15:44:16,2018-09-20 15:44:19,2.495s,PASSED
+delay,,,2018-09-20 15:44:19,2018-09-20 15:44:27,8.012s,PASSED
+"Statement - action.longPress(550, 300).moveTo(100, 300).release().perform()",,,2018-09-20 15:44:27,2018-09-20 15:44:29,2.455s,PASSED
+delay,,,2018-09-20 15:44:29,2018-09-20 15:44:37,8.014s,PASSED
+waitForElementPresent,,"Wait until the swipe is done to do ""Mulai"" button",2018-09-20 15:44:37,2018-09-20 15:44:40,2.824s,PASSED
+tap,,"Tap ""Mulai"" Button",2018-09-20 15:44:40,2018-09-20 15:44:46,5.962s,PASSED
+comment,,Look at Comment Input!,2018-09-20 15:44:46,2018-09-20 15:44:46,0.009s,PASSED
+comment,,Look at Comment  Input!,2018-09-20 15:44:46,2018-09-20 15:44:46,0.004s,PASSED
+waitForElementPresent,,Wait until Nomor HP/Nama Pengguna Textbox present,2018-09-20 15:44:46,2018-09-20 15:44:50,3.907s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action  ,2018-09-20 15:44:50,2018-09-20 15:44:54,4.029s,PASSED
+setText,,SetText to Nomor HP/Nama Pengguna Textbox,2018-09-20 15:44:54,2018-09-20 15:45:14,19.942s,PASSED
+hideKeyboard,,Hide Keyboard,2018-09-20 15:45:14,2018-09-20 15:45:16,2.092s,PASSED
+verifyElementText,,Verify Element Nomor HP/Nama Pengguna which has been you set  ,2018-09-20 15:45:16,2018-09-20 15:45:20,4.361s,PASSED
+waitForElementPresent,,Wait until Masuk Button  present,2018-09-20 15:45:20,2018-09-20 15:45:24,3.621s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Nomor HP/Nama Pengguna  with content-desc  to do action ,2018-09-20 15:45:24,2018-09-20 15:45:31,7.402s,PASSED
+tap,,Click Masuk Button,2018-09-20 15:45:31,2018-09-20 15:45:37,5.304s,PASSED
+waitForElementPresent,,Wait until Input Pin Textbox  present,2018-09-20 15:45:37,2018-09-20 15:45:42,5.866s,PASSED
+verifyElementAttributeValue,,Verify Element Attribute Pin Textbox  with content-desc  to do action ,2018-09-20 15:45:42,2018-09-20 15:45:50,7.879s,PASSED
+tap,,Click Input Pin TextBox,2018-09-20 15:45:50,2018-09-20 15:45:57,7.033s,PASSED
+setText,,SetText to PIN Textbox,2018-09-20 15:45:57,2018-09-20 15:46:16,18.551s,PASSED
+delay,,Give delay for the Server to sent your PIN,2018-09-20 15:46:16,2018-09-20 15:46:21,5.022s,PASSED
+comment,,End Login Test Case,2018-09-20 15:46:21,2018-09-20 15:46:21,0.008s,PASSED
+comment,,Look at Comment Input!,2018-09-20 15:46:21,2018-09-20 15:46:21,0.008s,PASSED
+waitForElementPresent,,Wait until HamburgerButton on the Sidebar  present,2018-09-20 15:46:21,2018-09-20 15:46:24,3.319s,PASSED
+verifyElementAttributeValue,,Verify Element HamburgerButton that have value content desc to do action,2018-09-20 15:46:24,2018-09-20 15:46:28,4.008s,PASSED
+tap,,Click Hamburger Button,2018-09-20 15:46:28,2018-09-20 15:46:34,5.225s,PASSED
+waitForElementPresent,,Wait until Produk Button on the Sidebar  present,2018-09-20 15:46:34,2018-09-20 15:46:40,6.376s,PASSED
+verifyElementAttributeValue,,Verify Element Produk Button that have value content desc to do action,2018-09-20 15:46:40,2018-09-20 15:46:49,8.596s,PASSED
+tap,,Click Produk Button,2018-09-20 15:46:49,2018-09-20 15:46:56,7.955s,PASSED
+verifyElementVisible,,Verify Onboarding Produk screen if element is visible,2018-09-20 15:46:56,2018-09-20 15:47:02,5.238s,PASSED
+delay,,Give delay,2018-09-20 15:47:02,2018-09-20 15:47:07,5.007s,PASSED
+comment,,Look at Comment Input!,2018-09-20 15:47:07,2018-09-20 15:47:07,0.012s,PASSED
+comment,,Look at Comment Input!,2018-09-20 15:47:07,2018-09-20 15:47:07,0.012s,PASSED
+waitForElementPresent,,Wait until the sytem verify every element in the product board,2018-09-20 15:47:07,2018-09-20 15:47:09,2.631s,PASSED
+verifyElementAttributeValue,,"Verify element ""Tambah Barang"" button based on content-desc",2018-09-20 15:47:09,2018-09-20 15:47:13,3.875s,PASSED
+tap,,"Tap ""Tambah Barang"" button",2018-09-20 15:47:13,2018-09-20 15:47:18,4.809s,PASSED
+comment,,Look at Comment Input!,2018-09-20 15:47:18,2018-09-20 15:47:18,0.010s,PASSED
+waitForElementPresent,,"Wait until ""Tambah Barang"" button  is done to do",2018-09-20 15:47:18,2018-09-20 15:47:23,5.060s,PASSED
+verifyElementAttributeValue,,"Verify element ""Jumlah Stock"" by Typing that has a content-desc",2018-09-20 15:47:23,2018-09-20 15:47:27,4.047s,PASSED
+clearText,,Clear Text,2018-09-20 15:47:27,2018-09-20 15:47:34,6.347s,PASSED
+sendKeys,,"Set the count of product in ""Jumlah Stock by typing"" element",2018-09-20 15:47:34,2018-09-20 15:47:53,19.126s,PASSED
+hideKeyboard,,Hide Keyboard,2018-09-20 15:47:53,2018-09-20 15:47:54,1.522s,PASSED
+verifyElementText,,"Verify value that you set in ""Jumlah Stock bby typing"" element",2018-09-20 15:47:54,2018-09-20 15:48:04,10.083s,FAILED
+,,,,,,
+Test Cases/Smoked Test/Release 2/Mesin Kasir/Mesin Kasir User Journey,,,2018-09-20 15:48:06,2018-09-20 15:49:25,1m - 18.213s,FAILED
+comment,,,2018-09-20 15:48:07,2018-09-20 15:48:07,0.108s,PASSED
+Statement - apkPath = apkName,,,2018-09-20 15:48:07,2018-09-20 15:48:07,0.002s,PASSED
+startApplication,,,2018-09-20 15:48:07,2018-09-20 15:49:22,1m - 15.580s,FAILED

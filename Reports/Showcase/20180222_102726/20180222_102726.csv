@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Showcase,,,2018-02-22 10:27:28,2018-02-22 10:30:02,2m - 33.925s,PASSED
+,,,,,,
+Test Cases/Show/Show Test Case,,Show Someone Test Case Appolo  by: Yessi\n\nConsist of :\n1. Tambah Barang\n2. Search Barang\n3. Detail Barang,2018-02-22 10:27:28,2018-02-22 10:29:59,2m - 30.644s,PASSED
+comment,,,2018-02-22 10:27:29,2018-02-22 10:27:29,0.047s,PASSED
+"Statement - apkPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(apkName, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,,2018-02-22 10:27:29,2018-02-22 10:27:29,0.010s,PASSED
+startApplication,,,2018-02-22 10:27:29,2018-02-22 10:27:46,16.912s,PASSED
+comment,,,2018-02-22 10:27:46,2018-02-22 10:27:46,0.002s,PASSED
+tap,,"Mengklik \""Daftar Sekarang\"" untuk masuk ke halaman Home/Beranda",2018-02-22 10:27:46,2018-02-22 10:27:52,6.126s,PASSED
+verifyElementExist,,,2018-02-22 10:27:52,2018-02-22 10:27:52,0.092s,PASSED
+tap,,Mengklik Text Box untuk mengisi Nomor HP/Nama Pengguna,2018-02-22 10:27:52,2018-02-22 10:27:52,0.002s,NOT_RUN
+setText,,"Megisi inputan dengan Nama Pengguna \""Yessi\""",2018-02-22 10:27:52,2018-02-22 10:27:52,0.001s,NOT_RUN
+hideKeyboard,,Hide Keyboard Device,2018-02-22 10:27:52,2018-02-22 10:27:52,0.001s,NOT_RUN
+tap,,Mengklik Button Masuk,2018-02-22 10:27:52,2018-02-22 10:27:52,0.001s,NOT_RUN
+waitForElementPresent,,Menunggu action button masuk hingga selesai untuk masuk ke action Input PIN,2018-02-22 10:27:52,2018-02-22 10:27:52,0.002s,NOT_RUN
+tap,,Mengklik Text Field Pin,2018-02-22 10:27:52,2018-02-22 10:27:52,0.002s,NOT_RUN
+setText,,Menginput PIN Pengguna dengan 6 digit,2018-02-22 10:27:52,2018-02-22 10:27:52,0.001s,NOT_RUN
+waitForElementPresent,,Menunggu hingga button sebelum Humburger button di klik,2018-02-22 10:27:52,2018-02-22 10:27:55,2.869s,PASSED
+tap,,"Mengklik Hamburger Button kemdian memilih Operasional untuk masuk ke halaman Kasir, Stock, Pengeluaran dan Rincian",2018-02-22 10:27:55,2018-02-22 10:27:56,1.354s,PASSED
+tap,,"Mengklik \""Operasional\"" untuk bisa direct ke screen Stock",2018-02-22 10:27:56,2018-02-22 10:27:58,1.725s,PASSED
+waitForElementPresent,,,2018-02-22 10:27:58,2018-02-22 10:28:01,2.695s,PASSED
+tap,,"Mengklik \""Stok Tabbar\"" untuk bisa ke screen Stock",2018-02-22 10:28:01,2018-02-22 10:28:01,0.582s,PASSED
+tap,,"Mengklik button \""Tambah Barang\""",2018-02-22 10:28:01,2018-02-22 10:28:04,3.008s,PASSED
+Statement - For (def index : (0..4)),,Melakukan Looping terhadap Plus button di Jumlah Stock,2018-02-22 10:28:04,2018-02-22 10:28:13,8.517s,PASSED
+tap,,Mengklik TextBox SKU Produk,2018-02-22 10:28:13,2018-02-22 10:28:14,1.510s,PASSED
+setText,,MengInput value dari SKU Produk,2018-02-22 10:28:14,2018-02-22 10:28:30,15.721s,PASSED
+verifyElementText,,Memverifikasi value yang di masukan untuk mengecek antara actual text dan expected text,2018-02-22 10:28:30,2018-02-22 10:28:31,0.815s,PASSED
+getText,,Mengambil value yang telah di input dan verify,2018-02-22 10:28:31,2018-02-22 10:28:31,0.324s,PASSED
+hideKeyboard,,Menghide Keyboard,2018-02-22 10:28:31,2018-02-22 10:28:32,0.633s,PASSED
+tap,,Mengklik TetBox Nama Barang,2018-02-22 10:28:32,2018-02-22 10:28:33,0.939s,PASSED
+setText,,Mengisi Inputan di field Nama Barang,2018-02-22 10:28:33,2018-02-22 10:28:47,14.144s,PASSED
+verifyElementText,,Memverifikasi value yang telah di input pada field Nama Barang,2018-02-22 10:28:47,2018-02-22 10:28:48,0.901s,PASSED
+getText,,Mengambil value yang telah berhasil di input dan verify,2018-02-22 10:28:48,2018-02-22 10:28:48,0.307s,PASSED
+hideKeyboard,,Menghide Keyboard,2018-02-22 10:28:48,2018-02-22 10:28:49,0.602s,PASSED
+swipe,,Menurunkan layar screen ,2018-02-22 10:28:49,2018-02-22 10:28:49,0.646s,PASSED
+waitForElementPresent,,"Menunggu hingga layar screen berhasil di turunkan, kemudian melakukan action Pilih Kategori",2018-02-22 10:28:49,2018-02-22 10:28:50,1.072s,PASSED
+tap,,Mengklik TextBox Pilih Kategori,2018-02-22 10:28:50,2018-02-22 10:28:51,0.416s,PASSED
+tap,,Mengklik TextBox Pilih Kategori,2018-02-22 10:28:51,2018-02-22 10:28:52,0.930s,PASSED
+scrollToText,,Melakukan scroll untuk menemukan kategori makanan,2018-02-22 10:28:52,2018-02-22 10:28:56,4.183s,PASSED
+tap,,Klik kategori makanan,2018-02-22 10:28:56,2018-02-22 10:28:57,0.631s,PASSED
+scrollToText,,,2018-02-22 10:28:57,2018-02-22 10:29:02,5.754s,PASSED
+tap,,Mengklik TetBox Harga Jual,2018-02-22 10:29:02,2018-02-22 10:29:03,0.539s,PASSED
+setText,,Mengisi Inputan berupa nlai di field Harga Jual,2018-02-22 10:29:03,2018-02-22 10:29:18,14.923s,PASSED
+verifyElementText,,Memverifikasi value yang telah di input pada field Harga Jual,2018-02-22 10:29:18,2018-02-22 10:29:19,0.906s,PASSED
+getText,,Mengambil value yang telah berhasil di input dan verify,2018-02-22 10:29:19,2018-02-22 10:29:19,0.249s,PASSED
+hideKeyboard,,,2018-02-22 10:29:19,2018-02-22 10:29:20,0.726s,PASSED
+setText,,Mengklik dan Mengisi Inputan berupa nlai di field Nominal Diskon,2018-02-22 10:29:20,2018-02-22 10:29:29,9.076s,PASSED
+getText,,Mengambil value yang telah berhasil di input dan verify,2018-02-22 10:29:29,2018-02-22 10:29:30,1.216s,PASSED
+hideKeyboard,,,2018-02-22 10:29:30,2018-02-22 10:29:31,0.806s,PASSED
+tap,,Mengklik Simpan Button untuk menyimpan barang,2018-02-22 10:29:31,2018-02-22 10:29:32,0.809s,PASSED
+delay,,,2018-02-22 10:29:32,2018-02-22 10:29:34,2.038s,PASSED
+takeScreenshot,,,2018-02-22 10:29:34,2018-02-22 10:29:36,1.930s,PASSED
+waitForElementPresent,,,2018-02-22 10:29:36,2018-02-22 10:29:36,0.414s,PASSED
+comment,,,2018-02-22 10:29:36,2018-02-22 10:29:36,0.003s,PASSED
+tap,,Mengklik SearchButton untuk mencari Produk,2018-02-22 10:29:36,2018-02-22 10:29:37,0.632s,PASSED
+setText,,"Melakukan Input Text lebih dari satu kata dalam search produk pada kategori \""Makanan\""",2018-02-22 10:29:37,2018-02-22 10:29:47,10.675s,PASSED
+verifyElementNotChecked,,Melakukan Verify Element Text yang telah di Input,2018-02-22 10:29:47,2018-02-22 10:29:48,0.785s,PASSED
+getText,,Mengambil Text yang telah di input,2018-02-22 10:29:48,2018-02-22 10:29:48,0.277s,PASSED
+delay,,,2018-02-22 10:29:48,2018-02-22 10:29:53,5.007s,PASSED
+waitForElementPresent,,,2018-02-22 10:29:53,2018-02-22 10:29:54,0.479s,PASSED
+tap,,,2018-02-22 10:29:54,2018-02-22 10:29:54,0.553s,PASSED
+swipe,,,2018-02-22 10:29:54,2018-02-22 10:29:55,0.760s,PASSED
+swipe,,,2018-02-22 10:29:55,2018-02-22 10:29:56,0.632s,PASSED
+delay,,,2018-02-22 10:29:56,2018-02-22 10:29:59,3.003s,PASSED
